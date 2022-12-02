@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/ml/time-series/"}
 ---
 
-[[ML/Machine Learning\|Machine Learning]]
+
 # Common Patterns
 - trend
 - seasonality
