@@ -2,8 +2,6 @@
 {"dg-publish":true,"permalink":"/ml/feature-engineering/"}
 ---
 
-[[DataScience/Data preprocessing\|Data preprocessing]]
-[[ML/Machine Learning\|Machine Learning]]
 
 ### What is **feature engineering** then?
 Feature engineering is the process of selecting, manipulating, and transforming raw data into features that can be used in supervised learning.
