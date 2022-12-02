@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/ml/association-rule-learning/"}
 ---
 
-[[ML/Machine Learning\|Machine Learning]]
 # Apriori
 ## How it works
 > The association scenario can be movie or product recommendations: "People watched/bought A also watched/bought what.... B or C or something else? 
