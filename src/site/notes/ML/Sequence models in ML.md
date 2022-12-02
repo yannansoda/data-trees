@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/ml/sequence-models-in-ml/"}
 ---
 
-[[ML/Machine Learning\|Machine Learning]]
 # Units
 - Deep RNNs
 - GRU: gated recurrent unit
