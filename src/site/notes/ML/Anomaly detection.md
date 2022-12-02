@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/ml/anomaly-detection/"}
 ---
 
-[[ML/Machine Learning\|Machine Learning]]
 1. fit distribution model $p(x)$ on training set and predict
 $y = 1$ if $p(x) < \epsilon$ (anomaly)
 $y = 0$ if $p(x) >= \epsilon$ (normal)
