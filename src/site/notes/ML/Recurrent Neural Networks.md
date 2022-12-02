@@ -2,8 +2,6 @@
 {"dg-publish":true,"permalink":"/ml/recurrent-neural-networks/"}
 ---
 
-[[ML/Machine Learning\|Machine Learning]]
-[[Computational Neuroscience \|Computational Neuroscience ]]
 
 [reference](https://towardsdatascience.com/recurrent-neural-networks-rnns-3f06d7653a85)
 # Why recurrent
