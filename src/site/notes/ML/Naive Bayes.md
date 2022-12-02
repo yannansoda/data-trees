@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/ml/naive-bayes/"}
 ---
 
-[[ML/Machine Learning\|Machine Learning]]
+
 # How it works
 1.  Calculate the posterior of category 1 (C1) given X:
  $$P(C1 | X) = \frac{P(X | C1) P (C1)}{P(X)}$$
