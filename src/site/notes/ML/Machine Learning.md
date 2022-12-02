@@ -2,8 +2,6 @@
 {"dg-publish":true,"permalink":"/ml/machine-learning/"}
 ---
 
-
-
 [[ML/Machine Learning\|Machine Learning]]
 
 # Full Cycle of a ML project
