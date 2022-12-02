@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/ml/reinforcement-learning/"}
 ---
 
-[[ML/Machine Learning\|Machine Learning]]
 
 > [!Key Concepts]
 > - states $s_i$ 
