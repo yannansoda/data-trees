@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/ml/model-selection-and-diagnosing/"}
 ---
 
-[[ML/Machine Learning\|Machine Learning]]
+
 # cross-validation
 ## Why 
 When you have training set and test set for model selection, one idea would be use the training set to estimate parameters for each model candidate, and then choose the model generates the least error to test data.
