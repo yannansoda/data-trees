@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ml/machine-learning/","tags":"gardenEntry"}
+{"dg-publish":true,"permalink":"/ml/machine-learning/"}
 ---
 
 
