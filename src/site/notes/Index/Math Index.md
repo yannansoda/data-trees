@@ -16,6 +16,7 @@
 - [[Notes/Generalized Linear Models\|Generalized Linear Models]]
 - [[Notes/Goodness of Fit\|Goodness of Fit]]
 - [[Notes/ICA\|ICA]]
+- [[Notes/Infomation theory and Entropy\|Infomation theory and Entropy]]
 - [[Notes/Kernel Density Estimation\|Kernel Density Estimation]]
 - [[Notes/Linear Time-Invariant (LTI) systems\|Linear Time-Invariant (LTI) systems]]
 - [[Notes/Matrix\|Matrix]]
