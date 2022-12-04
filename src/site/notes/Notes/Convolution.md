@@ -5,7 +5,7 @@
 # Convolution $\ast$
 $$r(t)  = s(t) * h(t) = \int s(\tau)h(t-\tau)d\tau$$
 
-# Convolution in [[Computational Neuroscience\|Computational Neuroscience]]:
+# Convolution in [[Index/Computational Neuroscience\|Computational Neuroscience]]:
 - In image processing, the retina functions as linear filters (receptive fields) that involves in convolutions.
 - For example, a low-pass filter can blur the image, i.e. remove high-contrast and high spatial patterns. 
 > [!example] Example - Gaussian kernel
