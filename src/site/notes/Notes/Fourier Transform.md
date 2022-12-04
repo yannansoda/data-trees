@@ -16,7 +16,7 @@ $$S(f) = \int s(t) e^{-i2\pi ft} dt = FT\{s(t)\}$$
 $$s(t) = \int S(f) e^{i2\pi ft} df = FT^{-1}\{S(f)\}$$
 (notice that the $exp$ with different numbers!)
 
-### Use in [[Computational Neuroscience\|Computational Neuroscience]]
+### Use in [[Index/Computational Neuroscience\|Computational Neuroscience]]
 the impulse response is important in experimental approach to system identification: Apply sine stimuli and measure $S(f)$,
 i.e., gain and phase, for all frequencies $f$, then you can get $s(t)$.
 
