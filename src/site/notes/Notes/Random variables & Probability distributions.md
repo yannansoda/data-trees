@@ -67,19 +67,21 @@ $$P(a \leq X \leq b) = F (b) - F(a) = \int _a ^b f(x) dx$$
 
 There are several major types of distributions for continuous variables (based on PDF):
 
-## - Normal distribution
+### Normal distribution
 
 
 $$X \sim N (\mu, \sigma ^2)$$
 
 $$f(x) = \frac{1}{\sqrt {2 \pi }\sigma} e^{ - \frac{(x-\mu)^2}{2\sigma ^2}}$$
 
-## - Exponential distribution
+### Exponential distribution 
 
+$$X \sim exp(\lambda)$$
 
 $$f(x) = \lambda e^{-\lambda x} \ \ (x>0)$$
-
-## - Weibull distribution
+- expectation $\frac{1}{\lambda}$
+- variance $\frac{1}{\lambda ^2}$
+### Weibull distribution
 
 The exponential distribution is a special case of the Weibull distribution with \\alpha = 1.
 
@@ -91,7 +93,7 @@ CDF:
 
 $$F(x) = 1 - e ^{\lambda x ^ \alpha}$$
 
-## - Uniform distribution
+### Uniform distribution
 
 
 $$f(x) = \frac{1}{b-a} \ \ (a \leq x \leq b)$$
