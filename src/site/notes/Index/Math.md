@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/index/math/"}
 ---
 
+- [[Notes/Conjugate distribution\|Conjugate distribution]]
 - [[Notes/Convolution\|Convolution]]
 - [[Notes/Correlation\|Correlation]]
 - [[Notes/Correlation and Convolution\|Correlation and Convolution]]
@@ -12,6 +13,7 @@
 - [[Notes/Dynamical Systems\|Dynamical Systems]]
 - [[Notes/Eigenstuff\|Eigenstuff]]
 - [[Notes/Fourier Transform\|Fourier Transform]]
+- [[Notes/Gamma & Beta functions\|Gamma & Beta functions]]
 - [[Notes/Gaussian Process\|Gaussian Process]]
 - [[Notes/Generalized Linear Models\|Generalized Linear Models]]
 - [[Notes/Goodness of Fit\|Goodness of Fit]]
@@ -21,9 +23,12 @@
 - [[Notes/Kernel Density Estimation\|Kernel Density Estimation]]
 - [[Notes/Linear Time-Invariant (LTI) systems\|Linear Time-Invariant (LTI) systems]]
 - [[Notes/Markov chain\|Markov chain]]
+- [[Notes/Markov chain Monte Carlo Algorithm\|Markov chain Monte Carlo Algorithm]]
 - [[Notes/Matrix\|Matrix]]
 - [[Notes/Maximum likelihood estimation\|Maximum likelihood estimation]]
+- [[Notes/Metropolis-Hastings Algorithm\|Metropolis-Hastings Algorithm]]
 - [[Notes/Model Fitting Outline\|Model Fitting Outline]]
+- [[Notes/Monte Carlo Method\|Monte Carlo Method]]
 - [[Notes/Overfitting\|Overfitting]]
 - [[Notes/Regression\|Regression]]
 - [[Notes/Signal processing\|Signal processing]]
