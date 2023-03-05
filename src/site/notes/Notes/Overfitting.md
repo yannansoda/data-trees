@@ -18,5 +18,5 @@
 	- Deviance Information Criterion (DIC): a more general version of AIC
 	- Widely Applicable Information Criterion (WAIC): even more general than AIC and DIC
 	- WAIC PSIS
-> BUT! Do not use predictive criteria to choose a causal estimate, because predictive criteria actually prefer confounds in [[Confounds in causal models#^b7b0a6\|Confounds in causal models#^b7b0a6]].
+> BUT! Do not use predictive criteria to choose a causal estimate, because predictive criteria actually prefer confounds in [[Confounds in Causal Models#^b7b0a6\|Confounds in Causal Models#^b7b0a6]].
 
