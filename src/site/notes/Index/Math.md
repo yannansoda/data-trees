@@ -22,7 +22,7 @@
 - [[Notes/Kalman model\|Kalman model]]
 - [[Notes/Kernel Density Estimation\|Kernel Density Estimation]]
 - [[Notes/Linear Time-Invariant (LTI) systems\|Linear Time-Invariant (LTI) systems]]
-- [[Notes/Markov chain\|Markov chain]]
+- [[Notes/Markov Chain\|Markov Chain]]
 - [[Notes/Markov chain Monte Carlo Algorithm\|Markov chain Monte Carlo Algorithm]]
 - [[Notes/Matrix\|Matrix]]
 - [[Notes/Maximum likelihood estimation\|Maximum likelihood estimation]]
