@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Bias-Variance Tradeoff/","noteIcon":""}
+{"topic":"Modeling, MachineLearning","dg-publish":true,"permalink":"/Notes/Bias-Variance Tradeoff/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 Bias-Variance trade-off -> Underfitting vs. [[Notes/Overfitting\|Overfitting]] issues
