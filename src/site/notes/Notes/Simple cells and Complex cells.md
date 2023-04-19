@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Simple cells and Complex cells/","noteIcon":""}
+{"topic":"CompNeuro","dg-publish":true,"permalink":"/Notes/Simple cells and Complex cells/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
