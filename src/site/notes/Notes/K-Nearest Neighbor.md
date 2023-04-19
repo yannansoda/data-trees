@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/k-nearest-neighbor/"}
+{"dg-publish":true,"permalink":"/Notes/K-Nearest Neighbor/","noteIcon":""}
 ---
 
 
