@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Tensorflow/","noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Tensorflow/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
