@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Gradient Descent/","noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Gradient Descent/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 -- to minimize cost function using derivatives 
