@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Cross-industry Standard Process for Data Mining/","noteIcon":""}
+{"topic":"DataScience","dg-publish":true,"permalink":"/Notes/Cross-industry Standard Process for Data Mining/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 > Cross-industry standard process for data mining, known as CRISP-DM.
