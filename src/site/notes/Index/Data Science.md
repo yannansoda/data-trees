@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Index/Data Science/","noteIcon":""}
+{"dg-publish":true,"permalink":"/Index/Data Science/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 - [[Notes/AB testing\|AB testing]]
