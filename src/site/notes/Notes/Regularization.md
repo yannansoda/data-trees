@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Regularization/","noteIcon":""}
+{"topic":"DataScience","dg-publish":true,"permalink":"/Notes/Regularization/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
