@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Chi-square Test/","noteIcon":""}
+{"topic":"Statistics","dg-publish":true,"permalink":"/Notes/Chi-square Test/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Definitions
