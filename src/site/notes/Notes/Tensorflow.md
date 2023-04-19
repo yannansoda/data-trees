@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/tensorflow/"}
+{"dg-publish":true,"permalink":"/Notes/Tensorflow/","noteIcon":""}
 ---
 
 
