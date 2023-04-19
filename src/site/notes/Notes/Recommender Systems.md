@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Recommender Systems/","noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Recommender Systems/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Collaborative filtering algorithm:
