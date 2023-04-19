@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Cost Functions/","noteIcon":""}
+{"topic":"Math, Modeling","dg-publish":true,"permalink":"/Notes/Cost Functions/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ## Cost functions
