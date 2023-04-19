@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/monte-carlo-method/"}
+{"dg-publish":true,"permalink":"/Notes/Monte Carlo Method/","noteIcon":""}
 ---
 
 # Definition
