@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/non-parametric-methods/"}
+{"dg-publish":true,"permalink":"/Notes/Non-parametric methods/","noteIcon":""}
 ---
 
 # Intro
@@ -27,8 +27,8 @@
 | Kruskal-Wallis test | One-way ANOVA | tests whether > 2 independent samples are drawn from the same distribution |
 | Mann-Whitney test |Independent samples t-test | compare differences between two independent groups, or Wilcoxon rank sum test |
 | Mood’s Median test | One-way ANOVA | Use this test instead of the sign test when you have two independent samples |
+{ #e259ea}
 
-^e259ea
 
 
 ## Permutation test
