@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/git-cheatsheet/"}
+{"dg-publish":true,"permalink":"/Notes/Git Cheatsheet/","noteIcon":""}
 ---
 
 
