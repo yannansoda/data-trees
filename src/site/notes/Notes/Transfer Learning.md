@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Transfer Learning/","noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Transfer Learning/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
