@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/sql/"}
+{"dg-publish":true,"permalink":"/Notes/SQL/","noteIcon":""}
 ---
 
 
