@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Confusion Matrix/","noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Confusion Matrix/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
