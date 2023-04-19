@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/maximum-likelihood-estimation/"}
+{"dg-publish":true,"permalink":"/Notes/Maximum likelihood estimation/","noteIcon":""}
 ---
 
 # Definition
@@ -16,7 +16,9 @@ I put MLE applications into two categories:
 	The key steps are:
 		1. formulate PDF of the distribution $P(x_i|\theta)$ 
 				e.g. 
-				$$ P(x_i|\theta) = \mathcal{N}(x_i,\mu,\sigma) = \frac{1}{\sqrt {2 \pi }\sigma} e^{ - \frac{(x-\mu)^2}{2\sigma ^2}}$$
+				$$ P(x_i|\theta) = \mathcal{N}(x_i,\mu,\sigma) = \frac{1}{\sqrt {2 \pi }\sigma} e^{ - \frac{(x-\mu)^2}{2\sigma
+{ #2}
+}}$$
 		2. compute the product of the likelihood of all data points $L(\theta)$
 			$$L(\theta)=L(\mu, \sigma) = P(X|\mu,\sigma)=\prod_i^n \mathcal{N}(x_i,\mu,\sigma)$$
 - More analytic processes: to estimate the parameters of a model
@@ -32,7 +34,9 @@ I put MLE applications into two categories:
 ## Distributions
 ### Normal distribution
 1. formulate PDF of the distribution $P(x_i| \theta)$ 
-$$ P(x_i|\theta) = \mathcal{N}(x_i,\mu,\sigma) = \frac{1}{\sqrt {2 \pi }\sigma} e^{ - \frac{(x-\mu)^2}{2\sigma ^2}}$$
+$$ P(x_i|\theta) = \mathcal{N}(x_i,\mu,\sigma) = \frac{1}{\sqrt {2 \pi }\sigma} e^{ - \frac{(x-\mu)^2}{2\sigma
+{ #2}
+}}$$
 2. compute the product of the likelihood of all data points $L(\theta)$
 $$L(\theta)=L(\mu, \sigma) = P(X|\mu,\sigma)=\prod_i^n \mathcal{N}(x_i,\mu,\sigma)$$
 ### Binomial distribution
