@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/notes/cost-functions/"}
 ---
 
-### Cost functions
+## Cost functions
 - A cost function determines the "cost" (or penalty) of estimating $\hat{x}$ when the true or correct quantity is really $x$.
 - This is essentially the cost of the error between the true stimulus value $y_i$ and our estimate $f(x_i)$.
 - cost function formula
@@ -10,11 +10,12 @@ $$
 J(\theta) = \frac{1}{m} \sum ^m L (f(x_i), y_i)
 $$
 where $L$ is the loss function.
-- Cost vs. Loss: ==loss== applies to a single training sample; ==cost== is the mean of summed loss.
+> [!Important]
+> **Cost vs. Loss:
+>  ==loss== applies to a single training sample; ==cost== is the mean of summed loss.**
 
-### Forms of cost functions
+## Forms of cost functions
 Note that the error can be defined in different ways:
-
 $$\begin{eqnarray}
 \textrm{Mean Squared Error} &=& (x - \hat{x})^2 \\ 
 \textrm{Absolute Error} &=& \big|x - \hat{x}\big| \\ 
@@ -24,27 +25,34 @@ $$\begin{eqnarray}
                             \end{cases}
 \end{eqnarray}
 $$
-> - In ML, Mean Squared Error is commonly used as the cost function, but with an extra division by 2, which "is just meant to make later partial derivation in gradient descent neater" :
-> $$
+>[!Important] 
+>- Find more types of error in [[Notes/Error Metrics\|Error Metrics]].
+>- In ML, Mean Squared Error is commonly used as the cost function, but with an extra division by 2, which "is just meant to make later partial derivation in gradient descent neater" :
+$$
 J(\theta) = \frac{1}{2m} \sum ^m (\hat{x_i} - x_i)^2
-> $$
-> - Be careful about Absolute Error or Mean Absolute Error (MAE). Compared to MSE, it does not penalize large errors. But if your loss is just proportional to the size of error, then maybe MAE is better.
+ $$
 
-### Cost function with regularization
-When you choose [[Notes/Regularization\|Regularization]], a regularization term will be added to the cost function.
-for linear regression:
+## Cost function with regularization
+When you choose [[Notes/Regularization\|Regularization]], a regularization term will be added to the cost function, in order to add penalty and avoid overfitting. 
 
-$$
-J(\theta) = \frac{1}{2m} \sum_i ^m (\hat{x_i} - x_i)^2 + \frac{\lambda}{2m} \sum_j^n \theta_j ^ 2 
-$$
-for logistic regression:
-$$
-J(\theta) = \frac{1}{m} \sum ^m ( -y_i log(f(x_i)) - (1-y_i)log(1 - f(x_i))) + \frac{\lambda}{2m} \sum_j^n \theta_j ^ 2 
-$$
+- Example - linear regression:
+ $$J(\theta) = \frac{1}{2m} \sum_i ^m (\hat{x_i} - x_i)^2 + \frac{\lambda}{2m} \sum_j^n \theta_j ^ 2 $$
+- Example -  logistic regression:
+$$J(\theta) = \frac{1}{m} \sum ^m ( -y_i log(f(x_i)) - (1-y_i)log(1 - f(x_i))) + \frac{\lambda}{2m} \sum_j^n \theta_j ^ 2$$
 where $j$ represents the $j$th feature. 
 
-Increasing the regularization parameter $\lambda$ ($\lambda$ >0) reduces overfitting by reducing the size of the parameters.  For some parameters that are near zero, this reduces the effect of the associated features.
+- Different types of regularization terms can be added:
+	- L1 regularization = train to minimize normal loss + c * L1(weights) ^19a2bf
+		- L1: sum of the absolute values of the weights; like lasso regression
+		- Drives some weights to 0
+	- L2 regularization = train to minimize normal loss + c*  L2(weights) ^b2a01f
+		- L2:  sum of the squares of the weights; like ridge regression
+		- Makes the biggest weights smaller
+	- Train to minimize normal loss - but don’t let the weights get too big
+		- Like an L-infinity penalty
 
+
+## Loss and cost for different functions
 ### Loss and cost for logistic regression
 > MSE is not proper because the cost function would not be convex.
 
@@ -93,7 +101,7 @@ $$
 
 where $m$ is the number of examples, $N$ is the number of outputs. This is the average of all the losses.
 
-### Expected loss function
+## Expected loss function
 A posterior distribution tells us about the confidence or credibility we assign to different choices. A cost function describes the penalty we incur when choosing an incorrect option. These concepts can be combined into an *expected loss* function. 
 
 Expected loss is defined as:
