@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Random variables & Probability distributions/","noteIcon":""}
+{"topic":"Statistics","dg-publish":true,"permalink":"/Notes/Random variables & Probability distributions/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Discrete variables
