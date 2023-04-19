@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Gamma & Beta functions/","noteIcon":""}
+{"topic":"Math","dg-publish":true,"permalink":"/Notes/Gamma & Beta functions/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
