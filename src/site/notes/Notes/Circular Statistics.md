@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Circular Statistics/","noteIcon":""}
+{"topic":"Statistics","dg-publish":true,"permalink":"/Notes/Circular Statistics/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
