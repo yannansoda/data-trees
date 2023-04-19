@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Convolutional Neural Networks (CNN)/","noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Convolutional Neural Networks (CNN)/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
