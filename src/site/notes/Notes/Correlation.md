@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Correlation/","noteIcon":""}
+{"topic":"Math","dg-publish":true,"permalink":"/Notes/Correlation/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Correlation $\star$
