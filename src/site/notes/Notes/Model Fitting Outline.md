@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/model-fitting-outline/"}
+{"dg-publish":true,"permalink":"/Notes/Model Fitting Outline/","noteIcon":""}
 ---
 
 1. draft & implement model
