@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Non-parametric methods/","noteIcon":""}
+{"topic":"Statistics","dg-publish":true,"permalink":"/Notes/Non-parametric methods/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Intro
