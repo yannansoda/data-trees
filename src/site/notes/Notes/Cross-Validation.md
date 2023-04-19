@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/cross-validation/"}
+{"dg-publish":true,"permalink":"/Notes/Cross-Validation/","noteIcon":""}
 ---
 
 ## Why 
