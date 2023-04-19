@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/data-preprocessing/"}
+{"dg-publish":true,"permalink":"/Notes/Data preprocessing/","noteIcon":""}
 ---
 
 
