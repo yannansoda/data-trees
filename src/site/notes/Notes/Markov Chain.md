@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Markov Chain/","noteIcon":""}
+{"topic":"Math","dg-publish":true,"permalink":"/Notes/Markov Chain/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 - Markov property: conditioned on the present state of the world, the past is independent from the future.
