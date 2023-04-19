@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/kolmogorov-smirnov-test/"}
+{"dg-publish":true,"permalink":"/Notes/Kolmogorov-Smirnov Test/","noteIcon":""}
 ---
 
 
