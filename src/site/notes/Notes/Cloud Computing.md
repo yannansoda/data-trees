@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Cloud Computing/","noteIcon":""}
+{"topic":"DataScience","dg-publish":true,"permalink":"/Notes/Cloud Computing/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 >[!Source]
