@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/marginal-distribution/"}
+{"dg-publish":true,"permalink":"/Notes/Marginal Distribution/","noteIcon":""}
 ---
 
 # Marginal Distribution
