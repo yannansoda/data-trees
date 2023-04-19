@@ -15,3 +15,5 @@ SQL stands for Structured Query Language. It is a standard language for accessin
 > e.g. CREATE, ALTER, DROP
 - Data Manipulation Language (or DML) statements are used to read and modify data in tables.
 > e.g. SELECT, INSERT, UPDATE
+- Data Control Language (DCL)
+- Transaction Control Language (TCL)
