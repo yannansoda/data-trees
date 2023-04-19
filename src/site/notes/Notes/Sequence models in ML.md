@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/sequence-models-in-ml/"}
+{"dg-publish":true,"permalink":"/Notes/Sequence models in ML/","noteIcon":""}
 ---
 
 # Units
