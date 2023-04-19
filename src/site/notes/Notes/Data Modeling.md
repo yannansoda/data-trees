@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/data-modeling/"}
+{"dg-publish":true,"permalink":"/Notes/Data Modeling/","noteIcon":""}
 ---
 
 
