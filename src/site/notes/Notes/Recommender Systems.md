@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/recommender-systems/"}
+{"dg-publish":true,"permalink":"/Notes/Recommender Systems/","noteIcon":""}
 ---
 
 # Collaborative filtering algorithm:
