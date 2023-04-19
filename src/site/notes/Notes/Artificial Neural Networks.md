@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Artificial Neural Networks/","noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Artificial Neural Networks/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
