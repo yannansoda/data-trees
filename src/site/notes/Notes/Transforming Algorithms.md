@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Transforming Algorithms/","noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Transforming Algorithms/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
