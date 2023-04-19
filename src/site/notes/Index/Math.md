@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Index/Math/","noteIcon":""}
+{"dg-publish":true,"permalink":"/Index/Math/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 - [[Notes/Conjugate distribution\|Conjugate distribution]]
@@ -32,6 +32,7 @@
 - [[Notes/Monte Carlo Method\|Monte Carlo Method]]
 - [[Notes/Overfitting\|Overfitting]]
 - [[Notes/Regression\|Regression]]
+- [[Notes/Sequential Probability Ratio Test\|Sequential Probability Ratio Test]]
 - [[Notes/Signal processing\|Signal processing]]
 - [[Notes/Statistical Description of Signals\|Statistical Description of Signals]]
 - [[Notes/White noise\|White noise]]
