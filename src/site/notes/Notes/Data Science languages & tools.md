@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Data Science languages & tools/","noteIcon":""}
+{"topic":"DataScience","dg-publish":true,"permalink":"/Notes/Data Science languages & tools/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
