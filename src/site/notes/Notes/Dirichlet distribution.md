@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Dirichlet distribution/","noteIcon":""}
+{"topic":"Statistics","dg-publish":true,"permalink":"/Notes/Dirichlet distribution/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
