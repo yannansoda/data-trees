@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Git Cheatsheet/","noteIcon":""}
+{"topic":"TechHack","dg-publish":true,"permalink":"/Notes/Git Cheatsheet/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
