@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Association Rule Learning/","noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Association Rule Learning/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Apriori
