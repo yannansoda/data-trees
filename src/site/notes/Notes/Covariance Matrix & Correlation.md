@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Covariance Matrix & Correlation/","noteIcon":""}
+{"topic":"Math","dg-publish":true,"permalink":"/Notes/Covariance Matrix & Correlation/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
