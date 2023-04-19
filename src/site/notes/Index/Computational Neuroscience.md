@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/index/computational-neuroscience/"}
 ---
 
+- [[Notes/Brain decoding so far\|Brain decoding so far]]
 - [[Notes/Brain-like Computing & Neural Network History\|Brain-like Computing & Neural Network History]]
 - [[Notes/Infomation theory and Entropy\|Infomation theory and Entropy]]
 - [[Notes/MofM - Cracking the Neural Code\|MofM - Cracking the Neural Code]]
