@@ -15,7 +15,7 @@ then: $$r(t-t_0) = f_{LTI}(s(t-t_0))$$
 # Eigenfunctions of LTI systems
 ### Eigenfunction 
 It is similar to eigenvectors: it is the eigenfunctions in a function space.
-$$Df = \lambda f$$ where f is the eigenfunction of D.
+$$Df=\lambda f$$ where f is the eigenfunction of D.
 ### Eigenfunctions of LTI systems are sin and cos functions
 If $s_E(t)$ is the eigenfunction and H is the eigenvalue, there should be the [[Notes/Convolution\|Convolution]]: $$s_E(t) * h(t) = H s_E(t)$$
 then the solution is:
