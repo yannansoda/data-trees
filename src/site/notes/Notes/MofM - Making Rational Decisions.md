@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/MofM - Making Rational Decisions/","noteIcon":""}
+{"topic":"CompNeuro","dg-publish":true,"permalink":"/Notes/MofM - Making Rational Decisions/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 >[!Info]
