@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Kolmogorov-Smirnov Test/","noteIcon":""}
+{"topic":"Statistics","dg-publish":true,"permalink":"/Notes/Kolmogorov-Smirnov Test/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
