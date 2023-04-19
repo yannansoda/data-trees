@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/conda-virtual-environment/"}
+{"dg-publish":true,"permalink":"/Notes/Conda virtual environment/","noteIcon":""}
 ---
 
 # Create a conda virtual environment
