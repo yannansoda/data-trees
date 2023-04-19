@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/white-noise/"}
+{"dg-publish":true,"permalink":"/Notes/White noise/","noteIcon":""}
 ---
 
 ### White noise
