@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/error-metrics/"}
+{"dg-publish":true,"permalink":"/Notes/Error Metrics/","noteIcon":""}
 ---
 
 
