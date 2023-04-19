@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Probability Basics/","noteIcon":""}
+{"topic":"Statistics","dg-publish":true,"permalink":"/Notes/Probability Basics/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Conditional Probability
