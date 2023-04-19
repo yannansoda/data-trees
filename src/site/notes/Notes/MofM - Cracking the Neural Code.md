@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/mof-m-cracking-the-neural-code/"}
+{"dg-publish":true,"permalink":"/Notes/MofM - Cracking the Neural Code/","noteIcon":""}
 ---
 
 >[!Info]
