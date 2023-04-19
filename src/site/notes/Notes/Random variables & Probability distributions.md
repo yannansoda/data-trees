@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/random-variables-and-probability-distributions/"}
+{"dg-publish":true,"permalink":"/Notes/Random variables & Probability distributions/","noteIcon":""}
 ---
 
 # Discrete variables
@@ -35,7 +35,9 @@ $$
 
 $$X \sim P(\lambda)$$
 
-$$P(X=i) = e^{- \lambda} \frac{\lambda ^i}{i!}$$
+$$P(X=i) = e^{- \lambda} \frac{\lambda
+{ #i}
+}{i!}$$
 
 It always works when X represents the number of events that happen within a temporal or spatial domain.
 
@@ -61,7 +63,9 @@ $$f(x) \geq 0$$
 
 $$\int \_ {-\infty} ^{\infty} f(x) dx =1$$
 
-$$P(a \leq X \leq b) = F (b) - F(a) = \int _a ^b f(x) dx$$
+$$P(a \leq X \leq b) = F (b) - F(a) = \int _a
+{ #b}
+ f(x) dx$$
 
 (The PDF's analog for discrete variables is probability mass function. )
 
@@ -70,9 +74,13 @@ There are several major types of distributions for continuous variables (based o
 ### Normal distribution
 
 
-$$X \sim N (\mu, \sigma ^2)$$
+$$X \sim N (\mu, \sigma
+{ #2}
+)$$
 
-$$f(x) = \frac{1}{\sqrt {2 \pi }\sigma} e^{ - \frac{(x-\mu)^2}{2\sigma ^2}}$$
+$$f(x) = \frac{1}{\sqrt {2 \pi }\sigma} e^{ - \frac{(x-\mu)^2}{2\sigma
+{ #2}
+}}$$
 
 ### Exponential distribution 
 
@@ -80,7 +88,9 @@ $$X \sim exp(\lambda)$$
 
 $$f(x) = \lambda e^{-\lambda x} \ \ (x>0)$$
 - expectation $\frac{1}{\lambda}$
-- variance $\frac{1}{\lambda ^2}$
+- variance $\frac{1}{\lambda
+{ #2}
+}$
 ### Weibull distribution
 
 The exponential distribution is a special case of the Weibull distribution with \\alpha = 1.
