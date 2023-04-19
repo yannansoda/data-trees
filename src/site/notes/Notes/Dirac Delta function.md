@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/dirac-delta-function/"}
+{"dg-publish":true,"permalink":"/Notes/Dirac Delta function/","noteIcon":""}
 ---
 
 # Dirac Delta function $\delta (x)$**
