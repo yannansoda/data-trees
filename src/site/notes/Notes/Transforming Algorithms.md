@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/transforming-algorithms/"}
+{"dg-publish":true,"permalink":"/Notes/Transforming Algorithms/","noteIcon":""}
 ---
 
 
