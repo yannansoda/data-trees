@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/mof-m-stages-of-sight/"}
+{"dg-publish":true,"permalink":"/Notes/MofM - Stages of Sight/","noteIcon":""}
 ---
 
 >[!Info]
