@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/dynamical-systems/"}
+{"dg-publish":true,"permalink":"/Notes/Dynamical Systems/","noteIcon":""}
 ---
 
 # Definition 
