@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Matrix/","noteIcon":""}
+{"topic":"Math","dg-publish":true,"permalink":"/Notes/Matrix/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
