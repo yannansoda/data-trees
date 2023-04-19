@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Stakeholder in DS/","noteIcon":""}
+{"topic":"DataScience","dg-publish":true,"permalink":"/Notes/Stakeholder in DS/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
