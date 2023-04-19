@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/circular-statistics/"}
+{"dg-publish":true,"permalink":"/Notes/Circular Statistics/","noteIcon":""}
 ---
 
 
