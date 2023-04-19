@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Big Data/","noteIcon":""}
+{"topic":"DataScience","dg-publish":true,"permalink":"/Notes/Big Data/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
