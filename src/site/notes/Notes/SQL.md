@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/SQL/","noteIcon":""}
+{"topic":"DataScience","dg-publish":true,"permalink":"/Notes/SQL/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
