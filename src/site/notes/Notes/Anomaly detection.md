@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Anomaly detection/","noteIcon":""}
+{"topic":"Data Science, MachineLearning","dg-publish":true,"permalink":"/Notes/Anomaly detection/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 1. fit distribution model $p(x)$ on training set and predict
