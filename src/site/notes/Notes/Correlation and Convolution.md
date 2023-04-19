@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/correlation-and-convolution/"}
+{"dg-publish":true,"permalink":"/Notes/Correlation and Convolution/","noteIcon":""}
 ---
 
 # Correlation and Convolution
