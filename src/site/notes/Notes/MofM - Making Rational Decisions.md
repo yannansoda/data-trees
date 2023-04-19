@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/mof-m-making-rational-decisions/"}
+{"dg-publish":true,"permalink":"/Notes/MofM - Making Rational Decisions/","noteIcon":""}
 ---
 
 >[!Info]
