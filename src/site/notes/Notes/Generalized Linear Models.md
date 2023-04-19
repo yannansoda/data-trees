@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/generalized-linear-models/"}
+{"dg-publish":true,"permalink":"/Notes/Generalized Linear Models/","noteIcon":""}
 ---
 
 - GLMs = generalized linear models
