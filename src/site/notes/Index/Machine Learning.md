@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/index/machine-learning/"}
+{"dg-publish":true,"permalink":"/Index/Machine Learning/","noteIcon":""}
 ---
 
 - [[Notes/Anomaly detection\|Anomaly detection]]
