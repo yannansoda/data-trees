@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/pattern-recognition/"}
+{"dg-publish":true,"permalink":"/Notes/Pattern recognition/","noteIcon":""}
 ---
 
 - to make it more efficient? → convolutional neural networks
