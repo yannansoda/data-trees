@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Naive Bayes/","noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Naive Bayes/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # How it works
