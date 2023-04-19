@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/sensory-encoding/"}
+{"dg-publish":true,"permalink":"/Notes/Sensory Encoding/","noteIcon":""}
 ---
 
 
