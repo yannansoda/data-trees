@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Convolution/","noteIcon":""}
+{"topic":"Math, Modeling","dg-publish":true,"permalink":"/Notes/Convolution/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Convolution $\ast$
