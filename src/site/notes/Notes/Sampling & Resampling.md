@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/sampling-and-resampling/"}
+{"dg-publish":true,"permalink":"/Notes/Sampling & Resampling/","noteIcon":""}
 ---
 
 
