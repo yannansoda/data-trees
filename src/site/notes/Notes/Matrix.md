@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/matrix/"}
+{"dg-publish":true,"permalink":"/Notes/Matrix/","noteIcon":""}
 ---
 
 
