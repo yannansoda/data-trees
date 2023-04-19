@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/fourier-transform/"}
+{"dg-publish":true,"permalink":"/Notes/Fourier Transform/","noteIcon":""}
 ---
 
 # Fourier transformation
@@ -52,8 +52,14 @@ $$FT\{e^{-i2\pi f_0t}\} = \int e^{-i2\pi f_0t} e^{i2\pi ft}dt = \int e^{-i2\pi (
 
 
 ### FT of a Gaussian kernel
-With a Gaussian $G (x; \sigma)=\frac{1}{\sqrt {2 \pi} \sigma} \ exp (- \frac {x^2}{2 \sigma ^2})$ :
-$$FT \{G(x; \sigma) \} = \frac{1}{\sqrt {2 \pi}} \ exp( - \frac{\sigma ^2 \omega ^2}{2})$$
+With a Gaussian $G (x; \sigma)=\frac{1}{\sqrt {2 \pi} \sigma} \ exp (- \frac {x^2}{2 \sigma
+{ #2}
+})$ :
+$$FT \{G(x; \sigma) \} = \frac{1}{\sqrt {2 \pi}} \ exp( - \frac{\sigma
+{ #2}
+ \omega
+{ #2}
+}{2})$$
 - So the Fourier transform of the Gaussian function is again a Gaussian function, but now of the frequency $\omega$.
 - A smaller kernel in the spatial domain gives a wider kernel in the Fourier domain, and vice versa.
 
