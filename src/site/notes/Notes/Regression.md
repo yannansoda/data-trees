@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Regression/","noteIcon":""}
+{"topic":"Math, Modeling","dg-publish":true,"permalink":"/Notes/Regression/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Linear Regression
