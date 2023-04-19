@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Brain-like Computing & Neural Network History/","noteIcon":""}
+{"topic":"CompNeuro","dg-publish":true,"permalink":"/Notes/Brain-like Computing & Neural Network History/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 [source](https://zhuanlan.zhihu.com/p/35416350?utm_source=pocket_mylist)
