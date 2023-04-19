@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Fourier Transform/","noteIcon":""}
+{"topic":"Math","dg-publish":true,"permalink":"/Notes/Fourier Transform/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Fourier transformation
