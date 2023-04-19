@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Dynamical Systems/","noteIcon":""}
+{"topic":"Math","dg-publish":true,"permalink":"/Notes/Dynamical Systems/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Definition 
