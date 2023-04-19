@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Database/","noteIcon":""}
+{"topic":"DataScience","dg-publish":true,"permalink":"/Notes/Database/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 Database often refers to relational database.
