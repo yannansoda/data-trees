@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Monte Carlo Diagnostics/","noteIcon":""}
+{"topic":"Statistics, Modeling","dg-publish":true,"permalink":"/Notes/Monte Carlo Diagnostics/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Trace plots
