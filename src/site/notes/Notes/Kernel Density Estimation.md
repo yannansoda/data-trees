@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Kernel Density Estimation/","noteIcon":""}
+{"topic":"Math","dg-publish":true,"permalink":"/Notes/Kernel Density Estimation/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ### Why KDE?
