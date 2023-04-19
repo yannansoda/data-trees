@@ -12,6 +12,7 @@
 - [[Notes/Dirac Delta function\|Dirac Delta function]]
 - [[Notes/Dynamical Systems\|Dynamical Systems]]
 - [[Notes/Eigenstuff\|Eigenstuff]]
+- [[Notes/Error Metrics\|Error Metrics]]
 - [[Notes/Fourier Transform\|Fourier Transform]]
 - [[Notes/Gamma & Beta functions\|Gamma & Beta functions]]
 - [[Notes/Gaussian Process\|Gaussian Process]]
