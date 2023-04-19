@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/dirichlet-distribution/"}
+{"dg-publish":true,"permalink":"/Notes/Dirichlet distribution/","noteIcon":""}
 ---
 
 
