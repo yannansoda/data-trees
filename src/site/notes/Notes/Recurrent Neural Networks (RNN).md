@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Recurrent Neural Networks (RNN)/","noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Recurrent Neural Networks (RNN)/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
