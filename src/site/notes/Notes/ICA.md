@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/ICA/","noteIcon":""}
+{"topic":"Math","dg-publish":true,"permalink":"/Notes/ICA/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ICA assumes a source vector s with components si that are mutually independent. The sources are not observed directly, but linear combinations of the sources x are given such that
