@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/regression/"}
+{"dg-publish":true,"permalink":"/Notes/Regression/","noteIcon":""}
 ---
 
 # Linear Regression
