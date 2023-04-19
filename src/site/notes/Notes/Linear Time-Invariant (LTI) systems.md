@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Linear Time-Invariant (LTI) systems/","noteIcon":""}
+{"topic":"Math","dg-publish":true,"permalink":"/Notes/Linear Time-Invariant (LTI) systems/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Linear Time-Invariant (LTI) systems
