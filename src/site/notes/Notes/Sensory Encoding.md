@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Sensory Encoding/","noteIcon":""}
+{"topic":"CompNeuro","dg-publish":true,"permalink":"/Notes/Sensory Encoding/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
