@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/simple-cells-and-complex-cells/"}
+{"dg-publish":true,"permalink":"/Notes/Simple cells and Complex cells/","noteIcon":""}
 ---
 
 
