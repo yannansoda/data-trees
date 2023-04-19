@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Transformer/","noteIcon":""}
+{"topic":"Machine Learning","dg-publish":true,"permalink":"/Notes/Transformer/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
