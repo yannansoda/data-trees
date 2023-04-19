@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/ETL/","noteIcon":""}
+{"topic":"DataScience","dg-publish":true,"permalink":"/Notes/ETL/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 - ETL = Extract, Transform, Load 
