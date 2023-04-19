@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/markov-chain-monte-carlo-algorithm/"}
+{"dg-publish":true,"permalink":"/Notes/Markov chain Monte Carlo Algorithm/","noteIcon":""}
 ---
 
 - _MCMC_ is essentially [[Notes/Monte Carlo Method\|Monte Carlo Method]] integration using [[Notes/Markov Chain\|Markov Chain]]
