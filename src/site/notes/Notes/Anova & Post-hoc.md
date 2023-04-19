@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Anova & Post-hoc/","noteIcon":""}
+{"topic":"Statistics","dg-publish":true,"permalink":"/Notes/Anova & Post-hoc/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
