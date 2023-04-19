@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Mediation analysis/","noteIcon":""}
+{"topic":"Statistics","dg-publish":true,"permalink":"/Notes/Mediation analysis/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
