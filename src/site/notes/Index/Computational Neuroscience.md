@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/index/computational-neuroscience/"}
+{"dg-publish":true,"permalink":"/Index/Computational Neuroscience/","noteIcon":""}
 ---
 
 - [[Notes/Brain decoding so far\|Brain decoding so far]]
