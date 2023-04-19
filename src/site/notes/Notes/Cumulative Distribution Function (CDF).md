@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/cumulative-distribution-function-cdf/"}
+{"dg-publish":true,"permalink":"/Notes/Cumulative Distribution Function (CDF)/","noteIcon":""}
 ---
 
 # Cumulative Distribution Function (CDF)
