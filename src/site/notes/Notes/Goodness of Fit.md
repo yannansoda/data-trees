@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Goodness of Fit/","noteIcon":""}
+{"topic":"Math, Modeling","dg-publish":true,"permalink":"/Notes/Goodness of Fit/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Tools to assess goodness of fit
