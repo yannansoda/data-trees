@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/ab-testing/"}
+{"dg-publish":true,"permalink":"/Notes/AB testing/","noteIcon":""}
 ---
 
 A/B testing (= bucket testing = split-run testing) is a user experience research methodology.
