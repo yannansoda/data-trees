@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/F-distribution & F-Test/","noteIcon":""}
+{"topic":"Statistics","dg-publish":true,"permalink":"/Notes/F-distribution & F-Test/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # F-distribution (F-ratio)
