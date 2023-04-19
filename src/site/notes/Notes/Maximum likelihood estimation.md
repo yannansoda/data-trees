@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Maximum likelihood estimation/","noteIcon":""}
+{"topic":"Math, Modeling","dg-publish":true,"permalink":"/Notes/Maximum likelihood estimation/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Definition
