@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sequential-probability-ratio-test/"}
+{"dg-publish":true,"permalink":"/Sequential Probability Ratio Test/","noteIcon":""}
 ---
 
 
