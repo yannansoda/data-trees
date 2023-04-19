@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/overfitting/"}
+{"dg-publish":true,"permalink":"/Notes/Overfitting/","noteIcon":""}
 ---
 
 
