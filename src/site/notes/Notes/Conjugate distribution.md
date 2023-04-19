@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Conjugate distribution/","noteIcon":""}
+{"topic":"Math","dg-publish":true,"permalink":"/Notes/Conjugate distribution/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
