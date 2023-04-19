@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Index/TechHack/","noteIcon":""}
+{"dg-publish":true,"permalink":"/Index/TechHack/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 - [[Notes/Bash Cheatsheet\|Bash Cheatsheet]]
