@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/database/"}
+{"dg-publish":true,"permalink":"/Notes/Database/","noteIcon":""}
 ---
 
 Database often refers to relational database.
