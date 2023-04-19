@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/signal-processing/"}
+{"dg-publish":true,"permalink":"/Notes/Signal processing/","noteIcon":""}
 ---
 
 # [[Notes/Convolution\|Convolution]] & [[Fourier transformation\|Fourier transformation]]
