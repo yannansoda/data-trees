@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Support Vector X/","noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Support Vector X/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
