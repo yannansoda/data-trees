@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/paired-data-tests/"}
+{"dg-publish":true,"permalink":"/Notes/Paired-data tests/","noteIcon":""}
 ---
 
 ### paired t-test (2 groups)
