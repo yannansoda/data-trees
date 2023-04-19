@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/K-Means Clustering/","noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/K-Means Clustering/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
