@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Overfitting/","noteIcon":""}
+{"topic":"Math, Modeling","dg-publish":true,"permalink":"/Notes/Overfitting/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
