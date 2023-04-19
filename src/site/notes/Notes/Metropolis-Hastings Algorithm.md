@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/metropolis-hastings-algorithm/"}
+{"dg-publish":true,"permalink":"/Notes/Metropolis-Hastings Algorithm/","noteIcon":""}
 ---
 
 # What it is
