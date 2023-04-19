@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Sampling & Resampling/","noteIcon":""}
+{"topic":"Statistics","dg-publish":true,"permalink":"/Notes/Sampling & Resampling/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
