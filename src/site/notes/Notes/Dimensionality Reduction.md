@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Dimensionality Reduction/","noteIcon":""}
+{"topic":"Math, MachineLearning","dg-publish":true,"permalink":"/Notes/Dimensionality Reduction/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
