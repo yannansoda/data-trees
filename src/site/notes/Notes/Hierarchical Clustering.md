@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Hierarchical Clustering/","noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Hierarchical Clustering/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
