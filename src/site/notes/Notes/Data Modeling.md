@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Data Modeling/","noteIcon":""}
+{"topic":"DataScience","dg-publish":true,"permalink":"/Notes/Data Modeling/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
