@@ -4,6 +4,7 @@
 
 - [[Notes/AB testing\|AB testing]]
 - [[Notes/Application Programming Interfaces (API)\|Application Programming Interfaces (API)]]
+- [[Notes/Big Data\|Big Data]]
 - [[Notes/Cloud Computing\|Cloud Computing]]
 - [[Notes/Cross-industry Standard Process for Data Mining\|Cross-industry Standard Process for Data Mining]]
 - [[Notes/Data Modeling\|Data Modeling]]
@@ -15,6 +16,8 @@
 - [[Notes/Deterministic Process\|Deterministic Process]]
 - [[Notes/Entity-relationship model\|Entity-relationship model]]
 - [[Notes/ETL\|ETL]]
+- [[Notes/IBM Tools for Data Science\|IBM Tools for Data Science]]
+- [[Notes/Key components of DS project report\|Key components of DS project report]]
 - [[Notes/Regularization\|Regularization]]
 - [[Notes/SQL\|SQL]]
 - [[Notes/Stakeholder in DS\|Stakeholder in DS]]
