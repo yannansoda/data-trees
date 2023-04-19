@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/goodness-of-fit/"}
+{"dg-publish":true,"permalink":"/Notes/Goodness of Fit/","noteIcon":""}
 ---
 
 # Tools to assess goodness of fit
