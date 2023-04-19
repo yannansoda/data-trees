@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/application-programming-interfaces-api/"}
+{"dg-publish":true,"permalink":"/Notes/Application Programming Interfaces (API)/","noteIcon":""}
 ---
 
 
