@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Error Metrics/","noteIcon":""}
+{"topic":"Math","dg-publish":true,"permalink":"/Notes/Error Metrics/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
