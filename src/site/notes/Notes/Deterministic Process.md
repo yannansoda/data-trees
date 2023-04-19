@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/deterministic-process/"}
+{"dg-publish":true,"permalink":"/Notes/Deterministic Process/","noteIcon":""}
 ---
 
 
