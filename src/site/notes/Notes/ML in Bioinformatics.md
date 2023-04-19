@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/ML in Bioinformatics/","noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/ML in Bioinformatics/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
