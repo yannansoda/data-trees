@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/index/math/"}
+{"dg-publish":true,"permalink":"/Index/Math/","noteIcon":""}
 ---
 
 - [[Notes/Conjugate distribution\|Conjugate distribution]]
