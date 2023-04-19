@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/big-data/"}
+{"dg-publish":true,"permalink":"/Notes/Big Data/","noteIcon":""}
 ---
 
 
