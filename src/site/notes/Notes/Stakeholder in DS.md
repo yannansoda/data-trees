@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/stakeholder-in-ds/"}
+{"dg-publish":true,"permalink":"/Notes/Stakeholder in DS/","noteIcon":""}
 ---
 
 
