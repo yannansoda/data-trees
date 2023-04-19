@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Decision Tree & Random Forest/","noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Decision Tree & Random Forest/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
