@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Cross-Validation/","noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Cross-Validation/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ## Why 
