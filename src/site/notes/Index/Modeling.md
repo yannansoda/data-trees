@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/index/modeling/"}
+{"dg-publish":true,"permalink":"/Index/Modeling/","noteIcon":""}
 ---
 
 - [[Notes/Bias-Variance Tradeoff\|Bias-Variance Tradeoff]]
