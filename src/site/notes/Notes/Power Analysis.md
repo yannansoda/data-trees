@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/power-analysis/"}
+{"dg-publish":true,"permalink":"/Notes/Power Analysis/","noteIcon":""}
 ---
 
 ### Definition
