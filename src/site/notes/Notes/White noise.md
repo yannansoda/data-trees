@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/White noise/","noteIcon":""}
+{"topic":"Math","dg-publish":true,"permalink":"/Notes/White noise/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ### White noise
