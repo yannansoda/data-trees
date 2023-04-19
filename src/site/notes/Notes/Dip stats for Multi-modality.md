@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Dip stats for Multi-modality/","noteIcon":""}
+{"topic":"Statistics","dg-publish":true,"permalink":"/Notes/Dip stats for Multi-modality/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ![](/img/user/assets/images/dip-stats-1.png)
