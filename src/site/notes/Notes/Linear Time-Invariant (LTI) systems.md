@@ -11,15 +11,17 @@ $$ f_{LTI}(\sum s_i(t)) = \sum f_{LTI}(s_i(t)) = \sum r_i(t)$$
 since: 
 $$r(t)=f_{LTI}(s(t))$$
 then: 
+
 $$r(t-t_0) = f_{LTI}(s(t-t_0))$$
 
 
 # Eigenfunctions of LTI systems
 ### Eigenfunction 
 It is similar to eigenvectors: it is the eigenfunctions in a function space.
-$$Df=\lambda f$$ where f is the eigenfunction of D.
+$$Df = \lambda f$$ where f is the eigenfunction of D.
 ### Eigenfunctions of LTI systems are sin and cos functions
-If $s_E(t)$ is the eigenfunction and H is the eigenvalue, there should be the [[Notes/Convolution\|Convolution]]: $$s_E(t) * h(t) = H s_E(t)$$
+If $s_E(t)$ is the eigenfunction and H is the eigenvalue, there should be the [[Notes/Convolution\|Convolution]]: 
+$$s_E(t) * h(t) = H s_E(t)$$
 then the solution is:
 $$s_E(t) = e^{i\omega t} = e^{i2\pi ft} = cos(2\pi ft) + i \, sin(2\pi ft)$$
 
