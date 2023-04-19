@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/correlation/"}
+{"dg-publish":true,"permalink":"/Notes/Correlation/","noteIcon":""}
 ---
 
 # Correlation $\star$
