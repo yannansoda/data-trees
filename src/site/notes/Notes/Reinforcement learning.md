@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Reinforcement learning/","noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Reinforcement learning/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
