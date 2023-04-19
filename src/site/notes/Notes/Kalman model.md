@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Kalman model/","noteIcon":""}
+{"topic":"Math","dg-publish":true,"permalink":"/Notes/Kalman model/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
