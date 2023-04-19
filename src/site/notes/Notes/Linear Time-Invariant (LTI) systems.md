@@ -8,8 +8,10 @@ The linear time-invariant (LTI) system is an example of linear shift-invariant s
 - linearity = superposition principle
 $$ f_{LTI}(\sum s_i(t)) = \sum f_{LTI}(s_i(t)) = \sum r_i(t)$$
 - time-invariance = output is independent of time shift
-since: $$r(t)=f_{LTI}(s(t))$$
-then: $$r(t-t_0) = f_{LTI}(s(t-t_0))$$
+since: 
+$$r(t)=f_{LTI}(s(t))$$
+then: 
+$$r(t-t_0) = f_{LTI}(s(t-t_0))$$
 
 
 # Eigenfunctions of LTI systems
