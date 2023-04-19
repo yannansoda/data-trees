@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/kalman-model/"}
+{"dg-publish":true,"permalink":"/Notes/Kalman model/","noteIcon":""}
 ---
 
 
