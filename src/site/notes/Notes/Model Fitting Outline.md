@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Model Fitting Outline/","noteIcon":""}
+{"topic":"Math, Modeling","dg-publish":true,"permalink":"/Notes/Model Fitting Outline/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 1. draft & implement model
