@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/test-for-equality-of-variances/"}
+{"dg-publish":true,"permalink":"/Notes/Test for equality of variances/","noteIcon":""}
 ---
 
 Null hypothesis: all input samples are from populations with equal variances.
