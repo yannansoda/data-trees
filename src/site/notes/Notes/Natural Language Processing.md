@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Natural Language Processing/","noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Natural Language Processing/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
