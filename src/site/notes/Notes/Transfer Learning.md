@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/transfer-learning/"}
+{"dg-publish":true,"permalink":"/Notes/Transfer Learning/","noteIcon":""}
 ---
 
 
