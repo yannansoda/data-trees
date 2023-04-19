@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/kruskal-wallis-test/"}
+{"dg-publish":true,"permalink":"/Notes/Kruskal–Wallis test/","noteIcon":""}
 ---
 
 #TODO 
