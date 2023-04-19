@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/Metropolis-Hastings Algorithm/","noteIcon":""}
+{"topic":"Math","dg-publish":true,"permalink":"/Notes/Metropolis-Hastings Algorithm/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # What it is
