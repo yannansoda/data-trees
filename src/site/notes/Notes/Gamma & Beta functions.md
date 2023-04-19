@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/gamma-and-beta-functions/"}
+{"dg-publish":true,"permalink":"/Notes/Gamma & Beta functions/","noteIcon":""}
 ---
 
 
@@ -17,7 +17,9 @@ $$\Gamma(\alpha, \beta) = f(\lambda) = \lambda ^{\alpha -1} e^{-\beta \lambda}$$
 
 ## Beta function
 *definition:*
-$$B(x, y) = \int _0 ^1 t^{x-1} (1-t) ^{y-1} dt 
+$$B(x, y) = \int _0
+{ #1}
+ t^{x-1} (1-t) ^{y-1} dt 
 \ \ \ (x>0, y>0)$$
 - beta distribution (of t):
 $$p(t | x, y) = beta(t | x, y) = t^{x-1} (1-t) ^{y-1} / B(x,y)$$
