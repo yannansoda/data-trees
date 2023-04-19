@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notes/database-vs-data-warehouse-vs-data-lake/"}
+{"dg-publish":true,"permalink":"/Notes/Database vs Data Warehouse vs Data Lake/","noteIcon":""}
 ---
 
 # Database vs. Data Warehouse
