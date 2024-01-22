@@ -1,5 +1,5 @@
 ---
-{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Standard notations for Deep Learning/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DeepLearning","dg-publish":true,"permalink":"/Notes/Standard notations for Deep Learning/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 >[!Source]
