@@ -23,11 +23,12 @@
 	- Latent Semantic Analysis (LSA), word2vec, fastText
 	- Still used for images
 - context sensitive: pick a popular embedding from Hugging Face
-	- BERT and other transformer models
+	- BERT and other [[Notes/Transformer\|transformer]] models
+{ #ff7c47}
+
 	- These use a context oblivious Byte Pair or Word Part Encoding as input
 
-
 # NLP Types
-![](/img/user/assets/images/natural-language-processing-1.png)
+![/assets/images/natural-language-processing-1.png|600](/img/user/assets/images/natural-language-processing-1.png)
 # Example: Bag-of-Words Model
 To answer Yes/No, transform test words into a count array, then use training data arrays to model a logistic regression and then predict Yes/No responses.
