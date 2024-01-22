@@ -8,4 +8,4 @@
 - [[LSTM\|LSTM]]: Long Short Term Memory
 
 # Applications
- speech recognition, music synthesis, chatbots, machine translation, natural language processing (NLP), and more
+ speech recognition, music synthesis, chatbots, machine translation, [[Notes/Natural Language Processing\|Natural Language Processing]], and more
