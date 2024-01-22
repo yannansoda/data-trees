@@ -23,6 +23,14 @@ $$
 
 >  `sklearn` does not include Apriori modules!!! Use `apyori` instead.
 
+### Pros & Cons
+- pros
+	- results are intuitive and interpretatable
+	- exhaustive approach as it finds all rules based on the confidence and support
+- cons
+	- generates many uninteresting itemsets 
+	- computationally and memory intensive
+	- results in many overlapping item sets
 # Eclat
 Eclat is similar to Apriori but only uses support
 ## How it works
