@@ -4,9 +4,8 @@
 
 # Intro
 ## Parametric vs Non-parametric
-
 - parametric methods: 
-	-  a set of fixed parameters
+	- a set of fixed parameters
 	- assume the distribution is Gaussian and set the significance level
 	- the result or outputs generated can be easily affected by outliers
 - non-parametric methods:
