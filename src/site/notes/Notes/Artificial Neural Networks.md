@@ -3,6 +3,8 @@
 ---
 
 
+>[!Interesting] Neural network playground
+>https://playground.tensorflow.org/
 # Basic working mechanism
 ![artificial-nn-1.png|600](/img/user/assets/images/artificial-nn-1.png)
 # How it works
@@ -13,6 +15,10 @@
 5. **Back-propagation**: from right to left, the error is propagated. Update the weights according to how much they are responsible for the error. The learning rate decides by now much we update the weights.
 6. Repeat Steps 1 to 5 and update the weights after each observation (**Reinforcement Learning**); OR: Repeat Steps 1 to 5 but update the weights only after a batch of observations (**Batch Learning**).
 7. When the whole training set passed through the ANN, that makes an epoch. Redo more epochs. 
+
+# Epoch vs. Batch
+- 1 batch = a group of samples
+- 1 epoch = touching each sample once, which contains multiple batches
 
 # Activation functions
 ### There are multiple forms
@@ -28,6 +34,9 @@ $$
 ![Pasted image 20230309212317.png|300](/img/user/assets/images/Pasted%20image%2020230309212317.png)
 - Softmax
 $$\phi(z) = \text{Softmax}(z_{i}) = \frac{\exp(z_i)}{\sum_j \exp(z_j)}$$
+> Why "soft": because it generates values between 0 and 1 and sum to 1, so the max value is a probability smaller than 1, instead of "hard" max value as 1 and the rest as 0.
+
+
 - rectifier (ReLU) -  when you must model a piecewise linear target
 $$
 \phi(z) = max(z, 0)
