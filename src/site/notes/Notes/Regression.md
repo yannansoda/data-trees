@@ -9,36 +9,16 @@
 - multivariate normality
 - independence of errors
 - lack of multicollinearity
-### Terminology
-- ML: x = feature, y =  target variable ()
+
+# Principal component regression
+> [Source](https://towardsdatascience.com/principal-component-regression-clearly-explained-and-implemented-608471530a2f)
+1. apply PCA ([[Notes/Dimensionality Reduction#Feature Selection\|Dimensionality Reduction#Feature Selection]]) to generate principal components from the predictor variables, with the number of principal components matching the number of original features p
+2. keep the first k principal components that explain most of the variance (where k < p), where k is determined by cross-validation
+3. fit a linear regression model on these k principal components
+# Partial least squares (PLS) regression
+- when dependent variables are multiple and can be correlated
+- similar to [[Notes/Regression#Principal component regression\|Regression#Principal component regression]] but run PCA and regression in one go (apply PCA on both independent and dependent variables)
 - 
-### Multiple Linear Regression
-5 methods of building regression models: the choice of predictive variables?
-- All-in
-- Backward Elimination (fastest)
-	1. select a significance level (SL, e.g. SL=0.05)
-	2. fit the full model with all possible predictors
-	3. consider the predictor with the highest P-vales. If P > SL, go to step 4, otherwise go to FIN
-	4. remove the predictor
-	5. fit model without this variable
-	6. return to step 3
-- Forward Selection 
-	1. select a significance level (SL, e.g. SL=0.05)
-	2. fit all simple regression models. Select the one with the lowest P-value
-	3. keep this variable and fit all possible models with one extra predictor added to the one(s) you already have.
-	4. consider the predictor with the lowest P-value. If P < SL, go to step 3, otherwise go to FIN and keep the previous model
-- Bidirectional Elimination (stepwise regression)
-	= combination of Backward Elimination and Forward Selection
-	1.  select a significance level to enter and stay in the model (SL, e.g. SL=0.05)
-	2. perform the next step of forward selection (new variables must have P < SL_enter to enter)
-	3. perform all steps of backward elimination (old variables must have P < SL_enter to stay)
-	4. repeat step 2 and 3, until no new variables can enter and no old variables can exit
-- Score Comparison: All possible models (time-consuming)
-	1. select a criterion of goodness of fit
-	2. construct all possible regression models
-	3. select the one with the best criterion
-
-
 # Logistic Regression
 
 A logistic regression model:
@@ -59,6 +39,8 @@ $$
 # Multivariate regression
 > [!INFO]
 > Multivariate regression != Multiple regression
+
+
 
 # R-Squared: coefficient of determination
 $$
@@ -91,5 +73,8 @@ where $p$ is the number of regressors/predictors, $n$ is the sample size.
 > Why you need adjusted R-squared?
 It is important, because adding independent variables will make the R-squared never decrease, then you cannot tell whether the increase of R-squared is due to the goodness of fit or more variables.
 It includes the penalising factor that penalises you for adding independent variables that don't help your model.
+
+
+
 
 
