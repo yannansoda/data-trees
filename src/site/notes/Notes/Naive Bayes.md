@@ -11,6 +11,6 @@
  4. Compare $P(C1|X)$ with $P(C2|X)$ to classify 
  > thus you can ignore the marginal likelihood P(X) because it is same for all categories.
  
- > - Why "Naïve"
+ >Why "Naïve"
 > - Often although it applies and works, the variables are not independent.
  
