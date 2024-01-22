@@ -10,7 +10,7 @@
 - [[Notes/Dirichlet distribution\|Dirichlet distribution]]
 - [[Notes/F-distribution & F-Test\|F-distribution & F-Test]]
 - [[Notes/Kolmogorov-Smirnov Test\|Kolmogorov-Smirnov Test]]
-- [[Notes/Kruskal–Wallis test\|Kruskal–Wallis test]]
+- [[Notes/Linear mixed models\|Linear mixed models]]
 - [[Notes/Marginal Distribution\|Marginal Distribution]]
 - [[Notes/Mediation analysis\|Mediation analysis]]
 - [[Notes/Monte Carlo Diagnostics\|Monte Carlo Diagnostics]]
@@ -20,4 +20,8 @@
 - [[Notes/Probability Basics\|Probability Basics]]
 - [[Notes/Random variables & Probability distributions\|Random variables & Probability distributions]]
 - [[Notes/Sampling & Resampling\|Sampling & Resampling]]
-- [[Notes/Test for equality of variances\|Test for equality of variances]]
+- [[Notes/Stats Cheatsheet\|Stats Cheatsheet]]
+- [[Notes/t-test vs z-test\|t-test vs z-test]]
+- [[Notes/Test for Equality of Variances\|Test for Equality of Variances]]
+
+{ .block-language-dataview}
