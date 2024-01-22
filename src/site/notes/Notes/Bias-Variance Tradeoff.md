@@ -2,7 +2,7 @@
 {"topic":"Modeling, MachineLearning","dg-publish":true,"permalink":"/Notes/Bias-Variance Tradeoff/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
-Bias-Variance trade-off -> Underfitting vs. [[Notes/Overfitting\|Overfitting]] issues
+Bias-Variance trade-off -> [[Notes/Underfitting vs. Overfitting\|Underfitting vs. Overfitting]] issues
 
 # Bias & Variance in ML
 ### Evaluate bias & variance
