@@ -11,3 +11,5 @@
 - [[Notes/Neuromatch Calculus Refresher\|Neuromatch Calculus Refresher]]
 - [[Notes/Sensory Encoding\|Sensory Encoding]]
 - [[Notes/Simple cells and Complex cells\|Simple cells and Complex cells]]
+
+{ .block-language-dataview}
