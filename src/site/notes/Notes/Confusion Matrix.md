@@ -25,10 +25,21 @@ $$TP/(TP+FN)$$
 ## Specificity / True Negative Rate (TNR)
 = the fraction of all negative samples are correctly predicted as negative by the classifier
 $$TN/(TN+FP)$$
-## F1-score: 
-= It combines precision and recall into a single measure. Mathematically it’s the harmonic mean of precision and recall.
-$$F1-score = 2 \times \frac{Precision \times Sensitivity}{Precision + Sensitivity}$$
+>[!Interesting]
+>In clinical studies, accuracy can be seen as a weighted sum of sensitivity and specificity:
+> 
+>accuracy = sensitivity x prevalence + specificity x (1 - prevalence)
+>
+>where prevalence represents the probability of a disease (positive).
 
+## F1-score: 
+= It combines precision and recall into a single measure. Mathematically it’s the harmonic mean of precision and recall (range in $[0, 1]$)
+$$F1\ score = 2 \times \frac{Precision \times Sensitivity}{Precision + Sensitivity}$$
+>[!Quote] The Hundred-Page Machine Learning Book
+>**How to choose between precision and sensitivity**
+>- by assigning a higher weighting to the examples of (the SVM algorithm accepts weightings of classes as input)
+>- by tuning hyperparameters to maximize precision or recall on the validation set
+>- by varying the decision threshold for algorithms that return probabilities of classes; for instance, if we use logistic regression or decision tree, to increase precison
 
 # Cumulative Accuracy Profile (CAP)
 *resource*: https://waleblaq.medium.com/the-cap-curves-the-cumulative-accuracy-profile-58a141e01fae
@@ -37,9 +48,14 @@ $$F1-score = 2 \times \frac{Precision \times Sensitivity}{Precision + Sensitivit
  ## CAP Analysis
 We can analyze the cap curve in 2 ways.
  ### Way 1: ratio of the areas under the good model to the area under the ideal curve
- ![](/img/user/assets/images/confusion-matrix-2.png)
+ ![assets/images/confusion-matrix-2.png|500](/img/user/assets/images/confusion-matrix-2.png)
  ### Way 2:
-![](/img/user/assets/images/confusion-matrix-3.png)
+![/assets/images/confusion-matrix-3.png|500](/img/user/assets/images/confusion-matrix-3.png)
 # Receiver Operating Characteristic (ROC)
-ROC != CAP, ROC plots the true-positive rate against the false-positive rate.
-![](/img/user/assets/images/ROC.png)
+- ROC != CAP
+- ROC plots the true-positive rate ([[Notes/Confusion Matrix#Sensitivity / True Positive Rate (TPR) / Probability of Detection / Recall\|Confusion Matrix#Sensitivity / True Positive Rate (TPR) / Probability of Detection / Recall]]) against the false-positive rate, where false-positive rate is the proportion of negative examples predicted incorrectly:$$FP/(FP+TN)$$
+![ROC.png|400](/img/user/assets/images/ROC.png)
+
+- ROC AUC = ROC Area Under the Curve
+	- ranging from 0 to 1
+	- 0.5 for random classifier
