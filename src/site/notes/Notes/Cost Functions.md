@@ -53,18 +53,32 @@ where $j$ represents the $j$th feature.
 	- L1 regularization = train to minimize normal loss + c * L1(weights)
 { #19a2bf}
 
-		- L1: sum of the absolute values of the weights; like lasso regression
+		- L1: sum of the absolute values of the weights; like **lasso regression**
+{ #ed4ab0}
+
 		- Drives some weights to 0
+		- good for models with fewer features, each of them has a large or median effect
 	- L2 regularization = train to minimize normal loss + c*  L2(weights)
 { #b2a01f}
 
-		- L2:  sum of the squares of the weights; like ridge regression
+		- L2:  sum of the squares of the weights; like **ridge regression**
+{ #aef45a}
+
 		- Makes the biggest weights smaller
+		- heavily punishing “outliers”, which are the very large parameters
+		- good for models with many features, each of them has a small effect
 	- Train to minimize normal loss - but don’t let the weights get too big
 		- Like an L-infinity penalty
 
+>[!Quote] The Hundred-Page Machine Learning Book
+>- In practice, L1 regularization produces a sparse model, a model that has most of its parameters equal to zero, provided the hyperparameter C is large enough. So L1 performs feature selection by deciding which features are essential for prediction and which are not. That can be useful in case you want to increase model explainability. 
+>- However, if your only goal is to maximize the performance of the model on the holdout data, then L2 usually gives better results. L2 also has the advantage of being differentiable, so gradient descent can be used for optimizing the objective function.
 
 ## Loss and cost for different functions
+### Loss and cost for linear regression -> Analytic solution
+in matrix form, with $Y = Xw + b$, the loss function is 
+$$||y -Xw||^2$$ When the derivative of the loss is 0 to achieve the minimum of the loss: $$\partial_w ||y- Xw||^2 = 2X^T(Xw-y) = 0$$the solution is $$w^* = (X^T X)^{-1} X^Ty$$
+The solution will only be unique when the matrix $X^T X$ is invertible, i.e., when the columns of $X$ are linearly independent.
 ### Loss and cost for logistic regression
 > MSE is not proper because the cost function would not be convex.
 
@@ -114,6 +128,8 @@ J(\mathbf{w},b) = -\frac{1}{m} \left[ \sum_{i=1}^{m} \sum_{j=1}^{N}  1\left\{y^{
 $$
 
 where $m$ is the number of examples, $N$ is the number of outputs. This is the average of all the losses.
+> [!important]
+> Cross-entropy takes the full distribution into account. 
 
 ## Expected loss function
 A posterior distribution tells us about the confidence or credibility we assign to different choices. A cost function describes the penalty we incur when choosing an incorrect option. These concepts can be combined into an *expected loss* function. 
@@ -134,3 +150,5 @@ where $L\ [ \ \hat{x}, x\ ]$ is the loss function, $p(x|\ \tilde{x})$ is the pos
 - The posterior's mode minimizes the zero-one loss.
 ```
 
+# Good Practice in minimizing loss function
+- be aware of Clever Hans Effect: model learns to minimize loss functions, but it does not learn the thing it should learn...
