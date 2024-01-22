@@ -5,7 +5,8 @@
 
 ## ANOVA
 ## Basics
-[[Notes/F-distribution & F-Test\|F-distribution & F-Test]]
+- ANOVA is a special case of [[Notes/Linear mixed models\|Linear mixed models]]: it assumes the data are idd and continuous, while generalized linear mixed models do not.
+- [[Notes/F-distribution & F-Test\|F-distribution & F-Test]]
 ### Choosing ANOVA types
 - How many independent variables do you have?
 	n variables => n-way ANONA
@@ -17,9 +18,9 @@
 ### Prerequisite
 - the group sizes are same
 - the population is normal
-	<= can be tested by **Shapiro–Wilk test(best)**, as well as Anderson–Darling, Kolmogorov–Smirnov, and Lilliefors tests.
+	<= can be tested by **Shapiro–Wilk test (best)**, as well as Anderson–Darling, Kolmogorov–Smirnov, and Lilliefors tests.
 - the groups have equal variance
-	<= can be tested by **Levene's [[Notes/Test for equality of variances\|Test for equality of variances]]**
+	<= can be tested by **Levene's [[Notes/Test for Equality of Variances\|Test for Equality of Variances]]**
 - for a repeated-measures ANOVA, you have to be careful about the sphericity
 	- Sphericity is an important assumption of a repeated-measures ANOVA. It is the condition where the variances of the differences between all possible pairs of within-subject conditions (i.e., levels of the independent variable) are equal. 
 	- It can be tested by the **Mauchly's sphericity test (Mauchly's W)**, which is a statistical test used to validate a repeated measures ANOVA.
