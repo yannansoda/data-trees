@@ -3,7 +3,6 @@
 ---
 
 
-
 # Regularization
 
 ## What is regularization
@@ -22,11 +21,13 @@ See [[Notes/Cost Functions#Cost function with regularization\|Cost Functions#Cos
 - shrinking (= add penalty/reduce weight)
 	- L1 regularization: [[Notes/Cost Functions#^19a2bf\|Cost Functions#^19a2bf]]
 	- L2 regularization ("weight decay"): [[Notes/Cost Functions#^b2a01f\|Cost Functions#^b2a01f]]
+	- elastic net regularization = L1 + L2 regularization
 	- dropout regularization
 { #b76d6c}
 
 		- randomly knocking out units in neural network
 		- mostly used in computer vision (e.g. [[Notes/Pattern recognition\|Pattern recognition]])
+- batch-normalization
 - data augmentation 
 { #933b29}
 
@@ -35,9 +36,13 @@ See [[Notes/Cost Functions#Cost function with regularization\|Cost Functions#Cos
 		- flip them left/right
 		- shift them up/down/right/left by a couple pixels
 		- add small noise, etc...
+	-  but if the validation set doesn't have the same randomness, then the accuracy fluctuates crazily.
 - early stopping
 	- Initialize with small weights -> these get bigger as you do gradient descent- > stop when they are the ‘optimal’ size
 	- ![Pasted image 20230316144212.png|300](/img/user/assets/images/Pasted%20image%2020230316144212.png)
+>[!interesting]
+> But long-term training may lead to flip in large models, see [here](https://openai.com/research/deep-double-descent)
+{ #9ff80e}
 
 ## Regularized regression
 - Ridge Regression
