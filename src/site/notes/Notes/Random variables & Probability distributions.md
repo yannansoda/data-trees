@@ -66,10 +66,17 @@ $$\int \_ {-\infty} ^{\infty} f(x) dx =1$$
 $$P(a \leq X \leq b) = F (b) - F(a) = \int _a
 { #b}
  f(x) dx$$
+>[!Important]
+>- The PDF's analog for discrete variables is probability mass function. But, they are not same!!!
+>- PDF is not Probability! It only means how much probability is concentrated per unit length (d𝒙) near 𝒙, or how dense the probability is near 𝒙.
+>- For discrete random variables, we look up the value of a PMF at a single point to find its probability P(𝐗=𝒙).
+>- For continuous random variables, we take an integral of a PDF over a certain interval to find its probability that X will fall in that interval.
+>- Thus, PDF can be greater than 1, such as in an exponential distribution: 
+>	 ![Pasted image 20230621135607.png|300](/img/user/assets/images/Pasted%20image%2020230621135607.png)
 
-(The PDF's analog for discrete variables is probability mass function. )
 
-There are several major types of distributions for continuous variables (based on PDF):
+
+**There are several major types of distributions for continuous variables (based on PDF)**:
 
 ### Normal distribution
 
