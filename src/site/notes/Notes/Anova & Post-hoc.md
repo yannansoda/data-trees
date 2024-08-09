@@ -18,7 +18,7 @@
 ### Prerequisite
 - the group sizes are same
 - the population is normal
-	<= can be tested by **Shapiro–Wilk test (best)**, as well as Anderson–Darling, Kolmogorov–Smirnov, and Lilliefors tests.
+	<= can be tested using [[Notes/Normality Tests\|Normality Tests]]
 - the groups have equal variance
 	<= can be tested by **Levene's [[Notes/Test for Equality of Variances\|Test for Equality of Variances]]**
 - for a repeated-measures ANOVA, you have to be careful about the sphericity
