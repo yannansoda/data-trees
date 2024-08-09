@@ -1,5 +1,5 @@
 ---
-{"topic":"DataScience","dg-publish":true,"permalink":"/Notes/Data Engineering Fundamentals/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataEngineering","dg-publish":true,"permalink":"/Notes/Data Engineering Fundamentals/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Data serialization
