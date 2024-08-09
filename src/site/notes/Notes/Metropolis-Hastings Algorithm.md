@@ -6,7 +6,7 @@
 Metropolis-Hastings Algorithm is a general framework which includes as special cases the very first and simpler MCMC [[Notes/Markov chain Monte Carlo Algorithm\|Markov chain Monte Carlo Algorithm]].
 
 # How it works
-Consider an arbitrary posterior $p(z)$ and its transition matrix$Q(z \rightarrow z*)$, it cannot always satisfy the detailed balance. If we want to achieve the detailed balance, we should add an acceptance ration $\alpha$, to make the equation correct:
+Consider an arbitrary posterior $p(z)$ and its transition matrix $Q(z \rightarrow z*)$, it cannot always satisfy the detailed balance. If we want to achieve the detailed balance, we should add an acceptance ration $\alpha$, to make the equation correct:
 $$p(z) Q(z \rightarrow z^*) \alpha (z, z^*) = p(z^*) Q(z^* \rightarrow z) \alpha (z^*, z)$$
 in which one can derive $\alpha$:
 $$\alpha (z, z^*) = min (1, \frac{p(z^*) Q(z|z^*)}{p(z), Q(z^*|z)})$$
