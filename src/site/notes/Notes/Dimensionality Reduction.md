@@ -15,8 +15,12 @@ There are two types of Dimensionality Reduction techniques:
 	- PCA capture the variability; LDA class separation
 		![/assets/images/dimensionality-reduction-1.png|400](/img/user/assets/images/dimensionality-reduction-1.png)
 		![/assets/images/dimensionality-reduction-2.png|400](/img/user/assets/images/dimensionality-reduction-2.png)
+{ #9ffa4d}
+
 	- PCA is unsupervised; LDA is supervised (because of the relation to the dependent variable)
 - t-SNE 
+{ #53a070}
+
 	- = T-Distributed Stochastic Neighbor Embedding
 	- t-SNE takes high-dimensional data and reduces it to a low-dimensional graph (2-D typically)
 	- Unlike PCA (which is linear), t-SNE can reduce dimensions with non-linear relationships (such as “Swiss Roll” non-linear distribution)
