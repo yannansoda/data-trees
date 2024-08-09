@@ -43,7 +43,6 @@
 - [[Notes/Natural Language Processing\|Natural Language Processing]]
 - [[Notes/Neural ODE\|Neural ODE]]
 - [[Notes/Pattern Recognition\|Pattern Recognition]]
-- [[Notes/Practical Aspects in Deep Learning\|Practical Aspects in Deep Learning]]
 - [[Notes/Problems in Classification\|Problems in Classification]]
 - [[Notes/Recommender Systems\|Recommender Systems]]
 - [[Notes/Recurrent Neural Networks\|Recurrent Neural Networks]]
