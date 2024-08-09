@@ -29,7 +29,10 @@ $$S(t) = Pr(T>t)$$
 
 ### Non-Parametric Models
 #### Kaplan Meier Model
-= the probability of survival past t months with censored observations:   $$ S(t) = \prod 1- Pr(T=i | T >= i ) = \prod_{t_i \leq t} (1 - \frac{d_i}{n_i}) $$
+= the probability of survival past t months with censored observations:   
+$$
+S(t) = \prod 1- Pr(T=i | T >= i ) = \prod_{t_i \leq t} (1 - \frac{d_i}{n_i})
+$$
 where
 - $t_i$ are the events observed in the dataset 
 - $d_i$ is the number of deaths at time $t_i$
@@ -44,13 +47,17 @@ $$
 h(t) = lim_{\Delta t \rightarrow 0} \frac{P(t \leq T < t+\Delta t | T \geq t)}{\Delta t}
 $$
 - cumulative hazard 
-$$H (t) = \int _0
+$$
+H (t) = \int _0
 { #t}
- h(t) dt$$
+ h(t) dt
+$$
 - relation between survival and hazard
-$$S(t) = exp(- \int _0
+$$
+S(t) = exp(- \int _0
 { #t}
- h(t) dt)$$
+ h(t) dt)
+$$
 #### Cox (Proportional Hazards) Model
 = a  regression model for survival data that allows us to assess the effect of covariates on survival time while making minimal assumptions about the shape of the hazard function:
 $$
@@ -79,14 +86,18 @@ where
 
 #### Survival trees
 The single survival tree prediction for an individual is a cumulative hazard function (CHF) computed for all individuals in the same tree terminal node:
-$$ H_h(t) = \sum_{t_l, h \leq t} \frac{d_l, h}{R_l, h}$$
+$$
+H_h(t) = \sum_{t_l, h \leq t} \frac{d_l, h}{R_l, h}
+$$
 where $h$ is terminal node, $t$ is event time, $d$ is the number of events at time $t$, and $R$ is the number of individuals at risk at time $t$.
 
 #### Survival random forest
 With the CHF for each tree defined above, the entire forest the CHF averaged over all trees:
-$$H(t|x) = \frac{1}{N} \sum _{i=1}
+$$
+H(t|x) = \frac{1}{N} \sum _{i=1}
 { #N}
- H_i(t|x) $$
+ H_i(t|x)
+$$
 where $H_i$ is the estimated CHF for the individual x's terminal node in the $i$-th of the N trees.
 
 ![Pasted image 20240417124514.png|400](/img/user/assets/images/Pasted%20image%2020240417124514.png)
