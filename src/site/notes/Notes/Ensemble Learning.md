@@ -25,7 +25,7 @@
 	- The final prediction is made by combining the predictions of all the models, weighted by their individual performance. 
 	- Boosting can be effective in reducing the bias of the model (i.e. solving [[Notes/Underfitting vs. Overfitting#Underfitting\|Underfitting vs. Overfitting#Underfitting]]), especially when the individual models are simple and have high bias.
 - Examples
-	- AdaBoost
+	- AdaBoost (Adaptive boosting)
 	- [[Notes/Gradient boosting\|Gradient boosting]]
 		- [[Notes/Gradient boosting#XGBoost (Extreme Gradient Boosting)\|Gradient boosting#XGBoost (Extreme Gradient Boosting)]]
 ### Stacking
