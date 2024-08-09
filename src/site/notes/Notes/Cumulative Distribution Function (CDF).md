@@ -18,4 +18,4 @@ $$ x_1 \leq x_2$$
 
 -   when x → + $\infty$, F(x) → 1; when x → - $\infty$, F(x) → 0
 
-CDF is defined for both [[Notes/Random variables & Probability distributions#Discrete variables\|Random variables & Probability distributions#Discrete variables]] and [[Notes/Random variables & Probability distributions#Continuous variables\|Random variables & Probability distributions#Continuous variables]].
+CDF is defined for both [[Notes/Random Variables & Probability distributions#Discrete variables\|Random Variables & Probability distributions#Discrete variables]] and [[Notes/Random Variables & Probability distributions#Continuous variables\|Random Variables & Probability distributions#Continuous variables]].
