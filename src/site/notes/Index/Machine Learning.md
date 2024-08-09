@@ -3,9 +3,6 @@
 ---
 
 - [[Notes/Advanced Practice in ML\|Advanced Practice in ML]]
-- [[Notes/AI for Medical Diagnosis\|AI for Medical Diagnosis]]
-- [[Notes/AI for Medical Prognosis\|AI for Medical Prognosis]]
-- [[Notes/AI for Medical Treatment\|AI for Medical Treatment]]
 - [[Notes/Amazon SageMaker\|Amazon SageMaker]]
 - [[Notes/Anomaly detection\|Anomaly detection]]
 - [[Notes/Artificial Neural Networks\|Artificial Neural Networks]]
