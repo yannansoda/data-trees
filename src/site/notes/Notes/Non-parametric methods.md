@@ -20,7 +20,7 @@
 # Non-parametric methods
 | NONPARAMETRIC TEST | PARAMETRIC ALTERNATIVE | DESCRPTION |
 | -- | -- | -- |
-| 1-sample sign test [[Notes/Paired-data tests#the sign test\|Paired-data tests#the sign test]]| One-sample Z-test, One sample t-test | estimate the median of a population and compare it to a reference value |
+| 1-sample sign test [[Notes/Paired-data Tests#the sign test\|Paired-data Tests#the sign test]]| One-sample Z-test, One sample t-test | estimate the median of a population and compare it to a reference value |
 | 1-sample Wilcoxon Signed Rank test | One sample Z-test, One sample t-test | same as sign test, but requiring a symmetric distribution|
 | Friedman test	| Two-way ANOVA | by ranks: tests whether n treatments in randomized block designs have identical effects | 
 | Kruskal-Wallis test | One-way ANOVA | tests whether > 2 independent samples are drawn from the same distribution |
