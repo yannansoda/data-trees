@@ -46,12 +46,13 @@ There are several ways to handle missing data:
 		- the categorical feature is not ordinal 
 		- the number of categories is quite small (low cardinality)
  	
-> [!Challenges of One-Hot Encoding: Dummy Variable Trap] 
-> a scenario in which the independent variables are multicollinear:  -> so, always omit one dummy variable!
+> [!Challenges of One-Hot Encoding]
+> - **Dummy Variable Trap**: a scenario in which the independent variables are multicollinear:  -> so, always omit one dummy variable!
+> - **Cannot Capture Interaction Effects**: fix this by creating composite feature and computing explicit feature crosses
 
 > [!In Python practice, use categorical data type] 
 > It saves a ton of memory space by using category data type instead of object.
-## 5. splitting datasets into the training and test sets
+### 5. splitting datasets into the training and test sets
 
 ### 6. **feature scaling**
 = a method used to normalize the range of independent variables or features of data
