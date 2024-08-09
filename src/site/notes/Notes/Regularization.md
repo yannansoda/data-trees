@@ -18,15 +18,22 @@ When you choose regularization, a regularization term will be added to the cost 
 See [[Notes/Cost Functions#Cost function with regularization\|Cost Functions#Cost function with regularization]].
 
 ## Types of Techniques
-- shrinking (= add penalty/reduce weight)
-	- L1 regularization: [[Notes/Cost Functions#^19a2bf\|Cost Functions#^19a2bf]]
-	- L2 regularization ("weight decay"): [[Notes/Cost Functions#^b2a01f\|Cost Functions#^b2a01f]]
-	- elastic net regularization = L1 + L2 regularization
+- shrinking (= add penalty/reduce weight/weight decay)
+	- L1 regularization (lasso): [[Notes/Cost Functions#^19a2bf\|Cost Functions#^19a2bf]]
+{ #6700d3}
+
+	- L2 regularization (ridge, "weight decay"): [[Notes/Cost Functions#^b2a01f\|Cost Functions#^b2a01f]]
+{ #1e9ee5}
+
+	- elastic net regularization 
+{ #de0043}
+
+		- = L1 + L2 regularization: $$ ElasticNet \ Penalty = λ_1 \sum_{j=1}^p​∣ \beta_j​∣+ \lambda_2​ \sum _{j=1}^p​ \beta_j^2$$, where $\lambda_1$ and $\lambda_2$​ are tuning parameters that control the strength of the L1 and L2 penalties, respectively.
 	- dropout regularization
 { #b76d6c}
 
 		- randomly knocking out units in neural network
-		- mostly used in computer vision (e.g. [[Notes/Pattern recognition\|Pattern recognition]])
+		- mostly used in computer vision (e.g. [[Notes/Pattern Recognition\|Pattern Recognition]])
 - batch-normalization
 - data augmentation 
 { #933b29}
@@ -44,10 +51,6 @@ See [[Notes/Cost Functions#Cost function with regularization\|Cost Functions#Cos
 > But long-term training may lead to flip in large models, see [here](https://openai.com/research/deep-double-descent)
 { #9ff80e}
 
-## Regularized regression
-- Ridge Regression
-- Lasso
-- Elastic Net
 
 ## Regularization in Bayesian framework
 - A regularizing prior is a "skeptical" prior, which means it slows down the rate of the model in learning from the data.
