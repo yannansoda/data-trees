@@ -8,7 +8,9 @@
 >  https://scikit-learn.org/stable/modules/density.html
 
 A major problem with histograms, however, is that the choice of binning can have a disproportionate effect on the resulting visualization.
+
 Intuitively, one can also think of a histogram as a stack of blocks, one block per point. By stacking the blocks in the appropriate grid space, we recover the histogram. 
+
 But KDE is better because, instead of stacking the blocks on a regular grid, it centers each block on the point it represents, and sums the total height at each location.
 ![](/img/user/assets/images/kernel-density-1.png)
 ### Math
