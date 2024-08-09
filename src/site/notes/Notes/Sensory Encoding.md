@@ -30,7 +30,7 @@ $$
 # Efficient coding 
 = neural information processing (especially in sensory systems) should be adapted to the environment and input statistics
 ### information theory (Shannon, 1948) 
-(also check  [[Notes/Infomation theory and Entropy\|Infomation theory and Entropy]])
+(also check  [[Notes/Information theory and Entropy in Neuroscience\|Information theory and Entropy in Neuroscience]])
 	- entropy = sum of information from each message $m$ within an ensemble $M$
 		- $$ H(M) = - \sum{p(m)\  log_2\ p(m)} $$
 		-  **most efficient = maximal entropy = all messages are equally likely = M is an uniform distribution**
@@ -44,4 +44,4 @@ $$
 ### mutiple neurons:  redundancy reduction 
 - PCA
 - Zero-phase component analysis
-- [[ICA \|ICA ]]
+- [[Notes/Independent component analysis\|Independent component analysis]]
