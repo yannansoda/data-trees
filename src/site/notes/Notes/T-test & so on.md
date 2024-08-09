@@ -3,13 +3,13 @@
 ---
 
 # Standard t-test
-$$t = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{{n_2}}}}$$, where $\bar X$ are means, $s$ are variance, and $n$ are sample sizes. 
+$$t = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}$$, where $\bar X$ are means, $s$ are variance, and $n$ are sample sizes. 
 
 # t-test variations
 
 ### [[Notes/Paired-data Tests#paired t-test (2 groups)\|Paired-data Tests#paired t-test (2 groups)]]
 ### Weighted t-test
-- = a variation of the standard t-test that takes into account the different variances or sample sizes of the groups being compared: $$ T = \frac{{\bar{X}_1 - \bar{X}_2}}{{\sqrt{\frac{{w_1 s_1^2}}{{n_1}} + \frac{{w_2 s_2^2}}{{n_2}}}}} $$, where $w1_​$ and $w_2$​ are the weights assigned to the variances or sample sizes of the two groups.
+- = a variation of the standard t-test that takes into account the different variances or sample sizes of the groups being compared: $$ T = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{\frac{w_1 s_1^2}{n_1} + \frac{w_2 s_2^2}{n_2}}} $$, where $w1_​$ and $w_2$​ are the weights assigned to the variances or sample sizes of the two groups.
 - how to decide weights?
 	- equal weights
 	- inverse variance weights
