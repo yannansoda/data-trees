@@ -26,8 +26,8 @@
 	- Boosting can be effective in reducing the bias of the model (i.e. solving [[Notes/Underfitting vs. Overfitting#Underfitting\|Underfitting vs. Overfitting#Underfitting]]), especially when the individual models are simple and have high bias.
 - Examples
 	- AdaBoost (Adaptive boosting)
-	- [[Notes/Gradient boosting\|Gradient boosting]]
-		- [[Notes/Gradient boosting#XGBoost (Extreme Gradient Boosting)\|Gradient boosting#XGBoost (Extreme Gradient Boosting)]]
+	- [[Notes/Gradient Boosting\|Gradient Boosting]]
+		- [[Notes/Gradient Boosting#XGBoost (Extreme Gradient Boosting)\|Gradient Boosting#XGBoost (Extreme Gradient Boosting)]]
 ### Stacking
 ![Pasted image 20230628163006.png|400](/img/user/assets/images/Pasted%20image%2020230628163006.png)
 - How it works
