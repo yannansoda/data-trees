@@ -9,7 +9,7 @@
 	- loss-to-follow-up censoring (patients withdraw)
 	- left censoring =  the time to events is only known to before a certain value
 	- right censoring = the time to events is only known to exceed a certain value (e.g. 12 months → 12m +)
-![[Pasted image 20240411174209.png \| 400]]
+![Pasted image 20240411174209.png|400](/img/user/assets/images/Pasted%20image%2020240411174209.png)
 [(image source)](https://medium.com/@Statistician_Leboo/introduction-to-survival-analysis-992cd4520d4f)
 
 ## Survival function
@@ -128,13 +128,18 @@ Given such a dataset:
 ### Measure the discrimination ability of survival models
 #### Concordance Index (C-index, or Harrell's C-index)
 = quantifies the model's ability to correctly rank the relative risks or predicted survival probabilities of pairs of subjects:
-$$ \frac{\#concordant \ pairs + 0.5 \times \#risk \ ties}{\#permissible \ pairs} $$
+$$
+\frac{\#concordant \ pairs + 0.5 \times \#risk \ ties}{\#permissible \ pairs}
+$$
 - How is it computed:
 	1. For each pair of subjects in the dataset, compare their predicted survival times or risk scores
 	2. count **concordant pair**: the subject with the higher predicted survival time or lower risk score also experiences the event (e.g., death) first
 	3. count **discordant** pair: If the subject with the higher predicted survival time or lower risk score does not experience the event first
 	4. count **tied pair**: the predicted survival times or risk scores are equal for a pair of subjects
-	5. C-index is then calculated as the proportion of concordant pairs among all non-tied pairs: $$ \frac{\#concordant \ pairs}{\#not \ tied \ pairs} = \frac{\#concordant \ pairs}{\#concordant \ pair + \#discordant \ pairs \ pairs}$$
+	5. C-index is then calculated as the proportion of concordant pairs among all non-tied pairs: 
+	$$
+	\frac{\#concordant \ pairs}{\#not \ tied \ pairs} = \frac{\#concordant \ pairs}{\#concordant \ pair + \#discordant \ pairs \ pairs}
+	$$
 	- permissible pair: patients’ outcomes are not the same
 - The C-index ranges from 0.5 to 1.0:
 	- 0.5 = random choice
