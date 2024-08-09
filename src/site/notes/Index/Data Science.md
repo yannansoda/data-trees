@@ -3,8 +3,6 @@
 ---
 
 - [[Notes/AB testing\|AB testing]]
-- [[Notes/AI for Medical Prognosis\|AI for Medical Prognosis]]
-- [[Notes/AI for Medical Treatment\|AI for Medical Treatment]]
 - [[Notes/Amazon EC2\|Amazon EC2]]
 - [[Notes/Amazon SageMaker\|Amazon SageMaker]]
 - [[Notes/Application Programming Interfaces (API)\|Application Programming Interfaces (API)]]
