@@ -4,11 +4,12 @@
 
 # Marginal Distribution
 ### Definition
-The marginal distribution of a subset of a collection of random variables is the probability distribution of the variables contained in the subset.
+The  marginal distribution of a subset of a collection of random variables is the probability distribution of the variables contained in the subset.
 - For discrete variables x and y:
 $$
 p(x) = \sum_y p(x, y) = \sum_y p(x|y) p(y)
 $$
+which corresponds to the case where we marginalizes $y$, i.e. to throw away $y$ and restrict the tension to $x$
 - For continuous variables x and y:
 $$
 p(x) = \int_y p(x, y) dy = \int_y p(x|y)p(y)dy
