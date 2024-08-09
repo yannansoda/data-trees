@@ -3,7 +3,7 @@
 ---
 
 # Standard t-test
-$$t = \frac{{\bar{X}_1 - \bar{X}_2}}{{\sqrt{\frac{{s_1^2}}{{n_1}} + \frac{{s_2^2}}{{n_2}}}}}$$, where $\bar X$ are means, $s$ are variance, and $n$ are sample sizes. 
+$$t = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{{n_2}}}}$$, where $\bar X$ are means, $s$ are variance, and $n$ are sample sizes. 
 
 # t-test variations
 
