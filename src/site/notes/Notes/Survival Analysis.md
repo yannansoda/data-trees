@@ -43,12 +43,14 @@ where
 $$
 h(t) = lim_{\Delta t \rightarrow 0} \frac{P(t \leq T < t+\Delta t | T \geq t)}{\Delta t}
 $$
-- cumulative hazard $$ H (t) = \int _0
+- cumulative hazard 
+$$H (t) = \int _0
 { #t}
- h(t) dt $$
-- relation between survival and hazard: $$ S(t) = exp(- \int _0
+ h(t) dt$$
+- relation between survival and hazard
+$$S(t) = exp(- \int _0
 { #t}
- h(t) dt) $$
+ h(t) dt)$$
 #### Cox (Proportional Hazards) Model
 = a  regression model for survival data that allows us to assess the effect of covariates on survival time while making minimal assumptions about the shape of the hazard function:
 $$
