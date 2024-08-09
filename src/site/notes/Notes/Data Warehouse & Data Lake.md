@@ -1,5 +1,5 @@
 ---
-{"topic":"DataScience","dg-publish":true,"permalink":"/Notes/Data Warehouse & Data Lake/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataEngineering","dg-publish":true,"permalink":"/Notes/Data Warehouse & Data Lake/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 >[!Quote] Designing Machine Learning Systems
@@ -12,11 +12,11 @@
 
 ## Database vs. Data Warehouse
 
-| [[Notes/Database\|Database]] | [[Notes/Data warehouse\|Data warehouse]] | 
-| -- | -- |
-| designed for transactions | designed for analytics & reporting |
-| fresh & detailed | refreshed periodically and is summarised |
-| slow for querying large data | generally faster (do not interfere with any process)|
+| [[Notes/Database\|Database]]                 | Data warehouse ([[Notes/Data Warehouse & Data Lake#What is Data Warehouse\|Data Warehouse & Data Lake#What is Data Warehouse]]) |     |
+| ---------------------------- | ---------------------------------------------------------------------- | --- |
+| designed for transactions    | designed for analytics & reporting                                     |     |
+| fresh & detailed             | refreshed periodically and is summarised                               |     |
+| slow for querying large data | generally faster (do not interfere with any process)                   |     |
 
 >[!Important] The process from database to data warehouse is [[Notes/ETL\|ETL]].
 
