@@ -90,8 +90,8 @@
 	- Linear Discriminant Analysis (LDA)
 	- Kernel PCA
 	- Quadratic Discriminant Analysis (QDA)
-	- T-Distributed Stochastic Neighbor Embedding ([[t-SNE\|t-SNE]])
-	- Uniform manifold approximation and projection (UMAP) 
+	- T-Distributed Stochastic Neighbor Embedding (t-SNE, [[Notes/Dimensionality Reduction#^53a070\|Dimensionality Reduction#^53a070]])
+	- Uniform manifold approximation and projection (UMAP): similarly to t-SNE, but also for general non-linear dimension reduction
 	- Autoencoders
 ## Outlier Detection
 
@@ -102,11 +102,11 @@
 
 # Reinforcement Learning
 - Decision making
-	- Q-Learning: [[Notes/Reinforcement learning#Q-Learning\|Reinforcement learning#Q-Learning]]
+	- Q-Learning: [[Notes/Reinforcement Learning#Q-Learning\|Reinforcement Learning#Q-Learning]]
 	- R Learning
 	- TD Learning
-- Upper Confidence Bound:  [[Notes/Reinforcement learning#Upper Confidence Bound\|Reinforcement learning#Upper Confidence Bound]]
-- Thompson Sampling: [[Notes/Reinforcement learning#Thompson Sampling\|Reinforcement learning#Thompson Sampling]]
+- Upper Confidence Bound:  [[Notes/Reinforcement Learning#Upper Confidence Bound\|Reinforcement Learning#Upper Confidence Bound]]
+- Thompson Sampling: [[Notes/Reinforcement Learning#Thompson Sampling\|Reinforcement Learning#Thompson Sampling]]
 
 # Deep Learning 
 >[!Important]
@@ -116,8 +116,8 @@
 > - [[Notes/Practical Aspects in Deep Learning\|Practical Aspects in Deep Learning]]
 
 - [[Notes/Artificial Neural Networks\|Artificial Neural Networks]]
-- [[Notes/Convolutional Neural Networks (CNN)\|Convolutional Neural Networks (CNN)]]
-- [[Notes/Recurrent Neural Networks (RNN)\|Recurrent Neural Networks (RNN)]]
+- [[Notes/Convolutional Neural Networks\|Convolutional Neural Networks]]
+- [[Notes/Recurrent Neural Networks\|Recurrent Neural Networks]]
 
 # Model Selection & Improving
 - [[Notes/Cross-Validation\|Cross-Validation]]
