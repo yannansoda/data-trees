@@ -2,6 +2,7 @@
 {"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Decision Tree & Random Forest/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
+
 # Decision Tree
 ![/assets/images/decision-tree-1.png|500](/img/user/assets/images/decision-tree-1.png)
 ### How it works
