@@ -26,7 +26,7 @@
 - [[Notes/ETL\|ETL]] tools
 	- build data pipelines and automate data integration, cleansing, and transformation.
 	- Apache NiFi, Talend, Informatica
-- [[Notes/Data warehouse\|Data warehouse]] tools
+- Data warehouse tools  ([[Notes/Data Warehouse & Data Lake#What is Data Warehouse\|Data Warehouse & Data Lake#What is Data Warehouse]])
 	- store and manage large datasets for business intelligence and analytics
 	- Amazon Redshift ([[Notes/AWS Storage & Databases#Amazon Redshift\|AWS Storage & Databases#Amazon Redshift]]), Google BigQuery, Snowflake
 - Data integration tools
