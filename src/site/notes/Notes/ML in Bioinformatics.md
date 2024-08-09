@@ -1,5 +1,5 @@
 ---
-{"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/ML in Bioinformatics/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"AIxHealth","dg-publish":true,"permalink":"/Notes/ML in Bioinformatics/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
