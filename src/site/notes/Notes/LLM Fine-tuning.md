@@ -9,9 +9,7 @@
 - in-context learning is not enough
 	- it may not work for smaller models
 	- examples take up space in the context window
->[!Concept] In-context learning methods
->- zero shot: creating an initial prompt that states the task to be completed but not includes examples
->- one/few shot: creating an initial prompt that states the task to be completed and includes a single/few of example question with answer
+
 
 
 ## Types of LLM fine-tuning
@@ -49,7 +47,7 @@
 	- methods
 		- adapters
 		-  __prompt tuning__ with soft-prompts
-			- note prompt tuning is different from [[Notes/Prompt Engineering for Developers\|Prompt Engineering for Developers]]
+			- note prompt tuning is different from [[Notes/Prompt Engineering\|Prompt Engineering]]
 			- how it works: prompt tuning adds trainable "soft prompt" to inputs
 
 ## LLM evaluation
