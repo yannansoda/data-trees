@@ -40,6 +40,7 @@ J(\theta) = \frac{1}{2m} \sum
 When you choose [[Notes/Regularization\|Regularization]], a regularization term will be added to the cost function, in order to add penalty and avoid overfitting. 
 
 - Example - linear regression:
+
  $$J(\theta) = \frac{1}{2m} \sum_i
 { #m}
  (\hat{x_i} - x_i)^2 + \frac{\lambda}{2m} \sum_j^n \theta_j ^ 2 $$
