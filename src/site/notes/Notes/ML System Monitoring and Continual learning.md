@@ -20,21 +20,43 @@
 	- especially common in tasks with natural labels from users, such as recommender systems and ads click-through-rate prediction: “exposure bias", “popularity bias”, “filter bubbles”
 
 # Monitoring & Observability
-### Monitoring 
+## Monitoring 
 = the act of tracking, measuring, and logging different metrics that can help us determine when something goes wrong
-- metrics
-	- operational metrics: the metrics that should be monitored with any software systems such as latency, throughput, and CPU utilization
-	- ML-specific metrics
-		- monitoring accuracy-related metrics
-		- monitoring predictions
-		- monitoring features
-		- monitoring raw inputs
-- monitoring toolbox
-	- logs
-	- dashboards
-	- alerts
-### Observability 
+### Metrics
+- operational metrics: the metrics that should be monitored with any software systems such as 
+	- latency
+	- throughput
+	- CPU utilization
+	- server load
+- input metrics
+	- average input length
+	- average input volume
+	- number of missing values
+	- average image brightness
+- output metrics
+	- times return Null
+	- times user redoes search
+	- times user switches to typing 
+- ML-specific metrics
+	- monitoring accuracy-related metrics
+	- monitoring predictions
+	- monitoring features
+	- monitoring raw inputs
+>[!Tips]
+> Always think about how quickly do metrics change in your data!
+> For example, user data generally change slowly, but B2B data can change really fast!
+### Monitoring toolbox
+- logs
+- dashboards
+- alerts
+### Performance auditing
+- How to evaluate model's performance even before it's deployed: [[Notes/Model Offline Evaluation\|Model Offline Evaluation]]
+- When performance is unexpected:
+	1. brainstorm the ways the system might go wrong
+	2. establish metrics to assess performance against these issues on *appropriate slices of data* using [[Notes/Error analysis\|Error analysis]]
+## Observability 
 = setting up our system in a way that gives us visibility into our system to help us investigate what went wrong
+
 
 # Continual Learning
 
@@ -44,6 +66,9 @@
 - data iteration
 = The model architecture and features remain the same, but you refresh this model with new data
 
+>[!Link]
+>The two types can be also regarded as [[Model-centric vs. Data-centric AI Development\|Model-centric vs. Data-centric AI Development]]
+>
 ### Stateful retraining vs. Stateless retraining 
 ![Pasted image 20230714115417.png|400](/img/user/assets/images/Pasted%20image%2020230714115417.png)
 - stateful retraining (fine-tuning/incremental learning)
@@ -66,8 +91,8 @@
 There are several techniques for evaluating the model in production
 ### Blue/Green
 ![Pasted image 20231004151507.png|500](/img/user/assets/images/Pasted%20image%2020231004151507.png)
-	- derived from software development
-	- shift all traffic to the new model by updating Load Balancer
+- derived from software development
+- shift all traffic to the new model by updating Load Balancer
 ### Shadow deployment /Challenger (challenger model)  ![Pasted image 20231004151652.png|500](/img/user/assets/images/Pasted%20image%2020231004151652.png)
 1. Deploy the candidate model in parallel with the existing model.
 2. For each incoming request, route it to both models to make predictions, but only serve the existing model’s prediction to the user.
