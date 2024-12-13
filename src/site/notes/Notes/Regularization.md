@@ -18,7 +18,7 @@ When you choose regularization, a regularization term will be added to the cost 
 See [[Notes/Cost Functions#Cost function with regularization\|Cost Functions#Cost function with regularization]].
 
 ## Types of Techniques
-- shrinking (= add penalty/reduce weight/weight decay)
+- **shrinking (= add penalty/reduce weight/weight decay)**
 	- L1 regularization (lasso): [[Notes/Cost Functions#^19a2bf\|Cost Functions#^19a2bf]]
 { #6700d3}
 
@@ -28,14 +28,19 @@ See [[Notes/Cost Functions#Cost function with regularization\|Cost Functions#Cos
 	- elastic net regularization 
 { #de0043}
 
-		- = L1 + L2 regularization: $$ ElasticNet \ Penalty = λ_1 \sum_{j=1}^p​∣ \beta_j​∣+ \lambda_2​ \sum _{j=1}^p​ \beta_j^2$$, where $\lambda_1$ and $\lambda_2$​ are tuning parameters that control the strength of the L1 and L2 penalties, respectively.
-	- dropout regularization
+		- = L1 + L2 regularization: 
+$$ 
+ElasticNet \ Penalty=λ_1 \sum_{j=1}^p​∣ \beta_j​∣+ \lambda_2​ \sum_{j=1}^p​ \beta_j^2
+$$
+, where $\lambda_1$ and $\lambda_2$​ are tuning parameters that control the strength of the L1 and L2 penalties, respectively.
+- **dropout regularization**
 { #b76d6c}
 
-		- randomly knocking out units in neural network
-		- mostly used in computer vision (e.g. [[Notes/Pattern Recognition\|Pattern Recognition]])
-- batch-normalization
-- data augmentation 
+	- randomly knocking out units in neural network
+	- used only during training
+	- mostly used in computer vision (e.g. [[Notes/Pattern Recognition\|Pattern Recognition]])
+- **batch-normalization**
+- **data augmentation** 
 { #933b29}
 
 	- usually in computer vision
@@ -44,7 +49,7 @@ See [[Notes/Cost Functions#Cost function with regularization\|Cost Functions#Cos
 		- shift them up/down/right/left by a couple pixels
 		- add small noise, etc...
 	-  but if the validation set doesn't have the same randomness, then the accuracy fluctuates crazily.
-- early stopping
+- **early stopping**
 	- Initialize with small weights -> these get bigger as you do gradient descent- > stop when they are the ‘optimal’ size
 	- ![Pasted image 20230316144212.png|300](/img/user/assets/images/Pasted%20image%2020230316144212.png)
 >[!interesting]
