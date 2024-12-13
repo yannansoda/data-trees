@@ -8,37 +8,65 @@
 ![Pasted image 20230622120707.png|500](/img/user/assets/images/Pasted%20image%2020230622120707.png)
 
 # MLOps
-MLOps = Machine Learning Operations
+### What is MLOps (Machine Learning Operations)
 - Ops in MLOps comes from DevOps, short for Developments and Operations. 
 - To operationalize something means to bring it into production, which includes deploying, monitoring, and maintaining it. 
 - MLOps is a set of tools and best practices for bringing ML into production.
-
-
-ML in research vs. ML in production
-These are important for ML in production than in research:
-- stakeholder involvement
-- computational priority
-- the properties of data used
-- the gravity of fairness issues
--  the requirements for interpretability
-
-# Requirements for ML Systems
-### Reliability
-### Scalability
-- resource scaling
-- artifact management
-### Maintainability
-### Adaptability 
-- data distribution shifts
-- [[Continual Learning\|Continual Learning]]
+### Requirements for ML Systems
+- **Reliability**
+- **Scalability**
+	- resource scaling
+	- artifact management
+- **Maintainability**
+- **Adaptability **
+	- data distribution shifts
+- **Continual Learning**: [[Notes/ML System Monitoring and Continual learning#Continual Learning\|ML System Monitoring and Continual learning#Continual Learning]]
 
 # Iterative Process of Developing an ML system
-1. Project scoping
-2. Data engineering
-3. ML model development
-4. [[Notes/ML Model Deployment\|ML Model Deployment]]
-5. [[Notes/ML System Monitoring and Continual learning\|ML System Monitoring and Continual learning]]
-6. Business analysis
+## 1. Project scoping
+## 2. Data engineering
+### Data pipeline in MLOps
+#### Major types of data problems
+- unstructured vs. structured
+	- unstructured: humans can label data; data augmentation is feasible
+	- structured: hard to obtain more data
+- small vs. big data
+	- small data: clean and consistent labels are critical
+	- big data: data process are important
+#### Data pipeline at difference phases
+- POC (proof-of-concept)
+	- goal is to decide if the application is workable and worth deploying
+	- focus on getting the prototype to work
+	- acceptable if data pre-processing is manual - but take extensive notes/comments
+- production phase
+	- after project utility is established, use more sophisticated tools to make sure the data pipeline is replicable  
+#### Best practice
+- to keep track of:
+	- data provenance: where data comes from
+	- data lineage: sequence of steps applied to data
+- use meta-data
+## 3. ML model development
+### Coping with ML training challenges
+#### Checkpointing
+- check points include
+	- model architecture
+	- model weights
+	- training configurations
+	- optimizer
+- take two things into consideration: frequency and number of checkpoints
+#### Distributed training strategies 
+-> scale challenges: increased training data volume or increased model size and complexity
+- Distributed training = split training load across multiple compute nodes or clusters (CPU/GPU)
+- there are two strategies
+	- data parallelism: training data split up + model replicated on all notes
+	- model parallelism: training data replicated + model split up on all nodes
+	- which to choose: ![Pasted image 20231004115356.png|400](/img/user/assets/images/Pasted%20image%2020231004115356.png)
+
+### Best practice: Sanity-check test
+- try to overfit a small training dataset before training on a large one
+## 4. [[Notes/ML Model Deployment\|ML Model Deployment]]
+## 5. [[Notes/ML System Monitoring and Continual learning\|ML System Monitoring and Continual learning]]
+## 6. Business analysis
 
 # Infrastructure and Tooling for MLOps
 ### Infrastructure 
@@ -65,35 +93,21 @@ These are important for ML in production than in research:
 - Data science workflow management ![Pasted image 20230719161709.png|400](/img/user/assets/images/Pasted%20image%2020230719161709.png)
 ### Pipeline Orchestration
 orchestration allows managing end to end traceability of pipeline using automation to capture specific inputs, outputs, and artifacts of a given task. 
-- Model lineage
+- **Model lineage**
 	- for each version of a trained model, versions of
 		- data used
 		- code/hyperparamters used
 		- algorithm/framework
 		- training docker image
 		- packages/libraries 
-- Model registry
+- **Model registry**
 { #8e6855}
 
 	- centrally manage model metadata and model artifacts
 	- track which models are deployed across environments
-- Artifact tracking
+- **Artifact tracking**
 	- artifact = the output of a step or task can be consumed by the next step in a pipeline or deployed directly for consumption
-# Coping with ML training challenges
-### Checkpointing
-- check points include
-	- model architecture
-	- model weights
-	- training configurations
-	- optimizer
-- take two things into consideration: frequency and number of checkpoints
-### Distributed training strategies 
--> scale challenges: increased training data volume or increased model size and complexity
-- Distributed training = split training load across multiple compute nodes or clusters (CPU/GPU)
-- there are two strategies
-	- data parallelism: training data split up + model replicated on all notes
-	- model parallelism: training data replicated + model split up on all nodes
-	- which to choose: ![Pasted image 20231004115356.png|400](/img/user/assets/images/Pasted%20image%2020231004115356.png)
+
 
 # Model Integration
 = integrating models with ML applications
