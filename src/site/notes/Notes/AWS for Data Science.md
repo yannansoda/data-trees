@@ -17,6 +17,8 @@
 ![Pasted image 20230706173206.png](/img/user/assets/images/Pasted%20image%2020230706173206.png)
 - Batch processing: Processes massive amounts of data at once
 	- **AWS Lambda** ([[Notes/AWS All-in-one#^08bc66\|AWS All-in-one#^08bc66]])
+{ #94aba2}
+
 	- **AWS Glue Data Catalog**
 		- = ETL service for data management
 		- register data: create reference to data
