@@ -7,7 +7,8 @@
 
 ### How it works
 - human labelers score prompt completions, so that this score is used to train the reward model component of the RLHF process:
-![Pasted image 20240804211654.png|400](/img/user/assets/images/Pasted%20image%2020240804211654.png)
+
+	![Pasted image 20240804211654.png|400](/img/user/assets/images/Pasted%20image%2020240804211654.png)
 - steps
 	1. prepare prompt-response sets to collect human feedback (rankings)
 	2. convert rankings into pairwise training data for the reward model
