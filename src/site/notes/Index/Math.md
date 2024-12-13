@@ -36,6 +36,7 @@
 - [[Notes/Model Fitting Outline\|Model Fitting Outline]]
 - [[Notes/Monte Carlo Method\|Monte Carlo Method]]
 - [[Notes/Neural ODE\|Neural ODE]]
+- [[Notes/Optimization Algorithms\|Optimization Algorithms]]
 - [[Notes/Probabilistic Graphical Model\|Probabilistic Graphical Model]]
 - [[Notes/Regression\|Regression]]
 - [[Notes/Sequential Probability Ratio Test\|Sequential Probability Ratio Test]]
