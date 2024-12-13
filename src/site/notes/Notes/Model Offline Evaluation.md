@@ -20,5 +20,5 @@
 		- model performs the same on different slices of data when the model should perform differently
 	- thus, you should discover critical slices in your data using
 		- heuristics-based approach: slice the data using domain knowledge
-		- [[Error analysis\|error analysis]]: manually go through misclassified examples and find patterns among them
+		- [[Notes/Error analysis\|Error analysis]]: manually go through misclassified examples and find patterns among them
 		- slice finder
