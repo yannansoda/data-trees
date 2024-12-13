@@ -51,11 +51,24 @@ We can analyze the cap curve in 2 ways.
  ![assets/images/confusion-matrix-2.png|500](/img/user/assets/images/confusion-matrix-2.png)
  ### Way 2:
 ![/assets/images/confusion-matrix-3.png|500](/img/user/assets/images/confusion-matrix-3.png)
-# Receiver Operating Characteristic (ROC)
+# Receiver Operating Characteristic (ROC) & AUC
+## ROC
 - ROC != CAP
 - ROC plots the true-positive rate ([[Notes/Confusion Matrix#Sensitivity / True Positive Rate (TPR) / Probability of Detection / Recall\|Confusion Matrix#Sensitivity / True Positive Rate (TPR) / Probability of Detection / Recall]]) against the false-positive rate, where false-positive rate is the proportion of negative examples predicted incorrectly:$$FP/(FP+TN)$$
 ![ROC.png|400](/img/user/assets/images/ROC.png)
+## (ROC) AUC 
 
-- ROC AUC = ROC Area Under the Curve
-	- ranging from 0 to 1
-	- 0.5 for random classifier
+ROC AUC = ROC Area Under the Curve
+- ranging from 0 to 1
+- 0.5 for random classifier
+
+### Tests for comparing AUC
+
+- **Delong's test**
+	-  to compare two AUCs derived from the same dataset for a binary classification
+	- nonparametric approach: it uses a rank-based method to compute variances and covariances of AUC estimates
+	- The test statistic ($z$) is given by:
+
+$$
+z = \frac{\text{AUC}_1 - \text{AUC}_2}{\sqrt{\text{Var}(\text{AUC}_1) + \text{Var}(\text{AUC}_2) - 2 \cdot \text{Cov}(\text{AUC}_1, \text{AUC}_2)}}
+$$
