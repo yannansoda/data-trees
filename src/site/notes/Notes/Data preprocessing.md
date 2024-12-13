@@ -29,6 +29,7 @@ There are several ways to handle missing data:
 - replacing  handle as missing values and replac with suitable imputation
 - capping: use an arbitrary value or a value from a variable distribution to replace the maximum and minimum values
 - discretization:  convert continuous variables, models, and functions into discrete one, by constructing a series of continuous intervals (or bins) that span the range of our desired variable/model/function
+- also see [[Notes/Outlier Detection\|Outlier Detection]]
 
 ### 3. log transform
 - turn a skewed distribution into a normal or less-skewed distribution
