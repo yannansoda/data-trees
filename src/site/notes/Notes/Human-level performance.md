@@ -4,7 +4,7 @@
 
 Machine learning systems should achieve human-level performance, and can even surpass human-level performance (online advertising, product recommendations, logistics, etc.)
 
->![Careful]
+>[!Careful]
 >Which humans do you choose to define human-level performance?
 
 
@@ -19,6 +19,6 @@ Machine learning systems should achieve human-level performance, and can even su
 	- if training error is much higher than human-level error -> reduce bias
 	- if training error is comparable to human-level error, but test error is higher -> reduce variance
 
-
-
+# What if human-level performance is bad too?
+- if HLP is << 100%, it may indicate ambiguous labelling instructions or label inconsistency 
 
