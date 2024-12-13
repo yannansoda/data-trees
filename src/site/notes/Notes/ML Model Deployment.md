@@ -2,6 +2,13 @@
 {"topic":"DataScience, MachineLearning","dg-publish":true,"permalink":"/Notes/ML Model Deployment/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
+# ML in production vs. ML in research
+These are important for ML in production than in research:
+- stakeholder involvement
+- computational priority
+- the properties of data used
+- the gravity of fairness issues
+- the requirements for interpretability
 # Model Serving
 - key components
 	- a model
@@ -17,8 +24,8 @@
 		- optimizing models used for inference
 
 # Deployment procedures
-- Deploy in production
-- Monitor & maintain system
+- ML model deploy in production
+- Monitor & maintain system ([[Notes/ML System Monitoring and Continual learning\|ML System Monitoring and Continual learning]])
 # Deployment approaches
 - Cloud-based deployment
 	- deploy a model on a cloud service provider like AWS or GCP. You can use services like AWS Elastic Beanstalk, Google Kubernetes Engine, or Azure Machine Learning to deploy and manage your model.
@@ -77,3 +84,32 @@ There are three main approaches to reduce its inference latency:
 	- On the edge = a large chunk of computation is done on consumer devices
 	- online and on-the-edge ML models need powerful hardware ![Pasted image 20230711145322.png|300](/img/user/assets/images/Pasted%20image%2020230711145322.png)
 
+
+# Example Workflow for Deploying a Production Machine Learning Model
+
+1. **Set Up a Secure AWS Environment**
+    - **Tools**: AWS Identity and Access Management (IAM), [[Notes/Amazon SageMaker\|Amazon SageMaker]]
+    - Define and manage security using IAM policies.
+2. **Data Analysis and Preparation**
+3. **Model Training and Hyperparameter Tuning**
+    - **Tools**: [[Notes/Amazon SageMaker\|Amazon SageMaker]], GPU instances
+    - Set up hyperparameter tuning and perform multi-GPU instance training.
+4. **Model Evaluation**
+5. **Deploy Model to AWS**
+    - **Tools**: AWS API Gateway, AWS Lambda ([[Notes/AWS for Data Science#^94aba2\|AWS for Data Science#^94aba2]])
+    - Deploy the trained model using AWS API Gateway and Lambda functions, ensuring access via REST API.
+6. **Test the API**
+    - **Tools**: Postman
+    - Verify API functionality by sending test requests.
+7. **Secure and Optimize Deployment**
+    - **Tools**: AWS API Gateway, Lambda, AutoScaling
+    - Secure API endpoints (IP whitelisting) and set up auto-scaling to handle traffic efficiently.
+8. **Build and Deploy Web Application**
+    - **Tools**: React.js, Node.js, Express.js, MongoDB
+    - Develop a MERN (MongoDB, Express, React, Node.js) web app that interacts with the AWS API.
+9. **Host the Application**
+    - **Tools**: DigitalOcean
+    - Deploy the web app to a cloud service like DigitalOcean.
+10. **Monitor and Maintain**
+    - **Tools**: Amazon CloudWatch
+    - Monitor performance with CloudWatch logs and manage Lambda concurrency for optimization.
