@@ -32,6 +32,7 @@
 	- mini-batch size
 	- adam  ([[Notes/Gradient Descent#Adam (Adaptive Moment Estimation)\|Gradient Descent#Adam (Adaptive Moment Estimation)]])
 		- always work with $\beta_1$=0.9,  $\beta_2$=0.999, $\epsilon$=1e-8
+
 > [!Tip] 
 > Unfortunately, learning rate and depth interact. In general, deeper networks need smaller learning rates. 
 
@@ -39,4 +40,4 @@
 - use Randomized Search instead of Grid Search
 - use an appropriate scale for hyperparameters, e.g. log scale
 - can try different strategies: Panda vs. Caviar
-	 ![Pasted image 20230425100746.png|400](/img/user/assets/images/Pasted%20image%2020230425100746.png)
+	 ![Pasted image 20230425100746.png|400](/img/user/_assets/images/Pasted%20image%2020230425100746.png)

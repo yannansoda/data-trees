@@ -10,7 +10,7 @@
 4. Modeling
 5. Evaluation
 6. Deployment
-![CRISP-DM.png|300](/img/user/assets/images/CRISP-DM.png)
+![CRISP-DM.png|300](/img/user/_assets/images/CRISP-DM.png)
 
 # Top-down vs. Bottom-up
 Data scientists may use either a “top-down” approach or a “bottom-up” approach to data science.

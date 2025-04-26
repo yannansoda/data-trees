@@ -5,7 +5,7 @@
 >[!Note]
 >Most of the notes are from the book Machine Learning Systems Design
 # Overview of Machine Learning Systems Design
-![Pasted image 20230622120707.png|500](/img/user/assets/images/Pasted%20image%2020230622120707.png)
+![Pasted image 20230622120707.png|500](/img/user/_assets/images/Pasted%20image%2020230622120707.png)
 
 # MLOps
 ### What is MLOps (Machine Learning Operations)
@@ -60,7 +60,7 @@
 - there are two strategies
 	- data parallelism: training data split up + model replicated on all notes
 	- model parallelism: training data replicated + model split up on all nodes
-	- which to choose: ![Pasted image 20231004115356.png|400](/img/user/assets/images/Pasted%20image%2020231004115356.png)
+	- which to choose: ![Pasted image 20231004115356.png|400](/img/user/_assets/images/Pasted%20image%2020231004115356.png)
 
 ### Best practice: Sanity-check test
 - try to overfit a small training dataset before training on a large one
@@ -70,7 +70,7 @@
 
 # Infrastructure and Tooling for MLOps
 ### Infrastructure 
-![Pasted image 20230714122416.png|400](/img/user/assets/images/Pasted%20image%2020230714122416.png)
+![Pasted image 20230714122416.png|400](/img/user/_assets/images/Pasted%20image%2020230714122416.png)
 ### Storage & Compute
 - storage layer: where data is collected and stored
 	- hard drive disk (HDD), solid state disk (SSD)
@@ -82,7 +82,7 @@
 - IDE (Integrated development environment)
 	- cloud IDE: AWS Cloud9, Amaon SageMaker Studio
 - versioning
-- CI/CD
+- CI/CD (Continuous Integration/Continuous Deployment or Delivery)
 ### Resource Management
 - Cron, Schedulers, Orchestrators
 	- cron: it run a script at a predetermined time and tell you whether the job succeeds or fails
@@ -90,7 +90,7 @@
 		- scheduler: cron programs deciding when 
 		- orchestrator: cron programs concerning where to get resources. e.g. Kubernetes
 		- scheduler and orchestrator can be used interchangeably 
-- Data science workflow management ![Pasted image 20230719161709.png|400](/img/user/assets/images/Pasted%20image%2020230719161709.png)
+- Data science workflow management ![Pasted image 20230719161709.png|400](/img/user/_assets/images/Pasted%20image%2020230719161709.png)
 ### Pipeline Orchestration
 orchestration allows managing end to end traceability of pipeline using automation to capture specific inputs, outputs, and artifacts of a given task. 
 - **Model lineage**
@@ -115,4 +115,4 @@ orchestration allows managing end to end traceability of pipeline using automati
 
 # Human-in-the-Loop Pipelines
 ### Human review of model predictions 
-![Pasted image 20231004110235.png|500](/img/user/assets/images/Pasted%20image%2020231004110235.png)
+![Pasted image 20231004110235.png|500](/img/user/_assets/images/Pasted%20image%2020231004110235.png)

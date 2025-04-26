@@ -7,7 +7,7 @@
 
 ## Three methods in applied machine learning
 
-![Pasted image 20240809092951.png|400](/img/user/assets/images/Pasted%20image%2020240809092951.png)
+![Pasted image 20240809092951.png|400](/img/user/_assets/images/Pasted%20image%2020240809092951.png)
 #### Simple Random Sampling
 - Samples are drawn with a uniform probability from the domain.
 #### Systematic Sampling
@@ -39,7 +39,7 @@ Serveral resampling methods include permutation, Bootstrap, Jackknife and cross 
 
 The best figure telling the story of resampling:
 
-![Pasted image 20240809092603.png|500](/img/user/assets/images/Pasted%20image%2020240809092603.png)
+![Pasted image 20240809092603.png|500](/img/user/_assets/images/Pasted%20image%2020240809092603.png)
 
 #### Permutation 
 - also called exact tests, randomisation tests, or randomisation tests

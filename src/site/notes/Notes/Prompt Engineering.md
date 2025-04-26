@@ -31,7 +31,7 @@
  - **chain-of-thought prompting**: creating a prompt that demonstrates how to solve similar problems using step-by-step reasoning
 
 ## Iterative Prompt Development
-![Pasted image 20240718150823.png|400](/img/user/assets/images/Pasted%20image%2020240718150823.png)
+![Pasted image 20240718150823.png|400](/img/user/_assets/images/Pasted%20image%2020240718150823.png)
 
 ## Capabilities of LLM
 ### Summarizing
@@ -49,9 +49,7 @@ examples:
 ### Expanding
 = generate long piece of text from short piece of text
 ### Temperature
-= degree of randomness of the model (see [[Generative Model Configuration#^1ce105\|Generative Model Configuration#^1ce105]])
-- use temperature 0 for tasks that require reliability, predictability
-- use temperature >0 for tasks that require variety
+= degree of randomness of the model (see [[Notes/Foundation Models#^27bdb5\|Foundation Models#^27bdb5]])
 
 
 

@@ -25,7 +25,7 @@ There are two kinds of features unique to time series
 ```
 series = trend + seasons + cycles + error
 ```
-![Pasted image 20221204105424.png|600](/img/user/assets/images/Pasted%20image%2020221204105424.png)
+![Pasted image 20221204105424.png|600](/img/user/_assets/images/Pasted%20image%2020221204105424.png)
 ``
 # Forecasting
 ## Defining the Forecasting Task
@@ -33,22 +33,22 @@ series = trend + seasons + cycles + error
 	- what information is available at the time a forecast is made (features)
 	- the time period during which you require forecasted values (target)
 - example: a three-step forecasting task with a two-step lead time using five lag features
-![Pasted image 20221204112555.png|400](/img/user/assets/images/Pasted%20image%2020221204112555.png)
+![Pasted image 20221204112555.png|400](/img/user/_assets/images/Pasted%20image%2020221204112555.png)
 corresponding preprocessed dataframe
-![Pasted image 20221204113418.png|400](/img/user/assets/images/Pasted%20image%2020221204113418.png)
+![Pasted image 20221204113418.png|400](/img/user/_assets/images/Pasted%20image%2020221204113418.png)
 ## Common Multistep Forecasting Strategies
 - Multioutput model
 	- Use a model that produces multiple outputs naturally, with linear regression or neural networks, etc.
- ![Pasted image 20221204113524.png|200](/img/user/assets/images/Pasted%20image%2020221204113524.png)
+ ![Pasted image 20221204113524.png|200](/img/user/_assets/images/Pasted%20image%2020221204113524.png)
 - Direct strategy
 	- Train a separate model for each step in the horizon: one model forecasts 1-step ahead, another 2-steps ahead, and so on.
-	![Pasted image 20221204113549.png|500](/img/user/assets/images/Pasted%20image%2020221204113549.png)
+	![Pasted image 20221204113549.png|500](/img/user/_assets/images/Pasted%20image%2020221204113549.png)
 - Recursive strategy
 	- Train a single one-step model and use its forecasts to update the lag features for the next step.
-![Pasted image 20221204113606.png|200](/img/user/assets/images/Pasted%20image%2020221204113606.png)
+![Pasted image 20221204113606.png|200](/img/user/_assets/images/Pasted%20image%2020221204113606.png)
 - DirRec strategy
 	- A combination of the direct and recursive strategies: train a model for each step and use forecasts from previous steps as new lag features.
-![Pasted image 20221204113617.png|500](/img/user/assets/images/Pasted%20image%2020221204113617.png)
+![Pasted image 20221204113617.png|500](/img/user/_assets/images/Pasted%20image%2020221204113617.png)
 
 
 ## Forecasting methods
@@ -82,7 +82,7 @@ We can choose methods depending on the time series patterns
 	- [[Long Short Term Memory\|Long Short Term Memory]]
 
 ## Partitioning in Time Series
-![time-series-partition1.png|400](/img/user/assets/images/time-series-partition1.png)
+![time-series-partition1.png|400](/img/user/_assets/images/time-series-partition1.png)
 
-![time-series-partition2.png|400](/img/user/assets/images/time-series-partition2.png)
+![time-series-partition2.png|400](/img/user/_assets/images/time-series-partition2.png)
 Roll-forward partitioning: start with a short training period, and we gradually increase it, say by one day at a time, or by one week at a time. At each iteration, we train the model on a training period. And we use it to forecast the following day, or the following week, in the validation period.

@@ -26,7 +26,7 @@ can be achieved by
 - your code runs on servers, but you do not need to provision or manage these servers
 - the flexibility to scale serverless applications automatically
 - can be achieved by 
-	- **ASW Lambda** ![Pasted image 20230624120815.png|400](/img/user/assets/images/Pasted%20image%2020230624120815.png)
+	- **ASW Lambda** ![Pasted image 20230624120815.png|400](/img/user/_assets/images/Pasted%20image%2020230624120815.png)
 { #08bc66}
 
 	- **AWS Fargate**: run your containers on top of a serverless compute platform

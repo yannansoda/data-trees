@@ -16,7 +16,7 @@
 	- the probability of rejecting the null hypothesis when the null hypothesis is False
 - **Central Limit Theorem (CLM)**
 	- no matter what is the population’s original distribution, when taking random samples from the population, the distribution of the means or sums from the random samples approaches a normal distribution, with mean equals to the population mean, as the random sample size gets larger:
-	- ![Pasted image 20230602153018.png|400](/img/user/assets/images/Pasted%20image%2020230602153018.png)
+	- ![Pasted image 20230602153018.png|400](/img/user/_assets/images/Pasted%20image%2020230602153018.png)
 - **Law of Large Numbers**
 	- number of trials gets large enough, the average result of the trials will become closer to the expected value
 - **confounding variable**

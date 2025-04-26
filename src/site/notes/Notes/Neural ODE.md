@@ -18,7 +18,7 @@ $$\frac{du}{dt} = f_{NN}(u, t)$$
 - first, recall how traditional ODE works:
 	- it uses numerical schemes to march the system states in time (with a time-marching equation)
 	- it uses numerical schemes, e.g. Euler's method
-	- ![Pasted image 20240122214241.png](/img/user/assets/images/Pasted%20image%2020240122214241.png)
+	- ![Pasted image 20240122214241.png](/img/user/_assets/images/Pasted%20image%2020240122214241.png)
 - how neural ODE works
 	- it substitutes the unknown dynamics with neural network and combines with suitable numeral scheme to march the system
-	- ![Pasted image 20240122214533.png](/img/user/assets/images/Pasted%20image%2020240122214533.png)
+	- ![Pasted image 20240122214533.png](/img/user/_assets/images/Pasted%20image%2020240122214533.png)

@@ -67,10 +67,10 @@
 = The model architecture and features remain the same, but you refresh this model with new data
 
 >[!Link]
->The two types can be also regarded as [[Model-centric vs. Data-centric AI Development\|Model-centric vs. Data-centric AI Development]]
+>The two types can be also regarded as [[Notes/Model-centric vs. Data-centric AI Development\|Model-centric vs. Data-centric AI Development]]
 >
 ### Stateful retraining vs. Stateless retraining 
-![Pasted image 20230714115417.png|400](/img/user/assets/images/Pasted%20image%2020230714115417.png)
+![Pasted image 20230714115417.png|400](/img/user/_assets/images/Pasted%20image%2020230714115417.png)
 - stateful retraining (fine-tuning/incremental learning)
 	- the model continues training on new data
 	- mostly applied for data iteration
@@ -90,28 +90,28 @@
 # Test in Production
 There are several techniques for evaluating the model in production
 ### Blue/Green
-![Pasted image 20231004151507.png|500](/img/user/assets/images/Pasted%20image%2020231004151507.png)
+![Pasted image 20231004151507.png|500](/img/user/_assets/images/Pasted%20image%2020231004151507.png)
 - derived from software development
 - shift all traffic to the new model by updating Load Balancer
-### Shadow deployment /Challenger (challenger model)  ![Pasted image 20231004151652.png|500](/img/user/assets/images/Pasted%20image%2020231004151652.png)
+### Shadow deployment /Challenger (challenger model)  ![Pasted image 20231004151652.png|500](/img/user/_assets/images/Pasted%20image%2020231004151652.png)
 1. Deploy the candidate model in parallel with the existing model.
 2. For each incoming request, route it to both models to make predictions, but only serve the existing model’s prediction to the user.
 3. Log the predictions from the new model for analysis purposes
 4. Replace the existing model with the new model if the new model's predictions are satisfactory
 ### A/B testing ([[Notes/AB testing\|AB testing]]) 
 
-![Pasted image 20231004151346.png|500](/img/user/assets/images/Pasted%20image%2020231004151346.png)
+![Pasted image 20231004151346.png|500](/img/user/_assets/images/Pasted%20image%2020231004151346.png)
 1. Deploy the candidate model alongside the existing model.
 2. A percentage of traffic is routed to the new model for predictions; the rest is routed to the existing model for predictions.
 3. Monitor and analyze the predictions and user feedback, and do stats test if any difference in prediction within long validation cycles
 ### Canary release 
 
-![Pasted image 20231004151716.png|500](/img/user/assets/images/Pasted%20image%2020231004151716.png)
+![Pasted image 20231004151716.png|500](/img/user/_assets/images/Pasted%20image%2020231004151716.png)
 1. Deploy the candidate model alongside the existing model. The candidate model is called the canary.
 2. A portion of the traffic is routed to the candidate model.
 3. If its performance is satisfactory, increase the traffic to the candidate model. If not, abort the canary and route all the traffic back to the existing model.
 4. Stop when either the canary serves all the traffic (the candidate model has replaced the existing model) or when the canary is aborted.
 ### Interleaving experiments
-### Multi-Armed Bandits ![Pasted image 20231004151936.png|600](/img/user/assets/images/Pasted%20image%2020231004151936.png)
+### Multi-Armed Bandits ![Pasted image 20231004151936.png|600](/img/user/_assets/images/Pasted%20image%2020231004151936.png)
 - different other static approaches, it is a dynamic approach = it tests model versions using reinforcement learning
 - exploit & explore

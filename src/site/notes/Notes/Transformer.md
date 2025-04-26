@@ -49,7 +49,8 @@ modules. Each encoder and decoder consists of a series of layers, with each laye
 - feedforward layer
 - residual connection ('Add' layer)
 - layer normalization ('Norm' layer)
-![Pasted image 20241111205831.png|300](/img/user/assets/images/Pasted%20image%2020241111205831.png)
+
+![Pasted image 20241111205831.png|300](/img/user/_assets/images/Pasted%20image%2020241111205831.png)
 
 ## Input embedding
 - input embedding represents the meaning of each token in the sentence. This embedding is then fed into
@@ -71,7 +72,7 @@ modules. Each encoder and decoder consists of a series of layers, with each laye
 - **weighted values**: 
 	- each value vector is multiplied by its corresponding attention weight
 	- the results are summed up, producing a context-aware representation for each word
-![Pasted image 20241111211800.png|400](/img/user/assets/images/Pasted%20image%2020241111211800.png)
+![Pasted image 20241111211800.png|400](/img/user/_assets/images/Pasted%20image%2020241111211800.png)
 ### Multi-head attention
 - Multi-head attention employs multiple sets of Q, K, V weight matrices
 - These run in parallel, each ‘head’ potentially focusing on different aspects of the input relationships

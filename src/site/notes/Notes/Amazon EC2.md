@@ -38,11 +38,11 @@ EC2 = Amazon Elastic Compute Cloud
 - can be achieved by **Amazon EC2 Auto Scaling**
 	- dynamic scaling: responds to changing demand
 	- predictive scaling: automatically schedules the right number of Amazon EC2 instances based on predicted demand
-![Pasted image 20230622153307.png|200](/img/user/assets/images/Pasted%20image%2020230622153307.png)
+![Pasted image 20230622153307.png|200](/img/user/_assets/images/Pasted%20image%2020230622153307.png)
 ## Elasticity
 - can be achieved by **Elastic Load Balancing** = the AWS service that automatically distributes incoming application traffic across multiple resources, such as Amazon EC2 instances. 
-	- low-demand period: ![Pasted image 20230622154505.png|300](/img/user/assets/images/Pasted%20image%2020230622154505.png)
-	- high-demand period: ![Pasted image 20230622154600.png|300](/img/user/assets/images/Pasted%20image%2020230622154600.png)
+	- low-demand period: ![Pasted image 20230622154505.png|300](/img/user/_assets/images/Pasted%20image%2020230622154505.png)
+	- high-demand period: ![Pasted image 20230622154600.png|300](/img/user/_assets/images/Pasted%20image%2020230622154600.png)
 
 ## Amazon EC2 pricing
 - On-Demand

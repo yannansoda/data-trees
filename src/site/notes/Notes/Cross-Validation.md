@@ -41,7 +41,7 @@ However, an extra parameter was chosen using the test set -> the generalisation 
 	-  The final accuracy of the model is computed by taking the mean accuracy over the splits.
 - **Time Series cross-validation**
 	- It splits data into train and validation according to the time: forward chaining method or rolling cross-validation
-	- The chance of choice of train and validation data is forwarded for further iterations: ![Pasted image 20230621142332.png|300](/img/user/assets/images/Pasted%20image%2020230621142332.png)
+	- The chance of choice of train and validation data is forwarded for further iterations: ![Pasted image 20230621142332.png|300](/img/user/_assets/images/Pasted%20image%2020230621142332.png)
 - **Nested cross-validation**
 - An improved cross-validation: **Pareto-smoothed importance sampling cross-validation (PSIS)**
 

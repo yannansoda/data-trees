@@ -8,7 +8,7 @@
 ### How it works
 - human labelers score prompt completions, so that this score is used to train the reward model component of the RLHF process:
 
-	![Pasted image 20240804211654.png|400](/img/user/assets/images/Pasted%20image%2020240804211654.png)
+	![Pasted image 20240804211654.png|400](/img/user/_assets/images/Pasted%20image%2020240804211654.png)
 - steps
 	1. prepare prompt-response sets to collect human feedback (rankings)
 	2. convert rankings into pairwise training data for the reward model
@@ -23,4 +23,4 @@
 >- In the context of LLMs, reward hacking can manifest as the addition of words or phrases to completions that result in high scores for the metric being aligned. 
 
 - How to avoid: use the LLM as performance reference
-![Pasted image 20240804215914.png|450](/img/user/assets/images/Pasted%20image%2020240804215914.png)
+![Pasted image 20240804215914.png|450](/img/user/_assets/images/Pasted%20image%2020240804215914.png)

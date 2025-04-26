@@ -12,9 +12,9 @@
 > 
 > The goal of reinforcement learning is to choose a policy $\pi (s)=a$ that will tell us which action to take in state $s$ so as to maximize the expected return. 
 # RL Overview
-![Pasted image 20231011155126.png|400](/img/user/assets/images/Pasted%20image%2020231011155126.png)
+![Pasted image 20231011155126.png|400](/img/user/_assets/images/Pasted%20image%2020231011155126.png)
 ### Model-based vs. Model-free RL
-![Pasted image 20230425111911.png|400](/img/user/assets/images/Pasted%20image%2020230425111911.png)
+![Pasted image 20230425111911.png|400](/img/user/_assets/images/Pasted%20image%2020230425111911.png)
 
 ### Value-based vs. Policy-based RL
 differs in the types of algorithms used to derive the optimal behavior 
@@ -51,7 +51,7 @@ It is a type of reinforcement learning: model-free. value-based, and off-policy
 2. after each step, the policy is evaluated and the Q-values are updated using the Bellman equation
 3. the process is repeated until the policy converges and selects the same action at a given state
 # Algorithms 
-![/assets/images/reinforcement-learning-1.png|400](/img/user/assets/images/reinforcement-learning-1.png)
+![reinforcement-learning-1.png|400](/img/user/_assets/images/reinforcement-learning-1.png)
 ### Upper Confidence Bound
 UCB is a deterministic algorithm for Reinforcement Learning that focuses on exploration and exploitation based on a confidence boundary that the algorithm assigns to each machine on each round of exploration. These boundary decreases when a machine is used more in comparison to other machines.
 > example: which Ads customers will click on

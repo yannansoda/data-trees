@@ -11,7 +11,7 @@ RNNs are called ==recurrent== because they perform the same task for every eleme
 Another way to think about RNNs is that they have a “memory” which captures information about what has been calculated so far.
 
 # Architecture and components 
-![assets/images/RNN-1.png|400](/img/user/assets/images/RNN-1.png)
+![RNN-1.png|400](/img/user/_assets/images/RNN-1.png)
 $$h(t)=f(Ux(t)+Wh(t−1))$$
 - $h(t)$ is the hidden state at time t
 - $x(t)$ is the input at time t
@@ -22,14 +22,14 @@ $$h(t)=f(Ux(t)+Wh(t−1))$$
 
 ### Forward propagation
 
-![](/img/user/assets/images/RNN-2.png)
+![](/img/user/_assets/images/RNN-2.png)
 where the tanh can be ReLu too and the softmax can be sigmoid too.
 ### Back propagation
 The gradient computation involves performing a forward propagation pass moving left to right through the graph shown above followed by a backward propagation pass moving right to left through the graph. 
 
 
 # Different types of RNN
-![Pasted image 20240825204844.png|500](/img/user/assets/images/Pasted%20image%2020240825204844.png)
+![Pasted image 20240825204844.png|500](/img/user/_assets/images/Pasted%20image%2020240825204844.png)
 
 # Variations of RNN
 - [[Long Short Term Memory\|Long Short Term Memory]]

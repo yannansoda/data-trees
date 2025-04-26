@@ -4,7 +4,7 @@
 
 
 
-![/assets/images/svm-1.png|500](/img/user/assets/images/svm-1.png)
+![svm-1.png|500](/img/user/_assets/images/svm-1.png)
 
 # Basic terms
 ### Support Vector
@@ -20,7 +20,7 @@
 => performs regression, continuous data
 
 ## Kernels SVR = non-linear
-![/assets/images/svm-2.png|500](/img/user/assets/images/svm-2.png)
+![svm-2.png|500](/img/user/_assets/images/svm-2.png)
 
 # Support Vector Machine (SVM)
 => performs classification, discrete data
@@ -33,12 +33,12 @@ Kernel function is kind of a similarity measure. The inputs are original feature
 Given that classification can be non-linear
 => mapping to a higher dimension (implicitly during the cost function optimization) can help:
 
-![assets/images/svm-3.png|500](/img/user/assets/images/svm-3.png)
+![svm-3.png|500](/img/user/_assets/images/svm-3.png)
 => however, the mapping can be highly compute-intensive
 => the Kernel trick can help with that:
-![assets/images/svm-4.png|500](/img/user/assets/images/svm-4.png)
+![svm-4.png|500](/img/user/_assets/images/svm-4.png)
 More than one kernel can be good too:
-![/assets/images/svm-5.png|500](/img/user/assets/images/svm-5.png)
+![svm-5.png|500](/img/user/_assets/images/svm-5.png)
 
 ### Types of Kernel Functions
 - Gaussian radial basis function (RBF) Kernel 

@@ -18,24 +18,24 @@ The adaptive methods in gradient descent can automatically adjust the learning r
 - use forward-propagation to calculate the values of each layer
 - use back-propagation to calculate the derivatives 
 - example of a two-layer logistic regression neural network by Andrew Ng:
-![Pasted image 20230310114003.png|500](/img/user/assets/images/Pasted%20image%2020230310114003.png)
+![Pasted image 20230310114003.png|500](/img/user/_assets/images/Pasted%20image%2020230310114003.png)
 
 # Variants of Gradient Descent
 
 Variants Outline:
-- [[Notes/Gradient Descent#Batch gradient descent\|#Batch gradient descent]]
-- [[Notes/Gradient Descent#Stochastic gradient descent (SGD\|#Stochastic gradient descent (SGD]]
-- [[Notes/Gradient Descent#Mini-batch gradient Descent\|#Mini-batch gradient Descent]]
-- [[Notes/Gradient Descent#Momentum\|#Momentum]]
+- [[#Batch gradient descent]]
+- [[#Stochastic gradient descent (SGD]]
+- [[#Mini-batch gradient Descent]]
+- [[#Momentum]]
 { #40db40}
 
-- [[Notes/Gradient Descent#RMSprop (Root Mean Square prop)\|#RMSprop (Root Mean Square prop)]]
+- [[#RMSprop (Root Mean Square prop)]]
 { #854cd1}
 
-- [[Notes/Gradient Descent#Adam (Adaptive Moment Estimation)\|#Adam (Adaptive Moment Estimation)]]
+- [[#Adam (Adaptive Moment Estimation)]]
 { #9ba81c}
 
-- [[Notes/Gradient Descent#Learning rate decay\|#Learning rate decay]]
+- [[#Learning rate decay]]
 ### Batch gradient descent 
 - most basic approach 
 - the loss function= an average of the losses computed on every single example in the dataset
@@ -51,14 +51,14 @@ Variants Outline:
 ### Batch gradient descent vs. Stochastic gradient descent
 - batch ones are slow; stochastic ones can avoid local minimum but can be noisy and computationally inefficient
 - different ways to update weights
-![/assets/images/artificial-nn2.png|500](/img/user/assets/images/artificial-nn2.png)
+![artificial-nn2.png|500](/img/user/_assets/images/artificial-nn2.png)
 
 ### Mini-batch gradient descent
 - Mini-batch a compromise between batch and stochastic gradient descent, where the weights are updated after computing the gradient of the loss function with respect to a small batch of training examples (typically between 32 and 512).
 - efficient multi-machine, multi-GPU and overall parallel processing
 - Comparison: SGD vs. mini-batch gradient descent
- ![Pasted image 20230424102038.png|500](/img/user/assets/images/Pasted%20image%2020230424102038.png)
-![Pasted image 20230316184519.png|500](/img/user/assets/images/Pasted%20image%2020230316184519.png)
+ ![Pasted image 20230424102038.png|500](/img/user/_assets/images/Pasted%20image%2020230424102038.png)
+![Pasted image 20230316184519.png|500](/img/user/_assets/images/Pasted%20image%2020230316184519.png)
 - when to use 
 	- when the data size is very large (>= 2000)
 - what to use
@@ -78,7 +78,12 @@ Variants Outline:
 - The weight update rule for gradient descent with momentum can be written as:
 $$ v(t) = \gamma * v(t-1) + learning \ rate * gradient$$
 $$weight(t) = weight(t-1) - v(t)$$
-where v(t) is the "velocity" vector at time t, $\gamma$ is the momentum coefficient (typically set to a value between 0.9 and 0.99), learning rate is the step size or learning rate, gradient is the gradient of the loss function with respect to the weights, and weight(t) is the weight vector at time t.
+where 
+- v(t) is the "velocity" vector at time t
+- $\gamma$ is the momentum coefficient (typically set to a value between 0.9 and 0.99) 
+- learning rate is the step size or learning rate
+- gradient is the gradient of the loss function with respect to the weights
+- weight(t) is the weight vector at time t
 ### RMSprop (Root Mean Square Prop)
 - it works by maintaining a moving average of the squared gradients and using that to scale the learning rate
 - it decouples per-coordinate scaling from a learning rate adjustment

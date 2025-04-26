@@ -3,15 +3,14 @@
 ---
 
 
-
-
-
 Hey 🌱
 
    
 
-Welcome to my garden of data trees. With a background in [[Index/Computational Neuroscience\|Computational Neuroscience]] and a career in [[Index/AIxHealth\|AIxHealth]], I become a [data enthusiast](https://yannansoda.github.io/) taking care of my trees of [[Index/Math\|Math]], [[Index/Statistics\|Statistics]], [[Index/Data Science\|Data Science]], [[Index/Machine Learning\|Machine Learning]], [[Index/Deep Learning\|Deep Learning]], [[Index/Large Language Model\|Large Language Model]], [[Index/Cloud Computing\|Cloud Computing]], etc.
+Welcome to my garden.
 
-I am also a gardener in [Words in World](https://words-in-world.vercel.app), another green place where my thoughts about books and photography grow. 
+Here are many data trees! With a background in [[Index/Computational Neuroscience\|Computational Neuroscience]] and a career in [[Index/AIxHealth\|AIxHealth]], I become a [data enthusiast](https://yannansoda.github.io/) taking care of my trees of [[Index/Math\|Math]], [[Index/Statistics\|Statistics]], [[Index/Data Science\|Data Science]], [[Index/Machine Learning\|Machine Learning]], [[Index/Deep Learning\|Deep Learning]], [[Index/Large Language Model & AI Engineering\|Large Language Model & AI Engineering]], [[Index/Cloud Computing\|Cloud Computing]], etc.
+
+Green also growing from the words in [[Index/Some Books I Have Read\|Some Books I Have Read]] and in my head - random [[Index/Thoughts\|Thoughts]], notes about [[Index/Photography\|Photography]], and [[Index/Impressions\|Impressions]] about everything.
 
 *This garden is built with the [Digital Garden Obsidian Plugin](https://github.com/oleeskild/Obsidian-Digital-Garden) and Netlify. I recommend to zoom out to 80% for better visualization.*

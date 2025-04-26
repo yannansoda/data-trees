@@ -19,7 +19,7 @@
 4. deploy in production ([[Notes/Machine Learning Systems Design\|Machine Learning Systems Design]]): deploy, monitor, and maintain system -> back to 3 and/or 2 if needed
 
 # Types of Machine Learning
-![Pasted image 20231001114343.png|600](/img/user/assets/images/Pasted%20image%2020231001114343.png)
+![Pasted image 20231001114343.png|600](/img/user/_assets/images/Pasted%20image%2020231001114343.png)
 
 # ML Algorithms Cheat Sheet
 [[ML+Algorithms+Cheat+Sheet.pdf]]
@@ -35,7 +35,7 @@
 	- Decision Tree Classification: [[Notes/Decision Tree & Random Forest#Decision Tree\|Decision Tree & Random Forest#Decision Tree]]
 	- Random Forest Classification: [[Notes/Decision Tree & Random Forest#Random Forest\|Decision Tree & Random Forest#Random Forest]]
 - Pros and Cons
-![assets/images/classification-1.png|600](/img/user/assets/images/classification-1.png)
+![classification-1.png|600](/img/user/_assets/images/classification-1.png)
 - Multi-class vs. Multi-label Classification 
 ## Regression
 - Types
@@ -48,7 +48,7 @@
 	- Decision Tree Regression: [[Notes/Decision Tree & Random Forest#Decision Tree\|Decision Tree & Random Forest#Decision Tree]]
 	- Random Forest Regression: [[Notes/Decision Tree & Random Forest#Random Forest\|Decision Tree & Random Forest#Random Forest]]
 - Pros and Cons
-![regression.png|600](/img/user/assets/images/regression.png)
+![regression.png|600](/img/user/_assets/images/regression.png)
 # Unsupervised Learning
 >[!Note]
 >The distinction between unsupervised versus self-supervised learning can be blurry sometimes. Roughly:

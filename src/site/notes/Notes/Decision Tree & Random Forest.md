@@ -4,7 +4,7 @@
 
 
 # Decision Tree
-![/assets/images/decision-tree-1.png|500](/img/user/assets/images/decision-tree-1.png)
+![decision-tree-1.png|500](/img/user/_assets/images/decision-tree-1.png)
 ### How it works
 - each split part is called a "leaf"
 - the splitting uses information entropy

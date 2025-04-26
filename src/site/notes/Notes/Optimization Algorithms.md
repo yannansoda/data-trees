@@ -3,7 +3,7 @@
 ---
 
 ## Convex optimization
-- [[assets/images/Convexity\|Convexity]]
+- [[_assets/images/Convexity\|Convexity]]
 
 ## Gradient descent
 - [[Notes/Gradient Descent\|Gradient Descent]]
@@ -13,7 +13,7 @@
 - local minima
 - saddle points
 	- any location where all gradients of a function vanish but which is neither a global nor a local minimum
-	- ![Pasted image 20241008162502.png|200](/img/user/assets/images/Pasted%20image%2020241008162502.png)
+	- ![Pasted image 20241008162502.png|200](/img/user/_assets/images/Pasted%20image%2020241008162502.png)
 ### Challenges in DL
 - - Almost all optimization problems arising in deep learning are nonconvex
 - Vanishing / Exploding gradients
@@ -32,7 +32,5 @@
 	- doesn't work for dropout
 - Hyperparameter Tuning: [[Notes/Hyperparameter Tuning#Hyperparameter Tuning in Deep Learning\|Hyperparameter Tuning#Hyperparameter Tuning in Deep Learning]]
 - Batch Normalization
-	- applies normalization on the inputs of hidden layers
-	- weakens the coupling between what the early layers parameters have to do and what the later layers parameters have to do. So it allows each layer of the network to learn by itself, a little bit more independently of other layers, and this has the effect of speeding up of learning in the whole network. 
-	- can add a slight regularization effect because of adding noise to hidden layers
+
 

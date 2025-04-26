@@ -1,0 +1,27 @@
+---
+{"topic":null,"dg-publish":true,"permalink":"/Index/Thoughts/","dgPassFrontmatter":true,"noteIcon":""}
+---
+
+- [[RandomBubbles/2015老实记事\|2015老实记事]]
+- [[RandomBubbles/Digitial Garden\|Digitial Garden]]
+- [[RandomBubbles/PAST\|PAST]]
+- [[RandomBubbles/Petaphysics 荒诞玄学\|Petaphysics 荒诞玄学]]
+- [[RandomBubbles/两种\|两种]]
+- [[RandomBubbles/也不是歌词，也不是诗\|也不是歌词，也不是诗]]
+- [[RandomBubbles/关于写作\|关于写作]]
+- [[RandomBubbles/关于摄影\|关于摄影]]
+- [[RandomBubbles/写故事还是扯\|写故事还是扯]]
+- [[RandomBubbles/南京夜晚的一百个瞬间\|南京夜晚的一百个瞬间]]
+- [[RandomBubbles/反AI\|反AI]]
+- [[RandomBubbles/夏天的街道\|夏天的街道]]
+- [[RandomBubbles/对话\|对话]]
+- [[RandomBubbles/救赎\|救赎]]
+- [[RandomBubbles/漫游中\|漫游中]]
+- [[RandomBubbles/爱情\|爱情]]
+- [[RandomBubbles/祛魅\|祛魅]]
+- [[RandomBubbles/窃听者\|窃听者]]
+- [[RandomBubbles/街景\|街景]]
+- [[RandomBubbles/阅读\|阅读]]
+- [[RandomBubbles/雨夜\|雨夜]]
+
+{ .block-language-dataview}

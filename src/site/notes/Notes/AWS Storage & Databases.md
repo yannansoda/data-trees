@@ -20,7 +20,7 @@ Because an instance store provides only **temporary** block-level storage for an
 - block-level storage for EC2 instances that persists data even after termination
 - need to define configuration
 - need to take incremental backups using Amazon EBS snapshots 
-	- incremental = only the data that have changed since the most recent snapshot is backed up ![Pasted image 20230629110728.png|400](/img/user/assets/images/Pasted%20image%2020230629110728.png)
+	- incremental = only the data that have changed since the most recent snapshot is backed up ![Pasted image 20230629110728.png|400](/img/user/_assets/images/Pasted%20image%2020230629110728.png)
 ### Amazon Simple Storage Service (Amazon S3)
 - object-level storage that stores data as objects in buckets
 - data can be accessed with an object key along with the bucket name

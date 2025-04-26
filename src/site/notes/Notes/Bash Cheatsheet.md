@@ -117,7 +117,7 @@ $ man command_to_check # read manual
 ```
 
 ### Permission and `chmod`
-![linux-file-permission.png](/img/user/assets/images/linux-file-permission.png)
+![linux-file-permission.png](/img/user/_assets/images/linux-file-permission.png)
 ```bash
 # change bash file permission to executable 
 # then no need for bash command before *.sh)

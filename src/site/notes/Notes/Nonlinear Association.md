@@ -12,7 +12,7 @@
  $$ dCor(X, Y) = \frac{dCov(X,Y)}{\sqrt{dVar(X)dVar(Y)}} $$
  - ranging from 0 to 1: 0 = no association
  - symmetric: dCor(X, Y) = dCor(Y, X)
- - comparing to Pearson's correlation ![Pasted image 20240423142103.png](/img/user/assets/images/Pasted%20image%2020240423142103.png)
+ - comparing to Pearson's correlation ![Pasted image 20240423142103.png](/img/user/_assets/images/Pasted%20image%2020240423142103.png)
 ### Mutual information
 see [[Notes/Information theory and Entropy in Neuroscience#Mutual Information\|Information theory and Entropy in Neuroscience#Mutual Information]]
 - cons: no range limit, hard to interpret

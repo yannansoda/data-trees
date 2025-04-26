@@ -7,4 +7,4 @@
 - In particular it is the maximum distance at any point between the CDF and the closest multimodal CDF. 
 - In other words the distribution can be deformed into a unimodal one by moving the CDF by at most the dip at each point, and the dip is the smallest number for which this is true.
 
-![/assets/images/dip-stats-1.png|400](/img/user/assets/images/dip-stats-1.png)
+![dip-stats-1.png|400](/img/user/_assets/images/dip-stats-1.png)

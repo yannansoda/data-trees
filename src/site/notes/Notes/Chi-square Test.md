@@ -12,7 +12,7 @@ where the subscript “c” is the degrees of freedom. “O” is observed value
 ### Chi-square distribution
 The chi-square distribution (or the chi-squared distribution) is a special case of the gamma distribution.
 A chi square distribution with n degrees of freedom is equal to a gamma distribution with a = n / 2 and b = 0.5 (or β = 2).
-![chi-sqrt-distribution.png|300](/img/user/assets/images/chi-sqrt-distribution.png)
+![chi-sqrt-distribution.png|300](/img/user/_assets/images/chi-sqrt-distribution.png)
 
 
 ### Relationship between $\chi

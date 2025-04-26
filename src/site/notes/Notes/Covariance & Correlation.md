@@ -41,7 +41,7 @@ $$
 
 ### Covariance vs. Correlation Coefficient
 Both of them measure the linear relationship between two variables.
-![Pasted image 20231016155016.png](/img/user/assets/images/Pasted%20image%2020231016155016.png)
+![Pasted image 20231016155016.png](/img/user/_assets/images/Pasted%20image%2020231016155016.png)
 
 ----
 ### Reference

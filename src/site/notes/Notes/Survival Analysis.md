@@ -9,14 +9,14 @@
 	- loss-to-follow-up censoring (patients withdraw)
 	- left censoring =  the time to events is only known to before a certain value
 	- right censoring = the time to events is only known to exceed a certain value (e.g. 12 months → 12m +)
-![Pasted image 20240411174209.png|400](/img/user/assets/images/Pasted%20image%2020240411174209.png)
+![Pasted image 20240411174209.png|400](/img/user/_assets/images/Pasted%20image%2020240411174209.png)
 [(image source)](https://medium.com/@Statistician_Leboo/introduction-to-survival-analysis-992cd4520d4f)
 
 ## Survival function
 =  the probability of survival past any time t:
 $$S(t) = Pr(T>t)$$
 - always decreasing from 1 to 0: longer the t, harder to survive:
-![Pasted image 20240411175213.png|300](/img/user/assets/images/Pasted%20image%2020240411175213.png)
+![Pasted image 20240411175213.png|300](/img/user/_assets/images/Pasted%20image%2020240411175213.png)
 [(image source)](https://medium.com/@Statistician_Leboo/introduction-to-survival-analysis-992cd4520d4f)
 - There are parametric and non-parametric models for the survival function. Non-parametric models are mostly used in survival analysis ([ref](https://medium.com/@Statistician_Leboo/models-in-survival-analysis-89a96b1780ab)).
 
@@ -100,7 +100,7 @@ H(t|x) = \frac{1}{N} \sum _{i=1}
 $$
 where $H_i$ is the estimated CHF for the individual x's terminal node in the $i$-th of the N trees.
 
-![Pasted image 20240417124514.png|400](/img/user/assets/images/Pasted%20image%2020240417124514.png)
+![Pasted image 20240417124514.png|400](/img/user/_assets/images/Pasted%20image%2020240417124514.png)
 [image source](https://www.researchgate.net/figure/Workflow-of-regularized-and-weighted-random-survival-forests-model_fig1_356686264)
 ### Deep Learning Survival Models
 #TODO

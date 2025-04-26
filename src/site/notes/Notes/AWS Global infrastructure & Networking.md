@@ -22,7 +22,7 @@ An edge location = a site that **Amazon CloudFront** uses to store cached copies
 
 # AWS Networking
 AWS networking: who should be allowed to communicate with each other.
-![Pasted image 20230627145304.png|500](/img/user/assets/images/Pasted%20image%2020230627145304.png)
+![Pasted image 20230627145304.png|500](/img/user/_assets/images/Pasted%20image%2020230627145304.png)
 ## Connectivity to AWS
 - Amazon Virtual Private Cloud (Amazon VPC)
 	- = A networking service that you can use to establish boundaries around your AWS resources 
@@ -55,12 +55,12 @@ AWS networking: who should be allowed to communicate with each other.
 	- Security groups perform stateful packet filtering. They remember previous decisions made for incoming packets.
 
 ## Global Networking
-- Domain Name System (DNS) ![Pasted image 20230628160452.png|500](/img/user/assets/images/Pasted%20image%2020230628160452.png)
+- Domain Name System (DNS) ![Pasted image 20230628160452.png|500](/img/user/_assets/images/Pasted%20image%2020230628160452.png)
 	- DNS is like the phone book of the internet; it is a directory used for matching domain names to IP addresses.
 	- DNS resolution: the process of translating a domain name to an IP address. 
 	- AWS DNS web service: Amazon Route 53 
 		-  manage the DNS records for domain names
->[!Example] Amazon Route 53 and Amazon CloudFront deliver content together ![Pasted image 20230628160825.png|500](/img/user/assets/images/Pasted%20image%2020230628160825.png)
+>[!Example] Amazon Route 53 and Amazon CloudFront deliver content together ![Pasted image 20230628160825.png|500](/img/user/_assets/images/Pasted%20image%2020230628160825.png)
 >Suppose that AnyCompany’s application is running on several Amazon EC2 instances. These instances are in an Auto Scaling group that attaches to an Application Load Balancer. 
 >1. A customer requests data from the application by going to AnyCompany’s website. 
 >2. Amazon Route 53 uses DNS resolution to identify AnyCompany.com’s corresponding IP address, 192.0.2.0. This information is sent back to the customer. 

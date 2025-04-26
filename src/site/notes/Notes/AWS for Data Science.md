@@ -3,7 +3,7 @@
 ---
 
 
-![Pasted image 20230706105550.png](/img/user/assets/images/Pasted%20image%2020230706105550.png)
+![Pasted image 20230706105550.png](/img/user/_assets/images/Pasted%20image%2020230706105550.png)
 
 # Data Sources
 - **Amazon S3** ([[Notes/AWS Storage & Databases#Amazon Simple Storage Service (Amazon S3)\|AWS Storage & Databases#Amazon Simple Storage Service (Amazon S3)]])
@@ -14,7 +14,7 @@
 - **Amazon Redshift**: analytical data ([[Notes/AWS Storage & Databases#Amazon Redshift\|AWS Storage & Databases#Amazon Redshift]])
 - **Amazon DynamoDB**: non-relational data ([[Notes/AWS Storage & Databases#Amazon DynamoDB\|AWS Storage & Databases#Amazon DynamoDB]])
 # Data Ingestion & Processing
-![Pasted image 20230706173206.png](/img/user/assets/images/Pasted%20image%2020230706173206.png)
+![Pasted image 20230706173206.png](/img/user/_assets/images/Pasted%20image%2020230706173206.png)
 - Batch processing: Processes massive amounts of data at once
 	- **AWS Lambda** ([[Notes/AWS All-in-one#^08bc66\|AWS All-in-one#^08bc66]])
 { #94aba2}
@@ -53,7 +53,7 @@
 
 # ML Modeling
 >[!Quote] Machine learning workflow
->![Pasted image 20231003113126.png|600](/img/user/assets/images/Pasted%20image%2020231003113126.png)
+>![Pasted image 20231003113126.png|600](/img/user/_assets/images/Pasted%20image%2020231003113126.png)
 - [[Notes/Amazon SageMaker\|Amazon SageMaker]]
 - **Amazon Augmented AI (Amazon A2I)**
 	- for [[Notes/Machine Learning Systems Design#Human review of model predictions\|Machine Learning Systems Design#Human review of model predictions]]

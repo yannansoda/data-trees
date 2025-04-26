@@ -19,7 +19,7 @@
 # Tools
 ### Spark
 Spark is an open-source distributed computing system designed for big data processing and analytics.
-![Pasted image 20230523121347.png|500](/img/user/assets/images/Pasted%20image%2020230523121347.png)
+![Pasted image 20230523121347.png|500](/img/user/_assets/images/Pasted%20image%2020230523121347.png)
 - Resilient Distributed Datasets (RDDs) - the data structure in spark
 	- Immutable: RDDs are read-only and cannot be modified once created. This immutability ensures consistency and simplifies the data processing model.
 	- Resilient: RDDs are resilient to failures. They achieve fault tolerance by keeping track of the lineage of transformations applied to the base data. In case of a node failure, RDDs can be reconstructed by re-executing the transformations.

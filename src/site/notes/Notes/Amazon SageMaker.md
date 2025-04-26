@@ -10,7 +10,7 @@
 4. fit the model
 # Features
 >[!Quote] Machine learning workflow
->![Pasted image 20231003113126.png|600](/img/user/assets/images/Pasted%20image%2020231003113126.png)
+>![Pasted image 20231003113126.png|600](/img/user/_assets/images/Pasted%20image%2020231003113126.png)
 - **SageMaker Data Wrangler**
 	- connect pandas DataFrames and AWS data services
 	- load and upload data
@@ -44,7 +44,7 @@
 		- scenarios: 
 			- you want to change the hyperparameter tuning ranges from the previous job -> use type "identical data and algorithm"
 			- you want to add new hyperparameters -> use type "transfer learning"
-- [[Notes/ML Model Deployment\|ML Model Deployment]] with SageMaker ![Pasted image 20231005094917.png|500](/img/user/assets/images/Pasted%20image%2020231005094917.png)
+- [[Notes/ML Model Deployment\|ML Model Deployment]] with SageMaker ![Pasted image 20231005094917.png|500](/img/user/_assets/images/Pasted%20image%2020231005094917.png)
 	- **SageMaker Endpoint**
 		- real-time prediction [[Notes/ML Model Deployment#^b2b283\|ML Model Deployment#^b2b283]]
 		- auto-scaling

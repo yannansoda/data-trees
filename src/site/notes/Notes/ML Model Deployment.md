@@ -57,7 +57,7 @@ These are important for ML in production than in research:
 
 ### Unifying Batch Pipeline and Streaming Pipeline
 Nowadays, the two pipelines can be unified by having two teams: the ML team maintains the batch pipeline for training while the deployment team maintains the stream pipeline for inference
-![Pasted image 20230711142806.png|400](/img/user/assets/images/Pasted%20image%2020230711142806.png)
+![Pasted image 20230711142806.png|400](/img/user/_assets/images/Pasted%20image%2020230711142806.png)
 
 # How to accelerate ML model inference
 There are three main approaches to reduce its inference latency: 
@@ -82,7 +82,7 @@ There are three main approaches to reduce its inference latency:
 - make the hardware it’s deployed on run faster: ML on the Cloud and on the Edge
 	- On the cloud = a large chunk of computation is done on the cloud, either public clouds or private clouds
 	- On the edge = a large chunk of computation is done on consumer devices
-	- online and on-the-edge ML models need powerful hardware ![Pasted image 20230711145322.png|300](/img/user/assets/images/Pasted%20image%2020230711145322.png)
+	- online and on-the-edge ML models need powerful hardware ![Pasted image 20230711145322.png|300](/img/user/_assets/images/Pasted%20image%2020230711145322.png)
 
 
 # Example Workflow for Deploying a Production Machine Learning Model

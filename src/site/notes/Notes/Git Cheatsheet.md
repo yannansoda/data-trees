@@ -3,7 +3,7 @@
 ---
 
 
-![Pasted image 20240208095045.png|600](/img/user/assets/images/Pasted%20image%2020240208095045.png)
+![Pasted image 20240208095045.png|600](/img/user/_assets/images/Pasted%20image%2020240208095045.png)
 ## Basic workflow
 
 ```bash

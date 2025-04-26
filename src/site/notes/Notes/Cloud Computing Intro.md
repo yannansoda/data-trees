@@ -30,7 +30,7 @@
 
 
 # Types of Cloud service models
-![Pasted image 20230109143900.png|600](/img/user/assets/images/Pasted%20image%2020230109143900.png)
+![Pasted image 20230109143900.png|600](/img/user/_assets/images/Pasted%20image%2020230109143900.png)
 - Infrastructure as a Service (IaaS)
 - Platform as a Service (PaaS)
 - Software as a Service (SaaS)

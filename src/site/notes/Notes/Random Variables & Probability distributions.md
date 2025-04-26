@@ -72,7 +72,7 @@ $$P(a \leq X \leq b) = F (b) - F(a) = \int _a
 >- For discrete random variables, we look up the value of a PMF at a single point to find its probability P(𝐗=𝒙).
 >- For continuous random variables, we take an integral of a PDF over a certain interval to find its probability that X will fall in that interval.
 >- Thus, PDF can be greater than 1, such as in an exponential distribution: 
->	 ![Pasted image 20230621135607.png|300](/img/user/assets/images/Pasted%20image%2020230621135607.png)
+>	 ![Pasted image 20230621135607.png|300](/img/user/_assets/images/Pasted%20image%2020230621135607.png)
 
 
 

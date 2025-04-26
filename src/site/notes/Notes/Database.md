@@ -23,16 +23,16 @@
  - Generally, each table/relation represents one "entity type" (such as customer or product). The rows represent instances of that type of entity (such as "Lee" or "chair") and the columns representing values attributed to that instance (such as address or price).
 ### Dimensional model
 - Star schemas
-	- A schema consisting of one or more fact table that references any number of dimension tables ![Pasted image 20230526223719.png](/img/user/assets/images/Pasted%20image%2020230526223719.png)
+	- A schema consisting of one or more fact table that references any number of dimension tables ![Pasted image 20230526223719.png](/img/user/_assets/images/Pasted%20image%2020230526223719.png)
 - Snowflake schemas
-	- An extension of a star schema with additional dimensions and often sub-dimensions ![Pasted image 20230526223819.png](/img/user/assets/images/Pasted%20image%2020230526223819.png)
+	- An extension of a star schema with additional dimensions and often sub-dimensions ![Pasted image 20230526223819.png](/img/user/_assets/images/Pasted%20image%2020230526223819.png)
 > [!Important] Schema is a way of describing how something such as data is organized. 
 
 ### Denormalized/NoSQL schemas 
 - Document model: JSON, XML, Binary JSON (BSON)
 - Graph model
 
->[!Note] SQL vs. No SQL ![Pasted image 20230620231249.png|500](/img/user/assets/images/Pasted%20image%2020230620231249.png)
+>[!Note] SQL vs. No SQL ![Pasted image 20230620231249.png|500](/img/user/_assets/images/Pasted%20image%2020230620231249.png)
 
 
 

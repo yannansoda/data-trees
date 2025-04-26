@@ -19,15 +19,15 @@ You can evaluate the bias and variance by checking errors of the train and dev s
 ### Regularization influences bias-variance trade-off
 check [[Notes/Cost Functions#Cost function with regularization\|Cost Functions#Cost function with regularization]] and [[Notes/Regularization\|Regularization]]
 
-![bias-variance-1.png|600](/img/user/assets/images/bias-variance-1.png)
+![bias-variance-1.png|600](/img/user/_assets/images/bias-variance-1.png)
 
-![bias-variance-4.png|600](/img/user/assets/images/bias-variance-4.png)
+![bias-variance-4.png|600](/img/user/_assets/images/bias-variance-4.png)
 
 
 
 ### learning curves
-![bias-variance-2.png|300](/img/user/assets/images/bias-variance-2.png)
-![bias-variance-3.png|300](/img/user/assets/images/bias-variance-3.png)
+![bias-variance-2.png|300](/img/user/_assets/images/bias-variance-2.png)
+![bias-variance-3.png|300](/img/user/_assets/images/bias-variance-3.png)
 increasing training set size can...
 - lower cross validation error, if a learning algorithm suffers from high variance
 - not help anything, if a learning algorithm suffers from high bias
@@ -45,4 +45,4 @@ increasing training set size can...
 # Bias & Variance in Deep Learning
 > [!Important] Different from simple ML models, there is rarely trade-off between bias-variance in DL models. You can now reduce bias without hurting variance, and vice versa.
 
-![Pasted image 20230313213430.png|400](/img/user/assets/images/Pasted%20image%2020230313213430.png)
+![Pasted image 20230313213430.png|400](/img/user/_assets/images/Pasted%20image%2020230313213430.png)

@@ -29,7 +29,7 @@ Gradient boosting is an [[Notes/Ensemble Learning\|Ensemble Learning]] algorithm
 
 # Gradient-boosted Trees
 = when the weak learner is Classification and Regression [[Notes/Decision Tree & Random Forest#Decision Tree\|Decision Tree & Random Forest#Decision Tree]] in gradient boosting
-### How it works ![Pasted image 20230709123115.png|600](/img/user/assets/images/Pasted%20image%2020230709123115.png)
+### How it works ![Pasted image 20230709123115.png|600](/img/user/_assets/images/Pasted%20image%2020230709123115.png)
 ### Hyperparameters
 - number of trees
 - max depth of trees

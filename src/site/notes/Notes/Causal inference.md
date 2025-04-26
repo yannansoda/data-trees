@@ -59,7 +59,7 @@
 { #b7b0a6}
 
 
-![/assets/images/4-elemental-confounds.png|300](/img/user/assets/images/4-elemental-confounds.png)
+![4-elemental-confounds.png|300](/img/user/_assets/images/4-elemental-confounds.png)
 
 | Confound type | Description | Take care... |
 | --- | --- | --- |

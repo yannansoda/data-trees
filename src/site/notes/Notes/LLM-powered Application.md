@@ -3,7 +3,7 @@
 ---
 
 ### Using LLM in applications
-![Pasted image 20240812093815.png|500](/img/user/assets/images/Pasted%20image%2020240812093815.png)
+![Pasted image 20240812093815.png|500](/img/user/_assets/images/Pasted%20image%2020240812093815.png)
 - LLM can interact with external datasets: 
 	- e.g. [[Notes/Retrieval Augmented Generation (RAG)\|Retrieval Augmented Generation (RAG)]]
 - LLM can interact with external applications
@@ -17,7 +17,7 @@
 
 
 ### LLM application architectures
-![Pasted image 20240812220730.png|500](/img/user/assets/images/Pasted%20image%2020240812220730.png)
+![Pasted image 20240812220730.png|500](/img/user/_assets/images/Pasted%20image%2020240812220730.png)
 
 ### Use LLMs to power an application through reasoning and action planning
 - use chain of thought prompting to help LLMs improve their reasoning
