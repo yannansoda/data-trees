@@ -3,7 +3,7 @@
 ---
 
 >[!Source]
->*Software Engineering for Data Scientists*, Catherine Nelson, April 2024, O'Reilly Media, Inc.
+>*[[BookNotes/Software Engineering for Data Scientists\|Software Engineering for Data Scientists]]*, Catherine Nelson, April 2024, O'Reilly Media, Inc. 
 ## How to analyze code performance
 ### Find bottlenecks
 - timing the code
