@@ -11,10 +11,9 @@
 2. Pick an example $x$ from your dataset at random and assign it to cluster 1, then count how many examples have the distance from $x$ less than or equal to $\epsilon$. 
 	- If this quantity is greater than or equal to $n$, then put all these $\epsilon$-neighbors to the same cluster 1.
 	- Examine each member of cluster 1 and find their respective $\epsilon$-neighbors. If some member of cluster 1 has $n$ or more  $\epsilon$-neighbors, expand cluster 1 by adding those  $\epsilon$-neighbors to the cluster. 
-	- 3. Continue expanding cluster 1 until there are no more examples to put in it. 
-- Pick from the dataset another example not belonging to any cluster and put it to cluster 22. You continue like this until all examples either belong to some cluster or are marked as outliers. An outlier is an example whose ϵ\epsilon-neighborhood contains less than nn examples.”
-
- It uses a parameter called the minimum cluster size (MinClusterSize) in addition to ε and MinPts.
+3. Continue expanding cluster 1 until there are no more examples to put in it. 
+	- Pick from the dataset another example not belonging to any cluster and put it to cluster 2. You continue like this until all examples either belong to some cluster or are marked as outliers. An outlier is an example whose ϵ\epsilon-neighborhood contains less than nn examples.”
+ - It uses a parameter called the minimum cluster size (MinClusterSize) in addition to ε and MinPts.
 
 
 # Examples 

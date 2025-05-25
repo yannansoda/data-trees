@@ -6,20 +6,24 @@
 >[!Source] 
 >https://towardsdatascience.com/6-types-of-clustering-methods-an-overview-7522dba026ca
 
+
+# What is Centroid-based Clustering
+
 >Centroid-based methods group data points together based on the proximity of data points to the centroid (cluster center).
 
-### Measure proximity
+## Measure proximity
 - **Euclidean distance**: Shortest (straight-line) distance, useful for numerical features, this is the default distance measure
 - **Manhattan distance**: Sum of absolute differences, useful for categorical features
 - **Hamming distance**: Percentage of bits that differ, useful for binary features
 - **Mahalanobis distance**: Standardised form of Euclidean distance
 - **Minkowski distance**: Generalized form of Euclidean and Manhattan distance
 - **Chebyshev distance**: Maximum absolute difference
-### Examples
-- K-Means clustering
-- K-Medoids
-- Mean Shift
-- Fuzzy Clustering (soft K-means; data points can be part of multiple clusters)
+## Examples
+- **K-Means clustering**
+- **K-modes & K-prototype**
+- **K-Medoids**
+- **Mean Shift**
+- **Fuzzy Clustering** (soft K-means; data points can be part of multiple clusters)
 # K-Means Clustering
 
 ## How it works
@@ -28,7 +32,7 @@
 3. Assign each data point to the closest centroid => that forms K clusters
 4. Compute and place the new centroid of each cluster
 5. Reassign each data point to the new closest centroid
-8. Repeat until your model is ready (i.e. cost function reaches minimum
+6. Repeat until your model is ready (i.e. cost function reaches minimum)
 
 > - Actually, in K-means, the cost never increases.
 > - Clustering algorithms such as KMeans have a difficult time accurately clustering data of high dimensionality (ie. too many features)
@@ -56,3 +60,17 @@
 	- Bayesian Information Criterion (BIC) 
 ### Measure the separability between clusters: Silhouette Method  
 - the score can be increased by applying [[Notes/Dimensionality Reduction\|Dimensionality Reduction]].
+
+# K-modes & K-prototype
+## Why K-modes or K-prototype
+- K-Means only handles numerical data since it used Euclidian distance
+- K-modes is similar to K-Means but designed for binary data
+- K-prototype combines K-means with K-modes to handle datasets with both numerical and categorical data 
+## How it works
+### K-modes
+- The process is similar to [[Notes/Centroid-based Clustering#K-Means Clustering\|Centroid-based Clustering#K-Means Clustering#How it works]]
+- But it uses **Hamming distance** to count number of mismatched categories
+### K-prototype
+- The process is similar to [[Notes/Centroid-based Clustering#K-Means Clustering\|Centroid-based Clustering#K-Means Clustering#How it works]]
+- But it uses both **Euclidian distance** and **Hamming distance** with weighting factor to balance numeric and categorical contributions
+

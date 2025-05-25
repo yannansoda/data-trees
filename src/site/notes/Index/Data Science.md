@@ -13,6 +13,7 @@
 - [[Notes/Big Data\|Big Data]]
 - [[Notes/Centroid-based Clustering\|Centroid-based Clustering]]
 - [[Notes/Cloud Computing Intro\|Cloud Computing Intro]]
+- [[Notes/Clustering Evaluation Metrics\|Clustering Evaluation Metrics]]
 - [[Notes/Cross-industry Standard Process for Data Mining\|Cross-industry Standard Process for Data Mining]]
 - [[Notes/Data Leakage\|Data Leakage]]
 - [[Notes/Data Sampling\|Data Sampling]]

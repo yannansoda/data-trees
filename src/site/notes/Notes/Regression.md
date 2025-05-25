@@ -12,7 +12,7 @@
 
 # Principal component regression
 > [Source](https://towardsdatascience.com/principal-component-regression-clearly-explained-and-implemented-608471530a2f)
-1. apply PCA ([[Notes/Dimensionality Reduction#Feature Selection\|Dimensionality Reduction#Feature Selection]]) to generate principal components from the predictor variables, with the number of principal components matching the number of original features p
+1. apply PCA ([[Notes/Dimensionality Reduction#PCA vs. LDA\|Dimensionality Reduction#PCA vs. LDA]]) to generate principal components from the predictor variables, with the number of principal components matching the number of original features p
 2. keep the first k principal components that explain most of the variance (where k < p), where k is determined by cross-validation
 3. fit a linear regression model on these k principal components
 # Partial least squares (PLS) regression

@@ -3,7 +3,7 @@
 ---
 
 >[!Info]
->This is a part of noted from reading the book #Models_of_the_Mind about  Computational Neuroscience.
+>This is a part of noted from reading the book [[BookNotes/Models of the Mind\|Models of the Mind]] about  Computational Neuroscience.
 >This chapter **Stages of Sight** is about visual processing and computer vision.
 
 

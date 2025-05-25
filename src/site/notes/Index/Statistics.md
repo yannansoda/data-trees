@@ -17,6 +17,7 @@
 - [[Notes/F-distribution & F-Test\|F-distribution & F-Test]]
 - [[Notes/Factor Analysis\|Factor Analysis]]
 - [[Notes/Fisher Information\|Fisher Information]]
+- [[Notes/Kernel Function\|Kernel Function]]
 - [[Notes/Kolmogorov-Smirnov Test\|Kolmogorov-Smirnov Test]]
 - [[Notes/Likelihood ratio test\|Likelihood ratio test]]
 - [[Notes/Linear mixed models\|Linear mixed models]]

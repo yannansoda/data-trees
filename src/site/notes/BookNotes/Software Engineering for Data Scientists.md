@@ -3,7 +3,7 @@
 ---
 
 [status:: Done]
-[format:: kindle]
+[format:: eBook]
 
 >[!tip] Back to my [[Index/Some Books I Have Read\|BookList]]
 

@@ -79,7 +79,7 @@ We can choose methods depending on the time series patterns
 		- extends the ARIMA by adding a linear combination of seasonal past values and/or forecast errors.
 	- Prophet: 
 		- a forecasting method developed by Facebook that uses a decomposable time series model with components for trend, seasonality, and holidays.
-	- [[Long Short Term Memory\|Long Short Term Memory]]
+	- [[Notes/Long Short Term Memory\|Long Short Term Memory]]
 
 ## Partitioning in Time Series
 ![time-series-partition1.png|400](/img/user/_assets/images/time-series-partition1.png)

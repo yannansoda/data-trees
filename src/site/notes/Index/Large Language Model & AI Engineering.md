@@ -3,6 +3,7 @@
 ---
 
 
+- [[Notes/AI Engineering Architecture\|AI Engineering Architecture]]
 - [[Notes/Foundation Models\|Foundation Models]]
 - [[Notes/Intelligent Agent\|Intelligent Agent]]
 - [[Notes/LLM Finetuning\|LLM Finetuning]]

@@ -32,7 +32,7 @@ The gradient computation involves performing a forward propagation pass moving l
 ![Pasted image 20240825204844.png|500](/img/user/_assets/images/Pasted%20image%2020240825204844.png)
 
 # Variations of RNN
-- [[Long Short Term Memory\|Long Short Term Memory]]
+- [[Notes/Long Short Term Memory\|Long Short Term Memory]]
 - [[Grated Recurrent Unit\|Grated Recurrent Unit]]
 - Bidirectional RNN: 
 	- a RNN that processes data in both forward and backward directions

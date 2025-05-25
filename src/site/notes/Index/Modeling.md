@@ -11,6 +11,7 @@
 - [[Notes/Gaussian Process\|Gaussian Process]]
 - [[Notes/Generalized Linear Models\|Generalized Linear Models]]
 - [[Notes/Goodness of Fit\|Goodness of Fit]]
+- [[Notes/Huber loss\|Huber loss]]
 - [[Notes/Hybrid Models\|Hybrid Models]]
 - [[Notes/Jacobian & Hessian Matrix\|Jacobian & Hessian Matrix]]
 - [[Notes/Likelihood ratio test\|Likelihood ratio test]]
