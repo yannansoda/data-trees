@@ -27,11 +27,11 @@ $$
 $$
 p(A|B, C) p(B | C) = p(B|A, C) p(A|C)
 $$
-	derivation:
-	 $$
-	p(A|B, C) = p(A, B, C) / p(B, C) 
-	$$
-	with 
-	$$
-	p(A, B, C) = p(B|A, C) p(A|C) p(C), \ \ p(B, C) = p(B|C)p(C)
-  $$
+derivation:
+$$
+p(A|B, C) = p(A, B, C) / p(B, C) 
+$$
+with 
+$$
+p(A, B, C) = p(B|A, C) p(A|C) p(C), \ \ p(B, C) = p(B|C)p(C)
+$$
