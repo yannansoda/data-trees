@@ -1,5 +1,5 @@
 ---
-{"topic":"Photography","dg-publish":true,"permalink":"/RandomBubbles/Stephen Shore 史蒂芬肖尔/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Thoughts","dg-publish":true,"permalink":"/RandomBubbles/Stephen Shore 史蒂芬肖尔/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 - 代表作：《不寻常之地》
