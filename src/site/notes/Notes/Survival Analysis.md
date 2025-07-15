@@ -2,17 +2,21 @@
 {"topic":"Modeling, AIxHealth","dg-publish":true,"permalink":"/Notes/Survival Analysis/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
-## Survival data characteristics
+# Survival data characteristics
 - in survival data, the labels are amounts of time to event
 - censoring observations: no observations of events happening in the specified time period:
-	- end-of-study censoring (no event)
-	- loss-to-follow-up censoring (patients withdraw)
-	- left censoring =  the time to events is only known to before a certain value
-	- right censoring = the time to events is only known to exceed a certain value (e.g. 12 months → 12m +)
+	- **end-of-study censoring** (no event)
+	- **loss-to-follow-up censoring** (patients withdraw)
+	- **left censoring** =  the time to events is only known to before a certain value
+	- **right censoring** = the time to events is only known to exceed a certain value (e.g. 12 months → 12m +)
+		- _fixed type I censoring_: a study is designed to end after X years, and everyone who does not have an event observed during the course of the study is censored at X years.
+		- _random type I censoring_: a study is designed to end after X years, but censored subjects do not all have the same censoring time.
+		- _type II censoring_:   a study ends when there is a prespecified number of events.
+
 ![Pasted image 20240411174209.png|400](/img/user/_assets/images/Pasted%20image%2020240411174209.png)
 [(image source)](https://medium.com/@Statistician_Leboo/introduction-to-survival-analysis-992cd4520d4f)
 
-## Survival function
+# Survival function
 =  the probability of survival past any time t:
 $$S(t) = Pr(T>t)$$
 - always decreasing from 1 to 0: longer the t, harder to survive:
@@ -20,15 +24,16 @@ $$S(t) = Pr(T>t)$$
 [(image source)](https://medium.com/@Statistician_Leboo/introduction-to-survival-analysis-992cd4520d4f)
 - There are parametric and non-parametric models for the survival function. Non-parametric models are mostly used in survival analysis ([ref](https://medium.com/@Statistician_Leboo/models-in-survival-analysis-89a96b1780ab)).
 
-### Parametric Survival models
+## Parametric Survival models
+= All components of $S(t)$ are model-based
 - The Uniform Model (De-Moivre’s)
 - Exponential Model
 - The Gompertz model
 - The Modified Gompertz Model (Makeham Model)
 - The Weibull Model
 
-### Non-Parametric Models
-#### Kaplan Meier Model
+## Non-Parametric Models
+### Kaplan Meier Model
 = the probability of survival past t months with censored observations:   
 $$
 S(t) = \prod 1- Pr(T=i | T >= i ) = \prod_{t_i \leq t} (1 - \frac{d_i}{n_i})
@@ -37,11 +42,19 @@ where
 - $t_i$ are the events observed in the dataset 
 - $d_i$ is the number of deaths at time $t_i$
 - $n_i$ is the number of people who we know have survived up to time $t_i$.
->[!Important]
->Note that Kaplan-Meier estimator estimates the survival function directly from observed data, making no assumptions about the underlying hazard function.
+#### Limitations
+- mainly descriptive: it estimates the survival function directly from observed data 
+	- no assumptions about the underlying hazard function
+	- cannot be used for simulation
+- covariates are handled by stratification
+	- may not be suitable for continuous covariate such as age
+	- time-varying covariates are not handled
 
-#### Hazard Function
-= the instantaneous rate of death at time $t$, given that the subject has survived up to that time
+>[!Important]
+>Note that Kaplan-Meier estimator implicitly assumes that censored observations will have events in the future (e.g. all survived individuals will eventually die.)
+
+### Hazard Function
+= the *instantaneous* rate of death at time $t$, given that the subject has survived up to that time
 = the chances of dying in a small interval of time:
 $$
 h(t) = lim_{\Delta t \rightarrow 0} \frac{P(t \leq T < t+\Delta t | T \geq t)}{\Delta t}
@@ -53,13 +66,12 @@ H (t) = \int _0
  h(t) dt
 $$
 - relation between survival and hazard
-$$
-S(t) = exp(- \int _0
+$$ S(t) = exp(- \int _0
 { #t}
- h(t) dt)
-$$
-#### Cox (Proportional Hazards) Model
-= a  regression model for survival data that allows us to assess the effect of covariates on survival time while making minimal assumptions about the shape of the hazard function:
+ h(t) dt) $$
+$$ h(t) = -\frac{d}{dt} \log S(t) = -\frac{S'(t)}{S(t)} $$
+### Cox (Proportional Hazards) Model
+= a regression model for survival data that allows us to assess the effect of covariates on survival time while making minimal assumptions about the shape of the hazard function:
 $$
 h(t|X) = h_0(t) exp(\beta_1X_1 + \beta_2X_2 + ... + \beta_pX_p)
 $$
@@ -75,7 +87,7 @@ where
 > - ridge: [[Notes/Regularization#^1e9ee5\|Regularization#^1e9ee5]]
 > - elastic net: [[Notes/Regularization#^de0043\|Regularization#^de0043]]
 
-### Tree-structured Survival Models
+## Tree-structured Survival Models
 >[!Tree-structured survival model vs. Cox model]
 >- assumptions
 >	- Cox model assumes proportional hazards, meaning the effect of covariates is constant over time.
@@ -84,14 +96,14 @@ where
 >	- Cox model cannot handle non-linear relationship and can struggle with high-dimensional data
 >	- survival trees can handle both
 
-#### Survival trees
+### Survival trees
 The single survival tree prediction for an individual is a cumulative hazard function (CHF) computed for all individuals in the same tree terminal node:
 $$
 H_h(t) = \sum_{t_l, h \leq t} \frac{d_l, h}{R_l, h}
 $$
 where $h$ is terminal node, $t$ is event time, $d$ is the number of events at time $t$, and $R$ is the number of individuals at risk at time $t$.
 
-#### Survival random forest
+### Survival random forest
 With the CHF for each tree defined above, the entire forest the CHF averaged over all trees:
 $$
 H(t|x) = \frac{1}{N} \sum _{i=1}
@@ -102,9 +114,9 @@ where $H_i$ is the estimated CHF for the individual x's terminal node in the $i$
 
 ![Pasted image 20240417124514.png|400](/img/user/_assets/images/Pasted%20image%2020240417124514.png)
 [image source](https://www.researchgate.net/figure/Workflow-of-regularized-and-weighted-random-survival-forests-model_fig1_356686264)
-### Deep Learning Survival Models
+## Deep Learning Survival Models
 #TODO
-## Example of usage
+# Example of usage
 
 Given such a dataset:
 
@@ -121,12 +133,13 @@ Given such a dataset:
 - To describe the effect of variables on survival:
 	- Cox proportional hazards model can be used to assess the effect of treatment on survival, while controlling for age and gender
 
-## Model evaluation 
-### Graphical Evaluation
+# Model evaluation 
+## Graphical Evaluation
 - Kaplan-Meier Curves
 - Cox-Snell Residual Plot
-### Measure the discrimination ability of survival models
-#### Concordance Index (C-index, or Harrell's C-index)
+## Discrimination Metrics
+= Evaluate the model's ability to distinguish between subjects who will experience an event and those who will not.
+### Concordance Index (C-index, or Harrell's C-index)
 = quantifies the model's ability to correctly rank the relative risks or predicted survival probabilities of pairs of subjects:
 $$
 \frac{\#concordant \ pairs + 0.5 \times \#risk \ ties}{\#permissible \ pairs}
@@ -144,5 +157,11 @@ $$
 - The C-index ranges from 0.5 to 1.0:
 	- 0.5 = random choice
 	- 1.0 = perfect discrimination
-#### Time-dependent Area Under the Curve (AUC)
+### Time-dependent Area Under the Curve (AUC)
 = the AUC for different time points to assess the model's predictive accuracy over time
+
+## Calibration Metrics
+= evaluate how well the predicted probabilities of survival agree with the observed survival rates
+### Brier Score (time-dependent)
+= compares the predicted survival probability to the actual event/censoring
+- The Integrated Brier Score (IBS) = an overall calculation of the model performance at all available times $t_1 \leq t \leq t_{max}$

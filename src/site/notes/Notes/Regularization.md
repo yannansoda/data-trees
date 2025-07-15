@@ -19,16 +19,13 @@ See [[Notes/Cost Functions#Cost function with regularization\|Cost Functions#Cos
 
 ## Types of Techniques
 ### **shrinking (= add penalty/reduce weight/weight decay)**
-- L1 regularization (lasso): [[Notes/Cost Functions#^19a2bf\|Cost Functions#^19a2bf]]
+- **L1 regularization (lasso)**: [[Notes/Cost Functions#^19a2bf\|Cost Functions#^19a2bf]]
 { #6700d3}
 
-- L2 regularization (ridge, "weight decay"): [[Notes/Cost Functions#^b2a01f\|Cost Functions#^b2a01f]]
+- **L2 regularization (ridge, "weight decay"):** [[Notes/Cost Functions#^b2a01f\|Cost Functions#^b2a01f]]
 { #1e9ee5}
 
-- elastic net regularization 
-{ #de0043}
-
-	- = L1 + L2 regularization: 
+- **elastic net regularization**: = L1 + L2 regularization
 
 $$ 
 ElasticNet \ Penalty=λ_1 \sum_{j=1}^p​∣ \beta_j​∣+ \lambda_2​ \sum_{j=1}^p​ \beta_j^2

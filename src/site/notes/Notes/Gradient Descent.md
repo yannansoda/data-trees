@@ -13,18 +13,47 @@ The adaptive methods in gradient descent can automatically adjust the learning r
 - **preconditioning**
 	- avoids computing the Hessian in its entirety but only computes the diagonal entries
 
-
-# Gradient descent in Neural networks
+# Gradient Descent in Neural Networks
+## Gradient computation
 - use forward-propagation to calculate the values of each layer
 - use back-propagation to calculate the derivatives 
-- example of a two-layer logistic regression neural network by Andrew Ng:
+- example of a two-layer logistic regression neural network (by Andrew Ng):
 ![Pasted image 20230310114003.png|500](/img/user/_assets/images/Pasted%20image%2020230310114003.png)
+## Challenges and Solutions
+### Vanishing / Exploding gradients 
+#### Challenges
+- **Vanishing gradients**
+	- the gradients of a neural network's loss function become extremely small
+	- causes the weights to update very slowly and making it difficult for the network to learn effectively
+- **Exploding gradients** 
+	- gradients become excessively large
+	- leads to unstable updates and causing the model's parameters to oscillate or diverge during training
+#### Solutions: Initialization (Starting Point for Gradient Descent)
+- Initialization = refers to how the network’s weights are set before training begins.
+- Common initialization strategies:
+	- **Xavier/Glorot Initialization**: tailored for tanh activations; for balanced signal flow
+	- **He Initialization**: tailored for ReLU activations.
+	- **Pretrained weights**: from transfer learning or self-supervised learning.
+	- bias terms are often initialized to zero or small constants.
+### Optimization is too slow
+#### Challenges
+- Model convergence can be slow or stall due to:
+    - Poor gradient flow
+    - Suboptimal hyperparameters
+    - Lack of normalization or regularization
+#### Solutions
+- Gradient checking
+	- use only for debugging gradients (e.g., to verify backpropagation implementation)
+	- ensure to include regularization terms in the check
+	- doesn't work for dropout
+- Hyperparameter Tuning: [[Notes/Hyperparameter Tuning#Hyperparameter Tuning in Deep Learning\|Hyperparameter Tuning#Hyperparameter Tuning in Deep Learning]]
+- Batch Normalization: [[Notes/Regularization#**batch-normalization**\|Regularization#**batch-normalization**]]
 
 # Variants of Gradient Descent
 
 Variants Outline:
 - [[#Batch gradient descent]]
-- [[#Stochastic gradient descent (SGD]]
+- [[#Stochastic gradient descent (SGD)]]
 - [[#Mini-batch gradient Descent]]
 - [[#Momentum]]
 { #40db40}
@@ -39,7 +68,7 @@ Variants Outline:
 ### Batch gradient descent 
 - most basic approach 
 - the loss function= an average of the losses computed on every single example in the dataset
-### Stochastic gradient descent (SGD）
+### Stochastic gradient descent (SGD)
 - a variant of batch gradient descent where the weights are updated after computing the gradient of the loss function with respect to a *single training example at a time*
 - while each individual observation will provide a poor estimate of the true gradient, given enough randomness the parameters will converge to a good global estimate
 - SGD itself has various “upgrades” variants
@@ -96,3 +125,4 @@ where
 - reduce the learning rate over time as the optimization process progresses. 
 - the idea behind learning rate decay is that as the algorithm gets closer to the minimum of the loss function, it may benefit from smaller steps to avoid overshooting or oscillations around the minimum.
 - can be combined with other algorithms such as SGD and Adam
+

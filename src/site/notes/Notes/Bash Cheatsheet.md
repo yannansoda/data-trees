@@ -5,6 +5,7 @@
 
 ### Files & Directories
 ```bash
+$ tree
 $ ls -a file_path # show hidden files
 $ cd ~ # navigate to home directory
 $ nano file # (create and) edit file; ctrl+O to save; ctrl+X to exit

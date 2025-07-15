@@ -6,7 +6,7 @@
 ### Common solutions
 - include more features
 - try a more complicated model
-- for [[Notes/Recurrent Neural Networks\|Recurrent Neural Networks]] and [[Notes/Convolutional Neural Networks\|Convolutional Neural Networks]]: 
+- for [[Notes/Recurrent Neural Networks (RNN)\|Recurrent Neural Networks (RNN)]] and [[Notes/Convolutional Neural Networks (CNN)\|Convolutional Neural Networks (CNN)]]: 
 	- find better network architecture and hyperparameters
 	- try longer/better optimization algorithms ([[Notes/Gradient Descent\|Gradient Descent]])
 
@@ -16,7 +16,7 @@
 - collect more data (or training examples) for ML
 - [[Notes/Feature selection\|Feature selection]]: select features to include/exclude, when there are multiple features
 - [[Notes/Regularization\|Regularization]] => reduce overfitting during estimation
-- for [[Notes/Recurrent Neural Networks\|Recurrent Neural Networks]] and [[Notes/Convolutional Neural Networks\|Convolutional Neural Networks]]: find better network architecture and hyperparameters
+- for [[Notes/Recurrent Neural Networks (RNN)\|Recurrent Neural Networks (RNN)]] and [[Notes/Convolutional Neural Networks (CNN)\|Convolutional Neural Networks (CNN)]]: find better network architecture and hyperparameters
 
 
 ### Estimates of out-of-sample accuracy => estimate the degree of overfitting

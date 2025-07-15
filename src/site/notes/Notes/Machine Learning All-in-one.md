@@ -109,11 +109,11 @@
 > - deep learning = training large neural network
 > - deep learning is most powerful in supervised learning
 > - applications: Advertisement, Images vision, Audio to Text, Machine translation, Autonomous Driving
-> - [[Notes/Practical Aspects in Deep Learning\|Practical Aspects in Deep Learning]]
 
+- Overview: [[Notes/Key Components of Deep Learning\|Key Components of Deep Learning]]
 - [[Notes/Artificial Neural Networks\|Artificial Neural Networks]]
-- [[Notes/Convolutional Neural Networks\|Convolutional Neural Networks]]
-- [[Notes/Recurrent Neural Networks\|Recurrent Neural Networks]]
+- [[Notes/Convolutional Neural Networks (CNN)\|Convolutional Neural Networks (CNN)]]
+- [[Notes/Recurrent Neural Networks (RNN)\|Recurrent Neural Networks (RNN)]]
 
 # Model Selection & Improving
 - [[Notes/Cross-Validation\|Cross-Validation]]

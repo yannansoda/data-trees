@@ -6,7 +6,7 @@
 >[Video: Long Short-Term Memory (LSTM), Clearly Explained](https://youtu.be/YCzL96nL7j0?feature=shared)
 
 ### What is LSTM
-- It is a type of [[Notes/Recurrent Neural Networks\|Recurrent Neural Networks]] architecture
+- It is a type of [[Notes/Recurrent Neural Networks (RNN)\|Recurrent Neural Networks (RNN)]] architecture
 - It is designed to address the vanishing/exploding gradient problem (see [[Notes/Optimization Algorithms#^4a1546\|Optimization Algorithms#^4a1546]]) in traditional RNNs, allowing it to effectively capture long-term dependencies in sequential data.
 
 

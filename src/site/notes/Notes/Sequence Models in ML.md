@@ -3,7 +3,7 @@
 ---
 
 # Units
-- Deep [[Notes/Recurrent Neural Networks\|Recurrent Neural Networks]]
+- Deep [[Notes/Recurrent Neural Networks (RNN)\|Recurrent Neural Networks (RNN)]]
 - GRU: gated recurrent unit
 - [[Notes/Long Short Term Memory\|Long Short Term Memory]]: Long Short Term Memory
 

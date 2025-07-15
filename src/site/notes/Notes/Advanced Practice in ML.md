@@ -40,11 +40,4 @@ Always consider two aspects with regards to generalization:
 # Model selection
 - always consider the **Interpretability** and the **Complexity** of the model.
 
-# Combining models
-We can get an additional performance gain by combining strong models (base models) made with different learning algorithms.
-- Averaging
-	- = averaging the prediction of base models - works for regression
-- Majority vote
-	- = get the majority votes from base models - works for classification
-- Stacking
-	- = build a meta-model that takes the output of base models as input 
+

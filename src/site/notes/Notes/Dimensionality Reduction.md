@@ -33,7 +33,7 @@ There are two main approaches:
 - **Uniform Manifold Approximation and Projection (UMAP)**
 	- fast and scalable non-linear dimensionality reduction method, preserves both global and local structure
 	- similar to t-SNE but faster and often better at retaining overall shape
-- **Autoencoders**
+- **[[Notes/Autoencoders\|Autoencoders]]**
 	- neural network-based models that learn a compressed latent representation through reconstruction
 
 ## PCA vs. LDA

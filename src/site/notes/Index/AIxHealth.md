@@ -8,6 +8,7 @@
 - [[Notes/AI for Medical Treatment\|AI for Medical Treatment]]
 - [[Notes/DS of Health Informatics\|DS of Health Informatics]]
 - [[Notes/Health Information Systems\|Health Information Systems]]
+- [[Notes/Health Risk Metrics\|Health Risk Metrics]]
 - [[Notes/ICH-Good Clinical Practice\|ICH-Good Clinical Practice]]
 - [[Notes/Measures of Disease Burden\|Measures of Disease Burden]]
 - [[Notes/ML in Bioinformatics\|ML in Bioinformatics]]

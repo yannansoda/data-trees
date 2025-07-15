@@ -24,7 +24,6 @@
 - [[Notes/Docker\|Docker]]
 - [[Notes/DS for Business\|DS for Business]]
 - [[Notes/Error Metrics\|Error Metrics]]
-- [[Notes/Feature Importance\|Feature Importance]]
 - [[Notes/Feature selection\|Feature selection]]
 - [[Notes/Graph Neural Networks\|Graph Neural Networks]]
 - [[Notes/Graph-based Clustering\|Graph-based Clustering]]

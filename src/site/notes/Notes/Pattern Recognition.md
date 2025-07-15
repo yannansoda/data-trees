@@ -2,7 +2,7 @@
 {"topic":"MachineLearning","dg-publish":true,"permalink":"/Notes/Pattern Recognition/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
-Also called image recognition. Use [[Notes/Convolutional Neural Networks\|Convolutional Neural Networks]].
+Also called image recognition. Use [[Notes/Convolutional Neural Networks (CNN)\|Convolutional Neural Networks (CNN)]].
 
 # Pre-processing techniques
 - data normalization:

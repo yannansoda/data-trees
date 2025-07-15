@@ -31,7 +31,7 @@ There are some of the techniques used for feature selection in data analysis
 - select features that correlate well with target variables 
 - examples
 	- univariate statistical analysis: select features with higher correlations with target variables
-	- feature importance-based: select features with higher [[Notes/Feature Importance\|Feature Importance]] scores
+	- feature importance-based: select features with higher [[Interpretable Machine Learning#Feature Importance\|Interpretable Machine Learning#Feature Importance]] scores
 		- via coefficient (linear regression, logistic regression) - but this may remove non-linear relationships
 		- via impurity-based feature importances (tree-based models)
 
