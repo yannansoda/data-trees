@@ -4,6 +4,8 @@
 
 | File                                                                                                | Author                       | FinishDate         | Format            |
 | --------------------------------------------------------------------------------------------------- | ---------------------------- | ------------------ | ----------------- |
+| [[BookNotes/奇点遗民\|奇点遗民]]                                                                         | [美]刘宇昆                       | June 28, 2025      | kindle            |
+| [[BookNotes/走过瑞典的一年四季\|走过瑞典的一年四季]]                                                               | \-                           | June 09, 2025      | kindle            |
 | [[BookNotes/乌克兰拖拉机简史\|乌克兰拖拉机简史]]                                                                 | [英] 玛琳娜·柳薇卡                  | June 08, 2025      | kindle            |
 | [[BookNotes/Rooms of Their Own\|Rooms of Their Own]]                                             | Alex Johnson                 | June 01, 2025      | kindle            |
 | [[BookNotes/每一句话语都坐着别的眼睛\|每一句话语都坐着别的眼睛]]                                                         | 赫塔·米勒                        | May 15, 2025       | kindle            |
@@ -173,10 +175,10 @@
 | [[BookNotes/深时之旅\|深时之旅]]                                                                         | 英 罗伯特·麦克法伦                   | \-                 | kindle            |
 | [[BookNotes/理解一张照片\|理解一张照片]]                                                                     | [英]约翰·伯格                     | \-                 | kindle            |
 | [[BookNotes/疯癫与文明\|疯癫与文明]]                                                                       | 米歇尔·福柯                       | \-                 | kindle            |
-| [[BookNotes/第二性Ⅰ\|第二性Ⅰ]]                                                                         | 法 西蒙娜·德·波伏瓦                  | \-                 | kindle            |
 | [[BookNotes/第一个人\|第一个人]]                                                                         | 法阿尔贝·加缪                      | \-                 | kindle            |
-| [[BookNotes/置身事内\|置身事内]]                                                                         | 兰小欢                          | \-                 | kindle            |
+| [[BookNotes/第二性Ⅰ\|第二性Ⅰ]]                                                                         | 法 西蒙娜·德·波伏瓦                  | \-                 | kindle            |
 | [[BookNotes/经济学通识课\|经济学通识课]]                                                                     | 英 尼尔·基什特尼                    | \-                 | kindle            |
+| [[BookNotes/置身事内\|置身事内]]                                                                         | 兰小欢                          | \-                 | kindle            |
 | [[BookNotes/脑与意识\|脑与意识]]                                                                         | 法 斯坦尼斯拉斯·迪昂                  | \-                 | kindle            |
 | [[BookNotes/艺术的故事\|艺术的故事]]                                                                       | 英 贡布里希 Sir E.H.Gombrich      | \-                 | kindle            |
 | [[BookNotes/论摄影\|论摄影]]                                                                           | [美]苏珊·桑塔格                    | \-                 | kindle, paperback |
