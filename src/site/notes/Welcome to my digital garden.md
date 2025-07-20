@@ -15,4 +15,4 @@ ground in [[Index/Computational Neuroscience\|Computational Neuroscience]] and a
 Green also grows from the words in [[Index/Some Books I Have Read\|Some Books I Have Read]] and in my head - random [[Index/Thoughts\|Thoughts]] about everything.
 
 ----
-*This garden is built with the [Digital Garden Obsidian Plugin](https://github.com/oleeskild/Obsidian-Digital-Garden) and Netlify. 
+*This garden is built with the [Digital Garden Obsidian Plugin](https://github.com/oleeskild/Obsidian-Digital-Garden) and Netlify.*

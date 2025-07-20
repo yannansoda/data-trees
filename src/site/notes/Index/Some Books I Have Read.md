@@ -4,13 +4,14 @@
 
 | File                                                                                                | Author                       | FinishDate         | Format            |
 | --------------------------------------------------------------------------------------------------- | ---------------------------- | ------------------ | ----------------- |
+| [[BookNotes/我要快乐，不必正常\|我要快乐，不必正常]]                                                               | [英] 珍妮特·温特森                  | July 17, 2025      | kindle            |
 | [[BookNotes/软件体的生命周期\|软件体的生命周期]]                                                                 | [美] 特德·姜                     | July 12, 2025      | kindle            |
 | [[BookNotes/奇点遗民\|奇点遗民]]                                                                         | [美]刘宇昆                       | June 28, 2025      | kindle            |
 | [[BookNotes/走过瑞典的一年四季\|走过瑞典的一年四季]]                                                               | \-                           | June 09, 2025      | kindle            |
 | [[BookNotes/乌克兰拖拉机简史\|乌克兰拖拉机简史]]                                                                 | [英] 玛琳娜·柳薇卡                  | June 08, 2025      | kindle            |
 | [[BookNotes/Rooms of Their Own\|Rooms of Their Own]]                                             | Alex Johnson                 | June 01, 2025      | kindle            |
 | [[BookNotes/每一句话语都坐着别的眼睛\|每一句话语都坐着别的眼睛]]                                                         | 赫塔·米勒                        | May 15, 2025       | kindle            |
-| [[BookNotes/为什么伟大不能被计划\|为什么伟大不能被计划]]                                                             | 【美】肯尼斯·斯坦利；乔尔·雷曼             | May 03, 2025       | kindle            |
+| [[BookNotes/为什么伟大不能被计划\|为什么伟大不能被计划]]                                                             | [美] 肯尼斯·斯坦利；乔尔·雷曼            | May 03, 2025       | kindle            |
 | [[BookNotes/宇宙尽头的餐馆\|宇宙尽头的餐馆]]                                                                   | [英] 道格拉斯·亚当斯 (Douglas Adams) | May 03, 2025       | kindle            |
 | [[BookNotes/银河系搭车客指南\|银河系搭车客指南]]                                                                 | [英] 道格拉斯·亚当斯 (Douglas Adams) | April 27, 2025     | kindle            |
 | [[BookNotes/Software Engineering for Data Scientists\|Software Engineering for Data Scientists]] | Catherine Nelson             | April 19, 2025     | eBook             |
@@ -83,7 +84,7 @@
 | [[BookNotes/其主之声\|其主之声]]                                                                         | [波]斯坦尼斯瓦夫·莱姆                 | March 27, 2022     | kindle            |
 | [[BookNotes/被讨厌的勇气\|被讨厌的勇气]]                                                                     | [日]岸见一郎                      | March 07, 2022     | kindle            |
 | [[BookNotes/从零开始的女性主义\|从零开始的女性主义]]                                                               | [日]上野千鹤子                     | February 21, 2022  | kindle            |
-| [[BookNotes/旧制度与大革命\|旧制度与大革命]]                                                                   | 法托克维尔                        | February 06, 2022  | paperback         |
+| [[BookNotes/旧制度与大革命\|旧制度与大革命]]                                                                   | [法] 托克维尔                     | February 06, 2022  | paperback         |
 | [[BookNotes/俗女养成记\|俗女养成记]]                                                                       | 江鹅                           | January 20, 2022   | kindle            |
 | [[BookNotes/失落的卫星\|失落的卫星]]                                                                       | 刘子超                          | December 20, 2021  | kindle            |
 | [[BookNotes/工作、消费主义和新穷人\|工作、消费主义和新穷人]]                                                           | [英]齐格蒙特·鲍曼                   | November 30, 2021  | kindle            |
@@ -104,7 +105,7 @@
 | [[BookNotes/春醪集 泪与笑\|春醪集 泪与笑]]                                                                   | 梁遇春                          | March 01, 2020     | kindle            |
 | [[BookNotes/未来千年文学备忘录\|未来千年文学备忘录]]                                                               | [意]卡尔维诺                      | March 01, 2020     | kindle            |
 | [[BookNotes/如果在冬夜，一个旅人\|如果在冬夜，一个旅人]]                                                             | 意 伊塔洛·卡尔维诺                   | February 01, 2020  | kindle            |
-| [[BookNotes/Devotion\|Devotion]]                                                                 | Patti Smith                  | August 15, 2019    | kindle            |
+| [[BookNotes/Devotion\|Devotion]]                                                                 | Patti Smith                  | August 15, 2019    | paperback         |
 | [[BookNotes/只是孩子\|只是孩子]]                                                                         | 美 帕蒂·史密斯                     | August 15, 2019    | kindle            |
 | [[BookNotes/苦炼\|苦炼]]                                                                             | [法]玛格丽特·尤瑟纳尔                 | July 23, 2019      | kindle            |
 | [[BookNotes/威尼斯日记\|威尼斯日记]]                                                                       | 阿城                           | July 02, 2019      | kindle            |
@@ -121,6 +122,7 @@
 | [[BookNotes/叔本华的治疗\|叔本华的治疗]]                                                                     | [美]亚龙 / 易之新                  | December 15, 2017  | kindle            |
 | [[BookNotes/1984\|1984]]                                                                         | 乔治·奥威尔                       | July 26, 2017      | kindle            |
 | [[BookNotes/爱的算法\|爱的算法]]                                                                         | [美]刘宇昆                       | June 20, 2017      | kindle            |
+| [[BookNotes/数学之美\|数学之美]]                                                                         | [美] 吴军                       | June 16, 2017      | kindle            |
 | [[BookNotes/无知的游历\|无知的游历]]                                                                       | 陈丹青                          | June 15, 2017      | kindle            |
 | [[BookNotes/李银河自选集\|李银河自选集]]                                                                     | 李银河                          | June 01, 2017      | kindle            |
 | [[BookNotes/别闹了，费曼先生\|别闹了，费曼先生]]                                                                 | [美]费曼                        | May 30, 2017       | kindle            |
@@ -153,6 +155,7 @@
 | [[BookNotes/爱在黎明破晓前&爱在日落黄昏时\|爱在黎明破晓前&爱在日落黄昏时]]                                                   | 理查德·林克莱特;金·克里桑               | January 30, 2016   | kindle            |
 | [[BookNotes/不能承受的生命之轻\|不能承受的生命之轻]]                                                               | 米兰·昆德拉                       | January 01, 2016   | kindle            |
 | [[BookNotes/苏丝黄的世界\|苏丝黄的世界]]                                                                     | [英] 理查德•梅森                   | December 07, 2015  | kindle            |
+| [[BookNotes/夜色温柔\|夜色温柔]]                                                                         | [美]F.S.菲茨杰拉德                 | December 04, 2015  | kindle            |
 | [[BookNotes/面包匠的狂欢节\|面包匠的狂欢节]]                                                                   | [澳］安德鲁·林赛                    | November 18, 2015  | kindle            |
 | [[BookNotes/哲学家们都干了些什么？\|哲学家们都干了些什么？]]                                                           | 林欣浩                          | November 16, 2015  | kindle            |
 | [[BookNotes/婚礼的成员\|婚礼的成员]]                                                                       | [美]卡森·麦卡勒斯                   | September 01, 2015 | kindle            |
@@ -161,12 +164,19 @@
 | [[BookNotes/伤心咖啡馆之歌\|伤心咖啡馆之歌]]                                                                   | [美]卡森·麦卡勒斯                   | August 01, 2015    | kindle            |
 | [[BookNotes/去他的巴西\|去他的巴西]]                                                                       | 胡续冬                          | August 01, 2015    | kindle            |
 | [[BookNotes/心是孤独的猎手\|心是孤独的猎手]]                                                                   | [美]卡森·麦卡勒斯                   | June 01, 2015      | kindle            |
-| [[BookNotes/克罗诺皮奥与法玛的故事\|克罗诺皮奥与法玛的故事]]                                                           | 阿根廷 胡里奥·科塔萨尔                 | September 01, 2014 | kindle            |
+| [[BookNotes/了不起的盖茨比\|了不起的盖茨比]]                                                                   | [美]F.S.菲茨杰拉德                 | May 29, 2015       | kindle            |
+| [[BookNotes/一个人的村庄\|一个人的村庄]]                                                                     | 刘亮程                          | April 17, 2015     | kindle            |
+| [[BookNotes/橘子不是唯一的水果\|橘子不是唯一的水果]]                                                               | [英] 珍妮特·温特森                  | February 24, 2015  | paperback         |
+| [[BookNotes/半生为人\|半生为人]]                                                                         | 徐晓                           | December 07, 2014  | paperback         |
+| [[BookNotes/写在身体上\|写在身体上]]                                                                       | [英] 珍妮特·温特森                  | September 11, 2014 | paperback         |
+| [[BookNotes/黑暗中的笑声\|黑暗中的笑声]]                                                                     | [美] 弗拉基米尔·纳博科夫               | September 07, 2014 | paperback         |
+| [[BookNotes/克罗诺皮奥与法玛的故事\|克罗诺皮奥与法玛的故事]]                                                           | 阿根廷 胡里奥·科塔萨尔                 | September 01, 2014 | paperback         |
 | [[BookNotes/终结的感觉\|终结的感觉]]                                                                       | 英 朱利安·巴恩斯                    | September 01, 2014 | paperback         |
-| [[BookNotes/英国病人\|英国病人]]                                                                         | 加拿大 迈克尔·翁达杰                  | September 01, 2014 | kindle            |
-| [[BookNotes/我坐在彼德拉河畔，哭泣\|我坐在彼德拉河畔，哭泣]]                                                           | 巴西 保罗·柯艾略                    | August 01, 2014    | kindle            |
+| [[BookNotes/英国病人\|英国病人]]                                                                         | 加拿大 迈克尔·翁达杰                  | September 01, 2014 | paperback         |
+| [[BookNotes/我坐在彼德拉河畔，哭泣\|我坐在彼德拉河畔，哭泣]]                                                           | 巴西 保罗·柯艾略                    | August 01, 2014    | paperback         |
 | [[BookNotes/人生的枷锁\|人生的枷锁]]                                                                       | 英毛姆                          | March 01, 2014     | kindle            |
 | [[BookNotes/陪他一段\|陪他一段]]                                                                         | 蘇偉貞                          | December 01, 2013  | kindle            |
+| [[BookNotes/顾准日记\|顾准日记]]                                                                         | 顾准                           | October 18, 2013   | paperback         |
 | [[BookNotes/传统十论\|传统十论]]                                                                         | 秦晖                           | \-                 | kindle            |
 | [[BookNotes/伦敦人\|伦敦人]]                                                                           | 加克莱格·泰勒                      | \-                 | kindle            |
 | [[BookNotes/卡夫卡全集（全10卷）\|卡夫卡全集（全10卷）]]                                                           | 奥地利 弗朗茨·卡夫卡                  | \-                 | kindle            |
@@ -187,6 +197,8 @@
 | [[BookNotes/遍地风流\|遍地风流]]                                                                         | 阿城                           | \-                 | kindle            |
 | [[BookNotes/非洲札记\|非洲札记]]                                                                         | 严歌苓                          | \-                 | kindle            |
 | [[BookNotes/鱼王\|鱼王]]                                                                             | 俄罗斯维克托·阿斯塔菲耶夫                | \-                 | kindle            |
+| [[BookNotes/不二\|不二]]                                                                             | 冯唐                           | \-                 | paperback         |
+| [[BookNotes/无知\|无知]]                                                                             | 米兰·昆德拉                       | \-                 | kindle            |
 
 { .block-language-dataview}
 
