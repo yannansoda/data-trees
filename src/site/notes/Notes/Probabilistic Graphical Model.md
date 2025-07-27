@@ -4,7 +4,7 @@
 
 Probabilistic Graphical Model = a joint probability distribution that uses a graph structure to encode conditional independence assumptions. 
 
-### Directed acyclic graph
+# Directed Acyclic Graph (DAG)
 When the graph is a directed acyclic graph or DAG like this:
 
  ![Pasted image 20231001121109.png|100](/img/user/_assets/images/Pasted%20image%2020231001121109.png)

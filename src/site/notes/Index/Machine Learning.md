@@ -33,6 +33,7 @@
 - [[Notes/Human-level performance\|Human-level performance]]
 - [[Notes/Hybrid Models\|Hybrid Models]]
 - [[Notes/Hyperparameter Tuning\|Hyperparameter Tuning]]
+- [[Notes/Interpretable Machine Learning\|Interpretable Machine Learning]]
 - [[Notes/K-Nearest Neighbor\|K-Nearest Neighbor]]
 - [[Notes/Kolmogorov-Arnold Networks\|Kolmogorov-Arnold Networks]]
 - [[Notes/Long Short Term Memory\|Long Short Term Memory]]
