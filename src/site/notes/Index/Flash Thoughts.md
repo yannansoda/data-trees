@@ -2,6 +2,15 @@
 {"dg-publish":true,"permalink":"/Index/Flash Thoughts/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
+- [[RandomBubbles/FlashThoughts/2022-06-29\|2022-06-29]]
+- [[RandomBubbles/FlashThoughts/2022-06-16\|2022-06-16]]
+- [[RandomBubbles/FlashThoughts/2022-06-15\|2022-06-15]]
+- [[RandomBubbles/FlashThoughts/2022-06-13\|2022-06-13]]
+- [[RandomBubbles/FlashThoughts/2022-06-12\|2022-06-12]]
+- [[RandomBubbles/FlashThoughts/2022-06-07\|2022-06-07]]
+- [[RandomBubbles/FlashThoughts/2022-06-01\|2022-06-01]]
+- [[RandomBubbles/FlashThoughts/2022-05-30\|2022-05-30]]
+- [[RandomBubbles/FlashThoughts/2022-05-28\|2022-05-28]]
 - [[RandomBubbles/FlashThoughts/2022-02-06\|2022-02-06]]
 - [[RandomBubbles/FlashThoughts/2017-12-31\|2017-12-31]]
 - [[RandomBubbles/FlashThoughts/2016-12-31\|2016-12-31]]
