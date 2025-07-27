@@ -2,6 +2,18 @@
 {"dg-publish":true,"permalink":"/Index/Flash Thoughts/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
+- [[RandomBubbles/FlashThoughts/2025-07-23\|2025-07-23]]
+- [[RandomBubbles/FlashThoughts/2025-05-28\|2025-05-28]]
+- [[RandomBubbles/FlashThoughts/2025-05-19\|2025-05-19]]
+- [[RandomBubbles/FlashThoughts/2025-05-15\|2025-05-15]]
+- [[RandomBubbles/FlashThoughts/2025-02-21\|2025-02-21]]
+- [[RandomBubbles/FlashThoughts/2024-10-01\|2024-10-01]]
+- [[RandomBubbles/FlashThoughts/2024-09-01\|2024-09-01]]
+- [[RandomBubbles/FlashThoughts/2024-08-05\|2024-08-05]]
+- [[RandomBubbles/FlashThoughts/2024-07-31\|2024-07-31]]
+- [[RandomBubbles/FlashThoughts/2024-04-20\|2024-04-20]]
+- [[RandomBubbles/FlashThoughts/2024-03-30\|2024-03-30]]
+- [[RandomBubbles/FlashThoughts/2024-02-22\|2024-02-22]]
 - [[RandomBubbles/FlashThoughts/2023-12-31\|2023-12-31]]
 - [[RandomBubbles/FlashThoughts/2023-12-19\|2023-12-19]]
 - [[RandomBubbles/FlashThoughts/2023-10-14\|2023-10-14]]
