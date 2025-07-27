@@ -102,8 +102,8 @@
 | [[BookNotes/2001：太空漫游\|2001：太空漫游]]                                                               | [英]阿瑟·克拉克                    | April 23, 2020     | kindle            |
 | [[BookNotes/时间的秩序\|时间的秩序]]                                                                       | 意 卡洛·罗韦利                     | April 05, 2020     | kindle            |
 | [[BookNotes/存在主义咖啡馆\|存在主义咖啡馆]]                                                                   | [英]莎拉·贝克韦尔                   | March 08, 2020     | kindle            |
-| [[BookNotes/未来千年文学备忘录\|未来千年文学备忘录]]                                                               | [意]卡尔维诺                      | March 01, 2020     | kindle            |
 | [[BookNotes/春醪集 泪与笑\|春醪集 泪与笑]]                                                                   | 梁遇春                          | March 01, 2020     | kindle            |
+| [[BookNotes/未来千年文学备忘录\|未来千年文学备忘录]]                                                               | [意]卡尔维诺                      | March 01, 2020     | kindle            |
 | [[BookNotes/如果在冬夜，一个旅人\|如果在冬夜，一个旅人]]                                                             | 意 伊塔洛·卡尔维诺                   | February 01, 2020  | kindle            |
 | [[BookNotes/Devotion\|Devotion]]                                                                 | Patti Smith                  | August 15, 2019    | paperback         |
 | [[BookNotes/只是孩子\|只是孩子]]                                                                         | 美 帕蒂·史密斯                     | August 15, 2019    | kindle            |
