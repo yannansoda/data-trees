@@ -51,6 +51,5 @@
 - [[RandomBubbles/FlashThoughts/2014-10-10\|2014-10-10]]
 - [[RandomBubbles/FlashThoughts/2014-09-30\|2014-09-30]]
 - [[RandomBubbles/FlashThoughts/2014-06-12\|2014-06-12]]
-- [[RandomBubbles/FlashThoughts/2013-01-01\|2013-01-01]]
 
 { .block-language-dataview}
