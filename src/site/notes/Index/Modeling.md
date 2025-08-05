@@ -18,7 +18,6 @@
 - [[Notes/Maximum likelihood estimation\|Maximum likelihood estimation]]
 - [[Notes/Model Fitting Outline\|Model Fitting Outline]]
 - [[Notes/Monte Carlo Diagnostics\|Monte Carlo Diagnostics]]
-- [[Notes/Propensity Score Matching\|Propensity Score Matching]]
 - [[Notes/Regression\|Regression]]
 - [[Notes/Survival Analysis\|Survival Analysis]]
 - [[Notes/Underfitting vs. Overfitting\|Underfitting vs. Overfitting]]

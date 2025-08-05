@@ -30,7 +30,6 @@
 - [[Notes/Paired-data Tests\|Paired-data Tests]]
 - [[Notes/Power Analysis\|Power Analysis]]
 - [[Notes/Probability Basics\|Probability Basics]]
-- [[Notes/Propensity Score Matching\|Propensity Score Matching]]
 - [[Notes/Random Variables & Probability distributions\|Random Variables & Probability distributions]]
 - [[Notes/Sampling & Resampling\|Sampling & Resampling]]
 - [[Notes/Stats Cheatsheet\|Stats Cheatsheet]]

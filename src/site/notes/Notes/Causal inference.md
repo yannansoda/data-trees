@@ -14,7 +14,7 @@ The fundamental problem of causal inference is we only observe one treatment and
 	- **potential outcomes framework** defines causal effects by comparing what would happen under different treatments or conditions
 	- **counterfactual outcome**: the potential outcome not observed due to the actual treatment
 ## Causal Effects
-#### Average Treatment Effect (ATE)
+### Average Treatment Effect (ATE)
 - = the average difference in outcomes between if everyone was treated with A=1 and if everyone was treated with A=0:
 - formula: 
 $$
@@ -24,14 +24,16 @@ $$
  $$
  E(Y^1 - Y^0) \neq E(Y|A=1) - E(Y|A=0)
  $$
-#### Average Treatment Effect on the Treated (ATT)
+### Average Treatment Effect on the Treated (ATT)
 - = the average causal effect specifically for the group of individuals who actually received the treatment
-#### Causal relative risk**
+### Causal relative risk
 - formula: 	$$
  E(Y^1 / Y^0)
  $$
+### Heterogeneous Treatment Effect (HTE) 
+= the phenomenon where the effect of a treatment or intervention varies across individuals or subgroups
 #### Conditional Average Treatment Effect (CATE)
-- = the average treatment effect conditional on a set of covariates or specific subgroups
+- = formalization of HTE = the average treatment effect conditional on a set of covariates or specific subgroups
 - formula: $$
 E(Y^1 - Y^0 | V=v)
 $$
@@ -63,46 +65,80 @@ This assumption comprises these critical components:
 
 ### Measurement Bias
 
+## Causal Graphs
+[[Notes/Probabilistic Graphical Model#Directed acyclic graph\|Probabilistic Graphical Model#Directed acyclic graph]]
+
 # Classic Causal Inference Methods
-
-# Machine Learning Approaches for Causal Inference (Causal ML)
-
-
-# Core Methods 
-### Controlled Regression
+### Controlled Regression/Regression Adjustment
 = Isolating the effect of a treatment while adjusting for confounders.
+-  Assumes: ignorability (no unmeasured confounding), correct model specification, common support/overlap in covariate distributions
 #### How it works
 - Fit a regression model, and a coefficient captures the average effect of the corresponding covariate, controlling for other covariates.
-- Assumes ignorability and linearity
-### Regression Discontinuity Design (RDD)
-= Exploiting a known **threshold rule** to mimic randomization.
+
+### Propensity Score Matching (PSM)
+= using statistical techniques to construct an artificial control group by matching each treated unit with a non-treated unit of similar characteristics
+- Propensity score = the probability of each participant being in the group A or B
+	- e.g. group A is with treatment, group B is without treatment
+- Assumes: ignorability (no unmeasured confounding)
 #### How it works
-- Units just above and below a cutoff are assumed to be comparable
+It is basically a logistic regression using the control covariates
+1. calculate the propensity score of 
+	- the disease/treatment group based on the control variables
+	- the control group based on the control variables
+2. match individuals from the control group to those in the disease group with similar scores using [[Notes/K-Nearest Neighbor\|K-Nearest Neighbor]]
+3. after matching: check the covariate balance between the matched treated and control groups
+4. estimate treatment effect
+#### Why PSM is useful
+- it can help create matched groups
+- it can help avoid confounds
+- it can provide robust solution for estimating causal effects in observational studies
+### Instrumental Variables (IV)
+= estimating causal effects when there is unmeasured confounding or endogeneity, which addresses:
+- endogeneity (when treatment is correlated with unobserved confounders) 
+- situations where controlled experiments are not feasible
+#### How it works
+- Use a variable $Z$ (instrument) that:
+	- is correlated with treatment $X$
+	- affects the outcome $Y$ only through $X$ (= $Z$ should not suffer from the same endogeneity issues as $X$)
+- Two-stage process:
+	1. predict $X$ from $Z$
+	2. use predicted $\hat{X}$ to estimate effect on $Y$
+>[!Example]
+>Using the tax rate for tobacco products (Z) as an instrument to estimate the effect of smoking (X) on general health (Y).
+
 ### Difference-in-Difference (DiD)
 = tracking changes over time: compare changes in outcomes between treated and control groups before and after a treatment
 #### How it works
 - Compare before-after differences between groups
-- Assumes parallel trends: without treatment, treated and control groups would evolve similarly
-### Instrumental Variables (IV)
-= Addressing endogeneity (when treatment is correlated with unobserved confounders).
-#### How it works
-- Use a variable $Z$ (instrument) that:
-	- is correlated with treatment $A$
-	- affects the outcome $Y$ only through $A$
-- Two-stage process:
-	1. predict $A$ from $Z$
-	2. use predicted $\hat{A}$ to estimate effect on $Y$
-### ML + Causal Inference
-= Using machine learning to estimate causal effects more flexibly, especially for **heterogeneous treatment effects (HTEs)**.
-#### How it works
-Common strategies:
-- **T-Learner**: Train separate models for treated and control groups.
-- **S-Learner**: Include treatment as a feature in one model.
-- **X-Learner**: Improves efficiency for imbalanced treatment groups.
-- **Double ML / DML**: Debias treatment effect estimates using ML residuals.
+- Assumes *parallel trends*: without treatment, treated and control groups would evolve similarly
 
-## Causal Graphs
-[[Notes/Probabilistic Graphical Model#Directed acyclic graph\|Probabilistic Graphical Model#Directed acyclic graph]]
+### Regression Discontinuity Design (RDD)
+= Exploiting a known **threshold rule** to mimic randomization.
+#### How it works
+- Units just above and below a cutoff are assumed to be comparable
+# Machine Learning Approaches for Causal Inference (Causal ML)
+= Using machine learning to estimate causal effects more flexibly
+- Causal ML: estimate HTE ([[Notes/Causal inference#Heterogeneous Treatment Effect (HTE)\|Causal inference#Heterogeneous Treatment Effect (HTE)]])
+- classic causal inference methods: primarily estimate ATE ([[Notes/Causal inference#Average Treatment Effect (ATE)\|Causal inference#Average Treatment Effect (ATE)]])
+### Causal Forests
+= [[Notes/Decision Tree & Random Forest#Random Forest\|Decision Tree & Random Forest#Random Forest]] algorithm adapted to estimate [[Notes/Causal inference#Conditional Average Treatment Effect (CATE)\|Causal inference#Conditional Average Treatment Effect (CATE)]]
+#### How it works
+- different from standard Random Forests that minimize prediction error, Causal Forests construct trees by splitting data to maximize the difference in the relationship between an outcome variable and a "treatment" variable across the resulting splits
+-  the data is split into two subsets
+	- one subset is used for determining the tree splits (structure learning)
+	- the other is used for estimating the treatment effects within the terminal nodes (estimation)
+### Double Machine Learning (DML)
+= debiased or orthogonal ML
+- goal of DML: provide valid confidence intervals and achieve "root-n-consistent" estimation, meaning the estimation error decreases efficiently as the sample size increases
+- rooted in the Frisch-Waugh-Lovell (FWL) theorem
+### Meta-Learners (S-learner, T-learner, X-learner)
+#### S-learner (Single Learner)
+Include treatment as a feature in one model
+#### T-learner (Two Learners)
+Train separate models for treated and control groups.
+#### X-learner (Extended Learner)
+Improves efficiency for imbalanced treatment groups.
+
 
 ## Confounds in causal inference
 ### The Four Elemental Confounds

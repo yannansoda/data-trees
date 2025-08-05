@@ -4,6 +4,7 @@
 
 - [[RandomBubbles/HiddenBubbles/2015老实记事\|2015老实记事]]
 - [[RandomBubbles/HiddenBubbles/2017老实记事\|2017老实记事]]
+- [[RandomBubbles/HiddenBubbles/2018老实记事\|2018老实记事]]
 - [[RandomBubbles/也不是故事 也不是扯\|也不是故事 也不是扯]]
 - [[RandomBubbles/也不是歌词，也不是诗\|也不是歌词，也不是诗]]
 - [[RandomBubbles/关于Career\|关于Career]]

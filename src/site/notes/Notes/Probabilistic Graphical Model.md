@@ -2,12 +2,22 @@
 {"topic":"Math","dg-publish":true,"permalink":"/Notes/Probabilistic Graphical Model/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
-Probabilistic Graphical Model = a joint probability distribution that uses a graph structure to encode conditional independence assumptions. 
+# Probabilistic Graphical Model 
+= a joint probability distribution that uses a **graph structure** to encode conditional independence assumptions. 
+## Graph structure
+A *Graph* (or Network) is a set of entities (called *Nodes* or Vertices) connected through *Edges*.
+- A node has N *degree* of the node = N outgoing and incoming edges
+- Two nodes directly connected by an edge are said to be *Adjacent*
+- *Parent* = the node at the “entrance” to the edge, *Child* = the one at the “exit” of the edge 
+- *path* = sequences of nodes connected by edges
 
 # Directed Acyclic Graph (DAG)
-When the graph is a directed acyclic graph or DAG like this:
+= a special kind of [[Notes/Probabilistic Graphical Model#Graph structure\|Probabilistic Graphical Model#Graph structure]] with:
+1. directed edges (every edge has a direction: from parent → child)
+2. no cycles — you can’t start at a node and follow a path that loops back to it
 
- ![Pasted image 20231001121109.png|100](/img/user/_assets/images/Pasted%20image%2020231001121109.png)
- 
-the model is sometimes called a Bayesian network, although there is nothing inherently Bayesian about such models.
-In the Directed acyclic graph case, each node is conditionally independent of all its predecessors given its parents, i.e. showing Markov property ([[Notes/Markov Chain#^b013c4\|Markov Chain#^b013c4]])
+### Bayesian Network
+= a type of DAG that represents probabilistic relationships between variables (although there is nothing inherently Bayesian about such models)
+- each node is a random variable
+- each edge is a directed connection indicating a probabilistic dependency (not just correlation or causation, but conditional probability)
+- each node is conditionally independent of all its predecessors given its parents, i.e. showing Markov property ([[Notes/Markov Chain#^b013c4\|Markov Chain#^b013c4]])
