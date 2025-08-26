@@ -35,5 +35,6 @@
 - [[Notes/Stats Cheatsheet\|Stats Cheatsheet]]
 - [[Notes/T-test & so on\|T-test & so on]]
 - [[Notes/Test for Equality of Variances\|Test for Equality of Variances]]
+- [[Notes/Variational Inference\|Variational Inference]]
 
 { .block-language-dataview}

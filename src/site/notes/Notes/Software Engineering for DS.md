@@ -54,7 +54,7 @@
 3. assert: check if the result is as expected
 4. cleanup: cleanup the testing trace
 ### Types of Tests
-- **Unit tests**: check that units of code, such as functions or classes, do what a developer expects
+- **[[Notes/Unit Tests\|Unit Tests]]**: check that units of code, such as functions or classes, do what a developer expects
 - **Integration tests**: check that a larger system is connected correctly
 - **Acceptance tests**: check that the system does what the user expects
 - **Load tests**: check that the system still functions correctly if the amount of data or the number of users increases

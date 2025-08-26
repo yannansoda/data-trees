@@ -32,6 +32,7 @@
 
 ### Hyperparameters
 - max depth of the tree
+- min samples per split
 ### Pros & Cons
 #### Pros
 - can generate feature importance
@@ -54,13 +55,13 @@ Random forest is a [[Notes/Ensemble Learning\|Ensemble Learning]] method as an e
 ### How it works
 1. pick at random K data points from the training set, with bootstrapping 
 2. build the decision tree associated to these K data points. At each node:
- - randomly select $d$ features without replacement 
+- randomly select $d$ features without replacement 
  - split the node using the feature that provides the best split that leads to purest labels/max information gain
 > If $n$ features are available:
 > - for classification, the default is $d = \sqrt{n}$
 > - for regression, the default is $d=n/3$
-1. repeat Steps 1&2 according to the number of trees you prefer (usually > 500 tress)
-2. predicted value = average of predicted values across all trees
+3. repeat Steps 1&2 according to the number of trees you prefer (usually > 500 tress)
+4. predicted value = average of predicted values across all trees
 ### Hyperparamters
 - number of trees
 - less commonly used in practice: 

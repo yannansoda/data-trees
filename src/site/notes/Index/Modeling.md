@@ -21,5 +21,6 @@
 - [[Notes/Regression\|Regression]]
 - [[Notes/Survival Analysis\|Survival Analysis]]
 - [[Notes/Underfitting vs. Overfitting\|Underfitting vs. Overfitting]]
+- [[Notes/Variational Inference\|Variational Inference]]
 
 { .block-language-dataview}

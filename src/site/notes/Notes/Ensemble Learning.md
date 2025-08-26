@@ -15,6 +15,14 @@
 - Bagging is an ensemble learning method in which multiple models are trained **independently** on random subsets of the training data. 
 - The predictions of these models are combined using a simple majority vote (for classification) or an average (for regression) to make the final prediction. 
 - Bagging can improve the accuracy and stability of the model, especially when the individual models are prone to [[Notes/Underfitting vs. Overfitting#Overfitting\|Underfitting vs. Overfitting#Overfitting]].
+- Additionally, it provides an internal validation method **Out-of-Bag (OOB) evaluation**:
+	- How OOB works:
+		- around 63% of the data points are included in the bootstrap sample for training one model, and the remaining ~37% of the data points are called OOB for testing the prediction accuracy
+		- since bagging includes multiple models, each data point will be OOB for some subset of models.
+		- The **OOB score** is the aggregated performance (e.g., accuracy for classification, R² for regression) across all these OOB predictions
+	- Why need OOB
+		- it's essentially "free" and quick to use, mostly for [[Notes/Decision Tree & Random Forest#Random Forest\|Decision Tree & Random Forest#Random Forest]]
+		- it's faster than [[Notes/Cross-Validation\|Cross-Validation]] for medium-to-large datasets
 ### Examples
 - [[Notes/Decision Tree & Random Forest#Random Forest\|Decision Tree & Random Forest#Random Forest]] can be seen as a bagging method for decision trees
 

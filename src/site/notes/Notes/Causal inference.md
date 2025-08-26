@@ -66,7 +66,7 @@ This assumption comprises these critical components:
 ### Measurement Bias
 
 ## Causal Graphs
-[[Notes/Probabilistic Graphical Model#Directed acyclic graph\|Probabilistic Graphical Model#Directed acyclic graph]]
+[[Notes/Probabilistic Graphical Models#Directed acyclic graph\|Probabilistic Graphical Models#Directed acyclic graph]]
 
 # Classic Causal Inference Methods
 ### Controlled Regression/Regression Adjustment

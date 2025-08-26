@@ -13,5 +13,6 @@
 - [[Notes/Optimization Algorithms\|Optimization Algorithms]]
 - [[Notes/Standard notations for Deep Learning\|Standard notations for Deep Learning]]
 - [[Notes/Transformer\|Transformer]]
+- [[Notes/Variational Autoencoders (VAE)\|Variational Autoencoders (VAE)]]
 
 { .block-language-dataview}
