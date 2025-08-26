@@ -10,7 +10,7 @@
 | [[BookNotes/我要快乐，不必正常\|我要快乐，不必正常]]                                                               | [英] 珍妮特·温特森                  | July 17, 2025      | kindle            |
 | [[BookNotes/软件体的生命周期\|软件体的生命周期]]                                                                 | [美] 特德·姜                     | July 12, 2025      | kindle            |
 | [[BookNotes/奇点遗民\|奇点遗民]]                                                                         | [美]刘宇昆                       | June 28, 2025      | kindle            |
-| [[BookNotes/走过瑞典的一年四季\|走过瑞典的一年四季]]                                                               | \-                           | June 09, 2025      | kindle            |
+| [[BookNotes/走过瑞典的一年四季\|走过瑞典的一年四季]]                                                               | \-                           | June 09, 2025      | paperback         |
 | [[BookNotes/乌克兰拖拉机简史\|乌克兰拖拉机简史]]                                                                 | [英] 玛琳娜·柳薇卡                  | June 08, 2025      | kindle            |
 | [[BookNotes/Rooms of Their Own\|Rooms of Their Own]]                                             | Alex Johnson                 | June 01, 2025      | kindle            |
 | [[BookNotes/持续买入\|持续买入]]                                                                         | Nick Maggiulli               | May 25, 2025       | kindle            |
