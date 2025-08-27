@@ -1,5 +1,5 @@
 ---
-{"topic":"Statistics","dg-publish":true,"permalink":"/Notes/Causal inference/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Statistics, Modeling","dg-publish":true,"permalink":"/Notes/Causal inference/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Basics
@@ -62,7 +62,6 @@ This assumption comprises these critical components:
 - occurs when the process of selecting individuals into a study (or into observed data) is influenced by both the exposure and the outcome, or by variables correlated with them.
 - it's often a form of **collider bias"
 - collider = a variable that is itself caused by two other variables
-
 ### Measurement Bias
 
 ## Causal Graphs
@@ -96,6 +95,7 @@ It is basically a logistic regression using the control covariates
 = estimating causal effects when there is unmeasured confounding or endogeneity, which addresses:
 - endogeneity (when treatment is correlated with unobserved confounders) 
 - situations where controlled experiments are not feasible
+- extension: [[Notes/Mendelian Randomization\|Mendelian Randomization]]
 #### How it works
 - Use a variable $Z$ (instrument) that:
 	- is correlated with treatment $X$
@@ -138,22 +138,6 @@ Include treatment as a feature in one model
 Train separate models for treated and control groups.
 #### X-learner (Extended Learner)
 Improves efficiency for imbalanced treatment groups.
-
-
-## Confounds in causal inference
-### The Four Elemental Confounds
-{ #b7b0a6}
-
-
-![4-elemental-confounds.png|300](/img/user/_assets/images/4-elemental-confounds.png)
-
-| Confound type  | Description                                       | Take care...                                      |     |     |
-| -------------- | ------------------------------------------------- | ------------------------------------------------- | --- | --- |
-| The Fork       | X and Y are associated unless stratified by Z     | -                                                 |     |     |
-| The Pipe       | X and Y are associated unless stratified by Z     | post-treatment bias                               |     |     |
-| The Collider   | X and Y are not associated unless stratified by Z | collider bias                                     |     |     |
-| The Descendant | X and Y are causally associated through Z         | once stratified by A, X and Y are less associated | -   |     |
-|                |                                                   |                                                   |     |     |
 
 
 

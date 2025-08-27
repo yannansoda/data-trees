@@ -38,7 +38,6 @@
 - [[Notes/Monte Carlo Method\|Monte Carlo Method]]
 - [[Notes/Neural ODE\|Neural ODE]]
 - [[Notes/Optimization Algorithms\|Optimization Algorithms]]
-- [[Notes/Probabilistic Graphical Models\|Probabilistic Graphical Models]]
 - [[Notes/Regression\|Regression]]
 - [[Notes/Sequential Probability Ratio Test\|Sequential Probability Ratio Test]]
 - [[Notes/Signal Processing\|Signal Processing]]

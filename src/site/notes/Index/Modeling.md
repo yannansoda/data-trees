@@ -3,6 +3,7 @@
 ---
 
 - [[Notes/Bias-Variance Tradeoff\|Bias-Variance Tradeoff]]
+- [[Notes/Causal inference\|Causal inference]]
 - [[Notes/Convolution\|Convolution]]
 - [[Notes/Cost Functions\|Cost Functions]]
 - [[Notes/Diffusion Model\|Diffusion Model]]
@@ -18,6 +19,7 @@
 - [[Notes/Maximum likelihood estimation\|Maximum likelihood estimation]]
 - [[Notes/Model Fitting Outline\|Model Fitting Outline]]
 - [[Notes/Monte Carlo Diagnostics\|Monte Carlo Diagnostics]]
+- [[Notes/Probabilistic Graphical Models\|Probabilistic Graphical Models]]
 - [[Notes/Regression\|Regression]]
 - [[Notes/Survival Analysis\|Survival Analysis]]
 - [[Notes/Underfitting vs. Overfitting\|Underfitting vs. Overfitting]]
