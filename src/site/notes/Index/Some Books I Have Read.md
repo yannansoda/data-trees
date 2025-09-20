@@ -4,6 +4,8 @@
 
 | File                                                                                                | Author                       | FinishDate         | Format            |
 | --------------------------------------------------------------------------------------------------- | ---------------------------- | ------------------ | ----------------- |
+| [[BookNotes/超越百岁\|超越百岁]]                                                                         | [美] 彼得·阿提亚&比尔·吉福德            | September 18, 2025 | kindle            |
+| [[BookNotes/强风吹拂\|强风吹拂]]                                                                         | [日] 三浦紫苑                     | September 11, 2025 | kindle            |
 | [[BookNotes/为什么：关于因果关系的新科学\|为什么：关于因果关系的新科学]]                                                     | Judea Pearl                  | August 27, 2025    | kindle            |
 | [[BookNotes/多谢不阅\|多谢不阅]]                                                                         | [荷]杜布拉夫卡·乌格雷西奇               | August 26, 2025    | paperback         |
 | [[BookNotes/疫年紀事\|疫年紀事]]                                                                         | 李厚尘                          | August 14, 2025    | kindle            |
@@ -107,8 +109,8 @@
 | [[BookNotes/2001：太空漫游\|2001：太空漫游]]                                                               | [英]阿瑟·克拉克                    | April 23, 2020     | kindle            |
 | [[BookNotes/时间的秩序\|时间的秩序]]                                                                       | 意 卡洛·罗韦利                     | April 05, 2020     | kindle            |
 | [[BookNotes/存在主义咖啡馆\|存在主义咖啡馆]]                                                                   | [英]莎拉·贝克韦尔                   | March 08, 2020     | kindle            |
-| [[BookNotes/春醪集 泪与笑\|春醪集 泪与笑]]                                                                   | 梁遇春                          | March 01, 2020     | kindle            |
 | [[BookNotes/未来千年文学备忘录\|未来千年文学备忘录]]                                                               | [意]卡尔维诺                      | March 01, 2020     | kindle            |
+| [[BookNotes/春醪集 泪与笑\|春醪集 泪与笑]]                                                                   | 梁遇春                          | March 01, 2020     | kindle            |
 | [[BookNotes/如果在冬夜，一个旅人\|如果在冬夜，一个旅人]]                                                             | 意 伊塔洛·卡尔维诺                   | February 01, 2020  | kindle            |
 | [[BookNotes/Devotion\|Devotion]]                                                                 | Patti Smith                  | August 15, 2019    | paperback         |
 | [[BookNotes/只是孩子\|只是孩子]]                                                                         | 美 帕蒂·史密斯                     | August 15, 2019    | kindle            |
@@ -182,25 +184,25 @@
 | [[BookNotes/人生的枷锁\|人生的枷锁]]                                                                       | 英毛姆                          | March 01, 2014     | kindle            |
 | [[BookNotes/陪他一段\|陪他一段]]                                                                         | 蘇偉貞                          | December 01, 2013  | kindle            |
 | [[BookNotes/顾准日记\|顾准日记]]                                                                         | 顾准                           | October 18, 2013   | paperback         |
+| [[BookNotes/不二\|不二]]                                                                             | 冯唐                           | \-                 | paperback         |
 | [[BookNotes/传统十论\|传统十论]]                                                                         | 秦晖                           | \-                 | kindle            |
 | [[BookNotes/伦敦人\|伦敦人]]                                                                           | 加克莱格·泰勒                      | \-                 | kindle            |
-| [[BookNotes/不二\|不二]]                                                                             | 冯唐                           | \-                 | paperback         |
 | [[BookNotes/卡夫卡全集（全10卷）\|卡夫卡全集（全10卷）]]                                                           | 奥地利 弗朗茨·卡夫卡                  | \-                 | kindle            |
 | [[BookNotes/天真的人类学家\|天真的人类学家]]                                                                   | 英国 奈吉尔·巴利                    | \-                 | kindle            |
 | [[BookNotes/我们在此相遇\|我们在此相遇]]                                                                     | [英]约翰·伯格                     | \-                 | kindle            |
-| [[BookNotes/暗淡蓝点\|暗淡蓝点]]                                                                         | 卡尔·萨根 Carl Sagan             | \-                 | kindle            |
 | [[BookNotes/无知\|无知]]                                                                             | 米兰·昆德拉                       | \-                 | kindle            |
 | [[BookNotes/深时之旅\|深时之旅]]                                                                         | 英 罗伯特·麦克法伦                   | \-                 | kindle            |
+| [[BookNotes/暗淡蓝点\|暗淡蓝点]]                                                                         | 卡尔·萨根 Carl Sagan             | \-                 | kindle            |
 | [[BookNotes/理解一张照片\|理解一张照片]]                                                                     | [英]约翰·伯格                     | \-                 | kindle            |
 | [[BookNotes/疯癫与文明\|疯癫与文明]]                                                                       | 米歇尔·福柯                       | \-                 | kindle            |
 | [[BookNotes/第一个人\|第一个人]]                                                                         | 法阿尔贝·加缪                      | \-                 | kindle            |
 | [[BookNotes/第二性Ⅰ\|第二性Ⅰ]]                                                                         | 法 西蒙娜·德·波伏瓦                  | \-                 | kindle            |
 | [[BookNotes/经济学通识课\|经济学通识课]]                                                                     | 英 尼尔·基什特尼                    | \-                 | kindle            |
-| [[BookNotes/置身事内\|置身事内]]                                                                         | 兰小欢                          | \-                 | kindle            |
 | [[BookNotes/脑与意识\|脑与意识]]                                                                         | 法 斯坦尼斯拉斯·迪昂                  | \-                 | kindle            |
+| [[BookNotes/置身事内\|置身事内]]                                                                         | 兰小欢                          | \-                 | kindle            |
 | [[BookNotes/艺术的故事\|艺术的故事]]                                                                       | 英 贡布里希 Sir E.H.Gombrich      | \-                 | kindle            |
-| [[BookNotes/论摄影\|论摄影]]                                                                           | [美]苏珊·桑塔格                    | \-                 | kindle, paperback |
 | [[BookNotes/试论疲倦\|试论疲倦]]                                                                         | 奥 彼得·汉德克                     | \-                 | kindle            |
+| [[BookNotes/论摄影\|论摄影]]                                                                           | [美]苏珊·桑塔格                    | \-                 | kindle, paperback |
 | [[BookNotes/遍地风流\|遍地风流]]                                                                         | 阿城                           | \-                 | kindle            |
 | [[BookNotes/非洲札记\|非洲札记]]                                                                         | 严歌苓                          | \-                 | kindle            |
 | [[BookNotes/鱼王\|鱼王]]                                                                             | 俄罗斯维克托·阿斯塔菲耶夫                | \-                 | kindle            |

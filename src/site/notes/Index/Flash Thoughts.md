@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/Index/Flash Thoughts/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
+- [[RandomBubbles/FlashThoughts/2025-08-28\|2025-08-28]]
 - [[RandomBubbles/FlashThoughts/2025-08-26\|2025-08-26]]
 - [[RandomBubbles/FlashThoughts/2025-07-23\|2025-07-23]]
 - [[RandomBubbles/FlashThoughts/2025-05-28\|2025-05-28]]
