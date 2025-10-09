@@ -1,5 +1,5 @@
 ---
-{"topic":"LargeLanguageModel","dg-publish":true,"permalink":"/Notes/LLM Optimization/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"LargeLanguageModel, AIEngineering","dg-publish":true,"permalink":"/Notes/LLM Optimization/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ### LLM optimization techniques
@@ -18,7 +18,7 @@
 - = remove model weights with values close or equal to 0
 - pruning methods
 	- full model re-training
-	- PEFT/LoRA
+	- PEFT/LoRA ([[Notes/LLM Finetuning#PEFT techniques\|LLM Finetuning#PEFT techniques]])
 	- Post-training ([[Notes/Foundation Models#Post-training\|Foundation Models#Post-training]])
 - in theory vs. in practice
 	- in theory, it can reduce model size and improve performance

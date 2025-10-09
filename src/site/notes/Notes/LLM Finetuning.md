@@ -59,21 +59,6 @@
 	- layer stacking
 	- concatenation
 
-## LLM evaluation
-#### metrics
-- ROUGE
-	- used for text summarization
-	- compares a summary to one or more reference summaries
-- BLEU SCORE
-	- used for text translation
-	- compares to human-generated translations
-	- =avg(across range of n-gram sizes)
-#### evaluation benchmarks
-- GLUE, SuperGLUE
-- massive multitask language understanding
-- BIG-bench
-- holistic evaluation of language models (HELM)
-
 ## Finetuning vs [[Notes/Retrieval Augmented Generation (RAG)\|Retrieval Augmented Generation (RAG)]]
 - use finetuning for form:
 	- when the model has behavioral issues

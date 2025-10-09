@@ -14,6 +14,7 @@
 - [[Notes/Dip stats for Multi-modality\|Dip stats for Multi-modality]]
 - [[Notes/Dirichlet distribution\|Dirichlet distribution]]
 - [[Notes/Distance between two distributions\|Distance between two distributions]]
+- [[Notes/Entropy\|Entropy]]
 - [[Notes/F-distribution & F-Test\|F-distribution & F-Test]]
 - [[Notes/Factor Analysis\|Factor Analysis]]
 - [[Notes/Fisher Information\|Fisher Information]]

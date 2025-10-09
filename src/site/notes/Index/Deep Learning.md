@@ -4,6 +4,7 @@
 
 - [[Notes/Autoencoders\|Autoencoders]]
 - [[Notes/Diffusion Model\|Diffusion Model]]
+- [[Notes/Generative Adversarial Networks (GANs)\|Generative Adversarial Networks (GANs)]]
 - [[Notes/Graph Neural Networks\|Graph Neural Networks]]
 - [[Notes/Human-level performance\|Human-level performance]]
 - [[Notes/Key Components of Deep Learning\|Key Components of Deep Learning]]

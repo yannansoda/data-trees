@@ -38,7 +38,7 @@
 | [[Notes/Transformer\|Transformer]]                                                         | Sequential (text, audio)       | Yes (via attention)  | Discriminative & Generative                            | Yes / No                  | Translation, summarization, protein folding, chatbots        |
 | [[Notes/Autoencoders\|Autoencoders]]                                                        | Any (images, text, signals)    | No / Yes (with RNNs) | Generative / Feature Learning                          | No                        | Denoising, anomaly detection, dimensionality reduction       |
 | [[Notes/Variational Autoencoders (VAE)\|Variational Autoencoders (VAE)]]                                      | Any (images, text, signals)    | No / Yes (with RNNs) | Generative / Feature Learning / Probabilistic Modeling | No                        | Generative modeling, smooth latent space, data generation    |
-| [[Generative Adversarial Networks (GANs)\|Generative Adversarial Networks (GANs)]]                              | Any (often images)             | No / Yes             | Generative                                             | No                        | Image generation, data augmentation, synthetic data creation |
+| [[Notes/Generative Adversarial Networks (GANs)\|Generative Adversarial Networks (GANs)]]                              | Any (often images)             | No / Yes             | Generative                                             | No                        | Image generation, data augmentation, synthetic data creation |
 
 
 - Design choices include:

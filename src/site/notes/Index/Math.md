@@ -15,6 +15,7 @@
 - [[Notes/Distance Function\|Distance Function]]
 - [[Notes/Drift Diffusion Model\|Drift Diffusion Model]]
 - [[Notes/Dynamical Systems\|Dynamical Systems]]
+- [[Notes/Entropy\|Entropy]]
 - [[Notes/Error Metrics\|Error Metrics]]
 - [[Notes/Fisher Information\|Fisher Information]]
 - [[Notes/Fourier Transform\|Fourier Transform]]
