@@ -8,6 +8,6 @@
 >[!tip] Back to my [[Index/Some Books I Have Read\|BookList]]
 
 # Comments
-See reading notes under [[Index/AI Engineering\|AI Engineering]]
+See reading notes under [[Index/Large Language Model & AI Engineering\|Large Language Model & AI Engineering]]
 
 # Highlights
