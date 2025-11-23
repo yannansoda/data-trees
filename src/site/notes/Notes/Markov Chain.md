@@ -13,7 +13,7 @@
 	- Markov property: conditioned on the present state of the world, the past is independent from the future.
 { #b013c4}
 
-	- i.e. X_{t+1} depends on only X_t, but not X_{t-1}, ..., X1, X0.
+	- i.e. $X_{t+1}$ depends on only $X_t$, but not $X_{t-1}$, ..., $X_1$, $X_0$.
 	- mathematically: $$P(X_{t+1} = s | X_t=s_t, X_{t-1}=s_{t-1}, ... X_0=s_0) = p(X_{t+1}=s | X_t=s_t)$$
 ## Transition matrix
 - illustration of transition matrix: [source of the figure](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.stat.auckland.ac.nz/~fewster/325/notes/ch8.pdf)
@@ -31,3 +31,8 @@ Models of the Markov property that estimate
 
 # Hidden Markov Models (HMM)
 ![Screenshot 2023-03-21 at 16.15.39 1.png|700](/img/user/_assets/images/Screenshot%202023-03-21%20at%2016.15.39%201.png)
+
+
+
+
+Markov assumption

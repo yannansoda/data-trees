@@ -2,7 +2,6 @@
 {"topic":"DeepLearning, LargeLanguageModel","dg-publish":true,"permalink":"/Notes/Transformer/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
- 
 # What is a transformer?
 
 A transformer is a deep learning model architecture. "Transform" means representation is trained and re-used only by changing downstream layers. 

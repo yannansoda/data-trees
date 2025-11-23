@@ -67,7 +67,9 @@
 
 ## Design & Refactoring
 ### Code Design 
-- modular code: critical to good design
+- **modular** code: critical to good design
+	- each function has a single responsibility -> easy to maintain
+- **robust** code: capable of handling errors gracefully, preventing crashes and unexpected behaviors and results
 - Framework
 	- function name
 	- inputs
@@ -161,3 +163,21 @@
 - Product Managers: Plan and organize the requirements and roadmap for development work. 
 - UX Researchers: Research and analyze the needs of a product’s users. 
 - UI/UX Designers: Design the overall look (UI) and feel (UX) of a product.
+
+## My side notes
+### Jupyter Notebook version control solutions
+- GitHub’s Notebook Diff Viewer
+	- GitHub now supports native diffs for .ipynb files in PRs. It shows:
+		- Added/removed cells
+		- Code-level diffs
+		- Rendered markdown diffs
+		- Output diffs (optional)
+- Use `jupytext` 
+	- Automatically sync `.ipynb` with a `.py` or `.md` file so Git diffs are readable.
+	- Example: notebook `analysis.ipynb` ↔ paired file `analysis.py`
+	- **Git will show diffs on the `.py` file**, not the JSON.
+- Use `nbstripout`
+	- Removes outputs before committing so diffs stay clean.
+	- Effect:
+		- Removes images, outputs, execution counts
+		- Leaves only pure code + markdown

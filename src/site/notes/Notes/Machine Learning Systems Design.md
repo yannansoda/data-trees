@@ -18,7 +18,7 @@
 	- resource scaling
 	- artifact management
 - **Maintainability**
-- **Adaptability **
+- **Adaptability**
 	- data distribution shifts
 - **Continual Learning**: [[Notes/ML System Monitoring and Continual learning#Continual Learning\|ML System Monitoring and Continual learning#Continual Learning]]
 

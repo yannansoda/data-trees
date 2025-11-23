@@ -12,9 +12,11 @@
 2. Input the first observation of your dataset in the input layer, each feature in one input node.
 3. **Forward-propagation**: from left to light, the neurons are activated in a way that the impact of each neuron's activation is limited by the weights. Propagate the activations until getting the predicted result y.
 4. Compare the predicted result to the actual result. Measure the generated error.
-5. **Back-propagation**: from right to left, the error is propagated. Update the weights according to how much they are responsible for the error. The learning rate decides by now much we update the weights.
-6. Repeat Steps 1 to 5 and update the weights after each observation (**Reinforcement Learning**); OR: Repeat Steps 1 to 5 but update the weights only after a batch of observations (**Batch Learning**).
-7. When the whole training set passed through the ANN, that makes an epoch. Redo more epochs. 
+5. **Back-propagation**: from right to left, the error is propagated. Update the weights according to how much they are *responsible* for the error by [[Notes/Gradient Descent\|Gradient Descent]].
+	- *gradient* = how much the weight contribute to the error; if positive gradient -> decrease the weight to reduce the loss, and vice verse. 
+	- The learning rate decides by now much we update the weights.
+6. Repeat Steps 1 to 5 and update the weights after each observation (**[[Notes/Reinforcement Learning\|Reinforcement Learning]]**); OR: Repeat Steps 1 to 5 but update the weights only after a batch of observations (**Batch Learning**).
+7. When the *whole training set* passed through the ANN, that makes an epoch. Redo more epochs. 
 
 # Epoch vs. Batch
 - 1 batch = a group of samples

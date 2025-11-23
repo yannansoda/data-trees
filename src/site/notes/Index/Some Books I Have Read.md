@@ -4,6 +4,9 @@
 
 | File                                                                                                                                          | Author                       | FinishDate         | Format            |
 | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ------------------ | ----------------- |
+| [[BookNotes/昨日的世界\|昨日的世界]]                                                                                                                 | [奥] 斯蒂芬·茨威格                  | November 20, 2025  | kindle            |
+| [[BookNotes/逍遥游\|逍遥游]]                                                                                                                     | 班宇                           | November 17, 2025  | kindle            |
+| [[BookNotes/The Travelling Cat Chronicles\|The Travelling Cat Chronicles]]                                                                 |  Hiro Arikawa                | November 13, 2025  | kindle            |
 | [[BookNotes/AI Engineering - Building Applications with Foundation Models\|AI Engineering - Building Applications with Foundation Models]] | Chip Huyen                   | October 09, 2025   | ebook             |
 | [[BookNotes/A Brief History of Intelligence\|A Brief History of Intelligence]]                                                             | Max Bennett-Bennett          | September 28, 2025 | kindle/paperback  |
 | [[BookNotes/超越百岁\|超越百岁]]                                                                                                                   | [美] 彼得·阿提亚&比尔·吉福德            | September 18, 2025 | kindle            |

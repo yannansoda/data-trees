@@ -56,7 +56,7 @@
 	- SageMaker model registry: for [[Notes/Machine Learning Systems Design#^8e6855\|Machine Learning Systems Design#^8e6855]]
 - **SageMaker Model Monitor**
 - **SageMaker Ground Truth**
-	- for [[Notes/Data preprocessing#Data labelling\|Data preprocessing#Data labelling]]
+	- for [[Notes/Best Practices & Common Pitfalls in Machine Learning#Data Labeling & Label Quality\|Best Practices & Common Pitfalls in Machine Learning#Data Labeling & Label Quality]]
 	- job workflow: setup input data -> select labelling task -> select human workforce -> create task UI
 	- human workforce options: Amazon Mechanical Turk/Private/vendor
 - **SageMaker Projects**

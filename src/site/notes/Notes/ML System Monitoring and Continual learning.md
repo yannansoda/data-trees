@@ -9,7 +9,7 @@
 - hardware failure
 - downtime/crashing
 ### ML-Specific Failures
-- data distribution shifts: [[Notes/Machine Learning All-in-one#^8a1aad\|Machine Learning All-in-one#^8a1aad]]
+- data distribution shifts: [[Notes/Best Practices & Common Pitfalls in Machine Learning#Data Drift & Distribution Shift\|Best Practices & Common Pitfalls in Machine Learning#Data Drift & Distribution Shift]]
 - edge cases
 >[!Quote] Designing Machine Learning Systems
 >**Edge cases vs. Outliers**

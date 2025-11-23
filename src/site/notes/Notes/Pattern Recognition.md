@@ -13,7 +13,7 @@ Also called image recognition. Use [[Notes/Convolutional Neural Networks (CNN)\|
 
 # Handle imbalance in image data
 - merge very similar categories
-- resampling ([[Notes/Advanced Practice in ML#^5cfbc3\|Advanced Practice in ML#^5cfbc3]])
+- resampling ([[Notes/Best Practices & Common Pitfalls in Machine Learning#^5cfbc3\|Best Practices & Common Pitfalls in Machine Learning#^5cfbc3]])
 - adjust the CNN's loss function to wight mistakes on minority categories more than mistakes on majority categories
 # Avoid overfitting
 - image augmentation ([[Notes/Regularization#^933b29\|Regularization#^933b29]])

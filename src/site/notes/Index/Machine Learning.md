@@ -2,12 +2,12 @@
 {"dg-publish":true,"permalink":"/Index/Machine Learning/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
-- [[Notes/Advanced Practice in ML\|Advanced Practice in ML]]
 - [[Notes/Amazon SageMaker\|Amazon SageMaker]]
 - [[Notes/Anomaly detection\|Anomaly detection]]
 - [[Notes/Artificial Neural Networks\|Artificial Neural Networks]]
 - [[Notes/Association Rule Learning\|Association Rule Learning]]
 - [[Notes/AutoML\|AutoML]]
+- [[Notes/Best Practices & Common Pitfalls in Machine Learning\|Best Practices & Common Pitfalls in Machine Learning]]
 - [[Notes/Bias-Variance Tradeoff\|Bias-Variance Tradeoff]]
 - [[Notes/Centroid-based Clustering\|Centroid-based Clustering]]
 - [[Notes/Clustering Evaluation Metrics\|Clustering Evaluation Metrics]]
@@ -16,7 +16,7 @@
 - [[Notes/Connectivity-based Clustering\|Connectivity-based Clustering]]
 - [[Notes/Convolutional Neural Networks (CNN)\|Convolutional Neural Networks (CNN)]]
 - [[Notes/Cross-Validation\|Cross-Validation]]
-- [[Notes/Data preprocessing\|Data preprocessing]]
+- [[Notes/Data Preprocessing & Feature Engineering\|Data Preprocessing & Feature Engineering]]
 - [[Notes/Decision Tree & Random Forest\|Decision Tree & Random Forest]]
 - [[Notes/Density-based Clustering\|Density-based Clustering]]
 - [[Notes/Determining the number of clusters\|Determining the number of clusters]]
