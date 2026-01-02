@@ -5,4 +5,4 @@
 [status:: Done]
 [format:: eBook]
 
->[!tip] Back to my [[Index/Some Books I Have Read\|BookList]]
+>[!tip] Back to my [[__Index/Some Books I Have Read\|BookList]]

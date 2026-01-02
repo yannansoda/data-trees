@@ -5,7 +5,7 @@
 [status:: Done]
 [format:: kindle]
 
->[!tip] Back to my [[Index/Some Books I Have Read\|BookList]]
+>[!tip] Back to my [[__Index/Some Books I Have Read\|BookList]]
 
 # Comments
 精美可爱的一本书，介绍了作家们写作的习惯和写作时所处的空间。大部分作家其实都蛮自律的，都有固定的写作时间和运动的习惯，让我想到了以前看过的一个有趣网站[Daily Routines](https://dailyroutines.typepad.com/)。书中一些让我印象深刻的点：海明威是站立办公的先驱；《查泰莱夫人的情人》竟然是劳伦斯在树下写的——情欲竟然是在大自然中被写就……

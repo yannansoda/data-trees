@@ -5,9 +5,9 @@
 [status:: Done]
 [format:: ebook]
 
->[!tip] Back to my [[Index/Some Books I Have Read\|BookList]]
+>[!tip] Back to my [[__Index/Some Books I Have Read\|BookList]]
 
 # Comments
-See reading notes under [[Index/Large Language Model & AI Engineering\|Large Language Model & AI Engineering]]
+See reading notes under [[__Index/Large Language Model & AI Engineering\|Large Language Model & AI Engineering]]
 
 # Highlights

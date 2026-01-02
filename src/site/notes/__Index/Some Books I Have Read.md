@@ -195,9 +195,9 @@
 | [[BookNotes/不二\|不二]]                                                                                                                       | 冯唐                           | \-                 | paperback         |
 | [[BookNotes/传统十论\|传统十论]]                                                                                                                   | 秦晖                           | \-                 | kindle            |
 | [[BookNotes/伦敦人\|伦敦人]]                                                                                                                     | 加克莱格·泰勒                      | \-                 | kindle            |
-| [[BookNotes/十一个时区之旅\|十一个时区之旅]]                                                                                                             | \-                           | \-                 | kindle            |
 | [[BookNotes/卡夫卡全集（全10卷）\|卡夫卡全集（全10卷）]]                                                                                                     | 奥地利 弗朗茨·卡夫卡                  | \-                 | kindle            |
 | [[BookNotes/天真的人类学家\|天真的人类学家]]                                                                                                             | 英国 奈吉尔·巴利                    | \-                 | kindle            |
+| [[BookNotes/十一个时区之旅\|十一个时区之旅]]                                                                                                             | \-                           | \-                 | kindle            |
 | [[BookNotes/我们在此相遇\|我们在此相遇]]                                                                                                               | [英]约翰·伯格                     | \-                 | kindle            |
 | [[BookNotes/无知\|无知]]                                                                                                                       | 米兰·昆德拉                       | \-                 | kindle            |
 | [[BookNotes/暗淡蓝点\|暗淡蓝点]]                                                                                                                   | 卡尔·萨根 Carl Sagan             | \-                 | kindle            |
@@ -215,6 +215,7 @@
 | [[BookNotes/遍地风流\|遍地风流]]                                                                                                                   | 阿城                           | \-                 | kindle            |
 | [[BookNotes/非洲札记\|非洲札记]]                                                                                                                   | 严歌苓                          | \-                 | kindle            |
 | [[BookNotes/鱼王\|鱼王]]                                                                                                                       | 俄罗斯维克托·阿斯塔菲耶夫                | \-                 | kindle            |
+| [[BookNotes/冬泳\|冬泳]]                                                                                                                       | \-                           | \-                 | kindle            |
 
 { .block-language-dataview}
 

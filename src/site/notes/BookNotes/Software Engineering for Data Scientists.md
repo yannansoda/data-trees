@@ -5,9 +5,9 @@
 [status:: Done]
 [format:: eBook]
 
->[!tip] Back to my [[Index/Some Books I Have Read\|BookList]]
+>[!tip] Back to my [[__Index/Some Books I Have Read\|BookList]]
 
 # Comments
-The reading note is in [[Notes/Software Engineering for DS\|Software Engineering for DS]]
+The reading note is in [[StudyNotes/Software Engineering for DS\|Software Engineering for DS]]
 
 # Highlights

@@ -5,7 +5,7 @@
 [status:: Done]
 [format:: kindle]
 
->[!tip] Back to my [[Index/Some Books I Have Read\|BookList]]
+>[!tip] Back to my [[__Index/Some Books I Have Read\|BookList]]
 
 
 This was my father’s true talent—not engineering, or camera repair, or even puns. He had a virtuosity for unearthing the happiness waiting to be discovered in any situation, no matter how mundane.

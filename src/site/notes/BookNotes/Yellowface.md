@@ -5,7 +5,7 @@
 [status:: Done]
 [format:: kindle]
 
->[!tip] Back to my [[Index/Some Books I Have Read\|BookList]]
+>[!tip] Back to my [[__Index/Some Books I Have Read\|BookList]]
 
 > 高开低走，读到一半有些烦躁。但又因这本书窥得写作与出版的内幕——与学术写作出版有些许相似：出版的形式远远大于写作的内容。这本书足以击碎我年少时的作家梦了，读到主人公精疲力竭回到家乡，眼含热泪翻阅少年时代的习作，我也湿了眼角。最后一击是如此年轻的作者已经有这样的笔力，将社会议题信手拈来，还剧透了叙写历史的野心。
 
