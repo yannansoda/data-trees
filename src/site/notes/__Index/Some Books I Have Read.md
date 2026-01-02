@@ -195,6 +195,7 @@
 | [[BookNotes/不二\|不二]]                                                                                                                       | 冯唐                           | \-                 | paperback         |
 | [[BookNotes/传统十论\|传统十论]]                                                                                                                   | 秦晖                           | \-                 | kindle            |
 | [[BookNotes/伦敦人\|伦敦人]]                                                                                                                     | 加克莱格·泰勒                      | \-                 | kindle            |
+| [[BookNotes/十一个时区之旅\|十一个时区之旅]]                                                                                                             | \-                           | \-                 | kindle            |
 | [[BookNotes/卡夫卡全集（全10卷）\|卡夫卡全集（全10卷）]]                                                                                                     | 奥地利 弗朗茨·卡夫卡                  | \-                 | kindle            |
 | [[BookNotes/天真的人类学家\|天真的人类学家]]                                                                                                             | 英国 奈吉尔·巴利                    | \-                 | kindle            |
 | [[BookNotes/我们在此相遇\|我们在此相遇]]                                                                                                               | [英]约翰·伯格                     | \-                 | kindle            |
@@ -206,6 +207,7 @@
 | [[BookNotes/第一个人\|第一个人]]                                                                                                                   | 法阿尔贝·加缪                      | \-                 | kindle            |
 | [[BookNotes/第二性Ⅰ\|第二性Ⅰ]]                                                                                                                   | 法 西蒙娜·德·波伏瓦                  | \-                 | kindle            |
 | [[BookNotes/经济学通识课\|经济学通识课]]                                                                                                               | 英 尼尔·基什特尼                    | \-                 | kindle            |
+| [[BookNotes/置身事内\|置身事内]]                                                                                                                   | 兰小欢                          | \-                 | kindle            |
 | [[BookNotes/脑与意识\|脑与意识]]                                                                                                                   | 法 斯坦尼斯拉斯·迪昂                  | \-                 | kindle            |
 | [[BookNotes/艺术的故事\|艺术的故事]]                                                                                                                 | 英 贡布里希 Sir E.H.Gombrich      | \-                 | kindle            |
 | [[BookNotes/论摄影\|论摄影]]                                                                                                                     | [美]苏珊·桑塔格                    | \-                 | kindle, paperback |
@@ -213,8 +215,6 @@
 | [[BookNotes/遍地风流\|遍地风流]]                                                                                                                   | 阿城                           | \-                 | kindle            |
 | [[BookNotes/非洲札记\|非洲札记]]                                                                                                                   | 严歌苓                          | \-                 | kindle            |
 | [[BookNotes/鱼王\|鱼王]]                                                                                                                       | 俄罗斯维克托·阿斯塔菲耶夫                | \-                 | kindle            |
-| [[BookNotes/置身事内\|置身事内]]                                                                                                                   | 兰小欢                          | \-                 | kindle            |
-| [[BookNotes/十一个时区之旅\|十一个时区之旅]]                                                                                                             | \-                           | \-                 | kindle            |
 
 { .block-language-dataview}
 
