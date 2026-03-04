@@ -2,10 +2,9 @@
 {"topic":"Data Science, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Data Preprocessing & Feature Engineering/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
-
 # Data preprocessing techniques & pipeline for ML
 
-### 1. Data Quality & Data Leakage Checks
+## 1. Data Quality & Data Leakage Checks
 
 - Identify and remove columns that cause [[LearningNotes/Data Leakage\|Data Leakage]] (post-event data, target-derived features).
 - *Data lineage* = a technique that helps keep track of the origin of each of data samples as well as its labels
@@ -15,42 +14,22 @@
     - impossible values
     - duplicate rows / duplicate entities
     - violations of constraints
-### 2. Handling missing data
-#### Understanding why data is missing
-- **Missing Completely At Random (MCAR)**: probability being missing depends on both the observed values of other features and the unobserved missing value itself
-- **Missing At Random (MAR)**: probability being missing depends on _only_ on the observed values of _other_ features, not on the missing value itself
-- **Missing Not At Random (MNAR):** probability being missing depends on the missing value itself or on other unobserved factors
-#### Ways of handling missing data
-- **delete missing rows/columns** 
-	- when the size of the data set will not decrease substantially unless filter them out would bias the sample
-- **data imputation**
-{ #594d05}
-
-	- Mean / Median / Mode Imputation
-		- use mean/median for continuous value
-		- use mode for discrete value
-	- use specific values within/out of the range
-	- regression imputation: predict the value by building an interpolator or predicting them based on other features
-		- stochastic regression imputation: enhanced regression imputation, where *Imputed Value=Regression Prediction + Random Error*
-	- advanced imputation techniques
-		- [[LearningNotes/K-Nearest Neighbor\|K-Nearest Neighbor]] imputation
-		- Multiple Imputation by Chained Equations (MICE) / Iterative Imputation
-- **create missing value (binary) indicators**
+## 2. [[LearningNotes/Handling Missing Data\|Handling Missing Data]]
+ 
 >[!tip]
 > To prevent data leakage, always perform imputation after splitting your data into training and test sets. 
-### 3. Handling Outliers 
+## 3. Handling Outliers 
 - **removal**: outlier-containing entries are deleted from the distribution
 - **replacing**: handle as missing values and replace with suitable imputation
 - **capping**: use an arbitrary value or a value from a variable distribution to replace the maximum and minimum values
 - **discretization**: convert continuous variables, models, and functions into discrete one, by constructing a series of continuous intervals (or bins) that span the range of our desired variable/model/function
 - also see [[LearningNotes/Outlier & Anomaly Detection\|Outlier & Anomaly Detection]]
-### 4. Splitting datasets into the training and test sets
-### 5. Categorical Encoding
+## 4. Splitting datasets into the training and test sets
+## 5. Categorical Encoding
 = converting categorical columns to numerical columns 
 > [!In Python practice, use categorical data type] 
 > It saves a ton of memory space by using category data type instead of object.
-
-#### Common approaches
+### Common approaches
 - Label encoding
 - One-hot encoding
 - choices of approaches
@@ -64,23 +43,22 @@
 		- challenges of One-Hot Encoding
 			- **Dummy Variable Trap**: a scenario in which the independent variables are multicollinear:  -> so, always omit one dummy variable! 
 			- **Cannot Capture Interaction Effects**: fix this by creating composite feature and computing explicit feature crosses
-#### Other techniques
+### Other techniques
 - target encoding (mean encoding)
 	- group data by the categorical feature -> calculate the mean of the target variable for each group -> replace the category label with this calculated mean
 - binary encoding
 - hashing encoder
-### 6. Feature Scaling
+## 6. Feature Scaling
 = a method used to normalize the range of independent variables or features of data
-#### standardization 
-- = z-score normalization (universal) = subtract mean and divide by standard deviation => afterwards the data follow Normal(0, 1)
+### Standardization 
+- = z-score normalization (universal) = subtract mean and divide by standard deviation => afterwards the data centers to mean 0 and scales to variance 1 *(Note: it doesn't mean it makes data normally distributed)*
 - easy to choose sensible priors (then you can detect small slope values like 0.5)
 - computation works better
-- only apply to normal distribution
 
 $$
 x' = \frac{x - \bar x}{ \sigma}
 $$
-#### normalization
+### Normalization
 - = min-max scaling / min-max normalization
 - preserve the shape of the dataset
 $$
@@ -92,27 +70,26 @@ $$
 >- again, standardization is preferred for a feature if it can sometimes have extremely high or low values (outliers); this is because normalization will “squeeze” the normal values into a very small range
 >- In all other cases, normalization is preferable.”
 
-#### Why use feature scaling
+### Why use feature scaling
 It is optional, but beneficial to gradient descent and calculation speed; useful in at least three circumstances:
 - for algorithms that use Euclidian distance: Kmeans, KNN: different scales distort the calculation of distance.
 - for algorithms that optimize with gradient descent: features in different scales make gradient descent harder to converge.
 - for dimensionality reduction (PCA): finds combinations of features that have the most variance
 >[!Important]
 >- don’t apply feature scaling on dummy variables!
->- better apply feature scaling on train and test dataset separately, in case of [[LearningNotes/Data Leakage\|Data Leakage]].
-
-### 7. Transforming Skewed Feature Distributions
+>- better apply feature scaling on train and test dataset separately. in case of [[LearningNotes/Data Leakage\|Data Leakage]]. Best approach: fit scaler on train, and then apply the same fitted scaler to train and test.
+## 7. Transforming Skewed Feature Distributions
 - **Log Transformation**: turn a skewed distribution into a normal or less-skewed distribution
 - **Box–Cox Transformation**; positive values only
 - **Yeo–Johnson Transformation**: similar to Box-Cox but works with negative values
-### 8. Feature Engineering
+## 8. Feature Engineering
 
 = selecting, extracting, and transforming the most relevant features from the available data to build, *after raw data is clean and normalized*
 - **Feature creation**
 	- feature Interaction: create new features by combining already existing features
 	- feature aggregation: create summarized features, such as the mean of standard deviation
 - **[[LearningNotes/Feature selection\|Feature selection]]**
-#### Best practice for feature engineering
+### Best practice for feature engineering
 - avoid [[LearningNotes/Data Leakage\|Data Leakage]]
 - use statistics from only the train split, instead of the entire data, to scale your features and handle missing values
 - handle imbalanced data: [[LearningNotes/Best Practices & Common Pitfalls in Machine Learning#Imbalanced Datasets\|Best Practices & Common Pitfalls in Machine Learning#Imbalanced Datasets]]

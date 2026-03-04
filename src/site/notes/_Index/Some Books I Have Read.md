@@ -4,6 +4,7 @@
 
 | File                                                                                                                                          | Author                       | FinishDate         | Format            |
 | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ------------------ | ----------------- |
+| [[BookNotes/女性主义不是什么\|女性主义不是什么]]                                                                                                           | 卡萝尔·海                        | February 27, 2026  | kindle            |
 | [[BookNotes/和语言漫步的日记\|和语言漫步的日记]]                                                                                                           | [日]多和田叶子                     | February 21, 2026  | kindle            |
 | [[BookNotes/你的脚比头年轻\|你的脚比头年轻]]                                                                                                             | [英]科林·斯图尔特                   | February 06, 2026  | kindle            |
 | [[BookNotes/西方谐典\|西方谐典]]                                                                                                                   | 曹洁然                          | February 01, 2026  | kindle            |
@@ -210,15 +211,15 @@
 | [[BookNotes/深时之旅\|深时之旅]]                                                                                                                   | 英 罗伯特·麦克法伦                   | \-                 | kindle            |
 | [[BookNotes/理解一张照片\|理解一张照片]]                                                                                                               | [英]约翰·伯格                     | \-                 | kindle            |
 | [[BookNotes/疯癫与文明\|疯癫与文明]]                                                                                                                 | 米歇尔·福柯                       | \-                 | kindle            |
-| [[BookNotes/第二性Ⅰ\|第二性Ⅰ]]                                                                                                                   | 法 西蒙娜·德·波伏瓦                  | \-                 | kindle            |
-| [[BookNotes/置身事内\|置身事内]]                                                                                                                   | 兰小欢                          | \-                 | kindle            |
 | [[BookNotes/第一个人\|第一个人]]                                                                                                                   | 法阿尔贝·加缪                      | \-                 | kindle            |
-| [[BookNotes/脑与意识\|脑与意识]]                                                                                                                   | 法 斯坦尼斯拉斯·迪昂                  | \-                 | kindle            |
+| [[BookNotes/第二性Ⅰ\|第二性Ⅰ]]                                                                                                                   | 法 西蒙娜·德·波伏瓦                  | \-                 | kindle            |
 | [[BookNotes/经济学通识课\|经济学通识课]]                                                                                                               | 英 尼尔·基什特尼                    | \-                 | kindle            |
+| [[BookNotes/置身事内\|置身事内]]                                                                                                                   | 兰小欢                          | \-                 | kindle            |
+| [[BookNotes/脑与意识\|脑与意识]]                                                                                                                   | 法 斯坦尼斯拉斯·迪昂                  | \-                 | kindle            |
 | [[BookNotes/艺术的故事\|艺术的故事]]                                                                                                                 | 英 贡布里希 Sir E.H.Gombrich      | \-                 | kindle            |
-| [[BookNotes/试论疲倦\|试论疲倦]]                                                                                                                   | 奥 彼得·汉德克                     | \-                 | kindle            |
 | [[BookNotes/论摄影\|论摄影]]                                                                                                                     | [美]苏珊·桑塔格                    | \-                 | kindle, paperback |
 | [[BookNotes/遍地风流\|遍地风流]]                                                                                                                   | 阿城                           | \-                 | kindle            |
+| [[BookNotes/试论疲倦\|试论疲倦]]                                                                                                                   | 奥 彼得·汉德克                     | \-                 | kindle            |
 | [[BookNotes/非洲札记\|非洲札记]]                                                                                                                   | 严歌苓                          | \-                 | kindle            |
 | [[BookNotes/鱼王\|鱼王]]                                                                                                                       | 俄罗斯维克托·阿斯塔菲耶夫                | \-                 | kindle            |
 
