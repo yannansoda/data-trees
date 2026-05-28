@@ -1,5 +1,5 @@
 ---
-{"topic":"Data Science, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Data Preprocessing & Feature Engineering/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataScience, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Data Preprocessing & Feature Engineering/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Data preprocessing techniques & pipeline for ML

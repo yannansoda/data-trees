@@ -22,6 +22,7 @@
 - [[LearningNotes/Probabilistic Graphical Models\|Probabilistic Graphical Models]]
 - [[LearningNotes/Regression\|Regression]]
 - [[LearningNotes/Survival Analysis\|Survival Analysis]]
+- [[LearningNotes/Time Series\|Time Series]]
 - [[LearningNotes/Underfitting vs. Overfitting\|Underfitting vs. Overfitting]]
 - [[LearningNotes/Variational Inference\|Variational Inference]]
 

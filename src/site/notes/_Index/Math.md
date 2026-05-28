@@ -18,7 +18,7 @@
 - [[LearningNotes/Entropy\|Entropy]]
 - [[LearningNotes/Error Metrics\|Error Metrics]]
 - [[LearningNotes/Fisher Information\|Fisher Information]]
-- [[LearningNotes/Fourier Transform\|Fourier Transform]]
+- [[LearningNotes/Fourier Transformation\|Fourier Transformation]]
 - [[LearningNotes/Gamma & Beta functions\|Gamma & Beta functions]]
 - [[LearningNotes/Gaussian Process\|Gaussian Process]]
 - [[LearningNotes/Generalized Linear Models\|Generalized Linear Models]]

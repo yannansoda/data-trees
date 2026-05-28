@@ -21,6 +21,8 @@ There are two main approaches:
 =  transforms original features into a lower-dimensional space using mathematical techniques
 ## Methods
 - **Principal Component Analysis (PCA)**
+{ #9d99f1}
+
 	- linear technique that finds orthogonal components maximizing variance in the data
 - **Linear Discriminant Analysis (LDA)**
 	- supervised method that projects data to maximize class separability

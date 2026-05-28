@@ -4,6 +4,12 @@
 
 | File                                                                                                                                          | Author                       | FinishDate         | Format            |
 | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ------------------ | ----------------- |
+| [[BookNotes/假证件\|假证件]]                                                                                                                     | [墨] 瓦莱里娅·路易塞利                | May 28, 2026       | kindle            |
+| [[BookNotes/世界作为参考答案\|世界作为参考答案]]                                                                                                           | 刘擎 / 严飞                      | May 17, 2026       | kindle            |
+| [[BookNotes/攀登尼采\|攀登尼采]]                                                                                                                   | [美] 约翰·卡格                    | May 15, 2026       | kindle            |
+| [[BookNotes/谁来决定吃什么\|谁来决定吃什么]]                                                                                                             | 陈宇慧                          | May 07, 2026       | paperback         |
+| [[BookNotes/进烤箱的好日子\|进烤箱的好日子]]                                                                                                             | 李佳颖                          | April 04, 2026     | kindle            |
+| [[BookNotes/走出中东\|走出中东]]                                                                                                                   | 周轶君                          | March 28, 2026     | kindle            |
 | [[BookNotes/形影不离\|形影不离]]                                                                                                                   | [法]西蒙娜·德·波伏瓦                 | March 08, 2026     | kindle            |
 | [[BookNotes/女性主义不是什么\|女性主义不是什么]]                                                                                                           | 卡萝尔·海                        | February 27, 2026  | kindle            |
 | [[BookNotes/和语言漫步的日记\|和语言漫步的日记]]                                                                                                           | [日]多和田叶子                     | February 21, 2026  | kindle            |
@@ -70,7 +76,6 @@
 | [[BookNotes/它们的性\|它们的性]]                                                                                                                   | 王大可                          | December 23, 2023  | kindle            |
 | [[BookNotes/长安的荔枝\|长安的荔枝]]                                                                                                                 | 马伯庸                          | December 13, 2023  | kindle            |
 | [[BookNotes/The Worlds I see\|The Worlds I see]]                                                                                           | Fei-Fei Li                   | December 09, 2023  | kindle            |
-| [[BookNotes/The Psychology of Money\|The Psychology of Money]]                                                                             | Morgan Housel                | November 18, 2023  | kindle            |
 | [[BookNotes/特别的猫\|特别的猫]]                                                                                                                   | [英]多丽丝·莱辛                    | November 15, 2023  | kindle            |
 | [[BookNotes/鱼不存在\|鱼不存在]]                                                                                                                   | [美]露露·米勒                     | November 12, 2023  | kindle            |
 | [[BookNotes/寻找米兰·昆德拉\|寻找米兰·昆德拉]]                                                                                                           | [法]阿丽亚娜·舍曼                   | November 04, 2023  | kindle            |
@@ -200,6 +205,7 @@
 | [[BookNotes/人生的枷锁\|人生的枷锁]]                                                                                                                 | 英毛姆                          | March 01, 2014     | kindle            |
 | [[BookNotes/陪他一段\|陪他一段]]                                                                                                                   | 蘇偉貞                          | December 01, 2013  | kindle            |
 | [[BookNotes/顾准日记\|顾准日记]]                                                                                                                   | 顾准                           | October 18, 2013   | paperback         |
+| [[BookNotes/The Psychology of Money\|The Psychology of Money]]                                                                             | \-                           | \-                 | kindle            |
 | [[BookNotes/不二\|不二]]                                                                                                                       | 冯唐                           | \-                 | paperback         |
 | [[BookNotes/传统十论\|传统十论]]                                                                                                                   | 秦晖                           | \-                 | kindle            |
 | [[BookNotes/伦敦人\|伦敦人]]                                                                                                                     | 加克莱格·泰勒                      | \-                 | kindle            |
@@ -211,15 +217,15 @@
 | [[BookNotes/暗淡蓝点\|暗淡蓝点]]                                                                                                                   | 卡尔·萨根 Carl Sagan             | \-                 | kindle            |
 | [[BookNotes/深时之旅\|深时之旅]]                                                                                                                   | 英 罗伯特·麦克法伦                   | \-                 | kindle            |
 | [[BookNotes/理解一张照片\|理解一张照片]]                                                                                                               | [英]约翰·伯格                     | \-                 | kindle            |
+| [[BookNotes/疯癫与文明\|疯癫与文明]]                                                                                                                 | 米歇尔·福柯                       | \-                 | kindle            |
 | [[BookNotes/第一个人\|第一个人]]                                                                                                                   | 法阿尔贝·加缪                      | \-                 | kindle            |
-| [[BookNotes/第二性Ⅰ\|第二性Ⅰ]]                                                                                                                   | 法 西蒙娜·德·波伏瓦                  | \-                 | kindle            |
 | [[BookNotes/经济学通识课\|经济学通识课]]                                                                                                               | 英 尼尔·基什特尼                    | \-                 | kindle            |
 | [[BookNotes/置身事内\|置身事内]]                                                                                                                   | 兰小欢                          | \-                 | kindle            |
 | [[BookNotes/脑与意识\|脑与意识]]                                                                                                                   | 法 斯坦尼斯拉斯·迪昂                  | \-                 | kindle            |
+| [[BookNotes/第二性Ⅰ\|第二性Ⅰ]]                                                                                                                   | 法 西蒙娜·德·波伏瓦                  | \-                 | kindle            |
 | [[BookNotes/艺术的故事\|艺术的故事]]                                                                                                                 | 英 贡布里希 Sir E.H.Gombrich      | \-                 | kindle            |
-| [[BookNotes/论摄影\|论摄影]]                                                                                                                     | [美]苏珊·桑塔格                    | \-                 | kindle, paperback |
 | [[BookNotes/试论疲倦\|试论疲倦]]                                                                                                                   | 奥 彼得·汉德克                     | \-                 | kindle            |
-| [[BookNotes/疯癫与文明\|疯癫与文明]]                                                                                                                 | 米歇尔·福柯                       | \-                 | kindle            |
+| [[BookNotes/论摄影\|论摄影]]                                                                                                                     | [美]苏珊·桑塔格                    | \-                 | kindle, paperback |
 | [[BookNotes/遍地风流\|遍地风流]]                                                                                                                   | 阿城                           | \-                 | kindle            |
 | [[BookNotes/非洲札记\|非洲札记]]                                                                                                                   | 严歌苓                          | \-                 | kindle            |
 | [[BookNotes/鱼王\|鱼王]]                                                                                                                       | 俄罗斯维克托·阿斯塔菲耶夫                | \-                 | kindle            |

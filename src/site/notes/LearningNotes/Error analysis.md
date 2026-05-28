@@ -1,5 +1,5 @@
 ---
-{"topic":"Data Science, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Error analysis/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataScience, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Error analysis/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 Error analysis = diagnosing and understanding the errors made by a model to improve its performance

@@ -1,5 +1,5 @@
 ---
-{"topic":"Data Science, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Distribution-based Clustering/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataScience, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Distribution-based Clustering/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 >[!Source] 

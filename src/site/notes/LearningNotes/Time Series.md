@@ -1,5 +1,5 @@
 ---
-{"topic":"DataScience, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Time Series/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"MachineLearning, Modeling","dg-publish":true,"permalink":"/LearningNotes/Time Series/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 > [!Reference]

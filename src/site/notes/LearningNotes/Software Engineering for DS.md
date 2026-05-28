@@ -1,5 +1,5 @@
 ---
-{"topic":"SoftwareEngineering, Data Science","dg-publish":true,"permalink":"/LearningNotes/Software Engineering for DS/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"SoftwareEngineering, DataScience","dg-publish":true,"permalink":"/LearningNotes/Software Engineering for DS/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 >[!Source]

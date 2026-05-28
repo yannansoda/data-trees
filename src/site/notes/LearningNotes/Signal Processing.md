@@ -2,7 +2,7 @@
 {"topic":"Math","dg-publish":true,"permalink":"/LearningNotes/Signal Processing/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
-# [[LearningNotes/Convolution\|Convolution]] & [[Fourier transformation\|Fourier transformation]]
+# [[LearningNotes/Convolution\|Convolution]] & [[LearningNotes/Fourier Transformation\|Fourier transformation]]
 
 -  Convolution & Fourier transformation
 Convolution in time domain can be converted to multiplication in frequency domain by Fourier transformation. 

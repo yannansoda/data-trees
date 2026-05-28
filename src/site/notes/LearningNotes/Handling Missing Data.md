@@ -11,9 +11,11 @@
 
 	- example: older individuals have less data records
 - **Missing Not At Random (MNAR):** probability being missing depends on the missing value *itself* or on other unobserved factors
+{ #b7a197}
+
 	- example: patients with severe symptoms drop out of a clinical trial.
 
-# Handling missing data
+# How to handle missing data
 
 | Method Type                          | Method                                              | How it Works                                                                                                                            | Data Missing Type            | Strengths                                          | Key Risks / Notes                              |
 | :----------------------------------- | :-------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | -------------------------------------------------- | ---------------------------------------------- |
@@ -34,6 +36,8 @@
 | Multiple Imputation                  | Predictive Mean Matching (PMM)                      | Impute by matching predicted values to observed donors                                                                                  | MAR                          | Produces realistic values; robust to non-normality | Needs sufficient donor pool                    |
 | Likelihood-Based (No Imputation)     | Mixed-Effects Model (FIML)                          | Fit longitudinal model directly using all available data (no explicit imputation)                                                       | MAR                          | Statistically efficient                            | Only works if analysis model supports it       |
 | Longitudinal Grid Imputation         | Time-Raster Imputation                              | Insert regular time grid and impute at grid level                                                                                       | MAR                          | Handles irregular timepoints                       | Requires structured modeling                   |
+{ #376f89}
+
 
 # Stats Behind: Model-Based Imputation Frameworks
 There are three major statistical frameworks for handling missing data in model-based settings.

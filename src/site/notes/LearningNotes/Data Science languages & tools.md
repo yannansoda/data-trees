@@ -20,7 +20,7 @@
 	- Hadoop is an open-source framework that is used for distributed storage and processing of large datasets. It consists of two main components: Hadoop Distributed File System (HDFS) for storing data and MapReduce for processing data.
 - Apache Spark
 	- Spark ([[LearningNotes/Big Data#Spark\|Big Data#Spark]]) is another open-source framework that is used for distributed processing of large datasets, aka. It provides a unified analytics engine for batch processing, real-time processing, machine learning, and graph processing.
-- [[LearningNotes/SQL\|SQL]] and NoSQL [[LearningNotes/Database\|Database]]s
+- [[SQL\|SQL]] and NoSQL [[LearningNotes/Database\|Database]]s
 	- SQL databases: such as PostgreSQL, MySQL, and Oracle, are used for structured data storage and querying 
 	- NoSQL databases: such as MongoDB, Cassandra, and Redis, are used for unstructured and semi-structured data storage and querying.
 - [[LearningNotes/ETL\|ETL]] tools
