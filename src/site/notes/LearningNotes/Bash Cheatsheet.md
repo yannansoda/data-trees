@@ -1,5 +1,5 @@
 ---
-{"topic":"TechHack","dg-publish":true,"permalink":"/LearningNotes/Bash Cheatsheet/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"TechHack","dg-publish":true,"permalink":"/LearningNotes/Bash Cheatsheet/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"TechHack"}}
 ---
 
 

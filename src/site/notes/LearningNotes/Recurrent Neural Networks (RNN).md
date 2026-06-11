@@ -1,5 +1,5 @@
 ---
-{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Recurrent Neural Networks (RNN)/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Recurrent Neural Networks (RNN)/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"MachineLearning"}}
 ---
 
 
@@ -11,7 +11,7 @@ RNNs are called ==recurrent== because they perform the same task for every eleme
 Another way to think about RNNs is that they have a “memory” which captures information about what has been calculated so far.
 
 # Architecture and components 
-![RNN-1.png|400](/img/user/_assets/images/RNN-1.png)
+![RNN-1.png\|400](/img/user/_assets/images/RNN-1.png)
 $$h(t)=f(Ux(t)+Wh(t−1))$$
 - $h(t)$ is the hidden state at time t
 - $x(t)$ is the input at time t
@@ -29,7 +29,7 @@ The gradient computation involves performing a forward propagation pass moving l
 
 
 # Different types of RNN
-![Pasted image 20240825204844.png|500](/img/user/_assets/images/Pasted%20image%2020240825204844.png)
+![Pasted image 20240825204844.png\|500](/img/user/_assets/images/Pasted%20image%2020240825204844.png)
 
 # Variations of RNN
 - [[LearningNotes/Long Short Term Memory\|Long Short Term Memory]]

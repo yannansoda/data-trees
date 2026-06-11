@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/_Index/Large Language Model & AI Engineering/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"permalink":"/_Index/Large Language Model & AI Engineering/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{}}
 ---
 
 

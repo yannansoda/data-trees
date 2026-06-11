@@ -1,5 +1,5 @@
 ---
-{"topic":"DataScience, DeepLearning","dg-publish":true,"permalink":"/LearningNotes/Graph Neural Networks/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataScience, DeepLearning","dg-publish":true,"permalink":"/LearningNotes/Graph Neural Networks/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataScience, DeepLearning"}}
 ---
 
 >[!Source]

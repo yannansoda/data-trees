@@ -1,5 +1,5 @@
 ---
-{"topic":"Math, Statistics","dg-publish":true,"permalink":"/LearningNotes/Kernel Function/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Math, Statistics","dg-publish":true,"permalink":"/LearningNotes/Kernel Function/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Math, Statistics"}}
 ---
 
 A kernel is a positive function $K(x;h)$ which is controlled by the bandwidth parameter $h$. Given this kernel form, the density estimate at a point $y$ within a group of points $x_i; i=1 ...N$ is given by:

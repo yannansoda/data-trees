@@ -1,5 +1,5 @@
 ---
-{"title":"Software Engineering for Data Scientists","author":"Catherine Nelson","EndDate":"2025-04-19","publisher":"O’Reilly","dg-publish":true,"permalink":"/BookNotes/Software Engineering for Data Scientists/","dgPassFrontmatter":true,"noteIcon":""}
+{"title":"Software Engineering for Data Scientists","author":"Catherine Nelson","EndDate":"2025-04-19","publisher":"O’Reilly","dg-publish":true,"permalink":"/BookNotes/Software Engineering for Data Scientists/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"title":"Software Engineering for Data Scientists","author":"Catherine Nelson","EndDate":"2025-04-19","publisher":"O’Reilly"}}
 ---
 
 [status:: Done]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/_Index/Computational Neuroscience/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"permalink":"/_Index/Computational Neuroscience/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{}}
 ---
 
 - [[LearningNotes/Brain decoding so far\|Brain decoding so far]]

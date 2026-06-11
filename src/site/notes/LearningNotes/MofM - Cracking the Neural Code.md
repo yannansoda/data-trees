@@ -1,5 +1,5 @@
 ---
-{"topic":"CompNeuro","dg-publish":true,"permalink":"/LearningNotes/MofM - Cracking the Neural Code/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"CompNeuro","dg-publish":true,"permalink":"/LearningNotes/MofM - Cracking the Neural Code/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"CompNeuro"}}
 ---
 
 >[!Info]

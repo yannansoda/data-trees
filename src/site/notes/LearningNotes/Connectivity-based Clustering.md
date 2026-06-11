@@ -1,5 +1,5 @@
 ---
-{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Connectivity-based Clustering/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Connectivity-based Clustering/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"MachineLearning"}}
 ---
 
 > Connectivity-based methods group data points together based on the proximity between the clusters.
@@ -29,10 +29,10 @@
 > - "Closest" is defined using the linkage criterion mentioned above.
 	
 # Dendrograms
-![hierarchical-clustering-1.png|600](/img/user/_assets/images/hierarchical-clustering-1.png)
+![hierarchical-clustering-1.png\|600](/img/user/_assets/images/hierarchical-clustering-1.png)
 
 Dendrograms remain the memory of each step in hierarchical clustering.
 - You can set a distance threshold and check how many vertical lines are formed below it. The number of lines = the number of clusters
 - Optimal number of clusters = the longest vertical line that does not cross the hypothetical horizontal lines 
 > *example*:
-![hierarchical-clustering-2.png|600](/img/user/_assets/images/hierarchical-clustering-2.png)
+![hierarchical-clustering-2.png\|600](/img/user/_assets/images/hierarchical-clustering-2.png)

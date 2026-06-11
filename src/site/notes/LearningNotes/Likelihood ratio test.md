@@ -1,5 +1,5 @@
 ---
-{"topic":"Statistics, Modeling","dg-publish":true,"permalink":"/LearningNotes/Likelihood ratio test/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Statistics, Modeling","dg-publish":true,"permalink":"/LearningNotes/Likelihood ratio test/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Statistics, Modeling"}}
 ---
 
 

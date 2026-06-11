@@ -1,5 +1,5 @@
 ---
-{"topic":"Math, Modeling","dg-publish":true,"permalink":"/LearningNotes/Generalized Linear Models/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Math, Modeling","dg-publish":true,"permalink":"/LearningNotes/Generalized Linear Models/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Math, Modeling"}}
 ---
 
 - GLMs = generalized linear models

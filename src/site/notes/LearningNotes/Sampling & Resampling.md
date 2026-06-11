@@ -1,5 +1,5 @@
 ---
-{"topic":"Statistics","dg-publish":true,"permalink":"/LearningNotes/Sampling & Resampling/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Statistics","dg-publish":true,"permalink":"/LearningNotes/Sampling & Resampling/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Statistics"}}
 ---
 
 
@@ -7,7 +7,7 @@
 
 ## Three methods in applied machine learning
 
-![Pasted image 20240809092951.png|400](/img/user/_assets/images/Pasted%20image%2020240809092951.png)
+![Pasted image 20240809092951.png\|400](/img/user/_assets/images/Pasted%20image%2020240809092951.png)
 #### Simple Random Sampling
 - Samples are drawn with a uniform probability from the domain.
 #### Systematic Sampling
@@ -39,7 +39,7 @@ Serveral resampling methods include permutation, Bootstrap, Jackknife and cross 
 
 The best figure telling the story of resampling:
 
-![Pasted image 20240809092603.png|500](/img/user/_assets/images/Pasted%20image%2020240809092603.png)
+![Pasted image 20240809092603.png\|500](/img/user/_assets/images/Pasted%20image%2020240809092603.png)
 
 #### Permutation 
 - also called exact tests, randomisation tests, or randomisation tests
@@ -59,3 +59,8 @@ The best figure telling the story of resampling:
 The difference between permutation and bootstrap is that bootstraps sample with replacement, and permutations sample without replacement. 
 
 The permutation test is best for testing hypotheses and bootstrapping is best for estimating confidence intervals.
+
+## Resampling for stability checks
+- Resampling can estimate uncertainty and also check whether model results are stable.
+- Examples: repeated train/test splits, cross-validation folds, bootstrap samples, and subsampling.
+- See [[LearningNotes/Resampling-based Model Stability Checks\|Resampling-based Model Stability Checks]].

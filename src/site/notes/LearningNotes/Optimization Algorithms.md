@@ -1,5 +1,5 @@
 ---
-{"topic":"Math, MachineLearning, DeepLearning","dg-publish":true,"permalink":"/LearningNotes/Optimization Algorithms/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Math, MachineLearning, DeepLearning","dg-publish":true,"permalink":"/LearningNotes/Optimization Algorithms/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Math, MachineLearning, DeepLearning"}}
 ---
 
 ## Convex optimization
@@ -13,7 +13,7 @@
 - local minima
 - saddle points
 	- any location where all gradients of a function vanish but which is neither a global nor a local minimum
-	- ![Pasted image 20241008162502.png|200](/img/user/_assets/images/Pasted%20image%2020241008162502.png)
+	- ![Pasted image 20241008162502.png\|200](/img/user/_assets/images/Pasted%20image%2020241008162502.png)
 ### Challenges in DL
 - Almost all optimization problems arising in deep learning are *nonconvex*
 - [[LearningNotes/Gradient Descent#Challenges and Solutions\|Gradient Descent#Challenges and Solutions]]

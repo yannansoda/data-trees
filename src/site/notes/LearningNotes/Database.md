@@ -1,5 +1,5 @@
 ---
-{"topic":"DataEngineering","dg-publish":true,"permalink":"/LearningNotes/Database/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataEngineering","dg-publish":true,"permalink":"/LearningNotes/Database/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataEngineering"}}
 ---
 
 
@@ -32,7 +32,7 @@
 - Document model: JSON, XML, Binary JSON (BSON)
 - Graph model
 
->[!Note] SQL vs. No SQL ![Pasted image 20230620231249.png|500](/img/user/_assets/images/Pasted%20image%2020230620231249.png)
+>[!Note] SQL vs. No SQL ![Pasted image 20230620231249.png\|500](/img/user/_assets/images/Pasted%20image%2020230620231249.png)
 
 
 

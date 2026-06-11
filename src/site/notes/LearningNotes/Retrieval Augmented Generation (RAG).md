@@ -1,5 +1,5 @@
 ---
-{"topic":"LargeLanguageModel, AIEngineering","dg-publish":true,"permalink":"/LearningNotes/Retrieval Augmented Generation (RAG)/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"LargeLanguageModel, AIEngineering","dg-publish":true,"permalink":"/LearningNotes/Retrieval Augmented Generation (RAG)/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"LargeLanguageModel, AIEngineering"}}
 ---
 
 ### What is RAG

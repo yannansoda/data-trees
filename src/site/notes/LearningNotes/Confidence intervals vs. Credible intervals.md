@@ -1,5 +1,5 @@
 ---
-{"topic":"Statistics","dg-publish":true,"permalink":"/LearningNotes/Confidence intervals vs. Credible intervals/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Statistics","dg-publish":true,"permalink":"/LearningNotes/Confidence intervals vs. Credible intervals/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Statistics"}}
 ---
 
 >[!Quote]

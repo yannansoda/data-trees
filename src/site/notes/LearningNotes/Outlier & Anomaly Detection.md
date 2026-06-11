@@ -1,5 +1,5 @@
 ---
-{"topic":"DataScience","dg-publish":true,"permalink":"/LearningNotes/Outlier & Anomaly Detection/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataScience","dg-publish":true,"permalink":"/LearningNotes/Outlier & Anomaly Detection/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataScience"}}
 ---
 
 # Outlier vs. Anomaly

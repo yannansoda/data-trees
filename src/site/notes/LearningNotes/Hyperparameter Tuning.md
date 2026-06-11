@@ -1,5 +1,5 @@
 ---
-{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Hyperparameter Tuning/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Hyperparameter Tuning/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"MachineLearning"}}
 ---
 
 >[!Summary] Hyperparameter tuning is search.
@@ -40,4 +40,4 @@
 - use Randomized Search instead of Grid Search
 - use an appropriate scale for hyperparameters, e.g. log scale
 - can try different strategies: Panda vs. Caviar
-	 ![Pasted image 20230425100746.png|400](/img/user/_assets/images/Pasted%20image%2020230425100746.png)
+	 ![Pasted image 20230425100746.png\|400](/img/user/_assets/images/Pasted%20image%2020230425100746.png)

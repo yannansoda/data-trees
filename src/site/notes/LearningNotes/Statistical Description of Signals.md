@@ -1,5 +1,5 @@
 ---
-{"topic":"Math","dg-publish":true,"permalink":"/LearningNotes/Statistical Description of Signals/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Math","dg-publish":true,"permalink":"/LearningNotes/Statistical Description of Signals/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Math"}}
 ---
 
 # Statistical Description of Signals

@@ -1,5 +1,5 @@
 ---
-{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Transfer Learning and Multi-task Learning/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Transfer Learning and Multi-task Learning/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"MachineLearning"}}
 ---
 
 # Transfer Learning

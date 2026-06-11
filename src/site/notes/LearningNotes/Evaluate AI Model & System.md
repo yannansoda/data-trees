@@ -1,5 +1,5 @@
 ---
-{"topic":"LargeLanguageModel, AIEngineering","dg-publish":true,"permalink":"/LearningNotes/Evaluate AI Model & System/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"LargeLanguageModel, AIEngineering","dg-publish":true,"permalink":"/LearningNotes/Evaluate AI Model & System/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"LargeLanguageModel, AIEngineering"}}
 ---
 
 ## Language modelling metrics

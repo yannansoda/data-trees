@@ -1,5 +1,5 @@
 ---
-{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/K-Nearest Neighbor/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/K-Nearest Neighbor/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"MachineLearning"}}
 ---
 
 

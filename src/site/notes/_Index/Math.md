@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/_Index/Math/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"permalink":"/_Index/Math/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{}}
 ---
 
 - [[LearningNotes/Bayes Factor\|Bayes Factor]]

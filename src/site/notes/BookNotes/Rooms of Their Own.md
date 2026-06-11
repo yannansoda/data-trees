@@ -1,5 +1,5 @@
 ---
-{"title":"Rooms of Their Own","author":"Alex Johnson","EndDate":"2025-06-01","publisher":"Frances Lincoln","dg-publish":true,"permalink":"/BookNotes/Rooms of Their Own/","dgPassFrontmatter":true,"noteIcon":""}
+{"title":"Rooms of Their Own","author":"Alex Johnson","EndDate":"2025-06-01","publisher":"Frances Lincoln","dg-publish":true,"permalink":"/BookNotes/Rooms of Their Own/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"title":"Rooms of Their Own","author":"Alex Johnson","EndDate":"2025-06-01","publisher":"Frances Lincoln"}}
 ---
 
 [status:: Done]

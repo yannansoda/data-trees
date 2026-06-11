@@ -1,12 +1,12 @@
 ---
-{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Artificial Neural Networks/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Artificial Neural Networks/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"MachineLearning"}}
 ---
 
 
 >[!Interesting] Neural network playground
 >https://playground.tensorflow.org/
 # Basic working mechanism
-![artificial-nn-1.png|600](/img/user/_assets/images/artificial-nn-1.png)
+![artificial-nn-1.png\|600](/img/user/_assets/images/artificial-nn-1.png)
 # How it works
 1. Randomly initialise the weights to small numbers close to 0 (but not 0).
 2. Input the first observation of your dataset in the input layer, each feature in one input node.
@@ -28,12 +28,12 @@
 $$
 \phi(z) = \frac{1}{1 + e ^ z}
 $$
-![Pasted image 20230309212108.png|300](/img/user/_assets/images/Pasted%20image%2020230309212108.png)
+![Pasted image 20230309212108.png\|300](/img/user/_assets/images/Pasted%20image%2020230309212108.png)
 - tanh = a shifted sigmoid with a mean as 0
 $$
 \phi(z) = \frac{e^z - e^{-z}}{e^z+e^{-z}}
 $$
-![Pasted image 20230309212317.png|300](/img/user/_assets/images/Pasted%20image%2020230309212317.png)
+![Pasted image 20230309212317.png\|300](/img/user/_assets/images/Pasted%20image%2020230309212317.png)
 - Softmax
 $$\phi(z) = \text{Softmax}(z_{i}) = \frac{\exp(z_i)}{\sum_j \exp(z_j)}$$
 > Why "soft": because it generates values between 0 and 1 and sum to 1, so the max value is a probability smaller than 1, instead of "hard" max value as 1 and the rest as 0.

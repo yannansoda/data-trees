@@ -1,5 +1,5 @@
 ---
-{"topic":"DataScience, MachineLearning, DeepLearning","dg-publish":true,"permalink":"/LearningNotes/Kolmogorov-Arnold Networks/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataScience, MachineLearning, DeepLearning","dg-publish":true,"permalink":"/LearningNotes/Kolmogorov-Arnold Networks/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataScience, MachineLearning, DeepLearning"}}
 ---
 
 - The Kolmogorov-Arnold Network (KAN) is a brand-new class of Neural Network building block. 

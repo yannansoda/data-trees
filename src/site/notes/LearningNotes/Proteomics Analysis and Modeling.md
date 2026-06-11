@@ -1,5 +1,5 @@
 ---
-{"topic":"AIxHealth","dg-publish":true,"permalink":"/LearningNotes/Proteomics Analysis and Modeling/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"AIxHealth","dg-publish":true,"permalink":"/LearningNotes/Proteomics Analysis and Modeling/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"AIxHealth"}}
 ---
 
 # What is proteomics?

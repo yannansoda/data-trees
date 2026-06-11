@@ -1,5 +1,5 @@
 ---
-{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Machine Learning All-in-one/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Machine Learning All-in-one/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"MachineLearning"}}
 ---
 
 
@@ -19,10 +19,10 @@
 4. deploy in production ([[LearningNotes/Machine Learning Systems Design\|Machine Learning Systems Design]]): deploy, monitor, and maintain system -> back to 3 and/or 2 if needed
 
 # Types of Machine Learning
-![Pasted image 20231001114343.png|600](/img/user/_assets/images/Pasted%20image%2020231001114343.png)
+![Pasted image 20231001114343.png\|600](/img/user/_assets/images/Pasted%20image%2020231001114343.png)
 
 # ML Algorithms Cheat Sheet
-[[ML+Algorithms+Cheat+Sheet.pdf]]
+[ML+Algorithms+Cheat+Sheet.pdf](/img/user/_assets/images/ML+Algorithms+Cheat+Sheet.pdf)
 # Supervised Learning
 ## Classification
 - linear
@@ -35,7 +35,7 @@
 	- Decision Tree Classification: [[LearningNotes/Decision Tree & Random Forest#Decision Tree\|Decision Tree & Random Forest#Decision Tree]]
 	- Random Forest Classification: [[LearningNotes/Decision Tree & Random Forest#Random Forest\|Decision Tree & Random Forest#Random Forest]]
 - Pros and Cons
-![classification-1.png|600](/img/user/_assets/images/classification-1.png)
+![classification-1.png\|600](/img/user/_assets/images/classification-1.png)
 - Multi-class vs. Multi-label Classification 
 ## Regression
 - Types
@@ -48,7 +48,7 @@
 	- Decision Tree Regression: [[LearningNotes/Decision Tree & Random Forest#Decision Tree\|Decision Tree & Random Forest#Decision Tree]]
 	- Random Forest Regression: [[LearningNotes/Decision Tree & Random Forest#Random Forest\|Decision Tree & Random Forest#Random Forest]]
 - Pros and Cons
-![regression.png|600](/img/user/_assets/images/regression.png)
+![regression.png\|600](/img/user/_assets/images/regression.png)
 # Unsupervised Learning
 >[!Note]
 >The distinction between unsupervised versus self-supervised learning can be blurry sometimes. Roughly:

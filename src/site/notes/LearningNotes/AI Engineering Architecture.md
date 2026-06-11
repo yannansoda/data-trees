@@ -1,5 +1,5 @@
 ---
-{"topic":"LargeLanguageModel, AIEngineering","dg-publish":true,"permalink":"/LearningNotes/AI Engineering Architecture/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"LargeLanguageModel, AIEngineering","dg-publish":true,"permalink":"/LearningNotes/AI Engineering Architecture/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"LargeLanguageModel, AIEngineering"}}
 ---
 
 ## The simplest architecture 

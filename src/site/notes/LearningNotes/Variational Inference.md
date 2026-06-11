@@ -1,5 +1,5 @@
 ---
-{"topic":"Statistics, Modeling","dg-publish":true,"permalink":"/LearningNotes/Variational Inference/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Statistics, Modeling","dg-publish":true,"permalink":"/LearningNotes/Variational Inference/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Statistics, Modeling"}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"topic":"Math","dg-publish":true,"permalink":"/LearningNotes/Covariance & Correlation/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Math","dg-publish":true,"permalink":"/LearningNotes/Covariance & Correlation/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Math"}}
 ---
 
 

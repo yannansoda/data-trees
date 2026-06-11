@@ -1,5 +1,5 @@
 ---
-{"topic":"LargeLanguageModel, AIEngineering","dg-publish":true,"permalink":"/LearningNotes/LLM Optimization/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"LargeLanguageModel, AIEngineering","dg-publish":true,"permalink":"/LearningNotes/LLM Optimization/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"LargeLanguageModel, AIEngineering"}}
 ---
 
 ### LLM optimization techniques
@@ -9,11 +9,11 @@
 	- either just in the final prediction layer 
 	- or in the model's hidden layers as well
 - typically effective for encoder-only models
-- ![Pasted image 20240811215348.png|400](/img/user/_assets/images/Pasted%20image%2020240811215348.png)
+- ![Pasted image 20240811215348.png\|400](/img/user/_assets/images/Pasted%20image%2020240811215348.png)
 #### quantization
 - = reduce weight's precision
 - example: Post-Traning Quantization (PTQ)
-- ![Pasted image 20240811215701.png|400](/img/user/_assets/images/Pasted%20image%2020240811215701.png)
+- ![Pasted image 20240811215701.png\|400](/img/user/_assets/images/Pasted%20image%2020240811215701.png)
 #### pruning 
 - = remove model weights with values close or equal to 0
 - pruning methods

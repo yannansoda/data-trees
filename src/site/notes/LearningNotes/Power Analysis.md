@@ -1,5 +1,5 @@
 ---
-{"topic":"Statistics","dg-publish":true,"permalink":"/LearningNotes/Power Analysis/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Statistics","dg-publish":true,"permalink":"/LearningNotes/Power Analysis/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Statistics"}}
 ---
 
 ### Definition

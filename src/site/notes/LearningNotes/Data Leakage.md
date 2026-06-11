@@ -1,5 +1,5 @@
 ---
-{"topic":"DataScience","dg-publish":true,"permalink":"/LearningNotes/Data Leakage/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataScience","dg-publish":true,"permalink":"/LearningNotes/Data Leakage/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataScience"}}
 ---
 
 Data leakage refers to the phenomenon when a form of the label “leaks” into the set of features used for making predictions, and this same information is not available during inference.

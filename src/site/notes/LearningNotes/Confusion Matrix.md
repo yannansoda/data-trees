@@ -1,10 +1,10 @@
 ---
-{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Confusion Matrix/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Confusion Matrix/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"MachineLearning"}}
 ---
 
 
 # Confusion Matrix
-![confusion-matrix-1.png|300](/img/user/_assets/images/confusion-matrix-1.png)
+![confusion-matrix-1.png\|300](/img/user/_assets/images/confusion-matrix-1.png)
 [source](https://towardsdatascience.com/confusion-matrix-for-your-multi-class-machine-learning-model-ff9aa3bf7826)
 
 # Performance measures
@@ -48,14 +48,14 @@ $$F1\ score = 2 \times \frac{Precision \times Sensitivity}{Precision + Sensitivi
  ## CAP Analysis
 We can analyze the cap curve in 2 ways.
  ### Way 1: ratio of the areas under the good model to the area under the ideal curve
- ![confusion-matrix-2.png|500](/img/user/_assets/images/confusion-matrix-2.png)
+ ![confusion-matrix-2.png\|500](/img/user/_assets/images/confusion-matrix-2.png)
  ### Way 2:
-![confusion-matrix-3.png|500](/img/user/_assets/images/confusion-matrix-3.png)
+![confusion-matrix-3.png\|500](/img/user/_assets/images/confusion-matrix-3.png)
 # Receiver Operating Characteristic (ROC) & AUC
 ## ROC
 - ROC != CAP
 - ROC plots the true-positive rate ([[LearningNotes/Confusion Matrix#Sensitivity / True Positive Rate (TPR) / Probability of Detection / Recall\|Confusion Matrix#Sensitivity / True Positive Rate (TPR) / Probability of Detection / Recall]]) against the false-positive rate, where false-positive rate is the proportion of negative examples predicted incorrectly:$$FP/(FP+TN)$$
-![ROC.png|400](/img/user/_assets/images/ROC.png)
+![ROC.png\|400](/img/user/_assets/images/ROC.png)
 ## (ROC) AUC 
 
 ROC AUC = ROC Area Under the Curve

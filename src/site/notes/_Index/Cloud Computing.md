@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/_Index/Cloud Computing/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"permalink":"/_Index/Cloud Computing/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{}}
 ---
 
 - [[LearningNotes/Amazon EC2\|Amazon EC2]]

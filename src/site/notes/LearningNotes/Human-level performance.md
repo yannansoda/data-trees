@@ -1,5 +1,5 @@
 ---
-{"topic":"MachineLearning, DeepLearning, DataScience","dg-publish":true,"permalink":"/LearningNotes/Human-level performance/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"MachineLearning, DeepLearning, DataScience","dg-publish":true,"permalink":"/LearningNotes/Human-level performance/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"MachineLearning, DeepLearning, DataScience"}}
 ---
 
 Machine learning systems should achieve human-level performance, and can even surpass human-level performance (online advertising, product recommendations, logistics, etc.)

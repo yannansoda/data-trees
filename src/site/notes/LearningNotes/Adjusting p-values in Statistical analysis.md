@@ -1,5 +1,5 @@
 ---
-{"topic":"Statistics","dg-publish":true,"permalink":"/LearningNotes/Adjusting p-values in Statistical analysis/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Statistics","dg-publish":true,"permalink":"/LearningNotes/Adjusting p-values in Statistical analysis/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Statistics"}}
 ---
 
 # Why need adjusting p-values

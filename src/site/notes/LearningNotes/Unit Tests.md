@@ -1,5 +1,5 @@
 ---
-{"topic":"SoftwareEngineering","dg-publish":true,"permalink":"/LearningNotes/Unit Tests/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"SoftwareEngineering","dg-publish":true,"permalink":"/LearningNotes/Unit Tests/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"SoftwareEngineering"}}
 ---
 
 ### What is unit testing

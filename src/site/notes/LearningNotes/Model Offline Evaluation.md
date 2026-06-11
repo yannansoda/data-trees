@@ -1,5 +1,5 @@
 ---
-{"topic":"DataScience, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Model Offline Evaluation/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataScience, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Model Offline Evaluation/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataScience, MachineLearning"}}
 ---
 
 # Evaluation methods
@@ -22,3 +22,7 @@
 		- heuristics-based approach: slice the data using domain knowledge
 		- [[LearningNotes/Error analysis\|Error analysis]]: manually go through misclassified examples and find patterns among them
 		- slice finder
+
+## Robustness across resampling
+- Use [[LearningNotes/Resampling-based Model Stability Checks\|Resampling-based Model Stability Checks]] to test whether model performance is robust across different train/test splits, folds, bootstrap samples, or subsamples.
+- This helps distinguish a reliable model from one that performed well because of one lucky split.

@@ -1,5 +1,5 @@
 ---
-{"topic":"Statistics, DataScience","dg-publish":true,"permalink":"/LearningNotes/Multiple Imputation by Chained Equations/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Statistics, DataScience","dg-publish":true,"permalink":"/LearningNotes/Multiple Imputation by Chained Equations/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Statistics, DataScience"}}
 ---
 
 

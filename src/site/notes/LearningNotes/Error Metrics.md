@@ -1,5 +1,5 @@
 ---
-{"topic":"Math, MachineLearning, DataScience","dg-publish":true,"permalink":"/LearningNotes/Error Metrics/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Math, MachineLearning, DataScience","dg-publish":true,"permalink":"/LearningNotes/Error Metrics/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Math, MachineLearning, DataScience"}}
 ---
 
 
@@ -43,21 +43,21 @@
 
 > General evaluation criteria: a good clustering algorithm should have small within-cluster variance and large between-cluster variance.
 ### Extrinsic Measures: requires ground truth labels
-- Rand Index
+- **Rand Index**
 	- measures the similarity between the cluster assignments by making pair-wise comparisons
 	- Rand Index  = # pair-wise correct predictions / # number of all possible pairs
 	- a higher score signifies higher similarity
 	- Adjusted Rand Index: adjusts for chance by discounting a chance normalization term -> range from -1 to 1, random (uniform) label assignments have scores as 0
-- Mutual Information
+- **Mutual Information**
 	- measures the agreement between the cluster assignments
-- V-measure
+- **V-measure**
 	- measures the correctness (homogeneity and completeness) of the cluster assignments using conditional entropy analysis\
 	- range from 0 to 1
-- Fowlkes-Mallows Scores
+- **Fowlkes-Mallows Scores**
 	- measure the correctness of the cluster assignments using pairwise precision and recall
 
 ### Intrinsic Measures: not requires ground truth labels
-- Silhouette score/coefficient
+- **Silhouette score/coefficient**
 { #47335a}
 
 	- measures the between-cluster distance against within-cluster distance
@@ -66,12 +66,12 @@
 		- Values near 0 denote overlapping clusters
 		- mean silhouette over 0.6 is considered a "good" clustering solution
 	- tend to be higher for convex clusters
-- Calinski-Harabasz Index/Variance Ratio Criterion
+- **Calinski-Harabasz Index/Variance Ratio Criterion**
 { #b9aa3a}
 
 	- measures the between-cluster dispersion against within-cluster dispersion
 	- hard to interpret
-- Davies-Bouldin Index
+- **Davies-Bouldin Index**
 	- measures the size of clusters against the average distance between clusters
 	- a lower score signifies better-defined clusters
 	- tends to be higher for density-based clustering

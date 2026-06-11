@@ -1,5 +1,5 @@
 ---
-{"topic":"AIxHealth","dg-publish":true,"permalink":"/LearningNotes/DS of Health Informatics/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"AIxHealth","dg-publish":true,"permalink":"/LearningNotes/DS of Health Informatics/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"AIxHealth"}}
 ---
 
 # Data Types

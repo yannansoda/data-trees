@@ -1,5 +1,5 @@
 ---
-{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Gradient Boosting/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Gradient Boosting/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"MachineLearning"}}
 ---
 
 # What is gradient boosting
@@ -29,7 +29,7 @@ Gradient boosting is an [[LearningNotes/Ensemble Learning\|Ensemble Learning]] a
 
 # Gradient-boosted Trees
 = when the weak learner is Classification and Regression [[LearningNotes/Decision Tree & Random Forest#Decision Tree\|Decision Tree & Random Forest#Decision Tree]] in gradient boosting
-### How it works ![Pasted image 20230709123115.png|600](/img/user/_assets/images/Pasted%20image%2020230709123115.png)
+### How it works ![Pasted image 20230709123115.png\|600](/img/user/_assets/images/Pasted%20image%2020230709123115.png)
 ### Hyperparameters
 - number of trees
 - max depth of trees

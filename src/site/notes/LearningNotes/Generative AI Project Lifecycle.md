@@ -1,9 +1,9 @@
 ---
-{"topic":"LargeLanguageModel, AIEngineering","dg-publish":true,"permalink":"/LearningNotes/Generative AI Project Lifecycle/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"LargeLanguageModel, AIEngineering","dg-publish":true,"permalink":"/LearningNotes/Generative AI Project Lifecycle/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"LargeLanguageModel, AIEngineering"}}
 ---
 
 ## Generative AI project lifecycle
-![Pasted image 20240728211236.png|500](/img/user/_assets/images/Pasted%20image%2020240728211236.png)
+![Pasted image 20240728211236.png\|500](/img/user/_assets/images/Pasted%20image%2020240728211236.png)
 1. **Define the scope**
 2. **Choose an existing model (or pre-train a model)**
 	- scaling choices for pre-training

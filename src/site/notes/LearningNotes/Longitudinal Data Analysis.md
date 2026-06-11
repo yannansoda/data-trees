@@ -1,5 +1,5 @@
 ---
-{"topic":"DataScience","dg-publish":true,"permalink":"/LearningNotes/Longitudinal Data Analysis/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataScience","dg-publish":true,"permalink":"/LearningNotes/Longitudinal Data Analysis/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataScience"}}
 ---
 
 ## Definitions

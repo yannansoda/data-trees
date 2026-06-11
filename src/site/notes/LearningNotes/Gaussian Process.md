@@ -1,5 +1,5 @@
 ---
-{"topic":"Math, Modeling","dg-publish":true,"permalink":"/LearningNotes/Gaussian Process/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Math, Modeling","dg-publish":true,"permalink":"/LearningNotes/Gaussian Process/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Math, Modeling"}}
 ---
 
 >[!Resource]

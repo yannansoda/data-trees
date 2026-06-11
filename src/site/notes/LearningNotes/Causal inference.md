@@ -1,5 +1,5 @@
 ---
-{"topic":"Statistics, Modeling","dg-publish":true,"permalink":"/LearningNotes/Causal inference/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Statistics, Modeling","dg-publish":true,"permalink":"/LearningNotes/Causal inference/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Statistics, Modeling"}}
 ---
 
 # Basics

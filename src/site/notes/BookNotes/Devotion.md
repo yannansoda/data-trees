@@ -1,5 +1,5 @@
 ---
-{"title":"Devotion","author":"Patti Smith","EndDate":"2019-08-15","publisher":null,"dg-publish":true,"permalink":"/BookNotes/Devotion/","dgPassFrontmatter":true,"noteIcon":""}
+{"title":"Devotion","author":"Patti Smith","EndDate":"2019-08-15","publisher":null,"dg-publish":true,"permalink":"/BookNotes/Devotion/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"title":"Devotion","author":"Patti Smith","EndDate":"2019-08-15","publisher":null}}
 ---
 
 [status:: Done]

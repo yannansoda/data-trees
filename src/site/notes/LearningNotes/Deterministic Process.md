@@ -1,5 +1,5 @@
 ---
-{"topic":"DataScience, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Deterministic Process/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataScience, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Deterministic Process/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataScience, MachineLearning"}}
 ---
 
 

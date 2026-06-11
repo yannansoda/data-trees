@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/_Index/Some Books I Have Read/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"permalink":"/_Index/Some Books I Have Read/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{}}
 ---
 
 | File                                                                                                                                          | Author                       | FinishDate         | Format            |
@@ -219,8 +219,8 @@
 | [[BookNotes/深时之旅\|深时之旅]]                                                                                                                   | 英 罗伯特·麦克法伦                   | \-                 | kindle            |
 | [[BookNotes/理解一张照片\|理解一张照片]]                                                                                                               | [英]约翰·伯格                     | \-                 | kindle            |
 | [[BookNotes/疯癫与文明\|疯癫与文明]]                                                                                                                 | 米歇尔·福柯                       | \-                 | kindle            |
-| [[BookNotes/第一个人\|第一个人]]                                                                                                                   | 法阿尔贝·加缪                      | \-                 | kindle            |
 | [[BookNotes/第二性Ⅰ\|第二性Ⅰ]]                                                                                                                   | 法 西蒙娜·德·波伏瓦                  | \-                 | kindle            |
+| [[BookNotes/第一个人\|第一个人]]                                                                                                                   | 法阿尔贝·加缪                      | \-                 | kindle            |
 | [[BookNotes/经济学通识课\|经济学通识课]]                                                                                                               | 英 尼尔·基什特尼                    | \-                 | kindle            |
 | [[BookNotes/置身事内\|置身事内]]                                                                                                                   | 兰小欢                          | \-                 | kindle            |
 | [[BookNotes/脑与意识\|脑与意识]]                                                                                                                   | 法 斯坦尼斯拉斯·迪昂                  | \-                 | kindle            |

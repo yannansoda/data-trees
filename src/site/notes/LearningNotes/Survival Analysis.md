@@ -1,5 +1,5 @@
 ---
-{"topic":"Modeling, AIxHealth","dg-publish":true,"permalink":"/LearningNotes/Survival Analysis/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Modeling, AIxHealth","dg-publish":true,"permalink":"/LearningNotes/Survival Analysis/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Modeling, AIxHealth"}}
 ---
 
 # Survival data characteristics
@@ -13,14 +13,14 @@
 		- _random type I censoring_: a study is designed to end after X years, but censored subjects do not all have the same censoring time.
 		- _type II censoring_:   a study ends when there is a prespecified number of events.
 
-![Pasted image 20240411174209.png|400](/img/user/_assets/images/Pasted%20image%2020240411174209.png)
+![Pasted image 20240411174209.png\|400](/img/user/_assets/images/Pasted%20image%2020240411174209.png)
 [(image source)](https://medium.com/@Statistician_Leboo/introduction-to-survival-analysis-992cd4520d4f)
 
 # Survival function
 =  the probability of survival past any time t:
 $$S(t) = Pr(T>t)$$
 - always decreasing from 1 to 0: longer the t, harder to survive:
-![Pasted image 20240411175213.png|300](/img/user/_assets/images/Pasted%20image%2020240411175213.png)
+![Pasted image 20240411175213.png\|300](/img/user/_assets/images/Pasted%20image%2020240411175213.png)
 [(image source)](https://medium.com/@Statistician_Leboo/introduction-to-survival-analysis-992cd4520d4f)
 - There are parametric and non-parametric models for the survival function. Non-parametric models are mostly used in survival analysis ([ref](https://medium.com/@Statistician_Leboo/models-in-survival-analysis-89a96b1780ab)).
 
@@ -112,7 +112,7 @@ H(t|x) = \frac{1}{N} \sum _{i=1}
 $$
 where $H_i$ is the estimated CHF for the individual x's terminal node in the $i$-th of the N trees.
 
-![Pasted image 20240417124514.png|400](/img/user/_assets/images/Pasted%20image%2020240417124514.png)
+![Pasted image 20240417124514.png\|400](/img/user/_assets/images/Pasted%20image%2020240417124514.png)
 [image source](https://www.researchgate.net/figure/Workflow-of-regularized-and-weighted-random-survival-forests-model_fig1_356686264)
 ## Deep Learning Survival Models
 #TODO

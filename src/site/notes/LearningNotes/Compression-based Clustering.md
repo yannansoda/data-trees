@@ -1,5 +1,5 @@
 ---
-{"topic":"DataScience, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Compression-based Clustering/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataScience, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Compression-based Clustering/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataScience, MachineLearning"}}
 ---
 
 >[!Source] 

@@ -1,5 +1,5 @@
 ---
-{"topic":"CompNeuro","dg-publish":true,"permalink":"/LearningNotes/Brain decoding so far/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"CompNeuro","dg-publish":true,"permalink":"/LearningNotes/Brain decoding so far/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"CompNeuro"}}
 ---
 
 I'm spontaneously collecting new achievements of the decoding of (primate) brains.

@@ -1,5 +1,5 @@
 ---
-{"topic":"Statistics, Modeling","dg-publish":true,"permalink":"/LearningNotes/Probabilistic Graphical Models/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Statistics, Modeling","dg-publish":true,"permalink":"/LearningNotes/Probabilistic Graphical Models/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Statistics, Modeling"}}
 ---
 
 # Probabilistic Graphical Model 

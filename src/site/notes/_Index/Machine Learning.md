@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/_Index/Machine Learning/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"permalink":"/_Index/Machine Learning/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{}}
 ---
 
 - [[LearningNotes/Amazon SageMaker\|Amazon SageMaker]]
@@ -26,6 +26,7 @@
 - [[LearningNotes/Ensemble Learning\|Ensemble Learning]]
 - [[LearningNotes/Error analysis\|Error analysis]]
 - [[LearningNotes/Error Metrics\|Error Metrics]]
+- [[LearningNotes/Feature selection\|Feature selection]]
 - [[LearningNotes/Gradient Boosting\|Gradient Boosting]]
 - [[LearningNotes/Gradient Descent\|Gradient Descent]]
 - [[LearningNotes/Graph-based Clustering\|Graph-based Clustering]]
@@ -52,6 +53,7 @@
 - [[LearningNotes/Recurrent Neural Networks (RNN)\|Recurrent Neural Networks (RNN)]]
 - [[LearningNotes/Reinforcement Learning\|Reinforcement Learning]]
 - [[LearningNotes/Representational Similarity Analysis\|Representational Similarity Analysis]]
+- [[LearningNotes/Resampling-based Model Stability Checks\|Resampling-based Model Stability Checks]]
 - [[LearningNotes/Sequence Models in ML\|Sequence Models in ML]]
 - [[LearningNotes/Support Vector X\|Support Vector X]]
 - [[LearningNotes/Time Series\|Time Series]]

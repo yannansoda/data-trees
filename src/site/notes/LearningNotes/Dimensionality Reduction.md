@@ -1,5 +1,5 @@
 ---
-{"topic":"Math, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Dimensionality Reduction/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Math, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Dimensionality Reduction/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Math, MachineLearning"}}
 ---
 
 
@@ -43,8 +43,8 @@ There are two main approaches:
 
 ### Comparison
 - PCA capture the variability; LDA class separation
-	![dimensionality-reduction-1.png|400](/img/user/_assets/images/dimensionality-reduction-1.png)
-	![dimensionality-reduction-2.png|400](/img/user/_assets/images/dimensionality-reduction-2.png) 
+	![dimensionality-reduction-1.png\|400](/img/user/_assets/images/dimensionality-reduction-1.png)
+	![dimensionality-reduction-2.png\|400](/img/user/_assets/images/dimensionality-reduction-2.png) 
 - PCA is unsupervised; LDA is supervised (because of the relation to the dependent variable)
 ### How LDA works exactly
 - it creates new axes to maximize the class-separation, step by step (2-class example):
@@ -58,4 +58,4 @@ There are two main approaches:
 - - it calculates a similarity measure based on the distance between points instead of trying to maximize variance.
 
 - Unlike PCA (which is linear), t-SNE can reduce dimensions with non-linear relationships (such as “Swiss Roll” non-linear distribution)
-![Pasted image 20230609142126.png|200](/img/user/_assets/images/Pasted%20image%2020230609142126.png)
+![Pasted image 20230609142126.png\|200](/img/user/_assets/images/Pasted%20image%2020230609142126.png)

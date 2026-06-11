@@ -1,5 +1,5 @@
 ---
-{"topic":"DataScience, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/ML Model Deployment/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataScience, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/ML Model Deployment/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataScience, MachineLearning"}}
 ---
 
 # Why Deployment: ML in production vs. ML in research
@@ -35,7 +35,7 @@ These are important for ML in production than in research:
 	   - Experiment + Registry: MLflow, DVC, Neptune, Weights & Biases
 	   - Evaluation metrics + fairness/robustness testing
 	   - Assign model versions + metadata
-- **5. Model Serving + Deployment**: [[#ML Deployment Approaches]]
+- **5. Model Serving + Deployment**: [[LearningNotes/ML Model Deployment#ML Deployment Approaches\|#ML Deployment Approaches]]
    - Make the model accessible for inference.
    - Options:
      - **Managed Cloud Endpoints** ([[LearningNotes/Amazon SageMaker\|Amazon SageMaker]]/GCP/Azure ML)
@@ -43,12 +43,12 @@ These are important for ML in production than in research:
      - **Inference Servers** (Triton, TorchServe, TF Serving)
      - **Serverless** (Lambda/Cloud Functions: low-volume usage)
      - **Edge/Mobile** (TFLite, CoreML)
-- **6. API Layer (Client-Facing)**: [[#Model Serving Tooling]]
+- **6. API Layer (Client-Facing)**: [[LearningNotes/ML Model Deployment#Model Serving Tooling\|#Model Serving Tooling]]
 	- Common Tools:
 		- Web serving: FastAPI, Flask, Django, gRPC
 		- Load balancing: Kubernetes Ingress, Envoy, NGINX, ALB, CloudFront
-- **7. Security, Scaling & Optimization**: [[#Accelerating ML Model Inference]]
-   - Ensure performance, scale, safety, cost efficiency (see [[#Performance metrics]])
+- **7. Security, Scaling & Optimization**: [[LearningNotes/ML Model Deployment#Accelerating ML Model Inference\|#Accelerating ML Model Inference]]
+   - Ensure performance, scale, safety, cost efficiency (see [[LearningNotes/ML Model Deployment#Performance metrics\|#Performance metrics]])
    - Common Tools: AWS API Gateway, AWS Lambda ([[LearningNotes/AWS for Data Science#^94aba2\|AWS for Data Science#^94aba2]]), AutoScaling
 - **8. Application Integration**
    - Attach the model to real products & systems.
@@ -132,7 +132,7 @@ REST = Representational State Transfer
 Nowadays, the two pipelines can be unified by having two teams: 
 - the ML team maintains the batch pipeline for training
 - the deployment team maintains the stream pipeline for inference
-![Pasted image 20230711142806.png|400](/img/user/_assets/images/Pasted%20image%2020230711142806.png)
+![Pasted image 20230711142806.png\|400](/img/user/_assets/images/Pasted%20image%2020230711142806.png)
 # Accelerating ML Model Inference
 There are three main approaches to reduce its inference latency: 
 ### Model Optimization (compute faster)
@@ -155,7 +155,7 @@ There are three main approaches to reduce its inference latency:
 make the hardware it’s deployed on run faster
 - **Cloud inference** (scalable GPU/TPU compute) = a large chunk of computation is done on the cloud, either public clouds or private clouds
 - **Edge inference** (runs on-device: mobile, IoT) = a large chunk of computation is done on consumer devices
-- hybrid: precompute on cloud + fast local inference: need powerful hardware ![Pasted image 20230711145322.png|300](/img/user/_assets/images/Pasted%20image%2020230711145322.png)
+- hybrid: precompute on cloud + fast local inference: need powerful hardware ![Pasted image 20230711145322.png\|300](/img/user/_assets/images/Pasted%20image%2020230711145322.png)
 
 
 

@@ -1,5 +1,5 @@
 ---
-{"topic":"DataEngineering","dg-publish":true,"permalink":"/LearningNotes/Entity-relationship model/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataEngineering","dg-publish":true,"permalink":"/LearningNotes/Entity-relationship model/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataEngineering"}}
 ---
 
 # Function

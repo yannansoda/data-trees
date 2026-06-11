@@ -1,5 +1,5 @@
 ---
-{"topic":"MachineLearning, Modeling","dg-publish":true,"permalink":"/LearningNotes/Hybrid Models/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"MachineLearning, Modeling","dg-publish":true,"permalink":"/LearningNotes/Hybrid Models/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"MachineLearning, Modeling"}}
 ---
 
 The most common strategy for constructing hybrid models:

@@ -1,5 +1,5 @@
 ---
-{"topic":"Math, Modeling, CompNeuro","dg-publish":true,"permalink":"/LearningNotes/Drift Diffusion Model/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Math, Modeling, CompNeuro","dg-publish":true,"permalink":"/LearningNotes/Drift Diffusion Model/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Math, Modeling, CompNeuro"}}
 ---
 
 ### What is drift diffusion model

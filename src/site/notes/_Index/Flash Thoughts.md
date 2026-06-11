@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/_Index/Flash Thoughts/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"permalink":"/_Index/Flash Thoughts/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{}}
 ---
 
 - [[RandomBubbles/FlashThoughts/2026-02-15\|2026-02-15]]

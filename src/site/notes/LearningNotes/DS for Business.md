@@ -1,5 +1,5 @@
 ---
-{"topic":"DataScience","dg-publish":true,"permalink":"/LearningNotes/DS for Business/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataScience","dg-publish":true,"permalink":"/LearningNotes/DS for Business/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataScience"}}
 ---
 
 

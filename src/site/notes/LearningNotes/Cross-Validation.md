@@ -1,5 +1,5 @@
 ---
-{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Cross-Validation/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Cross-Validation/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"MachineLearning"}}
 ---
 
 
@@ -41,7 +41,7 @@ However, an extra parameter was chosen using the test set -> the generalisation 
 	-  The final accuracy of the model is computed by taking the mean accuracy over the splits.
 - **Time Series cross-validation**
 	- It splits data into train and validation according to the time: forward chaining method or rolling cross-validation
-	- The chance of choice of train and validation data is forwarded for further iterations: ![Pasted image 20230621142332.png|300](/img/user/_assets/images/Pasted%20image%2020230621142332.png)
+	- The chance of choice of train and validation data is forwarded for further iterations: ![Pasted image 20230621142332.png\|300](/img/user/_assets/images/Pasted%20image%2020230621142332.png)
 - **Nested cross-validation**
 - An improved cross-validation: **Pareto-smoothed importance sampling cross-validation (PSIS)**
 
@@ -49,3 +49,7 @@ However, an extra parameter was chosen using the test set -> the generalisation 
 1. determine model options: number in polynomial/number of layers in neural network...
 2. compute the model that generated least cross validation errors
 3. then estimate the generalization error of the test set
+
+## Cross-validation for stability checks
+- Cross-validation can be used not only for model selection, but also for [[LearningNotes/Resampling-based Model Stability Checks\|Resampling-based Model Stability Checks]].
+- Besides average validation error, you can compare performance, selected features, coefficients, or feature importance rankings across folds.

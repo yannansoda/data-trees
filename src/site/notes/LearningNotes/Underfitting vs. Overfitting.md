@@ -1,5 +1,5 @@
 ---
-{"topic":"Math, Modeling","dg-publish":true,"permalink":"/LearningNotes/Underfitting vs. Overfitting/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Math, Modeling","dg-publish":true,"permalink":"/LearningNotes/Underfitting vs. Overfitting/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Math, Modeling"}}
 ---
 
 # Underfitting
@@ -25,7 +25,7 @@
 
 	- [[LearningNotes/Cross-Validation\|Cross-Validation]]
 - **Information criteria** => construct a theoretical estimate of the relative out-of-sample Kullback-Leibler Divergence ([[LearningNotes/Information theory and Entropy in Neuroscience#^aa57f9\|Information theory and Entropy in Neuroscience#^aa57f9]])
-	- [[#Akaike Information Criterion AIC]]
+	- [[LearningNotes/Underfitting vs. Overfitting#Akaike Information Criterion AIC\|#Akaike Information Criterion AIC]]
 	- Deviance Information Criterion (DIC): a more general version of AIC
 	- Widely Applicable Information Criterion (WAIC): even more general than AIC and DIC
 	- WAIC PSIS

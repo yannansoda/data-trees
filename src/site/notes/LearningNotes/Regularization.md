@@ -1,5 +1,5 @@
 ---
-{"topic":"DataScience","dg-publish":true,"permalink":"/LearningNotes/Regularization/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataScience","dg-publish":true,"permalink":"/LearningNotes/Regularization/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataScience"}}
 ---
 
 
@@ -26,6 +26,7 @@ See [[LearningNotes/Cost Functions#Cost function with regularization\|Cost Funct
 { #1e9ee5}
 
 - **elastic net regularization**: = L1 + L2 regularization
+- Sparse regularized models are often used for [[LearningNotes/Resampling-based Model Stability Checks#Feature selection stability\|feature selection stability]] and [[LearningNotes/Resampling-based Model Stability Checks#Stability Selection\|Stability Selection]]
 
 $$ 
 ElasticNet \ Penalty=λ_1 \sum_{j=1}^p​∣ \beta_j​∣+ \lambda_2​ \sum_{j=1}^p​ \beta_j^2
@@ -53,7 +54,7 @@ $$
 ### **early stopping**
 - Initialize with small weights -> these get bigger as you do gradient descent- > stop when they are the ‘optimal’ size
 
- ![Pasted image 20230316144212.png|300](/img/user/_assets/images/Pasted%20image%2020230316144212.png)
+ ![Pasted image 20230316144212.png\|300](/img/user/_assets/images/Pasted%20image%2020230316144212.png)
 >[!interesting]
 > But long-term training may lead to flip in large models, see [here](https://openai.com/research/deep-double-descent)
 { #9ff80e}

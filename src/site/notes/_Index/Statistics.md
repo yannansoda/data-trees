@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/_Index/Statistics/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"permalink":"/_Index/Statistics/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{}}
 ---
 
 - [[LearningNotes/Adjusting p-values in Statistical analysis\|Adjusting p-values in Statistical analysis]]
@@ -36,6 +36,7 @@
 - [[LearningNotes/Probabilistic Graphical Models\|Probabilistic Graphical Models]]
 - [[LearningNotes/Probability Basics\|Probability Basics]]
 - [[LearningNotes/Random Variables & Probability distributions\|Random Variables & Probability distributions]]
+- [[LearningNotes/Resampling-based Model Stability Checks\|Resampling-based Model Stability Checks]]
 - [[LearningNotes/Sampling & Resampling\|Sampling & Resampling]]
 - [[LearningNotes/Stats Cheatsheet\|Stats Cheatsheet]]
 - [[LearningNotes/T-test & so on\|T-test & so on]]

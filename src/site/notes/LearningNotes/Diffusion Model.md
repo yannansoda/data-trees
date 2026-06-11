@@ -1,5 +1,5 @@
 ---
-{"topic":"Modeling, DeepLearning","dg-publish":true,"permalink":"/LearningNotes/Diffusion Model/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Modeling, DeepLearning","dg-publish":true,"permalink":"/LearningNotes/Diffusion Model/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Modeling, DeepLearning"}}
 ---
 
 ### What is diffusion model

@@ -1,5 +1,5 @@
 ---
-{"title":"A Brief History of Intelligence","author":"Max Bennett-Bennett","EndDate":"2025-09-28","publisher":null,"dg-publish":true,"permalink":"/BookNotes/A Brief History of Intelligence/","dgPassFrontmatter":true,"noteIcon":""}
+{"title":"A Brief History of Intelligence","author":"Max Bennett-Bennett","EndDate":"2025-09-28","publisher":null,"dg-publish":true,"permalink":"/BookNotes/A Brief History of Intelligence/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"title":"A Brief History of Intelligence","author":"Max Bennett-Bennett","EndDate":"2025-09-28","publisher":null}}
 ---
 
 [status:: Done]

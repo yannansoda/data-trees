@@ -1,5 +1,5 @@
 ---
-{"topic":"MachineLearning, DeepLearning","dg-publish":true,"permalink":"/LearningNotes/Long Short Term Memory/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"MachineLearning, DeepLearning","dg-publish":true,"permalink":"/LearningNotes/Long Short Term Memory/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"MachineLearning, DeepLearning"}}
 ---
 
 >[!Resources]

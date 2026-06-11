@@ -1,5 +1,5 @@
 ---
-{"topic":"Math, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Neural ODE/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Math, MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Neural ODE/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Math, MachineLearning"}}
 ---
 
 >[!Source]

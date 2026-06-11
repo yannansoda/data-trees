@@ -1,5 +1,5 @@
 ---
-{"topic":"LargeLanguageModel","dg-publish":true,"permalink":"/LearningNotes/Prompt Engineering/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"LargeLanguageModel","dg-publish":true,"permalink":"/LearningNotes/Prompt Engineering/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"LargeLanguageModel"}}
 ---
 
 >[!Source]
@@ -31,7 +31,7 @@
  - **chain-of-thought prompting**: creating a prompt that demonstrates how to solve similar problems using step-by-step reasoning
 
 ## Iterative Prompt Development
-![Pasted image 20240718150823.png|400](/img/user/_assets/images/Pasted%20image%2020240718150823.png)
+![Pasted image 20240718150823.png\|400](/img/user/_assets/images/Pasted%20image%2020240718150823.png)
 
 ## Capabilities of LLM
 ### Summarizing

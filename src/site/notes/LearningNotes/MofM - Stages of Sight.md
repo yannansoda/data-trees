@@ -1,5 +1,5 @@
 ---
-{"topic":"CompNeuro","dg-publish":true,"permalink":"/LearningNotes/MofM - Stages of Sight/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"CompNeuro","dg-publish":true,"permalink":"/LearningNotes/MofM - Stages of Sight/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"CompNeuro"}}
 ---
 
 >[!Info]

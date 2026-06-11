@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/_Index/AIxHealth/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"permalink":"/_Index/AIxHealth/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{}}
 ---
 
 

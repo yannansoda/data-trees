@@ -1,9 +1,9 @@
 ---
-{"topic":"TechHack","dg-publish":true,"permalink":"/LearningNotes/Git Cheatsheet/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"TechHack","dg-publish":true,"permalink":"/LearningNotes/Git Cheatsheet/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"TechHack"}}
 ---
 
 
-![Pasted image 20240208095045.png|600](/img/user/_assets/images/Pasted%20image%2020240208095045.png)
+![Pasted image 20240208095045.png\|600](/img/user/_assets/images/Pasted%20image%2020240208095045.png)
 ## Basic workflow
 
 ```bash

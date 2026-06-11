@@ -1,5 +1,5 @@
 ---
-{"title":"The Worlds I see","author":"Fei-Fei Li","EndDate":"2023-12-09","publisher":"Flatiron Books: A Moment of Lift Book","dg-publish":true,"permalink":"/BookNotes/The Worlds I see/","dgPassFrontmatter":true,"noteIcon":""}
+{"title":"The Worlds I see","author":"Fei-Fei Li","EndDate":"2023-12-09","publisher":"Flatiron Books: A Moment of Lift Book","dg-publish":true,"permalink":"/BookNotes/The Worlds I see/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"title":"The Worlds I see","author":"Fei-Fei Li","EndDate":"2023-12-09","publisher":"Flatiron Books: A Moment of Lift Book"}}
 ---
 
 [status:: Done]

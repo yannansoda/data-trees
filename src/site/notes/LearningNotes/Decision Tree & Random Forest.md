@@ -1,10 +1,10 @@
 ---
-{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Decision Tree & Random Forest/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Decision Tree & Random Forest/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"MachineLearning"}}
 ---
 
 
 # Decision Tree
-![decision-tree-1.png|500](/img/user/_assets/images/decision-tree-1.png)
+![decision-tree-1.png\|500](/img/user/_assets/images/decision-tree-1.png)
 ### How it works
 - each split part is called a "leaf"
 - the splitting uses information entropy

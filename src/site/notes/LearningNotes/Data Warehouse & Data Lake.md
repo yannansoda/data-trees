@@ -1,5 +1,5 @@
 ---
-{"topic":"DataEngineering","dg-publish":true,"permalink":"/LearningNotes/Data Warehouse & Data Lake/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataEngineering","dg-publish":true,"permalink":"/LearningNotes/Data Warehouse & Data Lake/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataEngineering"}}
 ---
 
 >[!Quote] Designing Machine Learning Systems

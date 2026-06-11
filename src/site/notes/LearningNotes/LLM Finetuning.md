@@ -1,5 +1,5 @@
 ---
-{"topic":"LargeLanguageModel, AIEngineering","dg-publish":true,"permalink":"/LearningNotes/LLM Finetuning/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"LargeLanguageModel, AIEngineering","dg-publish":true,"permalink":"/LearningNotes/LLM Finetuning/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"LargeLanguageModel, AIEngineering"}}
 ---
 
 ## What is finetuning
@@ -41,8 +41,8 @@
 - reparameterization
 	- reparameterize model weights using a low-rank representation
 		- __LoRA__ =  low-rank adaptation of LLMs
-			![Pasted image 20240801215624.png|300](/img/user/_assets/images/Pasted%20image%2020240801215624.png)
-			![Pasted image 20240801215951.png|300](/img/user/_assets/images/Pasted%20image%2020240801215951.png)
+			![Pasted image 20240801215624.png\|300](/img/user/_assets/images/Pasted%20image%2020240801215624.png)
+			![Pasted image 20240801215951.png\|300](/img/user/_assets/images/Pasted%20image%2020240801215951.png)
 - additive
 	- add trainable layers or parameters to model
 	- methods

@@ -1,5 +1,5 @@
 ---
-{"topic":"MachineLearning, DataScience","dg-publish":true,"permalink":"/LearningNotes/AutoML/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"MachineLearning, DataScience","dg-publish":true,"permalink":"/LearningNotes/AutoML/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"MachineLearning, DataScience"}}
 ---
 
 AutoML = Automated Machine Learning

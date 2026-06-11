@@ -1,5 +1,5 @@
 ---
-{"topic":"DataScience, TechHack","dg-publish":true,"permalink":"/LearningNotes/Docker/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataScience, TechHack","dg-publish":true,"permalink":"/LearningNotes/Docker/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataScience, TechHack"}}
 ---
 
 

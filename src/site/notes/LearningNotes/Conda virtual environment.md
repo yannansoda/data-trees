@@ -1,5 +1,5 @@
 ---
-{"topic":"TechHack","dg-publish":true,"permalink":"/LearningNotes/Conda virtual environment/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"TechHack","dg-publish":true,"permalink":"/LearningNotes/Conda virtual environment/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"TechHack"}}
 ---
 
 # Create a conda virtual environment

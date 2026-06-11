@@ -1,15 +1,15 @@
 ---
-{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Convolutional Neural Networks (CNN)/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"MachineLearning","dg-publish":true,"permalink":"/LearningNotes/Convolutional Neural Networks (CNN)/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"MachineLearning"}}
 ---
 
 
 # How it works
-![convolutional-nn-1.png|600](/img/user/_assets/images/convolutional-nn-1.png)
+![convolutional-nn-1.png\|600](/img/user/_assets/images/convolutional-nn-1.png)
 ### 1. Convolution operation
 - convolution operations can make the detector dependent on features and independent of locations -> coarse and invariant detection
 - stride ([[LearningNotes/Convolutional Neural Networks (CNN)#Stride\|Convolutional Neural Networks (CNN)#Stride]]) = the moving step size of the feature detector: usually 2
 - feature detector = kernel = filter: usually 3x3, but other models such as AlexNet use 7x7
-![convolutional-nn-2.png|500](/img/user/_assets/images/convolutional-nn-2.png)
+![convolutional-nn-2.png\|500](/img/user/_assets/images/convolutional-nn-2.png)
 
 ### 2. Pooling
 - Pooling = down-sampling = aggregate results over a window of values
@@ -20,13 +20,13 @@
 	- global pooling: reduce spatial dimension to 1
 	- aum pooling, Avg Pooling(~subsampling)
 - max-pooling is preferable to average pooling, as it confers some degree of invariance to output
-- ![convolutional-nn-3.png|500](/img/user/_assets/images/convolutional-nn-3.png)
+- ![convolutional-nn-3.png\|500](/img/user/_assets/images/convolutional-nn-3.png)
 
 ### 3. Flattening
-![convolutional-nn-4.png|500](/img/user/_assets/images/convolutional-nn-4.png)
+![convolutional-nn-4.png\|500](/img/user/_assets/images/convolutional-nn-4.png)
 ### 4. Full connection 
 The flattened vectors are propagated into an ANN as the input layer
-![convolutional-nn-5.png|500](/img/user/_assets/images/convolutional-nn-5.png)
+![convolutional-nn-5.png\|500](/img/user/_assets/images/convolutional-nn-5.png)
 
 
 # Size calculation

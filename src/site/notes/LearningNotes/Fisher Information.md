@@ -1,5 +1,5 @@
 ---
-{"topic":"Math, Statistics","dg-publish":true,"permalink":"/LearningNotes/Fisher Information/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Math, Statistics","dg-publish":true,"permalink":"/LearningNotes/Fisher Information/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Math, Statistics"}}
 ---
 
 

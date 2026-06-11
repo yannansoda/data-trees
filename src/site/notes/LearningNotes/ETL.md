@@ -1,5 +1,5 @@
 ---
-{"topic":"DataEngineering","dg-publish":true,"permalink":"/LearningNotes/ETL/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataEngineering","dg-publish":true,"permalink":"/LearningNotes/ETL/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataEngineering"}}
 ---
 
 - ETL = Extract, Transform, Load 
@@ -8,7 +8,7 @@
 
 
 
-![Pasted image 20230305105317.png|500](/img/user/_assets/images/Pasted%20image%2020230305105317.png)
+![Pasted image 20230305105317.png\|500](/img/user/_assets/images/Pasted%20image%2020230305105317.png)
 
 ## ETL quality
 - what ETL quality testing should be taking into account:

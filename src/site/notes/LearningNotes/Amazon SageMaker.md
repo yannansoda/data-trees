@@ -1,5 +1,5 @@
 ---
-{"topic":"DataScience, MachineLearning, CloudComputing","dg-publish":true,"permalink":"/LearningNotes/Amazon SageMaker/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataScience, MachineLearning, CloudComputing","dg-publish":true,"permalink":"/LearningNotes/Amazon SageMaker/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataScience, MachineLearning, CloudComputing"}}
 ---
 
 
@@ -10,7 +10,7 @@
 4. fit the model
 # Features
 >[!Quote] Machine learning workflow
->![Pasted image 20231003113126.png|600](/img/user/_assets/images/Pasted%20image%2020231003113126.png)
+>![Pasted image 20231003113126.png\|600](/img/user/_assets/images/Pasted%20image%2020231003113126.png)
 - **SageMaker Data Wrangler**
 	- connect pandas DataFrames and AWS data services
 	- load and upload data
@@ -44,7 +44,7 @@
 		- scenarios: 
 			- you want to change the hyperparameter tuning ranges from the previous job -> use type "identical data and algorithm"
 			- you want to add new hyperparameters -> use type "transfer learning"
-- [[LearningNotes/ML Model Deployment\|ML Model Deployment]] with SageMaker ![Pasted image 20231005094917.png|500](/img/user/_assets/images/Pasted%20image%2020231005094917.png)
+- [[LearningNotes/ML Model Deployment\|ML Model Deployment]] with SageMaker ![Pasted image 20231005094917.png\|500](/img/user/_assets/images/Pasted%20image%2020231005094917.png)
 	- **SageMaker Endpoint**
 		- real-time prediction [[LearningNotes/ML Model Deployment#Batch Prediction VS. Online Prediction\|ML Model Deployment#Batch Prediction VS. Online Prediction]]
 		- auto-scaling

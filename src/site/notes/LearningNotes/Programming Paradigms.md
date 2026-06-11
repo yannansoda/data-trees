@@ -1,5 +1,5 @@
 ---
-{"topic":"SoftwareEngineering","dg-publish":true,"permalink":"/LearningNotes/Programming Paradigms/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"SoftwareEngineering","dg-publish":true,"permalink":"/LearningNotes/Programming Paradigms/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"SoftwareEngineering"}}
 ---
 
 ## Procedural Programming

@@ -1,5 +1,5 @@
 ---
-{"topic":"MachineLearning, DeepLearning, LargeLanguageModel","dg-publish":true,"permalink":"/LearningNotes/Natural Language Processing/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"MachineLearning, DeepLearning, LargeLanguageModel","dg-publish":true,"permalink":"/LearningNotes/Natural Language Processing/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"MachineLearning, DeepLearning, LargeLanguageModel"}}
 ---
 
 # Text Preprocessing & Feature Creation
@@ -54,7 +54,7 @@
 	- identify all the expressions in a text that refer to the same entity
 - Parsing
 # NLP Problem Types
-![natural-language-processing-1.png|600](/img/user/_assets/images/natural-language-processing-1.png)
+![natural-language-processing-1.png\|600](/img/user/_assets/images/natural-language-processing-1.png)
 # Example: Bag-of-Words Workflow
 
 A classical ML approach:

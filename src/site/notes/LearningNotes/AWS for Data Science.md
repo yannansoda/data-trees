@@ -1,5 +1,5 @@
 ---
-{"topic":"DataScience, CloudComputing","dg-publish":true,"permalink":"/LearningNotes/AWS for Data Science/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DataScience, CloudComputing","dg-publish":true,"permalink":"/LearningNotes/AWS for Data Science/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataScience, CloudComputing"}}
 ---
 
 
@@ -53,7 +53,7 @@
 
 # ML Modeling
 >[!Quote] Machine learning workflow
->![Pasted image 20231003113126.png|600](/img/user/_assets/images/Pasted%20image%2020231003113126.png)
+>![Pasted image 20231003113126.png\|600](/img/user/_assets/images/Pasted%20image%2020231003113126.png)
 - [[LearningNotes/Amazon SageMaker\|Amazon SageMaker]]
 - **Amazon Augmented AI (Amazon A2I)**
 	- for [[LearningNotes/Machine Learning Systems Design#Human review of model predictions\|Machine Learning Systems Design#Human review of model predictions]]

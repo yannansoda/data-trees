@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/_Index/Data Science/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"permalink":"/_Index/Data Science/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{}}
 ---
 
 - [[LearningNotes/AB testing\|AB testing]]
@@ -42,6 +42,7 @@
 - [[LearningNotes/Multiple Imputation by Chained Equations\|Multiple Imputation by Chained Equations]]
 - [[LearningNotes/Outlier & Anomaly Detection\|Outlier & Anomaly Detection]]
 - [[LearningNotes/Regularization\|Regularization]]
+- [[LearningNotes/Resampling-based Model Stability Checks\|Resampling-based Model Stability Checks]]
 - [[LearningNotes/Software Engineering for DS\|Software Engineering for DS]]
 
 { .block-language-dataview}

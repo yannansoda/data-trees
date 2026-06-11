@@ -1,5 +1,5 @@
 ---
-{"topic":"Math","dg-publish":true,"permalink":"/LearningNotes/Markov chain Monte Carlo Algorithm/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Math","dg-publish":true,"permalink":"/LearningNotes/Markov chain Monte Carlo Algorithm/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Math"}}
 ---
 
 - _MCMC_ is essentially [[LearningNotes/Monte Carlo Method\|Monte Carlo Method]] integration using [[LearningNotes/Markov Chain\|Markov Chain]]

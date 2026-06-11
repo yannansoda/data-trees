@@ -1,5 +1,5 @@
 ---
-{"topic":"DeepLearning","dg-publish":true,"permalink":"/LearningNotes/Generative Adversarial Networks (GANs)/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"DeepLearning","dg-publish":true,"permalink":"/LearningNotes/Generative Adversarial Networks (GANs)/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DeepLearning"}}
 ---
 
 ## What is GAN?

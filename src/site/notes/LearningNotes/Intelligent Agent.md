@@ -1,5 +1,5 @@
 ---
-{"topic":"LargeLanguageModel, AIEngineering","dg-publish":true,"permalink":"/LearningNotes/Intelligent Agent/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"LargeLanguageModel, AIEngineering","dg-publish":true,"permalink":"/LearningNotes/Intelligent Agent/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"LargeLanguageModel, AIEngineering"}}
 ---
 
 ### What is Agent
@@ -29,4 +29,4 @@
 	- parallel
 	- if statement
 	- for loop
-	- ![Pasted image 20250308171911.png|500](/img/user/_assets/images/Pasted%20image%2020250308171911.png) (source: book AI Engineering)
+	- ![Pasted image 20250308171911.png\|500](/img/user/_assets/images/Pasted%20image%2020250308171911.png) (source: book AI Engineering)

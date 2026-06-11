@@ -1,5 +1,5 @@
 ---
-{"title":"Yellowface","author":"R. F. Kuang","EndDate":"2023-09-25","publisher":"William Morrow","dg-publish":true,"permalink":"/BookNotes/Yellowface/","dgPassFrontmatter":true,"noteIcon":""}
+{"title":"Yellowface","author":"R. F. Kuang","EndDate":"2023-09-25","publisher":"William Morrow","dg-publish":true,"permalink":"/BookNotes/Yellowface/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"title":"Yellowface","author":"R. F. Kuang","EndDate":"2023-09-25","publisher":"William Morrow"}}
 ---
 
 [status:: Done]

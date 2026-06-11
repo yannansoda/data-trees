@@ -1,5 +1,5 @@
 ---
-{"topic":"Math","dg-publish":true,"permalink":"/LearningNotes/Markov Chain/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":"Math","dg-publish":true,"permalink":"/LearningNotes/Markov Chain/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"Math"}}
 ---
 
 ## Definitions
@@ -30,7 +30,7 @@ Models of the Markov property that estimate
 	- continuous hidden variables (with Gaussian probability): [[LearningNotes/Kalman model\|Kalman model]]
 
 # Hidden Markov Models (HMM)
-![Screenshot 2023-03-21 at 16.15.39 1.png|700](/img/user/_assets/images/Screenshot%202023-03-21%20at%2016.15.39%201.png)
+![Screenshot 2023-03-21 at 16.15.39 1.png\|700](/img/user/_assets/images/Screenshot%202023-03-21%20at%2016.15.39%201.png)
 
 
 

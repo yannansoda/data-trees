@@ -1,5 +1,5 @@
 ---
-{"topic":null,"dg-publish":true,"permalink":"/_Index/Thoughts/","dgPassFrontmatter":true,"noteIcon":""}
+{"topic":null,"dg-publish":true,"permalink":"/_Index/Thoughts/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":null}}
 ---
 
 - [[RandomBubbles/HiddenBubbles/2015老实记事\|2015老实记事]]
