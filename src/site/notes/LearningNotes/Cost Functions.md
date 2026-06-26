@@ -72,7 +72,7 @@ where $j$ represents the $j$th feature.
 		- Like an L-infinity penalty
 
 >[!Quote] The Hundred-Page Machine Learning Book
->- In practice, L1 regularization produces a sparse model, a model that has most of its parameters equal to zero, provided the hyperparameter C is large enough. So L1 performs feature selection by deciding which features are essential for prediction and which are not. That can be useful in case you want to increase model explainability. 
+>- In practice, L1 regularization produces a sparse model, a model that has most of its parameters equal to zero, provided the hyperparameter C is large enough ([[LearningNotes/Sparse Model#Sparse Model\|Sparse Model#Sparse Model]]). So L1 performs feature selection by deciding which features are essential for prediction and which are not. That can be useful in case you want to increase model explainability. 
 >- However, if your only goal is to maximize the performance of the model on the holdout data, then L2 usually gives better results. L2 also has the advantage of being differentiable, so gradient descent can be used for optimizing the objective function.
 
 ## Loss and cost for different functions

@@ -1,5 +1,5 @@
 ---
-{"topic":"DataScience, MachineLearning, Statistics","dg-publish":true,"permalink":"/LearningNotes/Resampling-based Model Stability Checks/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataScience, MachineLearning, Statistics"}}
+{"topic":"DataScience, MachineLearning, Modeling","dg-publish":true,"permalink":"/LearningNotes/Resampling-based Model Stability Checks/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"DataScience, MachineLearning, Modeling"}}
 ---
 
 # Resampling-based Stability Checks

@@ -58,4 +58,4 @@ There are three major statistical frameworks for handling missing data in model-
 - estimate model parameters directly using all observed data
 - Examples:
 	- Mixed-effects models with FIML
-	- Structural equation modeling with FIML
+	- [[LearningNotes/Structural Equation Models\|Structural equation modeling]] with FIML

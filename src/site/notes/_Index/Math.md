@@ -35,7 +35,6 @@
 - [[LearningNotes/Matrix basics\|Matrix basics]]
 - [[LearningNotes/Maximum likelihood estimation\|Maximum likelihood estimation]]
 - [[LearningNotes/Metropolis-Hastings Algorithm\|Metropolis-Hastings Algorithm]]
-- [[LearningNotes/Model Fitting Outline\|Model Fitting Outline]]
 - [[LearningNotes/Monte Carlo Method\|Monte Carlo Method]]
 - [[LearningNotes/Neural ODE\|Neural ODE]]
 - [[LearningNotes/Optimization Algorithms\|Optimization Algorithms]]

@@ -2,21 +2,28 @@
 {"topic":"AIxHealth","dg-publish":true,"permalink":"/LearningNotes/Proteomics Analysis and Modeling/","dgPassFrontmatter":true,"noteIcon":"","dg-note-properties":{"topic":"AIxHealth"}}
 ---
 
-# What is proteomics?
+# Overview 
+## What is proteomics?
 
 - **Proteomics** = the large-scale study of proteins, including which proteins are present, how abundant they are, and how they vary across biological or clinical states.
-- Compared with genomics
-	- The genome is mostly stable, but the proteome changes with disease, age, environment, medication, inflammation, and tissue activity.
-- Proteomics is usually close to the current physiological state of a person, tissue, or sample.
-	- useful for biomarker discovery, disease stratification, risk prediction, and biological interpretation. 
-	- most useful when the biology involves active processes:
-		- immune activation
-		- tissue injury
-		- metabolic dysregulation
-		- coagulation
-		- cardiovascular stress
-		- organ dysfunction
-		- drug response
+>[!Tip] Compared with genomics
+>The genome is mostly stable, but the proteome changes with disease, age, environment, medication, inflammation, and tissue activity.
+### Why proteomics is useful
+Proteomics is usually close to the current physiological state of a person, tissue, or sample.
+- useful for biomarker discovery, disease stratification, risk prediction, and biological interpretation. 
+- most useful when the biology involves active processes:
+	- immune activation
+	- tissue injury
+	- metabolic dysregulation
+	- coagulation
+	- cardiovascular stress
+	- organ dysfunction
+	- drug response
+### Protein Structure and Function
+- **Primary structure**: linear amino acid sequence
+- **Secondary structure**: local folding patterns:alpha-helices and beta-sheets
+- **Tertiary structure**: overall 3D shape
+- **Quaternary structure**: multiple protein subunits forming a complex
 
 # Common proteomics platforms
 
@@ -61,8 +68,8 @@
 | sample_id | age | sex | BMI  | disease_status | batch | protein_A | protein_B | protein_C |
 | --------- | --- | --- | ---- | -------------- | ----- | --------- | --------- | --------- |
 | S001      | 63  | F   | 28.4 | 0              | B1    | 5.23      | 8.91      | NA        |
-|S002      | 71  | M   | 31.2 | 1              | B1    | 4.82      | 9.10      | 6.34
-|S003      | 56  | F   | 24.9 | 0              | B2    | 5.44      | 8.72      | 6.01
+| S002      | 71  | M   | 31.2 | 1              | B1    | 4.82      | 9.10      | 6.34      |
+| S003      | 56  | F   | 24.9 | 0              | B2    | 5.44      | 8.72      | 6.01      |
 
 - Typical metadata columns:
 	- sample ID
@@ -81,12 +88,10 @@
 - Interpretation should respect the platform and normalization method.
 ### High dimensionality
 - Proteomics datasets often contain hundreds to thousands of protein features.
-- Smaller studies may have fewer samples than proteins.
 - This creates risks of overfitting, false discovery, and unstable biomarker rankings.
 ### Correlated features
 - Proteins are often correlated because they share pathways, tissue sources, immune programs, or technical effects.
-- Correlation can make model coefficients unstable.
-- It can also make feature importance hard to interpret.
+- Correlation can make model coefficients unstable and make feature importance hard to interpret.
 ### Batch effects
 - Proteomics measurements can vary by plate, batch, collection site, run order, instrument, storage time, or sample processing.
 - Batch effects can be stronger than the biological signal.
@@ -96,28 +101,22 @@
 - A protein may be missing because it is below the detection limit, failed QC, or was not measured in a subset of samples.
 - Missingness can reflect biology, technical failure, or both.
 
-## Main preprocessing challenges
-### Missing values
-- Missingness is one of the most important issues in proteomics analysis.
+## Preprocessing and Quality Control
+
+### Handling missing values
 - Common strategies ([[LearningNotes/Handling Missing Data#How to handle missing data\|Handling Missing Data#How to handle missing data]])
 	- Deletion
-		- remove proteins with high missingness
-		- remove samples with high missingness
+		- remove proteins / samples with high missingness
 	- Imputation
 		- use median or simple imputation for low missingness
 		- use KNN, MICE, random forest, or model-based imputation when justified
 		- use left-censored imputation for some mass spectrometry settings
 	- add missingness indicators if missingness itself may be informative
-- Good practice:
-	- inspect missingness by sample, protein, batch, and outcome
-	- avoid fitting imputation methods on the full dataset before validation
-	- report missingness thresholds clearly
-### Batch effects
+### Batch correction and adjustment
 - Batch effects can create false biomarker signals.
 - Common checks:
 	- [[LearningNotes/Dimensionality Reduction\|Dimensionality Reduction]]: PCA or UMAP colored by batch, plate, site, and outcome
-	- protein distributions by batch
-	- missingness rates by batch
+	- by batch: analyze  protein distributions, missingness rates
 	- association between batch and phenotype
 - Common strategies:
 	- include batch or plate as covariates
@@ -128,14 +127,7 @@
 ### Scaling and transformation
 - Many datasets are already normalized or log-transformed by the data provider.
 - Always check the measurement scale before transforming again.
-- Standardization is usually needed before:
-	- elastic net
-	- ridge or lasso regression
-	- PCA
-	- distance-based methods
-	- neural networks
-- In predictive modeling, scaling parameters should be fitted on the training set only.
-### Outliers ([[LearningNotes/Outlier & Anomaly Detection\|Outlier & Anomaly Detection]])
+### Handling Outliers ([[LearningNotes/Outlier & Anomaly Detection\|Outlier & Anomaly Detection]])
 - Outliers can be technical artifacts or true biological extremes.
 - Common checks:
 	- sample-level median intensity
@@ -166,11 +158,7 @@
 ## 2. Prepare metadata and covariates
 - Covariates matter because many proteins vary with demographic, clinical, and technical factors.
 - Common covariates:
-	- age
-	- sex
-	- BMI
-	- smoking
-	- medication use
+	- age, sex, BMI, smoking, medication use
 	- ancestry or genetic principal components
 	- clinical site
 	- batch, plate, run date, instrument
@@ -179,16 +167,12 @@
 ## 3. Quality control
 - Typical QC steps:
 	- check sample counts and duplicated IDs
-	- check phenotype missingness
-	- check protein missingness
+	- check phenotype/protein missingness
 	- check assay QC flags
-	- visualize protein distributions
-	- visualize batch structure
 	- filter low-quality samples and proteins
 	- choose imputation, scaling, and transformation strategies
 - QC decisions should be documented because they shape all downstream results.
 ## 4. Exploratory data analysis
-
 - Useful EDA views:
 	- missingness heatmap
 	- protein abundance histograms
@@ -198,9 +182,7 @@
 	- boxplots or violin plots for top proteins
 	- outcome distributions by demographic group
 - EDA helps separate plausible biological signal from technical artifacts.
-
 ## 5. Association analysis
-
 - Association analysis asks whether each protein is statistically related to an outcome, usually after covariate adjustment.
 - It is often easier to interpret than machine learning feature importance.
 
@@ -211,7 +193,7 @@ survival_outcome   ~ protein + age + sex + BMI + batch
 ```
 
 - Common models:
-	- linear regression for continuous outcomes
+	- linear regression for continuous outcomes 
 	- logistic regression for binary outcomes
 	- Cox proportional hazards models for time-to-event outcomes
 	- mixed-effects models for repeated measures or family structure
@@ -221,58 +203,45 @@ survival_outcome   ~ protein + age + sex + BMI + batch
 	- p-value
 	- FDR-adjusted q-value
 	- direction of association
-
 ## 6. Predictive modeling
 
-- Predictive modeling asks how well protein features predict an outcome.
-- Prediction is not the same as causal explanation.
+- Predictive modeling asks how well protein features predict an outcome; It is not the same as causal explanation.
 - Common models:
 	- linear or logistic regression as baselines
 	- ridge regression for correlated high-dimensional features
 	- lasso for sparse feature selection
-	- elastic net for sparse but correlated proteomics features
-	- random forest for nonlinear relationships
-	- XGBoost or LightGBM for tabular prediction
-	- Cox regression or penalized Cox models for survival outcomes
-	- survival forests or boosting models for nonlinear survival analysis
-- Elastic net is often a good first model for proteomics because it handles high-dimensional correlated features and remains relatively interpretable.
-
+	- [[LearningNotes/Regularization#^3ce27a\|elastic net]] for sparse but correlated proteomics features; often a good first model for proteomics because it handles high-dimensional correlated features and remains relatively interpretable
+	- [[LearningNotes/Decision Tree & Random Forest#Random Forest\|random forest]] for nonlinear relationships
+	- [[LearningNotes/Ensemble Learning#Boosting\|XGBoost or LightGBM]] for tabular prediction
+	- [[LearningNotes/Survival Analysis#Cox (Proportional Hazards) Model\|Cox regression or penalized Cox models]] for survival outcomes
+	- [[LearningNotes/Survival Analysis#Survival random forest\|survival forests or boosting models]] for nonlinear survival analysis
 ## 7. Feature ranking and biomarker prioritization
-
 - Feature importance should be treated as evidence, not proof.
 - Common ranking methods:
 	- adjusted regression coefficients
 	- elastic net selection frequency across folds
-	- stability selection across resamples
-	- permutation importance
+	- [[LearningNotes/Feature selection#Feature Selection Stability\|stability selection]] across resamples
+	- [[LearningNotes/Interpretable Machine Learning#^391cee\|permutation importance]]
 	- SHAP values for tree-based models
 	- univariate association strength
 	- replication across datasets
-- Stronger biomarker candidates usually have:
-	- robust association with the outcome
-	- stable selection across resampling
-	- contribution to predictive performance
-	- biological plausibility
-	- acceptable missingness and assay quality
-	- replication or external validation
-
 ## 8. Biological interpretation
 
 - After identifying candidate proteins, the next step is to understand what biological processes they represent.
 - Common resources:
-	- UniProt for protein function, gene names, subcellular location, domains, and annotations
-	- Gene Ontology for biological process, molecular function, and cellular component
-	- Reactome for curated pathways
-	- KEGG, WikiPathways, MSigDB, or other pathway collections
-	- Human Protein Atlas for tissue expression and localization
+	- *UniProt* for protein function, gene names, subcellular location, domains, and annotations
+	- *Gene Ontology* for biological process, molecular function, and cellular component
+	- *Reactome* for curated pathways
+	- *KEGG*, *WikiPathways*, *MSigDB*, or other pathway collections
+	- *Human Protein Atlas* for tissue expression and localization
 - Common analyses:
-	- over-representation analysis
-	- gene set enrichment analysis
-	- pathway enrichment
+	- [[LearningNotes/Enrichment Analysis#Over-Representation Analysis (ORA)\|over-representation analysis]]
+	- [[LearningNotes/Enrichment Analysis#Pathway enrichment \|pathway enrichment]]
 	- protein-protein interaction networks
-	- tissue or cell-type enrichment
-	- secreted or membrane protein annotation
-- Important detail: the enrichment background should usually be the proteins measured in the dataset, not the entire genome.
+	- Motif analysis
+		- motif = short conserved sequence within proteins with specific function or structural role
+	- Domain analysis
+		- domain = distinct structural or functional unit within a protein
 ## 9. Model evaluation
 - Evaluation depends on the outcome type.
 - For continuous outcomes:
@@ -296,11 +265,11 @@ survival_outcome   ~ protein + age + sex + BMI + batch
 	- Kaplan-Meier curves by predicted risk group
 	- integrated Brier score ([[LearningNotes/Survival Analysis#Brier Score (time-dependent)\|Survival Analysis#Brier Score (time-dependent)]])
 - A proteomics model should usually be compared against a reasonable baseline, such as demographic or clinical covariates alone.
-# Common modeling pitfalls
+# Modelling pitfalls
 
 ## Data leakage 
 - see [[LearningNotes/Data Leakage\|Data Leakage]]
-## Overinterpreting feature importance
+## Over-interpreting feature importance
 - A highly ranked protein is not automatically causal.
 - It may be important because it is correlated with:
 	- a causal protein
@@ -321,19 +290,7 @@ survival_outcome   ~ protein + age + sex + BMI + batch
 ## Confusing prediction with mechanism
 - A strong predictive signature is not automatically mechanistic.
 - Mechanistic claims need stronger evidence, such as perturbation experiments, longitudinal designs, genetic instruments, or external literature.
-# Practical questions before analysis
 
-- What platform generated the data?
-- What does one protein value mean on this platform?
-- Is the data already normalized or log-transformed?
-- What are the sample and protein QC fields?
-- How much missingness exists by sample, protein, batch, and outcome?
-- Are batch and outcome confounded?
-- Which covariates should be adjusted for?
-- Is the goal association, prediction, clustering, or mechanism?
-- What is the correct validation strategy?
-- What is the correct feature universe for enrichment?
-- Are protein identifiers mapped to stable gene symbols or UniProt IDs?
 
 # Minimal end-to-end template
 
@@ -352,4 +309,5 @@ survival_outcome   ~ protein + age + sex + BMI + batch
 12. Run pathway enrichment with the measured protein set as background.
 13. Summarize findings with limitations and validation status.
 ```
+
 

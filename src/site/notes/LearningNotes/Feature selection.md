@@ -58,25 +58,37 @@ There are some of the techniques used for feature selection in data analysis
 
 # Feature Selection Stability
 = checks whether selected features remain important across different samples of the data.
-- Usually measured with [[LearningNotes/Resampling-based Model Stability Checks\|Resampling-based Model Stability Checks]]
-- In sparse models, selection frequency is often used as a stability measure
 ## Why it matters
 - A feature selected once may be selected only because of one lucky train/test split.
 - High-dimensional and correlated features can make feature lists unstable.
 - Stable features are stronger candidates for interpretation or biomarker prioritization.
+- For non-sparse models, a feature can appear important in one split but drop in rank in another split.
+
 ## Common approaches
-see [[LearningNotes/Resampling-based Model Stability Checks#Common resampling schemes\|Resampling-based Model Stability Checks#Common resampling schemes]]
-## Typical workflow
+- Resampling
+	- see [[LearningNotes/Resampling-based Model Stability Checks#Common resampling schemes\|Resampling-based Model Stability Checks#Common resampling schemes]]
+- Stability measures:
+
+| Sparse/Non-sparse Model ([[LearningNotes/Sparse Model\|Sparse Model]]) | Model type              | What to track                         | Example stability measure              |
+| ------------------------------------------ | ----------------------- | ------------------------------------- | -------------------------------------- |
+| Sparse                                     | Sparse model            | selected / not selected features      | selection frequency                    |
+| Non-sparse                                 | Linear non-sparse model | coefficient size and sign             | coefficient variance, sign consistency |
+| Non-sparse                                 | Tree-based model        | feature importance scores             | rank correlation, top-k overlap        |
+| Non-sparse                                 | Black-box model         | permutation importance or SHAP values | rank correlation, importance variance  |
+
+## Typical workflow for sparse models
 1. Subsample the training data many times
 2. Fit a sparse model each time
 3. Record which features are selected each time
 4. Calculate selection frequency for each feature
 5. Rank features by how often they are selected
-## Stability Selection
-- A formal feature selection framework.
-- Repeatedly fits sparse models on subsampled data.
-- Ranks features by selection frequency.
-- Features selected frequently are considered more stable.
+## Typical workflow for non-sparse models
+1. Resample the training data many times
+2. Fit the model each time
+3. Calculate feature importance each time, e.g. coefficients, permutation importance, tree-based importance, or SHAP values
+4. Compare feature rankings or top-k important features across resamples
+5. Check whether the same features remain consistently important
+
 
 > [!Important]
 > A model can have stable performance but unstable selected features, especially when features are highly correlated.

@@ -55,6 +55,7 @@
 - [[LearningNotes/Representational Similarity Analysis\|Representational Similarity Analysis]]
 - [[LearningNotes/Resampling-based Model Stability Checks\|Resampling-based Model Stability Checks]]
 - [[LearningNotes/Sequence Models in ML\|Sequence Models in ML]]
+- [[LearningNotes/Sparse Model\|Sparse Model]]
 - [[LearningNotes/Support Vector X\|Support Vector X]]
 - [[LearningNotes/Time Series\|Time Series]]
 - [[LearningNotes/Transfer Learning and Multi-task Learning\|Transfer Learning and Multi-task Learning]]

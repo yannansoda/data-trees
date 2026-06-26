@@ -26,6 +26,8 @@ See [[LearningNotes/Cost Functions#Cost function with regularization\|Cost Funct
 { #1e9ee5}
 
 - **elastic net regularization**: = L1 + L2 regularization
+{ #3ce27a}
+
 - Sparse regularized models are often used for [[LearningNotes/Resampling-based Model Stability Checks#Feature selection stability\|feature selection stability]] and [[LearningNotes/Resampling-based Model Stability Checks#Stability Selection\|Stability Selection]]
 
 $$ 

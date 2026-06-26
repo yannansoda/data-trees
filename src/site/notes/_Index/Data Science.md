@@ -44,5 +44,6 @@
 - [[LearningNotes/Regularization\|Regularization]]
 - [[LearningNotes/Resampling-based Model Stability Checks\|Resampling-based Model Stability Checks]]
 - [[LearningNotes/Software Engineering for DS\|Software Engineering for DS]]
+- [[LearningNotes/Sparse Model\|Sparse Model]]
 
 { .block-language-dataview}
