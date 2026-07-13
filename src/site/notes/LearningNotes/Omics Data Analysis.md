@@ -32,7 +32,7 @@ Omics refers to large-scale, high-throughput fields of biology that systematical
 #### visualization
 - volcano plots
 - heatmaps
-- PCA/UMAP clustering
+- PCA/UMAP clustering ([[LearningNotes/Dimensionality Reduction\|Dimensionality Reduction]])
 ### Enrichment analysis
 See [[LearningNotes/Enrichment Analysis\|LearningNotes/Enrichment Analysis]]
 ### Network analysis

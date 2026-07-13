@@ -44,7 +44,7 @@ A_k = [\frac{A·k_1}{|k_1|^2}, \frac{A·k_2}{|k_2|^2}]
 $$
 
 ## Application of changing basis
-PCA: [[LearningNotes/Dimensionality Reduction#^9d99f1\|Dimensionality Reduction#^9d99f1]]
+PCA: [[LearningNotes/Dimensionality Reduction#Principal Component Analysis (PCA)\|Dimensionality Reduction#Principal Component Analysis (PCA)]]
 
 # Matrix multiplication 
 

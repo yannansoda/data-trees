@@ -8,5 +8,5 @@
 - based on the _common factor model_: there a certain number of factors in a data set, and that each of the measured variables captures a part of one or more of those factors.
 
 >[!Factor analysis vs. PCA]
-> - In PCA ([[LearningNotes/Dimensionality Reduction#PCA vs. LDA\|Dimensionality Reduction#PCA vs. LDA]]): only one fixed outcome that orders the components from the highest explanatory value to the lowest explanatory value
+> - In PCA ([[LearningNotes/Dimensionality Reduction#Principal Component Analysis (PCA) 9d99f1\|Dimensionality Reduction#Principal Component Analysis (PCA) 9d99f1]]]): only one fixed outcome that orders the components from the highest explanatory value to the lowest explanatory value
 > - Factor Analysis: more flexible for interpretation

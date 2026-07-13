@@ -12,7 +12,7 @@
 
 # Principal component regression
 > [Source](https://towardsdatascience.com/principal-component-regression-clearly-explained-and-implemented-608471530a2f)
-1. apply PCA ([[LearningNotes/Dimensionality Reduction#PCA vs. LDA\|Dimensionality Reduction#PCA vs. LDA]]) to generate principal components from the predictor variables, with the number of principal components matching the number of original features p
+1. apply PCA ([[LearningNotes/Dimensionality Reduction#Principal Component Analysis (PCA)\|Dimensionality Reduction#Principal Component Analysis (PCA)]]) to generate principal components from the predictor variables, with the number of principal components matching the number of original features p
 2. keep the first k principal components that explain most of the variance (where k < p), where k is determined by cross-validation
 3. fit a linear regression model on these k principal components
 # Partial least squares (PLS) regression
@@ -70,9 +70,9 @@ $$
 Adj\ R^2 = 1 - (1 - R^2) \frac{n-1}{n-p-1} 
 $$
 where $p$ is the number of regressors/predictors, $n$ is the sample size.
-> Why you need adjusted R-squared?
-It is important, because adding independent variables will make the R-squared never decrease, then you cannot tell whether the increase of R-squared is due to the goodness of fit or more variables.
-It includes the penalising factor that penalises you for adding independent variables that don't help your model.
+> [!Tip] Why you need adjusted R-squared?
+> It is important, because adding independent variables will make the R-squared never decrease, then you cannot tell whether the increase of R-squared is due to the goodness of fit or more variables.
+> It includes the penalising factor that penalises you for adding independent variables that don't help your model.
 
 
 
