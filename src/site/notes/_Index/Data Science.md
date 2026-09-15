@@ -11,6 +11,7 @@
 - [[LearningNotes/AWS Storage & Databases\|AWS Storage & Databases]]
 - [[LearningNotes/Big Data\|Big Data]]
 - [[LearningNotes/Centroid-based Clustering\|Centroid-based Clustering]]
+- [[LearningNotes/Clinical Prediction Models\|Clinical Prediction Models]]
 - [[LearningNotes/Cloud Computing Intro\|Cloud Computing Intro]]
 - [[LearningNotes/Clustering Evaluation Metrics\|Clustering Evaluation Metrics]]
 - [[LearningNotes/Compression-based Clustering\|Compression-based Clustering]]

@@ -37,43 +37,16 @@ J(\theta) = \frac{1}{2m} \sum
  $$
 
 ## Cost function with regularization
-When you choose [[LearningNotes/Regularization\|Regularization]], a regularization term will be added to the cost function, in order to add penalty and avoid overfitting. 
+- When you choose [[LearningNotes/Regularization\|Regularization]], a regularization term will be added to the cost function, in order to add penalty and avoid overfitting. 
+- Different types of regularization terms can be added, so `Loss = Original Loss + regularization term`
+{ #d1942d}
 
-- Example - linear regression:
-
- $$J(\theta) = \frac{1}{2m} \sum_i
-{ #m}
- (\hat{x_i} - x_i)^2 + \frac{\lambda}{2m} \sum_j^n \theta_j ^ 2 $$
-- Example -  logistic regression:
-$$J(\theta) = \frac{1}{m} \sum
-{ #m}
- ( -y_i log(f(x_i)) - (1-y_i)log(1 - f(x_i))) + \frac{\lambda}{2m} \sum_j^n \theta_j ^ 2$$
-where $j$ represents the $j$th feature. 
-
-- Different types of regularization terms can be added:
-	- L1 regularization = train to minimize normal loss + c * L1(weights)
-{ #19a2bf}
-
-		- L1: sum of the absolute values of the weights; like **lasso regression**
-{ #ed4ab0}
-
-		- Drives some weights to 0
-		- good for models with fewer features, each of them has a large or median effect
-	- L2 regularization = train to minimize normal loss + c*  L2(weights)
-{ #b2a01f}
-
-		- L2:  sum of the squares of the weights; like **ridge regression**
-{ #aef45a}
-
-		- Makes the biggest weights smaller
-		- heavily punishing “outliers”, which are the very large parameters
-		- good for models with many features, each of them has a small effect
-	- Train to minimize normal loss - but don’t let the weights get too big
-		- Like an L-infinity penalty
-
->[!Quote] The Hundred-Page Machine Learning Book
->- In practice, L1 regularization produces a sparse model, a model that has most of its parameters equal to zero, provided the hyperparameter C is large enough ([[LearningNotes/Sparse Model#Sparse Model\|Sparse Model#Sparse Model]]). So L1 performs feature selection by deciding which features are essential for prediction and which are not. That can be useful in case you want to increase model explainability. 
->- However, if your only goal is to maximize the performance of the model on the holdout data, then L2 usually gives better results. L2 also has the advantage of being differentiable, so gradient descent can be used for optimizing the objective function.
+	- **L1 regularization**: regularization term = $\lambda \sum_{j=1}^n |w_j|$
+	- **L2 regularization**: regularization term = $\lambda \sum_{j=1}^n (w_j)^2$
+	- **Elastic Net**$$ 
+	ElasticNet \ Penalty=λ_1 \sum_{j=1}^p​∣ w_j​∣+ \lambda_2​ \sum_{j=1}^p​ w_j^2
+	$$, where $\lambda_1$ and $\lambda_2$​ are tuning parameters that control the strength of the L1 and L2 penalties, respectively.
+- see [[LearningNotes/Regularization#Shrinking\|Regularization#Shrinking]] for more
 
 ## Loss and cost for different functions
 ### Loss and cost for linear regression -> Analytic solution

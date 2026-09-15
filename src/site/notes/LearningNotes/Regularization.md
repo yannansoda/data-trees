@@ -18,33 +18,35 @@ When you choose regularization, a regularization term will be added to the cost 
 See [[LearningNotes/Cost Functions#Cost function with regularization\|Cost Functions#Cost function with regularization]].
 
 ## Types of Techniques
-### **shrinking (= add penalty/reduce weight/weight decay)**
-- **L1 regularization (lasso)**: [[LearningNotes/Cost Functions#^19a2bf\|Cost Functions#^19a2bf]]
-{ #6700d3}
-
-- **L2 regularization (ridge, "weight decay"):** [[LearningNotes/Cost Functions#^b2a01f\|Cost Functions#^b2a01f]]
-{ #1e9ee5}
-
-- **elastic net regularization**: = L1 + L2 regularization
-{ #3ce27a}
-
-- Sparse regularized models are often used for [[LearningNotes/Resampling-based Model Stability Checks#Feature selection stability\|feature selection stability]] and [[LearningNotes/Resampling-based Model Stability Checks#Stability Selection\|Stability Selection]]
-
-$$ 
-ElasticNet \ Penalty=λ_1 \sum_{j=1}^p​∣ \beta_j​∣+ \lambda_2​ \sum_{j=1}^p​ \beta_j^2
-$$
-, where $\lambda_1$ and $\lambda_2$​ are tuning parameters that control the strength of the L1 and L2 penalties, respectively.
-### **dropout regularization**
+### Shrinking
+- add penalty=reduce weight=weight decay
+- the cost function thus aims to minimize the original loss + penalty (see [[LearningNotes/Cost Functions#Cost function with regularization\|Cost Functions#Cost function with regularization]])
+#### L1/Lasso regularization
+- penalization term = sum of the absolute values of the weights
+- drives some weights to 0
+	- good for models with fewer features, each of them has a large or median effect
+	- produces a [[LearningNotes/Sparse Model\|Sparse Model]] and automatically performs [[LearningNotes/Feature selection\|Feature selection]]
+>[!Tip] Sparse regularized models are often used for [[LearningNotes/Resampling-based Model Stability Checks#Feature selection stability\|feature selection stability]] and [[LearningNotes/Resampling-based Model Stability Checks#Stability Selection\|Stability Selection]]
+#### L2/Ridge regularization
+- penalization term = sum of the squares of the weights
+- makes the biggest weights smaller
+	- heavily punishing “outliers”, which are the very large parameters
+	- good for models with many features, each of them has a small effect
+>[!Quote] The Hundred-Page Machine Learning Book
+>- If your only goal is to maximize the performance of the model on the holdout data, then L2 usually gives better results. L2 also has the advantage of being differentiable, so gradient descent can be used for optimizing the objective function.
+#### Elastic Net
+- combines L1 and L2: [[LearningNotes/Cost Functions#^d1942d\|Cost Functions#^d1942d]]
+### Dropout regularization
 { #b76d6c}
 
 - randomly knocking out units in neural network
 - used only during training
 - mostly used in computer vision (e.g. [[LearningNotes/Pattern Recognition\|Pattern Recognition]])
-### **batch-normalization**
+### Batch-normalization
 - applies normalization on the inputs of hidden layers
 - weakens the coupling between what the early layers parameters have to do and what the later layers parameters have to do. So it allows each layer of the network to learn by itself, a little bit more independently of other layers, and this has the effect of speeding up of learning in the whole network. 
 - can add a slight regularization effect because of adding noise to hidden layers
-### **data augmentation** 
+### Data augmentation 
 { #933b29}
 
 - usually in computer vision
@@ -53,7 +55,7 @@ $$
 	- shift them up/down/right/left by a couple pixels
 	- add small noise, etc...
 -  but if the validation set doesn't have the same randomness, then the accuracy fluctuates crazily.
-### **early stopping**
+### Early stopping
 - Initialize with small weights -> these get bigger as you do gradient descent- > stop when they are the ‘optimal’ size
 
  ![Pasted image 20230316144212.png\|300](/img/user/_assets/images/Pasted%20image%2020230316144212.png)

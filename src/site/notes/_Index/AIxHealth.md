@@ -6,7 +6,9 @@
 - [[LearningNotes/AI for Medical Diagnosis\|AI for Medical Diagnosis]]
 - [[LearningNotes/AI for Medical Prognosis\|AI for Medical Prognosis]]
 - [[LearningNotes/AI for Medical Treatment\|AI for Medical Treatment]]
+- [[LearningNotes/BEST Resource & Biomarker Concepts\|BEST Resource & Biomarker Concepts]]
 - [[LearningNotes/Bioinformatics Intro\|Bioinformatics Intro]]
+- [[LearningNotes/Clinical Prediction Models\|Clinical Prediction Models]]
 - [[LearningNotes/Data Science of Health Informatics\|Data Science of Health Informatics]]
 - [[LearningNotes/Enrichment Analysis\|Enrichment Analysis]]
 - [[LearningNotes/Health Information Systems\|Health Information Systems]]
@@ -17,6 +19,7 @@
 - [[LearningNotes/ML in Bioinformatics\|ML in Bioinformatics]]
 - [[LearningNotes/Omics Data Analysis\|Omics Data Analysis]]
 - [[LearningNotes/Proteomics Analysis and Modeling\|Proteomics Analysis and Modeling]]
+- [[LearningNotes/Real-World Data and Real-World Evidence\|Real-World Data and Real-World Evidence]]
 - [[LearningNotes/Survival Analysis\|Survival Analysis]]
 
 { .block-language-dataview}

@@ -42,10 +42,10 @@ It tells the model:
 - Used when modeling several outcomes together.
 - Example: height, weight, and blood pressure may have covariance with each other.
 ### Mixed-effects models
-- Used in [[LearningNotes/Linear Mixed Models\|Linear Mixed Models]] and other mixed-effects models to describe dependency within subjects, groups, or clusters.
+- Used in [[LearningNotes/Linear Mixed Model\|Linear Mixed Model]] and other mixed-effects models to describe dependency within subjects, groups, or clusters.
 - In this context, covariance structure helps model repeated or clustered observations that are not independent.
 # Common covariance structures
-## Independent (simplest structure)
+## Independent (IND, simplest structure)
 Assumption:
 - observations are not correlated with each other
 - covariances between different observations are 0

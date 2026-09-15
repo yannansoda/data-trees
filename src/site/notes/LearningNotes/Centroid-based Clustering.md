@@ -101,7 +101,7 @@
 2. Select K data points as the initial medoids
 3. Assign each data point to the closest medoid
 4. For each cluster, try replacing the current medoid with another point in the same cluster
-5. Keep the replacement if it reduces the total distance between points and their medoid
+5. Keep the replacement if it reduces the total distance (e.g. [[LearningNotes/Distance between two distributions#Total Variation Distance (TVD, or variation distance or statistical distance)\|TVD]]) between points and their medoid
 6. Repeat until the medoids no longer change
 
 > [!Note]

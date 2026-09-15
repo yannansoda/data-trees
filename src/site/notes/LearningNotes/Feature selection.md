@@ -59,8 +59,8 @@ examples:
 ## Embedded / Intrinsic methods
 = model already performs feature selection during training, so no external selection tool is needed
 examples:
-- **Lasso / L1 regularization** [[LearningNotes/Cost Functions#^ed4ab0\|Cost Functions#^ed4ab0]]: can shrink some coefficients to exactly zero, so it performs feature selection
-- **Ridge / L2 regularization** [[LearningNotes/Cost Functions#^aef45a\|Cost Functions#^aef45a]]: shrinks coefficients but usually does not set them to exactly zero, so it is not direct feature selection
+- [**Lasso / L1 regularization**]([[LearningNotes/Regression#Lasso Regression\|Regression#Lasso Regression]]): can shrink some coefficients to exactly zero, so it performs feature selection
+- [**Ridge / L2 regularization**]([[LearningNotes/Regression#Ridge Regression\|Regression#Ridge Regression]]): shrinks coefficients but usually does not set them to exactly zero, so it is not direct feature selection
 - **Tree-based models**: a feature is not used in any split already means it may be less useful for the target variable
 - **Tree-based Feature Importance**: use models like Random Forest / Gradient Boosting to rank features
 
