@@ -7,9 +7,7 @@
 - This is essentially the cost of the error between the true stimulus value $y_i$ and our estimate $f(x_i)$.
 - cost function formula
 $$
-J(\theta) = \frac{1}{m} \sum
-{ #m}
- L (f(x_i), y_i)
+J(\theta) = \frac{1}{m} \sum ^m L (f(x_i), y_i)
 $$
 where $L$ is the loss function.
 > [!Important]
@@ -31,9 +29,7 @@ $$
 >- Find more types of error in [[LearningNotes/Error Metrics\|Error Metrics]].
 >- In ML, Mean Squared Error is commonly used as the cost function, but with an extra division by 2, which "is just meant to make later partial derivation in gradient descent neater" :
 $$
-J(\theta) = \frac{1}{2m} \sum
-{ #m}
- (\hat{x_i} - x_i)^2
+J(\theta) = \frac{1}{2m} \sum ^m (\hat{x_i} - x_i)^2
  $$
 
 ## Cost function with regularization
@@ -71,9 +67,7 @@ $$
 
 then the cost function with full form (also used in [[LearningNotes/Maximum likelihood estimation\|Maximum likelihood estimation]] for logistic regression):
 $$
-J(\theta) = \frac{1}{m} \sum
-{ #m}
- ( -y_i log(f(x_i)) - (1-y_i)log(1 - f(x_i)))
+J(\theta) = \frac{1}{m} \sum ^m ( -y_i log(f(x_i)) - (1-y_i)log(1 - f(x_i)))
 $$
 
 ### Loss and cost for Softmax

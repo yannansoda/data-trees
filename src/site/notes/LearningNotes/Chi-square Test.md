@@ -4,9 +4,7 @@
 
 # Definitions
 ### The chi-square test-statistic
-$$\chi_c
-{ #2}
-  = \sum \frac{(E_i - O_i)^2}{E_i}$$
+$$\chi_c ^2  = \sum \frac{(E_i - O_i)^2}{E_i}$$
 
 where the subscript “c” is the degrees of freedom. “O” is observed value and E is expected value. 
 ### Chi-square distribution
@@ -15,16 +13,8 @@ A chi square distribution with n degrees of freedom is equal to a gamma distribu
 ![chi-sqrt-distribution.png\|300](/img/user/_assets/images/chi-sqrt-distribution.png)
 
 
-### Relationship between $\chi
-{ #2}
-$ and $\chi
-{ #2}
-$ distribution
-You can compare $\chi
-{ #2}
-$ to the critical value from the $\chi
-{ #2}
-$ distribution with df degrees of freedom and the selected confidence level p.
+### Relationship between $\chi ^2$ and $\chi ^2$ distribution
+You can compare $\chi ^2$ to the critical value from the $\chi ^2$ distribution with df degrees of freedom and the selected confidence level p.
 
 # Applications
 ## Pearson's chi-squared test is used to assess three types of comparison

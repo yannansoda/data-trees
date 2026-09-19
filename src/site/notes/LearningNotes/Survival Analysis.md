@@ -61,14 +61,10 @@ h(t) = lim_{\Delta t \rightarrow 0} \frac{P(t \leq T < t+\Delta t | T \geq t)}{\
 $$
 - cumulative hazard 
 $$
-H (t) = \int _0
-{ #t}
- h(t) dt
+H (t) = \int _0 ^t h(t) dt
 $$
 - relation between survival and hazard
-$$ S(t) = exp(- \int _0
-{ #t}
- h(t) dt) $$
+$$ S(t) = exp(- \int _0 ^t h(t) dt) $$
 $$ h(t) = -\frac{d}{dt} \log S(t) = -\frac{S'(t)}{S(t)} $$
 ### Cox (Proportional Hazards) Model
 = a regression model for survival data that allows us to assess the effect of covariates on survival time while making minimal assumptions about the shape of the hazard function:
@@ -106,9 +102,7 @@ where $h$ is terminal node, $t$ is event time, $d$ is the number of events at ti
 ### Survival random forest
 With the CHF for each tree defined above, the entire forest the CHF averaged over all trees:
 $$
-H(t|x) = \frac{1}{N} \sum _{i=1}
-{ #N}
- H_i(t|x)
+H(t|x) = \frac{1}{N} \sum _{i=1} ^N H_i(t|x)
 $$
 where $H_i$ is the estimated CHF for the individual x's terminal node in the $i$-th of the N trees.
 

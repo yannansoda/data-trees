@@ -27,9 +27,7 @@ To put it straightforward: Gaussian process predicts the distribution rather tha
 	- hyperparameters
 		- length-scale parameter $l$: larger -> slower rate of variation of the function (larger interval between x)
 		- amplitude parameter $a$: larger -> larger vertical scale over which functions vary
-- periodic kernel $$k_{} \{x, x') = exp( - \frac{2}{l^2} sin
-{ #2}
- (\frac{\pi}{p}|x-x'|))$$
+- periodic kernel $$k_{} \{x, x') = exp( - \frac{2}{l^2} sin ^2 (\frac{\pi}{p}|x-x'|))$$
 ### Combining kernels
 - addition
 - multiplication 
